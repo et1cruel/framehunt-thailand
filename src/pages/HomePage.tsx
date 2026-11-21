@@ -7,6 +7,7 @@ import { LocationCard, PhotoImage } from "@/components/location/LocationCard";
 import { MapCanvas } from "@/components/map/MapCanvas";
 import { Button } from "@/components/ui";
 import { QUICK_CATEGORIES, REGION_LABELS, categories, moods } from "@/data/taxonomy";
+import { collectionItems } from "@/services/discoveryCollections";
 import { useLocationCatalog } from "@/services/catalogContext";
 import type { LocationRecord } from "@/data/types";
 import { useSeo } from "@/lib/useSeo";
@@ -203,8 +204,8 @@ export default function HomePage() {
           href="/explore"
         />
         <div className="mt-4 flex flex-wrap gap-2 text-sm font-semibold text-[#315b50]">
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=cave">สำรวจถ้ำเพิ่มเติม</Link>
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=art">พื้นที่ศิลปะเพิ่มเติม</Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/cave">สำรวจถ้ำทั้งหมด</Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/art">พื้นที่ศิลปะทั้งหมด</Link>
           <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=night">พื้นที่ดนตรีกลางคืน</Link>
         </div>
 
@@ -216,10 +217,11 @@ export default function HomePage() {
               cat.slugs.some((slug) => location.categories.includes(slug)),
             );
             const match = matches.find((location) => location.slug === focusSlug) ?? matches[0];
+            const collection = cat.key === "cave" || cat.key === "art" ? cat.key : null;
             return (
               <Link
                 key={cat.key}
-                to={"/explore?categories=" + cat.slugs.join(",")}
+                to={collection ? `/collections/${collection}` : "/explore?categories=" + cat.slugs.join(",")}
                 className="clay-panel group block min-w-0 p-2"
               >
                 <div className="relative aspect-[5/3] overflow-hidden rounded-[1rem] bg-ink-2">
@@ -229,7 +231,7 @@ export default function HomePage() {
                     className="h-full w-full object-cover frame-img"
                   />
                   <span className="absolute right-2 top-2 rounded-full bg-ink/95 px-2.5 py-1 text-xs font-semibold text-paper">
-                    {matches.length}
+                    {collection ? collectionItems(collection, published).count : matches.length}
                   </span>
                 </div>
                 <div className="flex items-center justify-between gap-1 px-2 pb-2 pt-3 sm:px-3">

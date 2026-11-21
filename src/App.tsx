@@ -10,6 +10,7 @@ const LiveMusicPage = lazy(() => import("@/pages/LiveMusicPage"));
 const SecondhandPage = lazy(() => import("@/pages/SecondhandPage"));
 const FoodPage = lazy(() => import("@/pages/FoodPage"));
 const ActivitiesPage = lazy(() => import("@/pages/ActivitiesPage"));
+const CollectionPage = lazy(() => import("@/pages/CollectionPage"));
 const ExplorePage = lazy(() => import("@/pages/ExplorePage"));
 const LocationDetailPage = lazy(() => import("@/pages/LocationDetailPage"));
 const MapPage = lazy(() => import("@/pages/MapPage"));
@@ -54,6 +55,7 @@ export default function App() {
               <Route path="/secondhand" element={<SecondhandPage />} />
               <Route path="/food" element={<FoodPage />} />
               <Route path="/activities" element={<ActivitiesPage />} />
+              <Route path="/collections/:kind" element={<CollectionPage />} />
               <Route path="/map" element={<MapPage />} />
               <Route path="/find-my-vibe" element={<FindMyVibePage />} />
               <Route path="/boards" element={<BoardsPage />} />

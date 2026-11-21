@@ -16,6 +16,8 @@ const staticRoutes = [
   { path: "/secondhand", priority: "0.8", changefreq: "monthly" },
   { path: "/food", priority: "0.9", changefreq: "weekly" },
   { path: "/activities", priority: "0.8", changefreq: "monthly" },
+  { path: "/collections/cave", priority: "0.8", changefreq: "monthly" },
+  { path: "/collections/art", priority: "0.8", changefreq: "monthly" },
   { path: "/map", priority: "0.8", changefreq: "monthly" },
   { path: "/find-my-vibe", priority: "0.8", changefreq: "monthly" },
   { path: "/boards", priority: "0.5", changefreq: "monthly" },
