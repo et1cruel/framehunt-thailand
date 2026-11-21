@@ -7,6 +7,281 @@
   },
   "shops": [
     {
+      "name": "Mono Loop · Mixt Chatuchak",
+      "province": "กรุงเทพมหานคร",
+      "district": "จตุจักร",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/mono-loop",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mono%20Loop%20%C2%B7%20Mixt%20Chatuchak%20%E0%B8%88%E0%B8%95%E0%B8%B8%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "2nd STREET · Big C Rama IV",
+      "province": "กรุงเทพมหานคร",
+      "district": "คลองเตย",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/2nd-street-big-c-plaza-rama-iv",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2nd%20STREET%20%C2%B7%20Big%20C%20Rama%20IV%20%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%A2%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Second Hand Shoes Banglumpoo",
+      "province": "กรุงเทพมหานคร",
+      "district": "พระนคร",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/second-hand-shoes-banglumpoo",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Second%20Hand%20Shoes%20Banglumpoo%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "2nd STREET · Seacon Bangkae",
+      "province": "กรุงเทพมหานคร",
+      "district": "ภาษีเจริญ",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/2nd-street-seacon-bangkae",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2nd%20STREET%20%C2%B7%20Seacon%20Bangkae%20%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "2nd STREET · Silom Edge",
+      "province": "กรุงเทพมหานคร",
+      "district": "บางรัก",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/2nd-street-silom-edge",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2nd%20STREET%20%C2%B7%20Silom%20Edge%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%81%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Samantha · K Village",
+      "province": "กรุงเทพมหานคร",
+      "district": "คลองเตย",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/samantha",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Samantha%20%C2%B7%20K%20Village%20%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%A2%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Chaosnomore Thrift Store",
+      "province": "กรุงเทพมหานคร",
+      "district": "",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/chaosnomore",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chaosnomore%20Thrift%20Store%20%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Thrift Mood",
+      "province": "กรุงเทพมหานคร",
+      "district": "",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/thrift-mood",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Thrift%20Mood%20%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Second Soul Eco Shop",
+      "province": "กรุงเทพมหานคร",
+      "district": "",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/second-soul-eco-shop-bangkok",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Second%20Soul%20Eco%20Shop%20%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "(un)FASHION Vintage Collection · เอกมัย",
+      "province": "กรุงเทพมหานคร",
+      "district": "วัฒนา",
+      "kind": "clothing",
+      "source": "https://thriftspots.com/thailand/bangkok/bangkok/unfashion-vintage-collection",
+      "sourceName": "ThriftSpots",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=(un)FASHION%20Vintage%20Collection%20%C2%B7%20%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%A1%E0%B8%B1%E0%B8%A2%20%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "ตลาดนัดรถไฟ ศรีนครินทร์",
+      "province": "กรุงเทพมหานคร",
+      "district": "ประเวศ",
+      "kind": "clothing",
+      "source": "https://www.make-my-bangkok-holiday.com/shops-srinakarin.html",
+      "sourceName": "Make My Bangkok Holiday",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%20%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A7%E0%B8%A8%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Treasure Factory · บางแค",
+      "province": "กรุงเทพมหานคร",
+      "district": "บางแค",
+      "kind": "clothing",
+      "source": "https://www.trefac-th.com/blog/4672/",
+      "sourceName": "Treasure Factory Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Treasure%20Factory%20%C2%B7%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "2nd STREET · The Mall Bangkapi",
+      "province": "กรุงเทพมหานคร",
+      "district": "บางกะปิ",
+      "kind": "clothing",
+      "source": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250722/20250722517843.pdf",
+      "sourceName": "GEO Holdings",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2nd%20STREET%20%C2%B7%20The%20Mall%20Bangkapi%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "2nd STREET · Fashion Island",
+      "province": "กรุงเทพมหานคร",
+      "district": "คันนายาว",
+      "kind": "clothing",
+      "source": "https://www.youtube.com/watch?v=TQgcu1RiBr4",
+      "sourceName": "2nd STREET Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2nd%20STREET%20%C2%B7%20Fashion%20Island%20%E0%B8%84%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%A7%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "2nd STREET · CentralWorld",
+      "province": "กรุงเทพมหานคร",
+      "district": "ปทุมวัน",
+      "kind": "clothing",
+      "source": "https://www.youtube.com/watch?v=pLy0bikOBz8",
+      "sourceName": "2nd STREET Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2nd%20STREET%20%C2%B7%20CentralWorld%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Papaya Studio · สุขาภิบาล 5",
+      "province": "กรุงเทพมหานคร",
+      "district": "บางเขน",
+      "kind": "vintage",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Time Out Bangkok",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Papaya%20Studio%20%C2%B7%20%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%9A%E0%B8%B2%E0%B8%A5%205%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "1981 Soul & Sold · รามคำแหง",
+      "province": "กรุงเทพมหานคร",
+      "district": "บางกะปิ",
+      "kind": "clothing",
+      "source": "https://www.nationthailand.com/pr-news/40068202",
+      "sourceName": "The Nation · ภาพประชาสัมพันธ์",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1981%20Soul%20%26%20Sold%20%C2%B7%20%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%87%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Treasure Factory · บางนา",
+      "province": "กรุงเทพมหานคร",
+      "district": "บางนา",
+      "kind": "clothing",
+      "source": "https://www.trefac-th.com/location/",
+      "sourceName": "Treasure Factory Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Treasure%20Factory%20%C2%B7%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Treasure Factory · พระราม 9",
+      "province": "กรุงเทพมหานคร",
+      "district": "ห้วยขวาง",
+      "kind": "clothing",
+      "source": "https://www.trefac-th.com/location/",
+      "sourceName": "Treasure Factory Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Treasure%20Factory%20%C2%B7%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%A1%209%20%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Treasure Factory · อ่อนนุช",
+      "province": "กรุงเทพมหานคร",
+      "district": "สวนหลวง",
+      "kind": "clothing",
+      "source": "https://www.trefac-th.com/location/",
+      "sourceName": "Treasure Factory Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Treasure%20Factory%20%C2%B7%20%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%99%E0%B8%B8%E0%B8%8A%20%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "Treasure Factory · สุขุมวิท 39",
+      "province": "กรุงเทพมหานคร",
+      "district": "วัฒนา",
+      "kind": "clothing",
+      "source": "https://www.trefac-th.com/location/",
+      "sourceName": "Treasure Factory Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Treasure%20Factory%20%C2%B7%20%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97%2039%20%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "RAGTAG · Central Village Outlet",
+      "province": "สมุทรปราการ",
+      "district": "บางพลี",
+      "kind": "clothing",
+      "source": "https://ragtagthailand.com/en/pages/shop-list",
+      "sourceName": "RAGTAG Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAGTAG%20%C2%B7%20Central%20Village%20Outlet%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B5%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3"
+    },
+    {
+      "name": "RAGTAG · Central Rama 3",
+      "province": "กรุงเทพมหานคร",
+      "district": "ยานนาวา",
+      "kind": "clothing",
+      "source": "https://ragtagthailand.com/en/pages/shop-list",
+      "sourceName": "RAGTAG Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAGTAG%20%C2%B7%20Central%20Rama%203%20%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%A7%E0%B8%B2%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "RAGTAG · CentralWorld",
+      "province": "กรุงเทพมหานคร",
+      "district": "ปทุมวัน",
+      "kind": "clothing",
+      "source": "https://ragtagthailand.com/en/pages/shop-list",
+      "sourceName": "RAGTAG Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAGTAG%20%C2%B7%20CentralWorld%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
+      "name": "RAGTAG · One Bangkok",
+      "province": "กรุงเทพมหานคร",
+      "district": "ปทุมวัน",
+      "kind": "clothing",
+      "source": "https://ragtagthailand.com/en/pages/shop-list",
+      "sourceName": "RAGTAG Thailand",
+      "lastObservedAt": null,
+      "hours": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=RAGTAG%20%C2%B7%20One%20Bangkok%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3"
+    },
+    {
       "name": "Japan Life Center (ลาดพร้าว/พหลโยธิน 75-77)",
       "province": "กรุงเทพมหานคร",
       "kind": "japan",
@@ -1564,7 +1839,8 @@
       "sourceName": "Editorial place guide",
       "lastObservedAt": null,
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Horse%20Unit%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
-      "hours": null
+      "hours": null,
+      "district": "บางรัก"
     },
     {
       "name": "Woot Woot",
@@ -1614,7 +1890,8 @@
       "sourceName": "Editorial place guide",
       "lastObservedAt": null,
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Joe%20Bangkok%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
-      "hours": null
+      "hours": null,
+      "district": "วัฒนา"
     },
     {
       "name": "Treasure Factory Phra Khanong",
@@ -1634,7 +1911,8 @@
       "sourceName": "Editorial place guide",
       "lastObservedAt": null,
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pattavikorn%20Market%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
-      "hours": null
+      "hours": null,
+      "district": "บึงกุ่ม"
     },
     {
       "name": "Chatuchak Weekend Market — vintage sections",
@@ -1664,7 +1942,8 @@
       "sourceName": "Editorial place guide",
       "lastObservedAt": null,
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bang%20Sue%20Junction%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
-      "hours": null
+      "hours": null,
+      "district": "จตุจักร"
     },
     {
       "name": "Shinjuku Outlet",

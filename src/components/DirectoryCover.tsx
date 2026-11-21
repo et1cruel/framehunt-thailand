@@ -5,9 +5,13 @@ import covers from "@/data/directory-covers.json";
 type Cover = { url: string; source: string; credit: string };
 const coverIndex = covers as Record<string, Cover>;
 
+export function hasDirectoryCover(name: string, province: string) {
+  return Boolean(coverIndex[`${name}|${province}`]);
+}
+
 export function DirectoryCover({ name, province, source }: { name: string; province: string; source?: string }) {
   const [failed, setFailed] = useState(false);
-  const cover = (source && coverIndex[source]) || coverIndex[`${name}|${province}`];
+  const cover = coverIndex[`${name}|${province}`] || (source ? coverIndex[source] : undefined);
   const url = cover?.url.startsWith("https://prod-pics.guide.michelin.com/") ? `${cover.url}&w=500&h=300` : cover?.url;
   return (
     <div className="relative -mx-5 -mt-5 mb-4 overflow-hidden rounded-t-[inherit] bg-lilac/50">

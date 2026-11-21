@@ -3,12 +3,13 @@ import { ArrowUpRight, MapPin, Search, Shirt, Store } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import directory from "@/data/secondhand-shops.json";
-import { DirectoryCover } from "@/components/DirectoryCover";
+import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
 
 type ShopKind = "japan" | "clothing" | "vintage";
 type Shop = {
   name: string;
   province: string;
+  district?: string;
   kind: ShopKind;
   source: string;
   sourceName: string;
@@ -30,9 +31,11 @@ function observedDate(value: string) {
 }
 
 export default function SecondhandPage() {
+  const bangkok = "กรุงเทพมหานคร";
   const [query, setQuery] = useState("");
-  const [kind, setKind] = useState<"all" | ShopKind>("all");
-  const [province, setProvince] = useState("");
+  const bangkokClothing = new URLSearchParams(window.location.search).get("focus") === "bangkok-clothing";
+  const [kind, setKind] = useState<"all" | ShopKind>(bangkokClothing ? "clothing" : "all");
+  const [province, setProvince] = useState(bangkokClothing ? bangkok : "");
   useSeo({
     title: "ร้านเสื้อผ้ามือสองและโกดังญี่ปุ่นทั่วไทย",
     description: "รวมโกดังญี่ปุ่นมือสองและร้านเสื้อผ้ามือสองทั่วประเทศไทย ค้นหาตามจังหวัด พร้อมลิงก์แผนที่และหน้าร้าน",
@@ -42,9 +45,9 @@ export default function SecondhandPage() {
   const filtered = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("th");
     return shops.filter((shop) => {
-      const textMatches = !needle || `${shop.name} ${shop.province} ${shop.sourceName}`.toLocaleLowerCase("th").includes(needle);
+      const textMatches = !needle || `${shop.name} ${shop.province} ${shop.district ?? ""} ${shop.sourceName}`.toLocaleLowerCase("th").includes(needle);
       return textMatches && (kind === "all" || shop.kind === kind) && (!province || shop.province === province);
-    });
+    }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province)) - Number(hasDirectoryCover(a.name, a.province)));
   }, [kind, province, query]);
 
   return (
@@ -61,8 +64,7 @@ export default function SecondhandPage() {
           รวมโกดังสินค้าญี่ปุ่นมือสองและแหล่งเสื้อผ้ามือสองจากหลายจังหวัด มีทั้งโกดังให้คุ้ย ร้านวินเทจคัดชิ้น และตลาดนัด
         </p>
         <div className="mt-5 flex flex-wrap gap-2 text-xs text-concrete">
-          <span className="clay-control border border-white bg-white/70 px-3 py-2">โกดังญี่ปุ่น 153 แห่ง · แหล่งข้อมูลรวบรวม 28 ก.ค. 2569</span>
-          <span className="clay-control border border-white bg-white/70 px-3 py-2">ร้านวินเทจ / เสื้อผ้ามือสองเพิ่มจากไกด์ท้องถิ่น</span>
+          <button type="button" aria-pressed={province === bangkok && kind === "clothing"} className="clay-control border border-white bg-white/80 px-3 py-2 font-semibold text-[#315b50] aria-pressed:bg-sage" onClick={() => { setQuery(""); setKind("clothing"); setProvince(bangkok); }}>เสื้อผ้ามือสองในกรุงเทพฯ</button>
         </div>
       </section>
 
@@ -108,7 +110,7 @@ export default function SecondhandPage() {
                     <Store className="h-4 w-4 shrink-0 text-sage" aria-hidden />
                   </div>
                   <h3 className="font-bold leading-snug">{shop.name}</h3>
-                  <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.province}</p>
+                  <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.district ? `${shop.district} · ` : ""}{shop.province}</p>
                   {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete">บันทึกในแหล่งข้อมูล: {observedDate(shop.lastObservedAt)}</p>}
                 </div>
                 <div className="flex flex-wrap gap-2">
