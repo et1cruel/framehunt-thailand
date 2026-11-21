@@ -206,6 +206,7 @@ export default function HomePage() {
         <div className="mt-4 flex flex-wrap gap-2 text-sm font-semibold text-[#315b50]">
           <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/cave">สำรวจถ้ำทั้งหมด</Link>
           <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/art">พื้นที่ศิลปะทั้งหมด</Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/nakhon-pathom">เที่ยวนครปฐม · กำแพงแสน</Link>
           <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=night">พื้นที่ดนตรีกลางคืน</Link>
         </div>
 
@@ -217,7 +218,7 @@ export default function HomePage() {
               cat.slugs.some((slug) => location.categories.includes(slug)),
             );
             const match = matches.find((location) => location.slug === focusSlug) ?? matches[0];
-            const collection = cat.key === "cave" || cat.key === "art" ? cat.key : null;
+            const collection = cat.key === "cave" || cat.key === "art" || cat.key === "temple" ? cat.key : null;
             return (
               <Link
                 key={cat.key}

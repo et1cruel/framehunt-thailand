@@ -14209,6 +14209,755 @@
         "art"
       ],
       "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "วัดปลักไม้ลาย",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "สวนป่าสมุนไพรวัดปลักไม้ลาย",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "สวนแสนปาล์ม มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "สวนพฤกษศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "เมืองเก่ากำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "โรงเรียนการบินกำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "อุทยานแมลงเฉลิมพระเกียรติ กำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "อุโมงค์ชมพูพันธุ์ทิพย์ มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "คาวบอยแลนด์",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดท่าเสา",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ฟาร์มกุ้งลุงเอก",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "The Ugly Duckling Learning Farm",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดโพธิ์งาม",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nuac.nu.ac.th/?p=4205",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดไผ่รื่นรมย์",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nuac.nu.ac.th/?p=4205",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ถนนปรีดียาธร มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nuac.nu.ac.th/?p=4205",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดไร่แตงทอง",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://th.trip.com/travel-guide/attraction/nakhon-pathom-province-24521/tourist-attractions/",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดพระเมรุ",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดไผ่ล้อม",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดพระประโทณเจดีย์",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "พระประโทณเจดีย์",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "พิพิธภัณฑสถานแห่งชาติ พระปฐมเจดีย์",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดธรรมศาลา",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดโพรงมะเดื่อ",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดสระกระเทียม",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดเกาะวังไทร",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดใหม่ปิ่นเกลียว",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "พิพิธภัณฑ์วิถีชีวิตไทยทรงดำ บ้านหัวถนน",
+      "province": "นครปฐม",
+      "district": "ดอนตูม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "พิพิธภัณฑ์ท้องถิ่นชาติพันธุ์ลาวครั่ง วัดทุ่งผักกูด",
+      "province": "นครปฐม",
+      "district": "ดอนตูม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดทัพพระ",
+      "province": "นครปฐม",
+      "district": "ดอนตูม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ศาลพระแม่กวนอิมมหาโพธิสัตว์ บ้านทุ่งพิชัย",
+      "province": "นครปฐม",
+      "district": "ดอนตูม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดห้วยพระ",
+      "province": "นครปฐม",
+      "district": "ดอนตูม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดสุขวราราม วัดดอนรวก",
+      "province": "นครปฐม",
+      "district": "ดอนตูม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบางพระ",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ตลาดเก่าท่านา",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ตลาดน้ำวัดกลางคูเวียง",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "พิพิธภัณฑ์พื้นบ้านวัดสำโรง",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดลานตากฟ้า",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "เจษฎา เทคนิค มิวเซียม",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วู้ดแลนด์ เมืองไม้",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ตลาดน้ำบ้านศาลาดิน",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดสุวรรณาราม พุทธมณฑล",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "สถานีรถไฟวัดสุวรรณาราม",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ตลาดน้ำวัดลำพญา",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ตลาดโบราณบางหลวง ร.ศ. ๑๒๒",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ชุมชนเกาะแรด",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ตลาดน้ำทุ่งบัวแดง ณ บางเลน",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "แอร์ออร์คิดส์",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบางช้างใต้",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ไร่แสนรักษ์",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "ศูนย์การเรียนรู้เกษตรอินทรีย์บ้านหัวอ่าว",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "สวนสามพราน",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/index.php",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดพระศรีรัตนศาสดาราม",
+      "province": "กรุงเทพมหานคร",
+      "district": "",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Destinations/Provinces/bangkok/219",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดอรุณราชวราราม",
+      "province": "กรุงเทพมหานคร",
+      "district": "",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Destinations/Provinces/bangkok/219",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดราชนัดดาราม",
+      "province": "กรุงเทพมหานคร",
+      "district": "",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Destinations/Provinces/bangkok/219",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดชนะสงครามราชวรมหาวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดพิชยญาติการามวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบุปผารามวรวิหาร (วัดดอกไม้)",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดอนงคารามวรวิหาร (วัดน้อยขำแถม)",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดทองศาลางาม",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดนวลนรดิศวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดชำนิหัตถการ (วัดสามง่าม)",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดทองธรรมชาติวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบพิตรพิมุขวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดจักรวรรดิราชาวาสวรมหาวิหาร (วัดสามปลื้ม)",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดสัมพันธวงศาราม (วัดเกาะแก้วลังการาม)",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบรมนิวาสราชวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดโสมนัสราชวรวิหาร (วัดโสมนัสวิหาร)",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดมกุฏกษัตริยารามราชวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดพระยาทำวรวิหาร",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดดาวดึงษาราม",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดอาวุธวิกสิตาราม",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบางขุนเทียนนอก",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดบุณยประดิษฐ์",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดไผ่เงินโชตนาราม",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "วัดลาดพร้าว",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "temple"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
     }
   ]
 }

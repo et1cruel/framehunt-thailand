@@ -6,15 +6,15 @@ import activityDirectory from "@/data/activity-directory.json";
 import { DirectoryCover } from "@/components/DirectoryCover";
 import { sceneVenues } from "@/data/live-programs";
 
-type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night";
+type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night" | "temple" | "nakhon-pathom";
 type ActivityPlace = { name: string; province: string; district?: string; categories: ActivityCategory[]; sourceUrl?: string; lat?: number; lon?: number; accessNote?: string };
 const places: ActivityPlace[] = [
   ...(activityDirectory.places as ActivityPlace[]).map((p) => p.name.includes("ถ้ำ") && p.categories.includes("nature") ? { ...p, categories: [...p.categories, "cave" as const] } : p),
   ...sceneVenues.map((venue) => ({ name: venue.name, province: "กรุงเทพมหานคร", district: venue.area, categories: ["night" as const], sourceUrl: venue.source })),
 ];
-const categories: Array<"all" | ActivityCategory> = ["all", "cave", "art", "night", "park", "nature", "forest", "mountain", "climbing", "shooting", "karaoke", "golf", "football", "fitness", "sports", "bowling", "ice"];
+const categories: Array<"all" | ActivityCategory> = ["all", "temple", "nakhon-pathom", "cave", "art", "night", "park", "nature", "forest", "mountain", "climbing", "shooting", "karaoke", "golf", "football", "fitness", "sports", "bowling", "ice"];
 const categoryNames: Record<(typeof categories)[number], string> = {
-  all: "กิจกรรมทั้งหมด", cave: "ถ้ำ", art: "พื้นที่ศิลปะ", night: "พื้นที่ดนตรีกลางคืน", park: "สวนสาธารณะ / สวนออกกำลังกาย", nature: "อุทยาน / ธรรมชาติ", forest: "ป่า / วนอุทยาน", mountain: "ภูเขา / ดอย", climbing: "ปีนผา", shooting: "สนามยิงปืน", karaoke: "คาราโอเกะ", golf: "กอล์ฟ", football: "ฟุตบอล / ฟุตซอล", fitness: "ยิม / ฟิตเนส", sports: "สนามกีฬา / กีฬาอื่น ๆ", bowling: "โบว์ลิ่ง", ice: "สเก็ตน้ำแข็ง",
+  all: "กิจกรรมทั้งหมด", temple: "วัด", "nakhon-pathom": "เที่ยวนครปฐม", cave: "ถ้ำ", art: "พื้นที่ศิลปะ", night: "พื้นที่ดนตรีกลางคืน", park: "สวนสาธารณะ / สวนออกกำลังกาย", nature: "อุทยาน / ธรรมชาติ", forest: "ป่า / วนอุทยาน", mountain: "ภูเขา / ดอย", climbing: "ปีนผา", shooting: "สนามยิงปืน", karaoke: "คาราโอเกะ", golf: "กอล์ฟ", football: "ฟุตบอล / ฟุตซอล", fitness: "ยิม / ฟิตเนส", sports: "สนามกีฬา / กีฬาอื่น ๆ", bowling: "โบว์ลิ่ง", ice: "สเก็ตน้ำแข็ง",
 };
 
 export default function ActivitiesPage() {

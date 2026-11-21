@@ -18,6 +18,8 @@ const staticRoutes = [
   { path: "/activities", priority: "0.8", changefreq: "monthly" },
   { path: "/collections/cave", priority: "0.8", changefreq: "monthly" },
   { path: "/collections/art", priority: "0.8", changefreq: "monthly" },
+  { path: "/collections/temple", priority: "0.8", changefreq: "monthly" },
+  { path: "/collections/nakhon-pathom", priority: "0.8", changefreq: "monthly" },
   { path: "/map", priority: "0.8", changefreq: "monthly" },
   { path: "/find-my-vibe", priority: "0.8", changefreq: "monthly" },
   { path: "/boards", priority: "0.5", changefreq: "monthly" },

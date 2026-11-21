@@ -2,7 +2,7 @@ import fs from "node:fs";
 const file = "src/data/directory-covers.json";
 const covers = JSON.parse(fs.readFileSync(file, "utf8"));
 const places = JSON.parse(fs.readFileSync("src/data/activity-directory.json", "utf8")).places;
-const candidates = places.filter((p) => p.categories.includes("nature") && (p.lat && p.lon || p.province === "กรุงเทพมหานคร"));
+const candidates = places.filter((p) => !covers[`${p.name}|${p.province}`] && (p.categories.includes("temple") || p.categories.includes("nakhon-pathom")));
 let added = 0;
 for (let i = 0; i < candidates.length; i += 40) {
   const batch = candidates.slice(i, i + 40);
@@ -14,7 +14,7 @@ for (let i = 0; i < candidates.length; i += 40) {
     for (const page of Object.values(json.query.pages)) {
       if (!page.thumbnail?.source || !page.coordinates?.[0]) continue;
       const { lat, lon } = page.coordinates[0];
-      const item = batch.find((p) => p.name.split(" · ")[0] === page.title && (p.lat && p.lon ? Math.abs(p.lat - lat) < 0.03 && Math.abs(p.lon - lon) < 0.03 : p.province === "กรุงเทพมหานคร" && lat > 13.5 && lat < 14.0 && lon > 100.3 && lon < 100.95));
+      const item = batch.find((p) => p.name.split(" · ")[0] === page.title && (p.lat && p.lon ? Math.abs(p.lat - lat) < 0.03 && Math.abs(p.lon - lon) < 0.03 : p.province === "กรุงเทพมหานคร" ? lat > 13.5 && lat < 14.0 && lon > 100.3 && lon < 100.95 : p.province === "นครปฐม" && lat > 13.65 && lat < 14.3 && lon > 99.8 && lon < 100.35));
       if (!item) continue;
       const match = page.thumbnail.source.match(/\/thumb\/[^/]+\/[^/]+\/([^/]+)\//);
       if (!match) continue;
