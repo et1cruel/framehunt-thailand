@@ -128397,7 +128397,7 @@
           "perceptual_hash": "d15033a386070b49",
           "width": 6016,
           "height": 4016,
-          "is_cover": true,
+          "is_cover": false,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Sanctuary of Truth",
@@ -128429,7 +128429,7 @@
           "perceptual_hash": "1753b232f9d0e013",
           "width": 4272,
           "height": 2848,
-          "is_cover": false,
+          "is_cover": true,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Sanctuary of Truth",
@@ -199397,6 +199397,34 @@
       ],
       "photos": [
         {
+          "id": "wat-rong-khun-user-cover-2026",
+          "title": "Wat Rong Khun - Chiang Rai.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wat_Rong_Khun_-_Chiang_Rai.jpg/1920px-Wat_Rong_Khun_-_Chiang_Rai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wat_Rong_Khun_-_Chiang_Rai.jpg/500px-Wat_Rong_Khun_-_Chiang_Rai.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Wat_Rong_Khun_-_Chiang_Rai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "source_name": "Wikimedia Commons",
+          "source_page_url": "https://commons.wikimedia.org/wiki/File:Wat_Rong_Khun_-_Chiang_Rai.jpg",
+          "photographer": "JJ Harrison",
+          "credit": "JJ Harrison",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution_text": "JJ Harrison · CC BY-SA 3.0 · Wikimedia Commons",
+          "checksum": "60205fc5fea315e624dbee74b789fe313268f8fe",
+          "perceptual_hash": null,
+          "width": 5120,
+          "height": 2560,
+          "is_cover": true,
+          "is_verified": true,
+          "verification_status": "manual",
+          "subject_evidence": "Wikimedia Commons: Wat Rong Khun",
+          "verification_checks": [
+            "source-page-recorded",
+            "license-allows-commercial-use",
+            "subject-manually-reviewed"
+          ],
+          "retrieved_at": "2026-11-21T02:35:12.335Z"
+        },
+        {
           "id": "wat-rong-khun-ph-1",
           "title": "031 Kinnara (9214609872).jpg",
           "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/031_Kinnara_%289214609872%29.jpg/1920px-031_Kinnara_%289214609872%29.jpg",
@@ -199413,7 +199441,7 @@
           "perceptual_hash": "969282262e1b2cc2",
           "width": 3648,
           "height": 2736,
-          "is_cover": true,
+          "is_cover": false,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Wat Rong Khun, Chiang Rai",
@@ -199781,7 +199809,7 @@
           "retrieved_at": "2026-11-20T09:14:53.118Z"
         }
       ],
-      "photo_count": 12,
+      "photo_count": 13,
       "sources": [
         {
           "source_url": "https://www.wikidata.org/wiki/Q496543",

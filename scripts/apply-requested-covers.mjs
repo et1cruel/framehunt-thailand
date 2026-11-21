@@ -1,0 +1,24 @@
+import fs from "node:fs";
+const dataFile = "src/data/locations.generated.json";
+const data = JSON.parse(fs.readFileSync(dataFile, "utf8"));
+const sanctuary = data.locations.find((p) => p.slug === "sanctuary-of-truth");
+if (!sanctuary?.photos.some((p) => p.id === "sanctuary-of-truth-ph-1")) throw new Error("Requested Sanctuary of Truth photo missing");
+for (const photo of sanctuary.photos) photo.is_cover = photo.id === "sanctuary-of-truth-ph-1";
+
+const u = new URL("https://commons.wikimedia.org/w/api.php");
+Object.entries({ action: "query", format: "json", prop: "imageinfo", iiprop: "url|size|sha1", iiurlwidth: "1920", titles: "File:Wat Rong Khun - Chiang Rai.jpg" }).forEach(([k, v]) => u.searchParams.set(k, v));
+const info = Object.values((await fetch(u, { headers: { "User-Agent": "FramehuntThailand/1.0 location directory" } }).then((r) => r.json())).query.pages)[0].imageinfo[0];
+const temple = data.locations.find((p) => p.slug === "wat-rong-khun");
+if (!temple) throw new Error("Wat Rong Khun missing");
+const id = "wat-rong-khun-user-cover-2026";
+for (const photo of temple.photos) photo.is_cover = false;
+if (!temple.photos.some((p) => p.id === id)) temple.photos.unshift({ id, title: "Wat Rong Khun - Chiang Rai.jpg", image_url: info.thumburl, thumb_url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wat_Rong_Khun_-_Chiang_Rai.jpg/500px-Wat_Rong_Khun_-_Chiang_Rai.jpg", original_url: info.url, source_name: "Wikimedia Commons", source_page_url: info.descriptionurl, photographer: "JJ Harrison", credit: "JJ Harrison", license: "CC BY-SA 3.0", license_url: "https://creativecommons.org/licenses/by-sa/3.0/", attribution_text: "JJ Harrison · CC BY-SA 3.0 · Wikimedia Commons", checksum: info.sha1, perceptual_hash: null, width: info.width, height: info.height, is_cover: true, is_verified: true, verification_status: "manual", subject_evidence: "Wikimedia Commons: Wat Rong Khun", verification_checks: ["source-page-recorded", "license-allows-commercial-use", "subject-manually-reviewed"], retrieved_at: new Date().toISOString() });
+else temple.photos.find((p) => p.id === id).is_cover = true;
+temple.photo_count = temple.photos.length;
+fs.writeFileSync(dataFile, `${JSON.stringify(data, null, 2)}\n`);
+const picksFile = "scripts/ingest/cover-picks.json";
+const picks = JSON.parse(fs.readFileSync(picksFile, "utf8"));
+picks["sanctuary-of-truth"] = { id: "sanctuary-of-truth-ph-1" };
+picks["wat-rong-khun"] = { id };
+fs.writeFileSync(picksFile, `${JSON.stringify(picks, null, 2)}\n`);
+console.log("Updated Sanctuary of Truth and Wat Rong Khun covers.");

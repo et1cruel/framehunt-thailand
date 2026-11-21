@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { Heart, MapPin, Camera } from "lucide-react";
 import type { LocationRecord } from "@/data/types";
 import { categoryBySlug, moodBySlug } from "@/data/taxonomy";
@@ -39,6 +40,27 @@ export function PhotoImage({
       className={className}
     />
   );
+}
+
+function HoverPhotos({ photos, cover, sizes }: { photos: LocationRecord["photos"]; cover: LocationRecord["photos"][number] | undefined; sizes: string }) {
+  const [hovered, setHovered] = useState(false);
+  const [index, setIndex] = useState(0);
+  const available = cover ? [cover, ...photos.filter((photo) => photo.id !== cover.id && photo.is_verified)] : [];
+  useEffect(() => {
+    if (!hovered || available.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const timer = window.setInterval(() => setIndex((current) => (current + 1) % available.length), 3500);
+    return () => window.clearInterval(timer);
+  }, [hovered, available.length]);
+  const stop = () => { setHovered(false); setIndex(0); };
+  return <div className="relative h-full w-full" onMouseEnter={() => setHovered(true)} onMouseLeave={stop}>
+    <PhotoImage photo={cover} sizes={sizes} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === 0 ? "opacity-100" : "opacity-0")} />
+    {hovered && available.slice(1).map((photo, offset) => {
+      const position = offset + 1;
+      if (position !== index && position !== (index + 1) % available.length && position !== (index - 1 + available.length) % available.length) return null;
+      return <img key={photo.id} src={photo.thumb_url} alt="" aria-hidden="true" loading="lazy" decoding="async" className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === position ? "opacity-100" : "opacity-0")} />;
+    })}
+    {hovered && index > 0 && available[index] && <span className="absolute bottom-2 left-2 max-w-[85%] rounded bg-black/75 px-2 py-1 text-[10px] text-white">{available[index].attribution_text}</span>}
+  </div>;
 }
 
 export function LocationCard({ location, variant = "grid", distanceKm, className }: Props) {
@@ -83,11 +105,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           to={`/locations/${location.slug}`}
           className="relative block aspect-[4/3] overflow-hidden rounded-xl bg-ink-2"
         >
-          <PhotoImage
-            photo={cover}
-            sizes="(max-width: 640px) 100vw, 280px"
-            className="h-full w-full object-cover frame-img"
-          />
+          <HoverPhotos photos={location.photos} cover={cover} sizes="(max-width: 640px) 100vw, 280px" />
         </Link>
         <div className="flex flex-col justify-between gap-4 px-2 py-2 pr-12 sm:pr-10">
           <div>
@@ -146,11 +164,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           aria-label={location.name_th}
           className="absolute inset-0 focus-visible:outline-offset-[-3px]"
         >
-          <PhotoImage
-            photo={cover}
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="h-full w-full object-cover frame-img"
-          />
+          <HoverPhotos photos={location.photos} cover={cover} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
         </Link>
         <button
           type="button"
