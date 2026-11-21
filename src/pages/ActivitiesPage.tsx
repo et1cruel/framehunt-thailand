@@ -1,20 +1,23 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { ArrowUpRight, Dumbbell, MapPin, Search, Sparkles } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import activityDirectory from "@/data/activity-directory.json";
+import studiosDirectory from "@/data/studios-directory.json";
 import { DirectoryCover } from "@/components/DirectoryCover";
 import { sceneVenues } from "@/data/live-programs";
 
-type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night" | "temple" | "nakhon-pathom";
+type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night" | "temple" | "nakhon-pathom" | "studio";
 type ActivityPlace = { name: string; province: string; district?: string; categories: ActivityCategory[]; sourceUrl?: string; lat?: number; lon?: number; accessNote?: string };
 const places: ActivityPlace[] = [
   ...(activityDirectory.places as ActivityPlace[]).map((p) => p.name.includes("ถ้ำ") && p.categories.includes("nature") ? { ...p, categories: [...p.categories, "cave" as const] } : p),
   ...sceneVenues.map((venue) => ({ name: venue.name, province: "กรุงเทพมหานคร", district: venue.area, categories: ["night" as const], sourceUrl: venue.source })),
+  ...studiosDirectory.studios.map((studio) => ({ name: studio.name, province: studio.province, district: studio.district, categories: ["studio" as const], sourceUrl: studio.sourceUrl })),
 ];
-const categories: Array<"all" | ActivityCategory> = ["all", "temple", "nakhon-pathom", "cave", "art", "night", "park", "nature", "forest", "mountain", "climbing", "shooting", "karaoke", "golf", "football", "fitness", "sports", "bowling", "ice"];
+const categories: Array<"all" | ActivityCategory> = ["all", "studio", "temple", "nakhon-pathom", "cave", "art", "night", "park", "nature", "forest", "mountain", "climbing", "shooting", "karaoke", "golf", "football", "fitness", "sports", "bowling", "ice"];
 const categoryNames: Record<(typeof categories)[number], string> = {
-  all: "กิจกรรมทั้งหมด", temple: "วัด", "nakhon-pathom": "เที่ยวนครปฐม", cave: "ถ้ำ", art: "พื้นที่ศิลปะ", night: "พื้นที่ดนตรีกลางคืน", park: "สวนสาธารณะ / สวนออกกำลังกาย", nature: "อุทยาน / ธรรมชาติ", forest: "ป่า / วนอุทยาน", mountain: "ภูเขา / ดอย", climbing: "ปีนผา", shooting: "สนามยิงปืน", karaoke: "คาราโอเกะ", golf: "กอล์ฟ", football: "ฟุตบอล / ฟุตซอล", fitness: "ยิม / ฟิตเนส", sports: "สนามกีฬา / กีฬาอื่น ๆ", bowling: "โบว์ลิ่ง", ice: "สเก็ตน้ำแข็ง",
+  all: "กิจกรรมทั้งหมด", studio: "ห้องซ้อมดนตรี", temple: "วัด", "nakhon-pathom": "เที่ยวนครปฐม", cave: "ถ้ำ", art: "พื้นที่ศิลปะ", night: "พื้นที่ดนตรีกลางคืน", park: "สวนสาธารณะ / สวนออกกำลังกาย", nature: "อุทยาน / ธรรมชาติ", forest: "ป่า / วนอุทยาน", mountain: "ภูเขา / ดอย", climbing: "ปีนผา", shooting: "สนามยิงปืน", karaoke: "คาราโอเกะ", golf: "กอล์ฟ", football: "ฟุตบอล / ฟุตซอล", fitness: "ยิม / ฟิตเนส", sports: "สนามกีฬา / กีฬาอื่น ๆ", bowling: "โบว์ลิ่ง", ice: "สเก็ตน้ำแข็ง",
 };
 
 export default function ActivitiesPage() {
@@ -47,7 +50,7 @@ export default function ActivitiesPage() {
         <div className="mt-5 flex flex-wrap gap-2 text-xs text-concrete">
           <span className="clay-control border border-white bg-white/70 px-3 py-2">{places.length} จุดกิจกรรมในไดเรกทอรี</span>
           <span className="clay-control border border-white bg-white/70 px-3 py-2">{provinces.length} จังหวัด</span>
-          <span className="clay-control border border-white bg-white/70 px-3 py-2">ใช้แผนที่เพื่อตรวจสอบตำแหน่งและสาขา</span>
+          <Link to="/studios" className="clay-control border border-white bg-white/90 px-3 py-2 font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white">รวมห้องซ้อมดนตรี กทม.-ปริมณฑล →</Link>
         </div>
       </section>
 

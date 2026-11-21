@@ -8,6 +8,7 @@ import { useFavorites } from "@/services/localStore";
 const NAV = [
   { to: "/explore", label: "ค้นหาโลเคชัน" },
   { to: "/live-music", label: "ดนตรีสด" },
+  { to: "/studios", label: "ห้องซ้อมดนตรี" },
   { to: "/secondhand", label: "มือสองทั่วไทย" },
   { to: "/food", label: "กินทั่วไทย" },
   { to: "/activities", label: "กิจกรรมทั่วไทย" },

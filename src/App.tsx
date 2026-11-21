@@ -7,6 +7,7 @@ import { ErrorBoundary } from "@/components/system/ErrorBoundary";
 import HomePage from "@/pages/HomePage";
 
 const LiveMusicPage = lazy(() => import("@/pages/LiveMusicPage"));
+const StudiosPage = lazy(() => import("@/pages/StudiosPage"));
 const SecondhandPage = lazy(() => import("@/pages/SecondhandPage"));
 const FoodPage = lazy(() => import("@/pages/FoodPage"));
 const ActivitiesPage = lazy(() => import("@/pages/ActivitiesPage"));
@@ -52,6 +53,7 @@ export default function App() {
               <Route path="/explore" element={<ExplorePage />} />
               <Route path="/locations/:slug" element={<LocationDetailPage />} />
               <Route path="/live-music" element={<LiveMusicPage />} />
+              <Route path="/studios" element={<StudiosPage />} />
               <Route path="/secondhand" element={<SecondhandPage />} />
               <Route path="/food" element={<FoodPage />} />
               <Route path="/activities" element={<ActivitiesPage />} />

@@ -71,6 +71,12 @@ export default function LiveMusicPage() {
             ดูโลเคชันพร้อมภาพ
           </Link>
           <Link
+            className="clay-control border border-white bg-white/90 px-4 py-2 text-sm font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white"
+            to="/studios"
+          >
+            ห้องซ้อมดนตรี กทม.-ปริมณฑล
+          </Link>
+          <Link
             className="clay-control border border-white bg-ink px-4 py-2 text-sm font-semibold text-acid hover:bg-sage"
             to="/submit"
           >

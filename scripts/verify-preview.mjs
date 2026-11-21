@@ -58,6 +58,7 @@ const checks = [
   { path: "/", heading: /FIND YOUR/i },
   { path: "/explore", heading: /EXPLORE/i },
   { path: "/live-music", heading: /LIVE MUSIC/i },
+  { path: "/studios", heading: /ห้องซ้อมดนตรี/ },
   { path: "/locations/wat-arun", heading: /วัดอรุณ/ },
   { path: "/find-my-vibe", heading: /FIND MY/i },
   { path: "/about", heading: /NO FAKE/i },

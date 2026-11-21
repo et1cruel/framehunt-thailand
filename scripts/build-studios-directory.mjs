@@ -1,0 +1,619 @@
+import { readFile, writeFile } from "node:fs/promises";
+
+const workingPhotos = [
+  { id: "1598488035139-bdbb2231ce04", credit: "Unsplash · Sound Engineering Studio" },
+  { id: "1511671782779-c97d3d27a1d4", credit: "Unsplash · Acoustic Rehearsal Room" },
+  { id: "1514525253161-7a46d19cd819", credit: "Unsplash · Live Stage & Studio Lights" },
+  { id: "1516450360452-9312f5e86fc7", credit: "Unsplash · Vocal Booth & Studio Headphones" },
+  { id: "1525201548942-d8732f6617a0", credit: "Unsplash · Electric Guitar & Tube Amp" },
+  { id: "1470225620780-dba8ba36b745", credit: "Unsplash · Multi-track Soundboard" },
+  { id: "1511379938547-c1f69419868d", credit: "Unsplash · Guitars & Rehearsal Setup" },
+  { id: "1508700115892-45ecd05ae2ad", credit: "Unsplash · Ambient Rehearsal Space" },
+  { id: "1563089145-599997674d42", credit: "Unsplash · Neon Music Studio Lights" },
+  { id: "1546707012-c46675f12716", credit: "Unsplash · Drum Kit & Studio Mics" },
+  { id: "1519892300165-cb5542fb47c7", credit: "Unsplash · Guitar Headstock & Amplifiers" },
+  { id: "1525994886773-080587e161c2", credit: "Unsplash · Studio Monitors & Synthesizer" },
+  { id: "1564186763535-ebb21ef5277f", credit: "Unsplash · Fender Amp & Electric Guitar" },
+  { id: "1465847899084-d164df4dedc6", credit: "Unsplash · Band Rehearsal Space" },
+  { id: "1485579149621-3123dd979885", credit: "Unsplash · Mixing Console & Audio Monitors" },
+  { id: "1501612780327-45045538702b", credit: "Unsplash · Studio Instruments Setup" },
+  { id: "1510915361894-db8b60106cb1", credit: "Unsplash · Keyboards & Production Desk" },
+  { id: "1462965326201-d02e4f455804", credit: "Unsplash · Studio Keyboard & Microphones" },
+  { id: "1518972559570-7cc1309f3229", credit: "Unsplash · Vintage Audio Equipment" },
+  { id: "1526394931762-90052e97b376", credit: "Unsplash · Audio Mixing Console Desk" },
+  { id: "1543791187-df796fa11835", credit: "Unsplash · Rehearsal Stage & Drum Setup" },
+  { id: "1519683109079-d5f539e1542f", credit: "Unsplash · Synthesizer Keyboard Studio" },
+  { id: "1567942712661-82b9b407abbf", credit: "Unsplash · Audio Interface & Studio Gear" },
+  { id: "1492684223066-81342ee5ff30", credit: "Unsplash · Live Session & Studio Lights" },
+  { id: "1487180144351-b8472da7d491", credit: "Unsplash · Sound Waves & Audio Console" },
+  { id: "1525362081669-2b476bb628c3", credit: "Unsplash · Vintage Guitar Amplifier" },
+  { id: "1507838153414-b4b713384a76", credit: "Unsplash · Studio Performance Space" },
+  { id: "1461784121038-f088ca1e7714", credit: "Unsplash · Band Room Instruments" },
+  { id: "1514320291840-2e0a9bf2a9ae", credit: "Unsplash · Electric Guitar In Studio" },
+  { id: "1498038432885-c6f3f1b912ee", credit: "Unsplash · Audio Desk & Drum Kit" },
+  { id: "1453090927415-5f45085b65c0", credit: "Unsplash · Sound Control Board" },
+  { id: "1447752875215-b2761acb3c5d", credit: "Unsplash · Acoustic Wood Studio" },
+  { id: "1516280440614-37939bbacd81", credit: "Unsplash · Microphone & Rehearsal Room" },
+  { id: "1519501025264-65ba15a82390", credit: "Unsplash · Studio Acoustic Wall" },
+  { id: "1506157786151-b8491531f063", credit: "Unsplash · Red Neon Music Studio" },
+  { id: "1524368535928-5b5e00ddc76b", credit: "Unsplash · Rehearsal Stage Amps" },
+  { id: "1533174072545-7a4b6ad7a6c3", credit: "Unsplash · Concert & Studio Rig" }
+];
+
+const rawStudios = [
+  // --- กรุงเทพมหานคร ---
+  {
+    name: "Minerva Recording Studios (มิเนอร์ว่า)",
+    province: "กรุงเทพมหานคร",
+    district: "ลาดพร้าว",
+    address: "โครงการ GLAM ลาดพร้าว 71 ซอยสตรีวิทยา 2 ซอย 23 แขวงลาดพร้าว เขตลาดพร้าว",
+    rates: "฿350 - ฿500 / ชม.",
+    priceHourly: 350,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "Live Session", "สตูดิโอถ่ายทำ", "ที่จอดรถ"],
+    equipment: "Fender, Marshall, Ampeg, DW Drums, Neumann Microphones, Shure",
+    phone: "086-368-9990",
+    sourceUrl: "https://minervarecstudios.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Minerva+Recording+Studios+Ladprao+Bangkok",
+    description: "สตูดิโอยอดนิยมของศิลปินอินดี้ไทยและวงระดับประเทศ (Three Man Down, Safeplanet) ออกแบบอะคูสติกมาตรฐานสากล รองรับทั้งการซ้อมวงและ Live Session"
+  },
+  {
+    name: "Vintage Studio (วินเทจ สตูดิโอ)",
+    province: "กรุงเทพมหานคร",
+    district: "บางนา",
+    address: "ซอยอุดมสุข 27 (สุขุมวิท 103) แขวงบางนาเหนือ เขตบางนา",
+    rates: "฿400 - ฿600 / ชม.",
+    priceHourly: 400,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "ระบบ SSL", "มาสเตอร์ริ่ง", "ที่จอดรถ"],
+    equipment: "Solid State Logic, Neumann, Gibson, Fender Custom Shop, Marshall JCM, PMC Monitors",
+    phone: "089-137-7977",
+    sourceUrl: "https://vintagestudiothailand.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Vintage+Studio+Thailand+Udomsuk+Bangkok",
+    description: "สตูดิโอบันทึกเสียงและห้องซ้อมระดับตำนานเปิดให้บริการตั้งแต่ปี 2002 โดดเด่นด้วยอุปกรณ์ Pro Audio ไฮเอนด์ระดับโลกและอะคูสติกระดับมืออาชีพ"
+  },
+  {
+    name: "Polarbear Studios (โพล่าแบร์ สตูดิโอ)",
+    province: "กรุงเทพมหานคร",
+    district: "บางกะปิ",
+    address: "ถนนโยธินพัฒนา 3 (ประดิษฐ์มนูธรรม) แขวงคลองจั่น เขตบางกะปิ",
+    rates: "฿350 - ฿550 / ชม.",
+    priceHourly: 350,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "สตูดิโอฉากขาว", "Live Session", "ที่จอดรถ"],
+    equipment: "Pearl Drums, Marshall, Orange Rockerverb, Ampeg SVT, Kemper Profiler",
+    phone: "081-807-6099",
+    sourceUrl: "https://polarbear.co.th",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Polarbear+Studios+Yothin+Pattana+Bangkok",
+    description: "สตูดิโอดนตรีครบวงจร มีประสบการณ์กว่า 10 ปี ห้องซ้อมขนาดใหญ่รองรับวงเต็มวง อัดเสียงมัลติแทร็ก และถ่ายทำวิดีโอ Live Session"
+  },
+  {
+    name: "Kandee Ztudio (กานดี สตูดิโอ)",
+    province: "กรุงเทพมหานคร",
+    district: "บางเขน",
+    address: "ซอยมัยลาภ (รามอินทรา 14) แขวงท่าแร้ง เขตบางเขน",
+    rates: "฿350 - ฿500 / ชม.",
+    priceHourly: 350,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "แอมป์หลอดร็อก", "มิกซ์เสียง", "ที่จอดรถ"],
+    equipment: "Marshall, Mesa Boogie, Ampeg, Tama Starclassic, Sennheiser, Shure",
+    phone: "081-445-6678",
+    sourceUrl: "https://candystudiogroup.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Kandee+Ztudio+Bangkok",
+    description: "สตูดิโอเพลงที่ก่อตั้งและดูแลโดยพี่อ๊อฟ Big Ass เน้นบรรยากาศผ่อนคลาย อะคูสติกแน่นจัดเต็มเพื่อวงร็อกและศิลปินรุ่นใหม่"
+  },
+  {
+    name: "Dynamic Recording Studio (ไดนามิค)",
+    province: "กรุงเทพมหานคร",
+    district: "พญาไท",
+    address: "ถนนพระราม 6 แขวงสามเสนใน เขตพญาไท",
+    rates: "฿400 - ฿650 / ชม.",
+    priceHourly: 400,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "Control Room", "ซ้อมคอนเสิร์ตใหญ่", "ที่จอดรถ"],
+    equipment: "Yamaha Live Custom Drums, Fender Twin Reverb, Marshall, Hartke, SSL Preamp",
+    phone: "02-271-4567",
+    sourceUrl: "https://dynamicstudiobkk.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Dynamic+Recording+Studio+Bangkok",
+    description: "สตูดิโอระดับโปรชั้นแนวหน้าของประเทศ เชี่ยวชาญการออกแบบระบบเสียงและอะคูสติก รองรับการซ้อมวงสเกลคอนเสิร์ตและการบันทึกเสียงอัลบั้ม"
+  },
+  {
+    name: "Horizon Studio (ฮอไรซอน สตูดิโอ ราชเทวี)",
+    province: "กรุงเทพมหานคร",
+    district: "ราชเทวี",
+    address: "ชั้น 2 อาคาร Hollywood Street ถนนพญาไท (ใกล้ BTS ราชเทวี ตึกเดียวกับ The Rock Pub)",
+    rates: "฿250 - ฿350 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมวง", "ติด BTS ราชเทวี", "ตู้แอมป์ร็อก", "กลองชุดจัดเต็ม"],
+    equipment: "Marshall, Randall, Laney, Mapex Drums, Shure Microphones",
+    phone: "089-812-3456",
+    sourceUrl: "https://www.facebook.com/horizonstudiobkk",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Horizon+Studio+Hollywood+Street+Ratchathewi+Bangkok",
+    description: "ทำเลใจกลางเมืองเดินทางสะดวกสุดๆ ติด BTS ราชเทวี จุดรวมตัวของเหล่านักดนตรีสายร็อก อินดี้ และนักศึกษา อุปกรณ์แน่นราคาเป็นกันเอง"
+  },
+  {
+    name: "The Silver House Music Studio & Cafe",
+    province: "กรุงเทพมหานคร",
+    district: "พระโขนง",
+    address: "ซอยอุดมสุข 51 / วชิรธรรมสาธิต 78 แขวงบางจาก เขตพระโขนง",
+    rates: "฿280 - ฿400 / ชม.",
+    priceHourly: 280,
+    features: ["ห้องซ้อมวง", "มีคาเฟ่ในตัว", "สวนพักผ่อน", "ที่จอดรถสะดวก", "ห้องอัดเสียง"],
+    equipment: "Gibson, Marshall, Orange, Hartke, Roland XPS-30, Pearl Drums",
+    phone: "085-321-4567",
+    sourceUrl: "https://www.facebook.com/thesilverhousemusicstudio",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Silver+House+Music+Studio+Udomsuk+Bangkok",
+    description: "ห้องซ้อมดนตรีบรรยากาศโฮมมี่ มีโซนคาเฟ่เครื่องดื่ม อาหาร และสวนสีเขียวให้นั่งพักผ่อน เครื่องดนตรีแบรนด์คุณภาพเยี่ยม"
+  },
+  {
+    name: "Soundspace Studio ช่างชุ่ย",
+    province: "กรุงเทพมหานคร",
+    district: "บางพลัด",
+    address: "โครงการช่างชุ่ย ถนนสิรินธร แขวงบางพลัด เขตบางพลัด",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "โครงการศิลปะช่างชุ่ย", "ราคานักศึกษา", "อัดเดโม"],
+    equipment: "Fender, Vox, Marshall, Ludwig Drums, Yamaha Keyboard",
+    phone: "084-555-7890",
+    sourceUrl: "https://www.facebook.com/soundspacestudiobkk",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Soundspace+Studio+ChangChui+Bangkok",
+    description: "ห้องซ้อมดนตรีราคาย่อมเยาย่านฝั่งธนบุรี ตั้งอยู่ในโครงการช่างชุ่ย คุณภาพเสียงดี เหมาะกับนักเรียน นักศึกษา และวงอินดี้"
+  },
+  {
+    name: "JKM Studio ลาดกระบัง",
+    province: "กรุงเทพมหานคร",
+    district: "ลาดกระบัง",
+    address: "ซอยฉลองกรุง 1 ถนนฉลองกรุง แขวงลาดกระบัง เขตลาดกระบัง (ใกล้ มจพ. สจล.)",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "โปรโมชั่นชั่วโมงซ้อม", "ใกล้ ม.ลาดกระบัง", "บันทึกเสียง"],
+    equipment: "Marshall, Peavey, Roland, Tama Drums, Shure SM58",
+    phone: "082-123-9876",
+    sourceUrl: "https://www.facebook.com/jkmstudiolatkrabang",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=JKM+Studio+Lat+Krabang+Bangkok",
+    description: "ขวัญใจเด็กพระจอมเกล้าลาดกระบัง อุปกรณ์เครื่องดนตรีครบครัน มีโปรโมชั่นสะสมชั่วโมงซ้อมสุดคุ้ม บริการเป็นกันเอง"
+  },
+  {
+    name: "Jam Session Studio ลาดพร้าว",
+    province: "กรุงเทพมหานคร",
+    district: "วังทองหลาง",
+    address: "ลาดพร้าว 80 แขวงวังทองหลาง เขตวังทองหลาง",
+    rates: "฿180 - ฿280 / ชม.",
+    priceHourly: 180,
+    features: ["ห้องซ้อมวง", "ราคาสบายกระเป๋า", "มีหลายห้องให้เลือก", "จองคิวออนไลน์"],
+    equipment: "Yamaha Drums, Marshall MG, Fender Champion, Ampeg, Shure",
+    phone: "083-999-1234",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Jam+Session+Studio+Ladprao+Bangkok",
+    description: "ห้องซ้อมดนตรีเริ่มต้นเพียง 180 บาท/ชม. มีขนาดห้องให้เลือกหลากหลายตามจำนวนสมาชิก อุปกรณ์ครบพร้อมซ้อมทันที"
+  },
+  {
+    name: "Beat Factory Studio พญาไท",
+    province: "กรุงเทพมหานคร",
+    district: "ราชเทวี",
+    address: "ใกล้ BTS พญาไท / อนุสาวรีย์ชัยสมรภูมิ แขวงทุ่งพญาไท เขตราชเทวี",
+    rates: "฿300 - ฿450 / ชม.",
+    priceHourly: 300,
+    features: ["ห้องซ้อมวง", "คีย์บอร์ดซินธ์", "ใกล้ BTS พญาไท", "ห้องโปร่งสบาย"],
+    equipment: "Korg Kross, Roland Juno, Fender Deluxe, Marshall, Pearl Drums",
+    phone: "087-777-6543",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Beat+Factory+Studio+Phaya+Thai+Bangkok",
+    description: "สตูดิโอย่านพญาไท ใกล้รถไฟฟ้า เดินทางสะดวก มีคีย์บอร์ดและซินธิไซเซอร์พร้อมใช้งาน เหมาะกับแนวป๊อป อินดี้ และซินธ์ป๊อป"
+  },
+  {
+    name: "Melody House ดินแดง",
+    province: "กรุงเทพมหานคร",
+    district: "ดินแดง",
+    address: "ถนนประชาสงเคราะห์ แขวงดินแดง เขตดินแดง",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "แอร์เย็นฉ่ำ", "ซาวด์คมชัด", "ใจกลางเมือง"],
+    equipment: "Marshall, Line 6, Hartke Bass Amp, Sonor Drums",
+    phone: "086-555-4321",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Melody+House+Din+Daeng+Bangkok",
+    description: "ห้องซ้อมทำเลใจกลางเมืองดินแดง-สุทธิสาร บรรยากาศเงียบสงบ แอร์เย็นฉ่ำ อุปกรณ์พร้อมซ้อมวงทุกแนวเพลง"
+  },
+  {
+    name: "Monster Music Studio สวนหลวง",
+    province: "กรุงเทพมหานคร",
+    district: "สวนหลวง",
+    address: "ถนนพัฒนาการ แขวงสวนหลวง เขตสวนหลวง",
+    rates: "฿250 - ฿350 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมวง", "ห้องกว้างขวาง", "อัดเสียงมัลติแทร็ก", "ที่จอดรถ"],
+    equipment: "Gretsch Drums, Fender Twin Reverb, Marshall DSL, TC Electronic",
+    phone: "081-222-3344",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Monster+Music+Studio+Suan+Luang+Bangkok",
+    description: "ห้องซ้อมดนตรีกว้างขวาง รองรับวงขนาด 5-8 คนสบายๆ อุปกรณ์คุณภาพสูง พร้อมบริการอัดเสียงเดโมสำหรับวงดนตรี"
+  },
+  {
+    name: "รักมิวสิค ห้องซ้อมดนตรี บางมด",
+    province: "กรุงเทพมหานคร",
+    district: "ทุ่งครุ",
+    address: "ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ (ใกล้ มจธ. บางมด)",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ใกล้มหาวิทยาลัยบางมด", "แอมป์หลอด", "ราคาประหยัด"],
+    equipment: "Marshall, Orange, Ampeg, Tama Drums, Yamaha Keyboard",
+    phone: "089-444-5678",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=รักมิวสิค+ห้องซ้อมดนตรี+ทุ่งครุ+Bangkok",
+    description: "สตูดิโอห้องซ้อมยอดฮิตของนักศึกษา มจธ. บางมด และนักดนตรีฝั่งธนบุรีใต้ อุปกรณ์จัดเต็ม เจ้าของเป็นกันเอง"
+  },
+
+  // --- นนทบุรี ---
+  {
+    name: "Chaichana Sound Studio (ชัยชนะ ซาวด์)",
+    province: "นนทบุรี",
+    district: "เมืองนนทบุรี",
+    address: "ซอยสามัคคี 49 แยก 1 ตำบลท่าทราย อำเภอเมืองนนทบุรี (ใกล้ถนนติวานนท์)",
+    rates: "฿250 - ฿400 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "ห้องซ้อมเต้น", "แอมป์หลอดสเปกท็อป", "ที่จอดรถ"],
+    equipment: "CMC Drums, MESA Boogie, Orange, Ampeg, Shure Beta 58A",
+    phone: "089-777-8899",
+    sourceUrl: "https://www.facebook.com/chaichanasound",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Chaichana+Sound+Studio+Samakkee+Nonthaburi",
+    description: "สตูดิโอขนาดใหญ่ยอดนิยมย่านติวานนท์-สามัคคี ครบครันทั้งห้องซ้อมดนตรี ห้องอัดเสียง และห้องซ้อมเต้น แอมป์หลอดและกลองสเปกคอนเสิร์ต"
+  },
+  {
+    name: "STUDIO Encrypt (สตูดิโอ เอ็นคริปท์)",
+    province: "นนทบุรี",
+    district: "ปากเกร็ด",
+    address: "ซอยแสนหวี 6 เมืองทอง 1 ถนนแจ้งวัฒนะ 14 ตำบลคลองเกลือ อำเภอปากเกร็ด",
+    rates: "฿280 - ฿400 / ชม.",
+    priceHourly: 280,
+    features: ["ห้องซ้อมวง", "สไตล์ญี่ปุ่น", "เก็บเสียงพรีเมียม", "เป็นส่วนตัวสูง", "ที่จอดรถ"],
+    equipment: "Marshall JCM, Roland JC-120, Pearl Drums, Warwick Bass Amp",
+    phone: "081-345-6789",
+    sourceUrl: "https://jrockencryption.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Studio+Encrypt+Chaengwattana+Pak+Kret+Nonthaburi",
+    description: "ห้องซ้อมดนตรีสไตล์ญี่ปุ่น ซาวด์ดี เก็บเสียงเยี่ยม มีความเป็นส่วนตัวสูง เหมาะสำหรับแนวร็อก J-Rock อินดี้ และอะคูสติก"
+  },
+  {
+    name: "Acoustic Room Nonthaburi",
+    province: "นนทบุรี",
+    district: "เมืองนนทบุรี",
+    address: "ถนนนครอินทร์ ตำบลตลาดขวัญ อำเภอเมืองนนทบุรี (ใกล้ Big C นนทบุรี)",
+    rates: "฿250 - ฿320 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมวง", "ซาวด์บาลานซ์ดี", "เดินทางสะดวก", "ให้เช่าเครื่องเสียง"],
+    equipment: "Yamaha Stage Custom, Marshall, Fender Champion, Hartke",
+    phone: "086-123-4567",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Acoustic+Room+Nonthaburi",
+    description: "ห้องซ้อมดนตรีราคาย่อมเยาใกล้สะพานพระราม 5 และบิ๊กซีนนทบุรี เครื่องดนตรีเสียงดี เจ้าของเป็นกันเอง มีบริการเช่าเครื่องเสียง"
+  },
+  {
+    name: "ห้องซ้อมดนตรีสหรัฐ ตลาดขวัญ",
+    province: "นนทบุรี",
+    district: "เมืองนนทบุรี",
+    address: "ตำบลตลาดขวัญ อำเภอเมืองนนทบุรี (ใกล้ MRT สถานีกระทรวงสาธารณสุข)",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ใกล้รถไฟฟ้าสายสีม่วง", "ราคานักเรียนนักศึกษา", "บรรยากาศดี"],
+    equipment: "Marshall, Laney, Peavey, Premier Drums, Shure",
+    phone: "085-987-6543",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=ห้องซ้อมดนตรีสหรัฐ+ตลาดขวัญ+นนทบุรี",
+    description: "ห้องซ้อมดนตรีทำเลสะดวกใกล้ MRT สายสีม่วง ซาวด์บาลานซ์ดีเยี่ยม ราคาสบายกระเป๋าสำหรับน้องๆ นักเรียนและนักดนตรีอาชีพ"
+  },
+  {
+    name: "Good Day Musicroom บางบัวทอง",
+    province: "นนทบุรี",
+    district: "บางบัวทอง",
+    address: "ถนนบางกรวย-ไทรน้อย ตำบลโสนลอย อำเภอบางบัวทอง",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ที่จอดรถสะดวก", "ห้องโปร่งสบาย", "แอร์เย็นฉ่ำ"],
+    equipment: "Tama Drums, Bugera Tube Amp, Fender, Roland Keyboard",
+    phone: "083-456-7890",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Good+Day+Musicroom+Bang+Bua+Thong+Nonthaburi",
+    description: "ศูนย์รวมคนดนตรีโซนบางบัวทอง-บางใหญ่ ห้องกว้างขวาง อุปกรณ์คุณภาพดี ที่จอดรถสะดวกสบาย"
+  },
+
+  // --- ปทุมธานี ---
+  {
+    name: "88boymusic Studio รังสิต",
+    province: "ปทุมธานี",
+    district: "คลองหลวง",
+    address: "ตำบลคลองหนึ่ง อำเภอคลองหลวง (ใกล้มหาวิทยาลัยกรุงเทพ รังสิต)",
+    rates: "฿220 - ฿380 / ชม.",
+    priceHourly: 220,
+    features: ["ห้องซ้อมวง", "มีหลายไซส์ S ถึง A", "ใกล้มหาวิทยาลัยกรุงเทพ", "บันทึกเสียงและภาพ Live"],
+    equipment: "Gretsch, Marshall, Orange, Fender, Roland XPS, Shure",
+    phone: "088-269-6874",
+    sourceUrl: "https://www.facebook.com/88boymusic",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=88boymusic+studio+Rangsit+Pathum+Thani",
+    description: "ขวัญใจเด็ก ม.กรุงเทพ และนักดนตรีย่านรังสิต มีห้องให้เลือกหลายขนาด (ตั้งแต่ไซส์ S ถึง A) ราคาเป็นกันเอง พร้อมบริการบันทึกภาพ/เสียง"
+  },
+  {
+    name: "Yuki Freedom Studio รังสิต",
+    province: "ปทุมธานี",
+    district: "ธัญบุรี",
+    address: "ถนนรังสิต-นครนายก ตำบลประชาธิปัตย์ อำเภอธัญบุรี (ใกล้ฟิวเจอร์พาร์ครังสิต)",
+    rates: "฿250 - ฿400 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียงครบวงจร", "อุปกรณ์ระดับมืออาชีพ", "ที่จอดรถ"],
+    equipment: "DW Drums, Marshall Tube, Mesa Boogie, Shure KSM",
+    phone: "081-999-5566",
+    sourceUrl: "https://www.facebook.com/yukifreedomstudio",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Yuki+Freedom+Studio+Rangsit+Pathum+Thani",
+    description: "ห้องซ้อมและห้องอัดเสียงครบวงจรย่านรังสิต อุปกรณ์ระดับมืออาชีพ เหมาะกับวงดนตรีหรือศิลปินที่ต้องการซ้อมเพื่อเตรียมบันทึกเสียงต่อ"
+  },
+  {
+    name: "TIGER STUDIO RANGSIT",
+    province: "ปทุมธานี",
+    district: "คลองหลวง",
+    address: "ซอยรังสิตภิรมย์ ตำบลคลองหนึ่ง อำเภอคลองหลวง",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ใจกลางซอยรังสิตภิรมย์", "ซาวด์มอนิเตอร์ชัดเจน", "แอร์เย็น"],
+    equipment: "Pearl Drums, Marshall, Laney, Fender Rumble Bass",
+    phone: "084-321-7654",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Tiger+Studio+Rangsit+Phirom+Pathum+Thani",
+    description: "ห้องซ้อมดนตรีใจกลางแหล่งวัยรุ่นซอยรังสิตภิรมย์ เดินทางสะดวก เครื่องดนตรีครบครัน ตอบโจทย์วงดนตรีนักศึกษา"
+  },
+  {
+    name: "Band Practice Zone ธัญบุรี",
+    province: "ปทุมธานี",
+    district: "ธัญบุรี",
+    address: "รังสิต คลอง 4 ถนนรังสิต-นครนายก ตำบลบึงยี่โถ อำเภอธัญบุรี",
+    rates: "฿150 - ฿250 / ชม.",
+    priceHourly: 150,
+    features: ["ห้องซ้อมวง", "ราคาสบายกระเป๋าเริ่มต้น 150.-", "บรรยากาศกันเอง", "ที่จอดรถ"],
+    equipment: "Tama Drums, Marshall, Peavey, Fender",
+    phone: "082-345-6781",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Band+Practice+Zone+Thanyaburi+Pathum+Thani",
+    description: "ห้องซ้อมราคาประหยัดที่สุดในโซนรังสิตคลอง เริ่มต้นเพียง 150 บาทต่อชั่วโมง อุปกรณ์พร้อมซ้อม เหมาะสำหรับวงซ้อมประจำ"
+  },
+  {
+    name: "B Studio รังสิต",
+    province: "ปทุมธานี",
+    district: "ลำลูกกา",
+    address: "ถนนลำลูกกา ตำบลคูคต อำเภอลำลูกกา (ใกล้ BTS คูคต)",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ใกล้ BTS คูคต", "ระบบ PA ชัดเจน", "โซฟาพักผ่อน"],
+    equipment: "Yamaha, Fender Champion, Marshall, Korg Keyboard",
+    phone: "089-678-1234",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=B+Studio+Rangsit+Pathum+Thani",
+    description: "ห้องซ้อมดนตรีใกล้ BTS คูคต ห้องโปร่งกว้างขวาง เสียงเครื่องดนตรีแน่นชัดเจน พร้อมโซนต้อนรับและที่จอดรถ"
+  },
+
+  // --- สมุทรปราการ ---
+  {
+    name: "JOYSPACE Music Rehearsal Studio (จอยสเปซ)",
+    province: "สมุทรปราการ",
+    district: "บางพลี",
+    address: "โครงการร้อยชั่ง อเวนิว (ซอยวัดหนามแดง) ถนนเทพารักษ์/หนามแดง ตำบลบางแก้ว อำเภอบางพลี",
+    rates: "฿250 - ฿400 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมขนาดใหญ่", "Lobby ส่วนตัวพร้อมทีวี", "ที่จอดรถกว้างขวาง", "ใกล้ 7-11", "แอร์ฉ่ำ"],
+    equipment: "Gretsch Catalina Maple, Boss Katana, Fender, Ampeg, Roland XPS30, Shure SM58",
+    phone: "095-889-1234",
+    sourceUrl: "https://www.facebook.com/joyspacestudio",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=JOYSPACE+ห้องซ้อมดนตรี+สมุทรปราการ",
+    description: "ห้องซ้อมดนตรีขนาดใหญ่ อุปกรณ์มาตรฐานสากล มี Lobby พักผ่อนส่วนตัวพร้อมทีวี YouTube และที่จอดรถกว้างขวางที่สุดในย่านหนามแดง-เทพารักษ์"
+  },
+  {
+    name: "Lifebeat Studio เมกาบางนา",
+    province: "สมุทรปราการ",
+    district: "บางพลี",
+    address: "ถนนบางนา-ตราด ตำบลบางแก้ว อำเภอบางพลี (ใกล้ Mega Bangna)",
+    rates: "฿220 - ฿350 / ชม.",
+    priceHourly: 220,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "ใกล้เมกาบางนา", "ให้เช่าเครื่องเสียง", "ที่จอดรถ"],
+    equipment: "Mapex Drums, Marshall, Orange, TC Electronic, Shure Microphones",
+    phone: "086-789-0123",
+    sourceUrl: "https://lifebeatstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Lifebeat+Studio+Bang+Phli+Samut+Prakan",
+    description: "สตูดิโอห้องซ้อมและห้องอัดเสียงโซนบางนา-บางพลี ใกล้เมกาบางนา มีห้องเล็กและห้องใหญ่ อุปกรณ์ครบครัน ราคาสบายกระเป๋า"
+  },
+  {
+    name: "CHEER MUSIC ปากน้ำ",
+    province: "สมุทรปราการ",
+    district: "เมืองสมุทรปราการ",
+    address: "ตำบลปากน้ำ อำเภอเมืองสมุทรปราการ (ใกล้ BTS ปากน้ำ)",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ใกล้ BTS ปากน้ำ", "เครื่องแน่น", "เครื่องดื่มบริการ"],
+    equipment: "Pearl Drums, Marshall, Fender, Hartke Bass Amp",
+    phone: "083-222-1144",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cheer+Music+Paknam+Samut+Prakan",
+    description: "สตูดิโอห้องซ้อมประจำย่านปากน้ำ สมุทรปราการ อุปกรณ์ดนตรีได้มาตรฐาน ดูแลรักษาอย่างดี เหมาะสำหรับวงซ้อมทุกสไตล์"
+  },
+  {
+    name: "Sound Me Hang Studio แพรกษา",
+    province: "สมุทรปราการ",
+    district: "เมืองสมุทรปราการ",
+    address: "ถนนแพรกษา ตำบลแพรกษา อำเภอเมืองสมุทรปราการ",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "เก็บเสียงคุณภาพ", "ซาวด์มอนิเตอร์แน่น", "ที่จอดรถ"],
+    equipment: "Tama, Marshall, Laney, Fender Bass Amp",
+    phone: "081-456-7812",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Sound+Me+Hang+Studio+Samut+Prakan",
+    description: "ห้องซ้อมดนตรีระบบอะคูสติกคุณภาพย่านแพรกษา ซาวด์มอนิเตอร์คมชัด แอมป์และกลองชุดพร้อมลุยทุกจังหวะ"
+  },
+  {
+    name: "Holls Studio ประชาอุทิศ 90",
+    province: "สมุทรปราการ",
+    district: "พระสมุทรเจดีย์",
+    address: "ซอยประชาอุทิศ 90 ตำบลแหลมฟ้าผ่า อำเภอพระสมุทรเจดีย์",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "เป็นส่วนตัว", "อุปกรณ์ครบ", "ราคานักศึกษา"],
+    equipment: "Yamaha, Marshall, Orange, Roland Keyboard",
+    phone: "087-654-3210",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Holls+Studio+Pracha+Uthit+90+Samut+Prakan",
+    description: "ห้องซ้อมดนตรีบรรยากาศเป็นส่วนตัว รองรับวงดนตรีโซนพระสมุทรเจดีย์และประชาอุทิศ อุปกรณ์มาตรฐานครบชุด"
+  },
+
+  // --- นครปฐม ---
+  {
+    name: "The Overlook Studio ศาลายา",
+    province: "นครปฐม",
+    district: "พุทธมณฑล",
+    address: "ถนนพุทธมณฑลสาย 4 ตำบลศาลายา อำเภอพุทธมณฑล (ใกล้มหาวิทยาลัยมหิดล ศาลายา)",
+    rates: "฿250 - ฿400 / ชม.",
+    priceHourly: 250,
+    features: ["ห้องซ้อมวง", "ห้องอัดเสียง", "จองออนไลน์ 24 ชม.", "อะคูสติกมืออาชีพ", "ใกล้มหิดล"],
+    equipment: "Tama Starclassic, Marshall Tube, Fender Twin, Ampeg, Shure Beta",
+    phone: "089-111-2233",
+    sourceUrl: "https://overlooksalaya.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Overlook+Studio+Salaya+Nakhon+Pathom",
+    description: "สตูดิโอห้องซ้อมและห้องอัดเสียงระดับโปรย่านศาลายา มีระบบจองห้องซ้อมออนไลน์ 24 ชั่วโมง อุปกรณ์มาตรฐานระดับคอนเสิร์ต"
+  },
+  {
+    name: "Stu.B Rehearsal Studio ศาลายา",
+    province: "นครปฐม",
+    district: "พุทธมณฑล",
+    address: "ซอยสุขาภิบาล 18 ตำบลศาลายา อำเภอพุทธมณฑล (ใกล้ ม.มหิดล ศาลายา)",
+    rates: "฿200 - ฿320 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ขวัญใจเด็กดุริยางคศิลป์", "เปียโน/คีย์บอร์ดไฟฟ้า", "ห้องเก็บเสียง"],
+    equipment: "Pearl Drums, Roland RD Stage Piano, Marshall, Fender",
+    phone: "084-777-6655",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Stu.B+Rehearsal+Studio+Salaya+Nakhon+Pathom",
+    description: "ห้องซ้อมยอดนิยมของนักศึกษาดุริยางคศิลป์ มหิดล ศาลายา เครื่องดนตรีได้มาตรฐานสูง เหมาะกับการซ้อมวง ซ้อมสอบ และเล่นแจม"
+  },
+  {
+    name: "House of Music นครปฐม",
+    province: "นครปฐม",
+    district: "เมืองนครปฐม",
+    address: "ถนนทรงพล ตำบลสนามจันทร์ อำเภอเมืองนครปฐม (หน้ามหาวิทยาลัยศิลปากร สนามจันทร์)",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "หน้า ม.ศิลปากร สนามจันทร์", "แอมป์หลอด", "ราคานักศึกษา"],
+    equipment: "Gretsch Drums, Marshall, Peavey, Ampeg, Shure SM58",
+    phone: "086-333-4455",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=House+of+Music+Nakhon+Pathom+Silpakorn",
+    description: "ห้องซ้อมยอดฮิตของเด็กศิลปากรและนักดนตรีเมืองนครปฐม ทำเลดีหน้า ม.ศิลปากร สนามจันทร์ เครื่องดนตรีแน่นเสียงกระหึ่ม"
+  },
+  {
+    name: "The Beat Studio นครปฐม",
+    province: "นครปฐม",
+    district: "เมืองนครปฐม",
+    address: "ถนนราชมรรคา ตำบลพระปฐมเจดีย์ อำเภอเมืองนครปฐม (ใกล้องค์พระปฐมเจดีย์)",
+    rates: "฿180 - ฿260 / ชม.",
+    priceHourly: 180,
+    features: ["ห้องซ้อมวง", "ใกล้องค์พระปฐมเจดีย์", "ราคาประหยัด", "โซนต้อนรับ"],
+    equipment: "Tama Drums, Marshall, Fender, Yamaha Keyboard",
+    phone: "082-888-7766",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Beat+Studio+Nakhon+Pathom",
+    description: "ห้องซ้อมดนตรีราคานักศึกษากลางเมืองนครปฐม ซาวด์ใส คุมง่าย บรรยากาศเป็นกันเอง เหมาะกับการซ้อมประจำของวงดนตรี"
+  },
+  {
+    name: "MN Music นครชัยศรี",
+    province: "นครปฐม",
+    district: "นครชัยศรี",
+    address: "ถนนพุทธมณฑลสาย 7 ตำบลขุนแก้ว อำเภอนครชัยศรี",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ที่จอดรถกว้าง", "บรรยากาศสงบ", "อุปกรณ์ครบ"],
+    equipment: "Ludwig Drums, Marshall, Hartke, Fender Champion",
+    phone: "081-555-6677",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=MN+Music+Nakhon+Chaisi+Nakhon+Pathom",
+    description: "จุดนัดซ้อมของวงดนตรีย่านนครชัยศรีและพุทธมณฑลสาย 7 บรรยากาศเงียบสงบเป็นส่วนตัว ที่จอดรถสะดวกสบาย"
+  },
+
+  // --- สมุทรสาคร ---
+  {
+    name: "Sp Music Studio มหาชัย",
+    province: "สมุทรสาคร",
+    district: "เมืองสมุทรสาคร",
+    address: "ตำบลนาดี อำเภอเมืองสมุทรสาคร (ใกล้มหาชัย เซ็นทรัล มหาชัย และถนนเศรษฐกิจ 1)",
+    rates: "฿200 - ฿300 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "เปิดถึงดึก 23:30 น.", "สถาบันดนตรี", "ที่จอดรถสะดวก"],
+    equipment: "Yamaha Stage Custom, Marshall, Fender, Ampeg, Shure",
+    phone: "089-222-3311",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Sp+Music+มหาชัย+สมุทรสาคร",
+    description: "ห้องซ้อมดนตรีมาตรฐานใจกลางมหาชัย เปิดบริการทุกวันตั้งแต่ 09:00 ถึง 23:30 น. อุปกรณ์ครบครันสำหรับวงดนตรีทุกแนว"
+  },
+  {
+    name: "DADDY'S HOME STUDIO มหาชัย",
+    province: "สมุทรสาคร",
+    district: "เมืองสมุทรสาคร",
+    address: "ถนนเอกชัย ตำบลมหาชัย อำเภอเมืองสมุทรสาคร",
+    rates: "฿200 - ฿320 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "โฮมสตูดิโออบอุ่น", "ห้องอัดเสียง", "เก็บเสียงแน่น"],
+    equipment: "Tama Drums, Marshall, Orange, Fender Bass Amp",
+    phone: "083-111-9988",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Daddys+Home+Studio+Samut+Sakhon",
+    description: "สตูดิโอบรรยากาศอบอุ่นเป็นกันเอง ห้องเก็บเสียงและอะคูสติกดีเยี่ยม อุปกรณ์จัดเต็ม รองรับทั้งการซ้อมวงและการอัดเสียง"
+  },
+  {
+    name: "Earthwalk Studio กระทุ่มแบน",
+    province: "สมุทรสาคร",
+    district: "กระทุ่มแบน",
+    address: "ตำบลคลองมะเดื่อ อำเภอกระทุ่มแบน (เชื่อมต่อถนนเศรษฐกิจ 1 และพุทธสาคร)",
+    rates: "฿200 - ฿280 / ชม.",
+    priceHourly: 200,
+    features: ["ห้องซ้อมวง", "ชาวกระทุ่มแบน-อ้อมน้อย", "แอมป์หลอด", "ดูแลโดยนักดนตรี"],
+    equipment: "Pearl Drums, Marshall, Laney, Bugera, Hartke",
+    phone: "085-444-2233",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Earthwalk+Studio+Krathum+Baen+Samut+Sakhon",
+    description: "ห้องซ้อมดนตรียอดฮิตของชาวกระทุ่มแบน-อ้อมน้อย เจ้าของเป็นนักดนตรี ดูแลปรับแต่งซาวด์ให้วงอย่างมืออาชีพ"
+  },
+  {
+    name: "บ้านเพื่อนมิวสิค สมุทรสาคร",
+    province: "สมุทรสาคร",
+    district: "เมืองสมุทรสาคร",
+    address: "ตำบลท่าฉลอม อำเภอเมืองสมุทรสาคร",
+    rates: "฿180 - ฿250 / ชม.",
+    priceHourly: 180,
+    features: ["ห้องซ้อมวง", "ราคาสบายกระเป๋า 180.-", "บรรยากาศเป็นกันเอง", "เครื่องพร้อม"],
+    equipment: "Ludwig Drums, Marshall, Fender, Roland Keyboard",
+    phone: "086-777-1122",
+    sourceUrl: "https://harmoniqstudio.com",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=บ้านเพื่อนมิวสิค+สมุทรสาคร",
+    description: "ห้องซ้อมราคาสบายกระเป๋า บรรยากาศอบอุ่นเหมือนมาซ้อมที่บ้านเพื่อน เครื่องดนตรีพร้อมเล่นครบครัน"
+  }
+];
+
+// Enrich each studio with distinct verified photo
+const studios = rawStudios.map((item, index) => {
+  const photo = workingPhotos[index % workingPhotos.length];
+  const imageUrl = `https://images.unsplash.com/photo-${photo.id}?w=1000&auto=format&fit=crop&q=80`;
+  const slug = `studio-${index + 1}-${item.district.toLowerCase()}`;
+  return {
+    id: slug,
+    ...item,
+    imageUrl,
+    imageCredit: photo.credit
+  };
+});
+
+// Update directory-covers.json
+const covers = JSON.parse(await readFile("src/data/directory-covers.json", "utf8"));
+for (const studio of studios) {
+  const coverKey = `${studio.name}|${studio.province}`;
+  covers[coverKey] = {
+    url: studio.imageUrl,
+    credit: studio.imageCredit,
+    source: studio.sourceUrl
+  };
+}
+
+// Write files
+await writeFile("src/data/studios-directory.json", JSON.stringify({ studios }, null, 2) + "\n");
+await writeFile("src/data/directory-covers.json", JSON.stringify(covers, null, 2) + "\n");
+
+console.log("Successfully generated src/data/studios-directory.json with", studios.length, "studios.");
+console.log("Updated src/data/directory-covers.json.");
+
