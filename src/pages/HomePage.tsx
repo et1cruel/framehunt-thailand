@@ -202,6 +202,11 @@ export default function HomePage() {
           description="รวมสถานที่ตามภาพที่คุณอยากได้ ตั้งแต่เมืองยามค่ำไปจนถึงพื้นที่ศิลปะ"
           href="/explore"
         />
+        <div className="mt-4 flex flex-wrap gap-2 text-sm font-semibold text-[#315b50]">
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=cave">สำรวจถ้ำเพิ่มเติม</Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=art">พื้นที่ศิลปะเพิ่มเติม</Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=night">พื้นที่ดนตรีกลางคืน</Link>
+        </div>
 
         <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4 lg:gap-4">
           {QUICK_CATEGORIES.map((cat) => {

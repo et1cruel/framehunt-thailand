@@ -14065,6 +14065,150 @@
         "mountain"
       ],
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=958"
+    },
+    {
+      "name": "VS Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Sombat Permpoon Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Chiang Mai University Art and Culture Center",
+      "province": "เชียงใหม่",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Rare Art Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Gong Dee Gallery",
+      "province": "เชียงใหม่",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Sathorn 11 Art Space",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Pongnoi Community Art Space",
+      "province": "เชียงใหม่",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Nova Contemporary",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Chin's Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Faculty of Fine and Applied Arts Gallery, Khon Kaen University",
+      "province": "ขอนแก่น",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Phannarai Residence, Silpakorn University Art Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Matique Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "116 Art Gallery",
+      "province": "เชียงใหม่",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Kunawong House Museum",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Tentacles",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Sriphiphat Art Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "West Eden Gallery",
+      "province": "กรุงเทพมหานคร",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
+    },
+    {
+      "name": "Baan Tuek Art Center",
+      "province": "เชียงใหม่",
+      "categories": [
+        "art"
+      ],
+      "sourceUrl": "https://www.rama9art.org/galleries?list_name_group=gallery"
     }
   ]
 }

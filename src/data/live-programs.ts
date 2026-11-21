@@ -354,6 +354,8 @@ export const programs: Program[] = [
 
   {
     title: "Zato Presents VOL. IS NOW",
+    poster: "https://cdnali.zipeventapp.com/images/events/091975AD-4627-4811-89B6-7BA8B3ADBC3D/0E4106DC-BD7A-4D73-8E94-2D2AE1BD7E60.jpg",
+    posterAlt: "โปสเตอร์ Zato Presents VOL. IS NOW",
     venue: "Volume Livehouse",
     province: "bangkok",
     genres: ["rap"],
