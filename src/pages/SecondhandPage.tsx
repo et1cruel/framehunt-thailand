@@ -53,7 +53,7 @@ export default function SecondhandPage() {
   return (
     <div className="container-x py-10 md:py-16">
       <section className="glass-panel bg-lilac/40 p-6 sm:p-9">
-        <div className="flex items-center gap-2 text-sm font-semibold text-sage">
+        <div className="flex items-center gap-2 text-sm font-semibold text-acid">
           <Shirt className="h-4 w-4" aria-hidden />
           SECONDHAND FINDS · THAILAND
         </div>
@@ -64,7 +64,7 @@ export default function SecondhandPage() {
           รวมโกดังสินค้าญี่ปุ่นมือสองและแหล่งเสื้อผ้ามือสองจากหลายจังหวัด มีทั้งโกดังให้คุ้ย ร้านวินเทจคัดชิ้น และตลาดนัด
         </p>
         <div className="mt-5 flex flex-wrap gap-2 text-xs text-concrete">
-          <button type="button" aria-pressed={province === bangkok && kind === "clothing"} className="clay-control border border-white bg-white/80 px-3 py-2 font-semibold text-[#315b50] aria-pressed:bg-sage" onClick={() => { setQuery(""); setKind("clothing"); setProvince(bangkok); }}>เสื้อผ้ามือสองในกรุงเทพฯ</button>
+          <button type="button" aria-pressed={province === bangkok && kind === "clothing"} className="clay-control border border-white bg-white/80 px-3 py-2 font-semibold text-acid aria-pressed:bg-sage" onClick={() => { setQuery(""); setKind("clothing"); setProvince(bangkok); }}>เสื้อผ้ามือสองในกรุงเทพฯ</button>
         </div>
       </section>
 
@@ -106,18 +106,18 @@ export default function SecondhandPage() {
                 <div>
                   <DirectoryCover name={shop.name} province={shop.province} />
                   <div className="mb-3 flex items-center justify-between gap-3">
-                    <span className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-sage">{kindLabels[shop.kind]}</span>
-                    <Store className="h-4 w-4 shrink-0 text-sage" aria-hidden />
+                    <span className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{kindLabels[shop.kind]}</span>
+                    <Store className="h-4 w-4 shrink-0 text-acid" aria-hidden />
                   </div>
                   <h3 className="font-bold leading-snug">{shop.name}</h3>
                   <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.district ? `${shop.district} · ` : ""}{shop.province}</p>
                   {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete">บันทึกในแหล่งข้อมูล: {observedDate(shop.lastObservedAt)}</p>}
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-sage hover:bg-sage hover:text-white" href={shop.mapsUrl} target="_blank" rel="noreferrer">
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={shop.mapsUrl} target="_blank" rel="noreferrer">
                     แผนที่ <MapPin className="h-3.5 w-3.5" aria-hidden />
                   </a>
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-sage hover:bg-sage hover:text-white" href={shop.source} target="_blank" rel="noreferrer">
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={shop.source} target="_blank" rel="noreferrer">
                     {shop.kind === "japan" ? "เพจร้าน / แหล่งที่มา" : "ข้อมูลร้าน"} <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
                   </a>
                 </div>

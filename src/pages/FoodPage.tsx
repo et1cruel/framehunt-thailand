@@ -54,7 +54,7 @@ export default function FoodPage() {
   return (
     <div className="container-x py-10 md:py-16">
       <section className="glass-panel bg-lilac/40 p-6 sm:p-9">
-        <div className="flex items-center gap-2 text-sm font-semibold text-sage">
+        <div className="flex items-center gap-2 text-sm font-semibold text-acid">
           <ForkKnife className="h-4 w-4" aria-hidden />
           FRAMEHUNT FOOD · THAILAND
         </div>
@@ -107,7 +107,7 @@ export default function FoodPage() {
                   <DirectoryCover name={restaurant.name} province={restaurant.province} source={restaurant.source} />
                   <div className="mb-3 flex flex-wrap gap-1.5">
                     {restaurant.categories.map((item) => (
-                      <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-sage">{categoryLabels[item]}</span>
+                      <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{categoryLabels[item]}</span>
                     ))}
                   </div>
                   <h3 className="font-bold leading-snug">{restaurant.name}</h3>
@@ -115,10 +115,10 @@ export default function FoodPage() {
                   <p className="mt-2 text-xs text-concrete">แหล่งข้อมูล: {restaurant.sourceName}</p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-sage hover:bg-sage hover:text-white" href={restaurant.mapsUrl} target="_blank" rel="noreferrer">
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={restaurant.mapsUrl} target="_blank" rel="noreferrer">
                     แผนที่ <MapPin className="h-3.5 w-3.5" aria-hidden />
                   </a>
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-sage hover:bg-sage hover:text-white" href={restaurant.source} target="_blank" rel="noreferrer">
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={restaurant.source} target="_blank" rel="noreferrer">
                     รายละเอียด / แหล่งที่มา <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
                   </a>
                 </div>
