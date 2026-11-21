@@ -1,0 +1,6 @@
+# Cloudflare Pages routing.
+# Pages Functions under /functions take precedence over these rules, including
+# the /api catch-all that returns JSON 404s.
+
+# SPA fallback — every unknown path renders the app shell (which shows a 404 page).
+/*  /index.html  200

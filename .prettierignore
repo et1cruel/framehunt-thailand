@@ -1,0 +1,11 @@
+dist
+node_modules
+coverage
+test-results
+playwright-report
+package-lock.json
+data/reports
+supabase/seed
+src/data/locations.generated.json
+public/sitemap.xml
+public/robots.txt

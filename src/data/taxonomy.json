@@ -1,0 +1,221 @@
+{
+  "categories": [
+    {
+      "slug": "hidden-frames",
+      "name_th": "มุมที่คนมองข้าม",
+      "name_en": "Hidden Frames",
+      "group": "urban",
+      "icon": "Focus"
+    },
+    { "slug": "abandoned", "name_th": "สถานที่ร้าง", "name_en": "Abandoned", "group": "urban", "icon": "Building2" },
+    { "slug": "industrial", "name_th": "อุตสาหกรรม", "name_en": "Industrial", "group": "urban", "icon": "Factory" },
+    { "slug": "warehouse", "name_th": "โกดัง", "name_en": "Warehouse", "group": "urban", "icon": "Warehouse" },
+    {
+      "slug": "brutalist",
+      "name_th": "บรูทัลลิสต์",
+      "name_en": "Brutalist Architecture",
+      "group": "urban",
+      "icon": "Landmark"
+    },
+    { "slug": "concrete", "name_th": "คอนกรีต", "name_en": "Concrete Structures", "group": "urban", "icon": "Boxes" },
+    { "slug": "old-building", "name_th": "อาคารเก่า", "name_en": "Old Buildings", "group": "urban", "icon": "Building" },
+    { "slug": "rooftop", "name_th": "ดาดฟ้า", "name_en": "Rooftop", "group": "urban", "icon": "Building2" },
+    {
+      "slug": "parking-building",
+      "name_th": "อาคารจอดรถ",
+      "name_en": "Parking Building",
+      "group": "urban",
+      "icon": "SquareParking"
+    },
+    { "slug": "back-alley", "name_th": "ตรอกซอกซอย", "name_en": "Back Alley", "group": "urban", "icon": "Route" },
+    { "slug": "street-art", "name_th": "สตรีทอาร์ต", "name_en": "Street Art", "group": "urban", "icon": "SprayCan" },
+    { "slug": "graffiti", "name_th": "กราฟฟิตี้", "name_en": "Graffiti", "group": "urban", "icon": "SprayCan" },
+    { "slug": "neon-night", "name_th": "นีออนกลางคืน", "name_en": "Neon / Night City", "group": "urban", "icon": "Moon" },
+    {
+      "slug": "live-music",
+      "name_th": "ดนตรีสด / Live House",
+      "name_en": "Live Music / Live House",
+      "group": "art",
+      "icon": "Music"
+    },
+    {
+      "slug": "underground-music",
+      "name_th": "ดนตรีนอกกระแส",
+      "name_en": "Underground Music",
+      "group": "art",
+      "icon": "AudioLines"
+    },
+    { "slug": "hip-hop", "name_th": "ฮิปฮอป / แรป", "name_en": "Hip-Hop / Rap", "group": "art", "icon": "Mic" },
+    { "slug": "cyberpunk", "name_th": "ไซเบอร์พังค์", "name_en": "Cyberpunk", "group": "urban", "icon": "Cpu" },
+    { "slug": "underground", "name_th": "ใต้ดิน", "name_en": "Underground", "group": "urban", "icon": "ArrowDownToLine" },
+    {
+      "slug": "vintage-architecture",
+      "name_th": "สถาปัตยกรรมวินเทจ",
+      "name_en": "Vintage Architecture",
+      "group": "urban",
+      "icon": "Columns3"
+    },
+    {
+      "slug": "urban-decay",
+      "name_th": "เมืองเสื่อมโทรม",
+      "name_en": "Urban Decay",
+      "group": "urban",
+      "icon": "TriangleAlert"
+    },
+    {
+      "slug": "dark-architecture",
+      "name_th": "สถาปัตยกรรมมืด",
+      "name_en": "Dark Architecture",
+      "group": "urban",
+      "icon": "Moon"
+    },
+
+    {
+      "slug": "contemporary-art",
+      "name_th": "ศิลปะร่วมสมัย",
+      "name_en": "Contemporary Art",
+      "group": "art",
+      "icon": "Palette"
+    },
+    { "slug": "art-gallery", "name_th": "หอศิลป์", "name_en": "Art Gallery", "group": "art", "icon": "Frame" },
+    { "slug": "museum", "name_th": "พิพิธภัณฑ์", "name_en": "Museum", "group": "art", "icon": "Landmark" },
+    { "slug": "sculpture", "name_th": "ประติมากรรม", "name_en": "Sculpture", "group": "art", "icon": "Shapes" },
+    {
+      "slug": "installation-art",
+      "name_th": "ศิลปะจัดวาง",
+      "name_en": "Installation Art",
+      "group": "art",
+      "icon": "Boxes"
+    },
+    {
+      "slug": "experimental-art",
+      "name_th": "ศิลปะทดลอง",
+      "name_en": "Experimental Art",
+      "group": "art",
+      "icon": "FlaskConical"
+    },
+    {
+      "slug": "creative-community",
+      "name_th": "ชุมชนสร้างสรรค์",
+      "name_en": "Creative Community",
+      "group": "art",
+      "icon": "Users"
+    },
+    {
+      "slug": "exhibition-space",
+      "name_th": "พื้นที่นิทรรศการ",
+      "name_en": "Exhibition Space",
+      "group": "art",
+      "icon": "GalleryHorizontal"
+    },
+    { "slug": "art-warehouse", "name_th": "โกดังศิลปะ", "name_en": "Art Warehouse", "group": "art", "icon": "Warehouse" },
+    {
+      "slug": "unique-architecture",
+      "name_th": "สถาปัตยกรรมแปลกตา",
+      "name_en": "Unique Architecture",
+      "group": "art",
+      "icon": "Sparkles"
+    },
+
+    { "slug": "cave", "name_th": "ถ้ำ", "name_en": "Cave", "group": "nature", "icon": "Mountain" },
+    { "slug": "mountain", "name_th": "ภูเขา", "name_en": "Mountain", "group": "nature", "icon": "Mountain" },
+    { "slug": "forest", "name_th": "ป่า", "name_en": "Forest", "group": "nature", "icon": "Trees" },
+    { "slug": "waterfall", "name_th": "น้ำตก", "name_en": "Waterfall", "group": "nature", "icon": "Waves" },
+    { "slug": "river", "name_th": "แม่น้ำ", "name_en": "River", "group": "nature", "icon": "Waves" },
+    { "slug": "lake", "name_th": "ทะเลสาบ", "name_en": "Lake", "group": "nature", "icon": "Droplets" },
+    { "slug": "beach", "name_th": "ชายหาด", "name_en": "Beach", "group": "nature", "icon": "Palmtree" },
+    { "slug": "cliff", "name_th": "หน้าผา", "name_en": "Cliff", "group": "nature", "icon": "Mountain" },
+    { "slug": "canyon", "name_th": "หุบเขา", "name_en": "Canyon", "group": "nature", "icon": "Mountain" },
+    {
+      "slug": "desert-landscape",
+      "name_th": "ทะเลทราย",
+      "name_en": "Desert-like Landscape",
+      "group": "nature",
+      "icon": "Sun"
+    },
+    { "slug": "grassland", "name_th": "ทุ่งหญ้า", "name_en": "Grassland", "group": "nature", "icon": "Sprout" },
+    {
+      "slug": "misty-mountain",
+      "name_th": "ภูเขาหมอก",
+      "name_en": "Misty Mountain",
+      "group": "nature",
+      "icon": "CloudFog"
+    },
+    {
+      "slug": "rock-formation",
+      "name_th": "หินแปลกตา",
+      "name_en": "Unusual Rock Formation",
+      "group": "nature",
+      "icon": "Mountain"
+    },
+    { "slug": "limestone", "name_th": "หินปูน", "name_en": "Limestone Landscape", "group": "nature", "icon": "Mountain" },
+
+    { "slug": "temple", "name_th": "วัด", "name_en": "Temple", "group": "historical", "icon": "Landmark" },
+    {
+      "slug": "ancient-temple",
+      "name_th": "โบราณสถาน",
+      "name_en": "Ancient Temple",
+      "group": "historical",
+      "icon": "Landmark"
+    },
+    {
+      "slug": "historical-park",
+      "name_th": "อุทยานประวัติศาสตร์",
+      "name_en": "Historical Park",
+      "group": "historical",
+      "icon": "Castle"
+    },
+    { "slug": "ruins", "name_th": "ซากโบราณ", "name_en": "Ruins", "group": "historical", "icon": "Columns3" },
+    {
+      "slug": "castle-like",
+      "name_th": "ปราสาท",
+      "name_en": "Castle-like Architecture",
+      "group": "historical",
+      "icon": "Castle"
+    },
+    {
+      "slug": "giant-buddha",
+      "name_th": "พระใหญ่",
+      "name_en": "Giant Buddha",
+      "group": "historical",
+      "icon": "Landmark"
+    },
+    { "slug": "pagoda", "name_th": "เจดีย์", "name_en": "Pagoda", "group": "historical", "icon": "Landmark" },
+    { "slug": "shrine", "name_th": "ศาลเจ้า", "name_en": "Shrine", "group": "historical", "icon": "Flame" },
+    {
+      "slug": "chinese-temple",
+      "name_th": "ศาลเจ้าจีน",
+      "name_en": "Chinese Temple",
+      "group": "historical",
+      "icon": "Flame"
+    },
+    {
+      "slug": "religious-architecture",
+      "name_th": "สถาปัตยกรรมศาสนา",
+      "name_en": "Unique Religious Architecture",
+      "group": "historical",
+      "icon": "Landmark"
+    }
+  ],
+  "moods": [
+    { "slug": "dark", "name_th": "มืด", "name_en": "Dark" },
+    { "slug": "melancholic", "name_th": "เศร้าหม่น", "name_en": "Melancholic" },
+    { "slug": "lonely", "name_th": "โดดเดี่ยว", "name_en": "Lonely" },
+    { "slug": "aggressive", "name_th": "ดุดัน", "name_en": "Aggressive" },
+    { "slug": "rage", "name_th": "เดือดดาล", "name_en": "Rage" },
+    { "slug": "ambient", "name_th": "แอมเบียนต์", "name_en": "Ambient" },
+    { "slug": "dreamcore", "name_th": "ดรีมคอร์", "name_en": "Dreamcore" },
+    { "slug": "surreal", "name_th": "เหนือจริง", "name_en": "Surreal" },
+    { "slug": "ethereal", "name_th": "ละเมียดละไม", "name_en": "Ethereal" },
+    { "slug": "gothic", "name_th": "โกธิค", "name_en": "Gothic" },
+    { "slug": "horror", "name_th": "สยองขวัญ", "name_en": "Horror" },
+    { "slug": "post-apocalyptic", "name_th": "หลังโลกล่มสลาย", "name_en": "Post-Apocalyptic" },
+    { "slug": "dystopian", "name_th": "ดิสโทเปีย", "name_en": "Dystopian" },
+    { "slug": "experimental", "name_th": "ทดลอง", "name_en": "Experimental" },
+    { "slug": "futuristic", "name_th": "ล้ำอนาคต", "name_en": "Futuristic" },
+    { "slug": "minimal", "name_th": "มินิมอล", "name_en": "Minimal" },
+    { "slug": "cinematic", "name_th": "ซีนีมาติก", "name_en": "Cinematic" },
+    { "slug": "romantic", "name_th": "โรแมนติก", "name_en": "Romantic" },
+    { "slug": "nostalgic", "name_th": "โหยหาอดีต", "name_en": "Nostalgic" }
+  ]
+}

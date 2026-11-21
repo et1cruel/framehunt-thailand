@@ -1,0 +1,840 @@
+import { frameNotes } from "@/data/frame-notes";
+import { useMemo, useState } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import {
+  ArrowLeft,
+  ArrowUpRight,
+  Camera,
+  Check,
+  CloudSun,
+  Copy,
+  ExternalLink,
+  Flag,
+  Heart,
+  Info,
+  MapPin,
+  Navigation,
+  Plus,
+  Share2,
+  ShieldAlert,
+  Sparkles,
+  Users,
+  Volume2,
+  X,
+} from "lucide-react";
+import { useLocationCatalog } from "@/services/catalogContext";
+import { useFavorites, boards as boardStore, useBoards } from "@/services/localStore";
+import { PhotoGallery } from "@/components/location/PhotoGallery";
+import { LocationCard } from "@/components/location/LocationCard";
+import { MapCanvas } from "@/components/map/MapCanvas";
+import {
+  Badge,
+  Button,
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  Input,
+  Label,
+  PermissionPill,
+  Textarea,
+} from "@/components/ui";
+import { categoryBySlug, moodBySlug } from "@/data/taxonomy";
+import { formatCoords, formatKm, formatThaiDate, haversineKm, uid } from "@/lib/utils";
+import { useSeo } from "@/lib/useSeo";
+import { cn } from "@/lib/utils";
+import { isSupabaseConfigured } from "@/lib/supabase";
+
+const UNKNOWN = "ยังไม่มีข้อมูลยืนยัน";
+
+function TriRow({ label, value, note }: { label: string; value: string; note?: string }) {
+  const known = value !== "unknown";
+  const th = value === "yes" ? "ได้" : value === "no" ? "ไม่ได้" : UNKNOWN;
+  return (
+    <div className="grid grid-cols-[1fr_auto] gap-4 border-b border-line py-3">
+      <div>
+        <p className="font-sans text-sm text-concrete">{label}</p>
+        {note && <p className="mt-0.5 font-sans text-xs leading-relaxed text-concrete">{note}</p>}
+      </div>
+      <span className={cn("font-mono text-xs tracking-normal", known ? "text-acid" : "text-concrete")}>{th}</span>
+    </div>
+  );
+}
+
+export default function LocationDetailPage() {
+  const { getLocation, nearbyLocations } = useLocationCatalog();
+  const { slug = "" } = useParams();
+  const navigate = useNavigate();
+  const location = getLocation(slug);
+  const { isFavorite, toggle } = useFavorites();
+  const allBoards = useBoards();
+
+  const [boardOpen, setBoardOpen] = useState(false);
+  const [reportOpen, setReportOpen] = useState(false);
+  const [newBoard, setNewBoard] = useState("");
+  const [reportText, setReportText] = useState("");
+  const [reportSending, setReportSending] = useState(false);
+  const [reportError, setReportError] = useState(false);
+  const [reportReason, setReportReason] = useState("ข้อมูลไม่ถูกต้อง");
+  const [toast, setToast] = useState<string | null>(null);
+  const [myDistance, setMyDistance] = useState<number | null>(null);
+
+  const nearby = useMemo(() => (location ? nearbyLocations(location, 4) : []), [location, nearbyLocations]);
+
+  useSeo({
+    title: location ? `${location.name_th} — ${location.province_th}` : "ไม่พบสถานที่",
+    description: location?.description_th,
+    image: location?.photos[0]?.image_url,
+    canonical: location ? `${window.location.origin}/locations/${location.slug}` : undefined,
+    noindex: !location,
+    jsonLd: location
+      ? {
+          "@context": "https://schema.org",
+          "@type": "TouristAttraction",
+          name: location.name_th,
+          alternateName: location.name_en,
+          description: location.description_th,
+          image: location.photos.map((p) => p.image_url),
+          geo: { "@type": "GeoCoordinates", latitude: location.latitude, longitude: location.longitude },
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: location.district ?? undefined,
+            addressRegion: location.province_th,
+            addressCountry: "TH",
+          },
+          isAccessibleForFree: location.estimated_cost === "free" ? true : undefined,
+        }
+      : null,
+  });
+
+  if (!location) {
+    return (
+      <div className="container-x flex min-h-[60vh] flex-col items-center justify-center text-center">
+        <p className="label-mono text-burnt">404 / NOT PUBLISHED</p>
+        <h1 className="mt-4 display text-5xl md:text-7xl">FRAME NOT FOUND.</h1>
+        <p className="mt-4 max-w-md font-sans text-sm leading-relaxed text-concrete">
+          สถานที่นี้ไม่มีอยู่ในฐานข้อมูลที่เผยแพร่ หรือยังไม่ผ่านเกณฑ์ภาพถ่ายจริง 5 ภาพ
+        </p>
+        <div className="mt-7 flex gap-2">
+          <Button onClick={() => navigate("/explore")}>กลับไปค้นหา</Button>
+          <Button variant="outline" onClick={() => navigate("/map")}>
+            เปิดแผนที่
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
+  const cover = location.photos.find((p) => p.is_cover) ?? location.photos[0];
+  const frame = frameNotes[location.slug];
+  const framePhoto = frame && location.photos.find((photo) => photo.id === frame.photoId && photo.is_verified);
+  const saved = isFavorite(location.id);
+  const shareUrl = `${window.location.origin}/locations/${location.slug}`;
+  const directions = `https://www.google.com/maps/dir/?api=1&destination=${location.latitude},${location.longitude}`;
+
+  function flash(msg: string) {
+    setToast(msg);
+    window.setTimeout(() => setToast(null), 2600);
+  }
+
+  async function copy(text: string, message: string) {
+    try {
+      await navigator.clipboard.writeText(text);
+      flash(message);
+    } catch {
+      flash("คัดลอกไม่สำเร็จ — กรุณาคัดลอกด้วยตนเอง");
+    }
+  }
+
+  async function share() {
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: location!.name_th, url: shareUrl });
+        return;
+      } catch {
+        /* cancelled */
+      }
+    }
+    copy(shareUrl, "คัดลอกลิงก์แล้ว");
+  }
+
+  function addToBoard(boardId: string) {
+    const ok = boardStore.addItem(boardId, location!.id);
+    flash(ok ? "เพิ่มเข้าบอร์ดแล้ว" : "สถานที่นี้อยู่ในบอร์ดแล้ว");
+    setBoardOpen(false);
+  }
+
+  function createAndAdd() {
+    if (!newBoard.trim()) return;
+    const board = boardStore.create(newBoard.trim());
+    boardStore.addItem(board.id, location!.id);
+    setNewBoard("");
+    setBoardOpen(false);
+    flash("สร้างบอร์ดและเพิ่มสถานที่แล้ว");
+  }
+
+  async function submitReport() {
+    if (reportSending) return;
+    setReportSending(true);
+    setReportError(false);
+    const payload = {
+      locationSlug: location!.slug,
+      reason: reportReason,
+      detail: reportText,
+    };
+
+    try {
+      if (isSupabaseConfigured) {
+        const response = await fetch("/api/reports", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        if (response.status !== 202) {
+          setReportError(true);
+          return;
+        }
+      } else {
+        const reports = JSON.parse(localStorage.getItem("framehunt:reports") ?? "[]");
+        reports.unshift({
+          id: uid("report"),
+          ...payload,
+          createdAt: new Date().toISOString(),
+        });
+        localStorage.setItem("framehunt:reports", JSON.stringify(reports.slice(0, 100)));
+      }
+    } catch {
+      setReportError(true);
+      return;
+    } finally {
+      setReportSending(false);
+    }
+
+    setReportOpen(false);
+    setReportText("");
+    flash(isSupabaseConfigured ? "ส่งรายงานแล้ว ทีมงานจะตรวจสอบ" : "บันทึกรายงานในเครื่องนี้แล้ว");
+  }
+
+  const permission = location.permission;
+
+  return (
+    <div>
+      {/* ── HERO ─────────────────────────────────────────────────────────── */}
+      <section className="container-x pt-5 sm:pt-8">
+        <div className="relative h-[min(60vw,25rem)] min-h-[15rem] overflow-hidden rounded-[1.6rem] border border-white bg-ink-2 shadow-glass">
+          {cover && (
+            <img
+              src={cover.image_url}
+              srcSet={`${cover.thumb_url} 500w, ${cover.image_url} 1920w`}
+              sizes="(max-width: 767px) 90vw, 92vw"
+              alt={`${location.name_th} — ${cover.title}`}
+              className="h-full w-full object-cover"
+              fetchPriority="high"
+            />
+          )}
+        </div>
+
+        <div className="glass-panel relative -mt-5 mx-2 px-4 py-5 sm:mx-5 sm:px-6 md:px-8 md:py-7">
+          <div className="mb-4 flex flex-wrap items-center gap-2 font-mono text-xs tracking-normal text-concrete">
+            <Link to="/explore" className="hover:text-acid">
+              EXPLORE
+            </Link>
+            <span>/</span>
+            <Link to={`/explore?province=${location.province_id}`} className="hover:text-acid">
+              {location.province.toUpperCase()}
+            </Link>
+            <span>/</span>
+            <span className="text-paper">{location.name_th}</span>
+          </div>
+
+          <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                <PermissionPill status={permission.permission_status} />
+                <Badge variant="acid">{location.photo_count} VERIFIED PHOTOS</Badge>
+                <Badge>{location.zone === "A" ? "BANGKOK" : location.zone === "B" ? "METRO REGION" : "THAILAND"}</Badge>
+              </div>
+              <h1 className="mt-4 display text-[clamp(1.9rem,4.5vw,4.2rem)]">{location.name_th}</h1>
+              <p className="mt-2 font-sans text-sm text-concrete md:text-base">{location.name_en}</p>
+              <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-xs tracking-normal text-concrete">
+                <span className="flex items-center gap-1">
+                  <MapPin className="h-3 w-3" /> {location.district ? `${location.district}, ` : ""}
+                  {location.province_th}
+                </span>
+                <span className="flex items-center gap-1">
+                  <Camera className="h-3 w-3" /> {location.photo_count} PHOTOS
+                </span>
+                <span>{formatCoords(location.latitude, location.longitude)}</span>
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              <Button
+                variant={saved ? "primary" : "outline"}
+                onClick={() => {
+                  const next = toggle(location.id);
+                  flash(next ? "บันทึกเป็นรายการโปรดแล้ว" : "นำออกจากรายการโปรดแล้ว");
+                }}
+              >
+                <Heart className={cn("h-4 w-4", saved && "fill-current")} />
+                {saved ? "SAVED" : "SAVE"}
+              </Button>
+              <Button variant="outline" onClick={() => setBoardOpen(true)}>
+                <Plus className="h-4 w-4" /> ADD TO BOARD
+              </Button>
+              <Button variant="outline" onClick={share} aria-label="แชร์สถานที่">
+                <Share2 className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="container-x grid grid-cols-1 gap-9 py-8 lg:grid-cols-12 lg:gap-12 lg:py-12">
+        {/* ── MAIN ───────────────────────────────────────────────────────── */}
+        <div className="min-w-0 space-y-10 lg:col-span-8">
+          <section>
+            <div className="mb-4 flex flex-wrap items-end justify-between gap-2 border-b border-line pb-3">
+              <div>
+                <p className="label-mono text-acid">FRAME ARCHIVE</p>
+                <h2 className="mt-1 font-display text-2xl font-extrabold">ภาพถ่ายสถานที่จริง</h2>
+              </div>
+              <p className="font-mono text-xs tracking-normal text-concrete">
+                {location.photo_count} / MIN 5 · ALL VERIFIED
+              </p>
+            </div>
+            <PhotoGallery photos={location.photos} locationName={location.name_th} />
+            {frame && framePhoto && (
+              <div className="clay-panel mt-5 p-5">
+                <h3 className="text-sm font-bold text-acid">มุมกล้องที่คัดไว้</h3>
+                <p className="mt-2 font-semibold">{frame.title}</p>
+                <p className="mt-2 text-sm leading-relaxed text-concrete">{frame.direction}</p>
+                <a
+                  className="mt-3 inline-block text-xs text-concrete underline hover:text-acid"
+                  href={framePhoto.source_page_url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  ดูภาพอ้างอิงและเครดิต
+                </a>
+              </div>
+            )}
+          </section>
+
+          <section>
+            <div className="border-b border-line pb-3">
+              <p className="label-mono text-acid">ABOUT THE PLACE</p>
+              <h2 className="mt-1 font-display text-2xl font-extrabold">เกี่ยวกับสถานที่</h2>
+            </div>
+            <p className="mt-5 max-w-3xl whitespace-pre-line font-sans text-[15px] leading-[1.9] text-concrete">
+              {location.description_th}
+            </p>
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              {location.categories.map((c) => (
+                <Link
+                  key={c}
+                  to={`/explore?categories=${c}`}
+                  className="border border-paper/20 px-2 py-1 font-mono text-xs tracking-normal text-concrete hover:border-acid hover:text-acid"
+                >
+                  {categoryBySlug.get(c)?.name_en ?? c}
+                </Link>
+              ))}
+            </div>
+            <div className="mt-5 grid gap-4 border-t border-line pt-4 sm:grid-cols-2">
+              <div>
+                <p className="label-mono text-concrete">ARCHITECTURE</p>
+                <p className="mt-1 font-sans text-sm text-concrete">{location.architectural_style}</p>
+              </div>
+              <div>
+                <p className="label-mono text-concrete">TYPE</p>
+                <p className="mt-1 font-sans text-sm capitalize text-concrete">{location.location_type}</p>
+              </div>
+            </div>
+            {location.description_source.type === "wikipedia" && (
+              <p className="mt-4 font-mono text-xs tracking-normal text-concrete">
+                DESCRIPTION SOURCE ·{" "}
+                <a
+                  href={location.description_source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline hover:text-acid"
+                >
+                  WIKIPEDIA ({location.description_source.lang.toUpperCase()}) · {location.description_source.license}
+                </a>
+              </p>
+            )}
+          </section>
+
+          {/* Filming info */}
+          <section>
+            <div className="border-b border-line pb-3">
+              <p className="label-mono text-acid">PRODUCTION NOTES</p>
+              <h2 className="mt-1 font-display text-2xl font-extrabold">ข้อมูลสำหรับกองถ่าย</h2>
+            </div>
+            <p className="mt-3 max-w-2xl font-sans text-xs leading-relaxed text-concrete">
+              ข้อมูลต่อไปนี้แยกจาก “สถานที่เปิดให้ท่องเที่ยว” อย่างชัดเจน — ช่องที่ยังไม่มีหลักฐานจะแสดงว่า{" "}
+              <span className="text-concrete">{UNKNOWN}</span> และไม่ถูกใช้เป็นข้อสรุปว่าถ่ายเชิงพาณิชย์ได้
+            </p>
+
+            <div className="mt-5 grid gap-x-8 md:grid-cols-2">
+              <div>
+                <TriRow label="ใช้ไฟเสริมได้" value={location.filming.artificial_light_allowed} />
+                <TriRow label="อุปกรณ์ขนาดใหญ่" value={location.filming.large_equipment_allowed} />
+                <TriRow label="ใช้โดรน" value={location.filming.drone_allowed} note={location.filming.drone_note} />
+                <TriRow label="ข้อจำกัดด้านเสียง" value={location.filming.sound_restrictions} />
+              </div>
+              <div>
+                <TriRow label="ห้องแต่งตัว" value={location.filming.dressing_room} />
+                <TriRow label="ที่จอดรถ" value={location.filming.parking} />
+                <TriRow label="ขนาดทีมที่เหมาะสม" value={location.filming.crew_size} />
+                <TriRow label="ช่วงแสงที่แนะนำ" value={location.filming.best_light_window ? "yes" : "unknown"} />
+              </div>
+            </div>
+
+            <div className="mt-6 border border-line p-5">
+              <div className="flex items-center gap-2">
+                <Sparkles className="h-4 w-4 text-acid" />
+                <p className="label-mono text-concrete">SUGGESTED SHOTS (RULE-BASED)</p>
+              </div>
+              <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+                {location.creative.shot_types.map((s) => (
+                  <li key={s} className="flex gap-2 font-sans text-[13px] text-concrete">
+                    <span className="mt-2 h-1 w-1 shrink-0 bg-acid" />
+                    {s}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-4 font-mono text-xs tracking-normal text-concrete">
+                คำแนะนำจากหมวดหมู่สถานที่ ไม่ใช่การรับประกันสภาพแสงหน้างาน
+              </p>
+            </div>
+          </section>
+
+          {/* Permission */}
+          <section>
+            <div className="border-b border-line pb-3">
+              <p className="label-mono text-burnt">ACCESS & PERMISSION</p>
+              <h2 className="mt-1 font-display text-2xl font-extrabold">การเข้าถึงและการขออนุญาต</h2>
+            </div>
+
+            <div className="mt-5 border border-burnt/30 bg-burnt/[0.04] p-5">
+              <div className="flex flex-wrap items-center gap-3">
+                <ShieldAlert className="h-5 w-5 text-burnt" />
+                <PermissionPill status={permission.permission_status} />
+                <span className="font-mono text-xs tracking-normal text-concrete">
+                  CHECKED {formatThaiDate(permission.verified_at)}
+                </span>
+              </div>
+              <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">{permission.note}</p>
+              <div className="mt-4 grid gap-4 border-t border-burnt/20 pt-4 sm:grid-cols-2">
+                <div>
+                  <p className="label-mono text-concrete">หน่วยงานที่ควรติดต่อ</p>
+                  <p className="mt-1 font-sans text-sm text-concrete">{permission.contact_details ?? UNKNOWN}</p>
+                </div>
+                <div>
+                  <p className="label-mono text-concrete">ค่าธรรมเนียม</p>
+                  <p className="mt-1 font-sans text-sm text-concrete">{location.estimated_cost ?? UNKNOWN}</p>
+                </div>
+              </div>
+              <p className="mt-4 font-sans text-xs leading-relaxed text-concrete">
+                การเปิดให้ประชาชนเข้าชมไม่ได้หมายความว่าอนุญาตให้ถ่ายทำเชิงพาณิชย์ โปรดติดต่อเจ้าของพื้นที่หรือหน่วยงานรัฐที่ดูแล
+                และขอหนังสืออนุญาตเป็นลายลักษณ์อักษรก่อนวันถ่าย
+              </p>
+            </div>
+          </section>
+
+          {/* Map */}
+          <section>
+            <div className="border-b border-line pb-3">
+              <p className="label-mono text-acid">COORDINATES</p>
+              <h2 className="mt-1 font-display text-2xl font-extrabold">แผนที่และเส้นทาง</h2>
+            </div>
+            <div className="mt-5">
+              <MapCanvas
+                locations={[location]}
+                height="380px"
+                focus={{ lat: location.latitude, lng: location.longitude, zoom: 14 }}
+              />
+            </div>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <a href={directions} target="_blank" rel="noreferrer">
+                <Button variant="primary" size="sm">
+                  <Navigation className="h-3.5 w-3.5" /> GOOGLE MAPS
+                </Button>
+              </a>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => copy(formatCoords(location.latitude, location.longitude), "คัดลอกพิกัดแล้ว")}
+              >
+                <Copy className="h-3.5 w-3.5" /> COPY COORDINATES
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => {
+                  if (!navigator.geolocation) return;
+                  navigator.geolocation.getCurrentPosition((pos) => {
+                    setMyDistance(
+                      haversineKm(
+                        { lat: pos.coords.latitude, lng: pos.coords.longitude },
+                        { lat: location.latitude, lng: location.longitude },
+                      ),
+                    );
+                  });
+                }}
+              >
+                <MapPin className="h-3.5 w-3.5" />
+                {myDistance != null ? `ห่างจากคุณ ${formatKm(myDistance)}` : "คำนวณระยะทาง"}
+              </Button>
+            </div>
+            <p className="mt-3 font-mono text-xs tracking-normal text-concrete">
+              COORDINATE SOURCE ·{" "}
+              <a
+                href={location.coordinate_source.url}
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-acid"
+              >
+                {location.coordinate_source.name} / {location.coordinate_source.property}
+              </a>{" "}
+              · CONFIDENCE {location.coordinate_source.confidence}%
+            </p>
+          </section>
+
+          {/* Creative */}
+          <section>
+            <div className="border-b border-line pb-3">
+              <p className="label-mono text-acid">CREATIVE DIRECTION</p>
+              <h2 className="mt-1 font-display text-2xl font-extrabold">แนะนำสำหรับ MV</h2>
+            </div>
+            <div className="mt-5 grid gap-6 sm:grid-cols-2">
+              <div>
+                <p className="label-mono text-concrete">MOOD ที่ตรงที่สุด</p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {[...location.moods]
+                    .sort((a, b) => b.relevance_score - a.relevance_score)
+                    .slice(0, 6)
+                    .map((m) => (
+                      <span
+                        key={m.slug}
+                        className="border border-acid/30 bg-acid/5 px-2 py-1 font-mono text-xs tracking-normal text-acid"
+                      >
+                        {moodBySlug.get(m.slug)?.name_en ?? m.slug} {Math.round(m.relevance_score * 100)}
+                      </span>
+                    ))}
+                </div>
+              </div>
+              <div>
+                <p className="label-mono text-concrete">COLOR PALETTE</p>
+                <div className="mt-2 flex gap-1">
+                  {location.creative.palette.map((hex) => (
+                    <div
+                      key={hex}
+                      className="group relative h-10 flex-1 border border-paper/10"
+                      style={{ background: hex }}
+                    >
+                      <span className="absolute inset-x-0 -bottom-4 text-center font-mono text-xs text-concrete">
+                        {hex}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="mt-7 grid gap-4 sm:grid-cols-2">
+              <div className="border border-line p-4">
+                <div className="flex items-center gap-2">
+                  <CloudSun className="h-4 w-4 text-acid" />
+                  <p className="label-mono text-concrete">LIGHT WINDOW</p>
+                </div>
+                <p className="mt-2 font-sans text-sm text-concrete">{location.creative.light_window_note}</p>
+              </div>
+              <div className="border border-line p-4">
+                <div className="flex items-center gap-2">
+                  <Volume2 className="h-4 w-4 text-acid" />
+                  <p className="label-mono text-concrete">SOUND & CREW</p>
+                </div>
+                <p className="mt-2 font-sans text-sm text-concrete">
+                  ข้อจำกัดเสียงและขนาดทีม: {UNKNOWN} — ควรแจ้งทีมงานล่วงหน้าและขออนุญาตเป็นลายลักษณ์อักษร
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Sources */}
+          <section>
+            <div className="border-b border-line pb-3">
+              <p className="label-mono text-acid">EVIDENCE</p>
+              <h2 className="mt-1 font-display text-2xl font-extrabold">แหล่งข้อมูลและหลักฐาน</h2>
+            </div>
+            <ul className="mt-4 space-y-2">
+              {location.sources.map((s) => (
+                <li
+                  key={s.source_url}
+                  className="flex flex-col justify-between gap-1 border-b border-line py-3 sm:flex-row sm:items-center"
+                >
+                  <a
+                    href={s.source_url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-2 font-sans text-sm text-concrete hover:text-acid"
+                  >
+                    <ExternalLink className="h-3.5 w-3.5" />
+                    {s.source_type} · {s.field_verified}
+                  </a>
+                  <span className="font-mono text-xs tracking-normal text-concrete">
+                    CHECKED {formatThaiDate(s.checked_at)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+
+            <details className="mt-6 border border-line">
+              <summary className="cursor-pointer px-4 py-3 font-mono text-xs tracking-normal text-concrete">
+                PHOTO CREDITS ({location.photos.length})
+              </summary>
+              <ul className="divide-y divide-line border-t border-line">
+                {location.photos.map((p, i) => (
+                  <li
+                    key={p.id}
+                    className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                  >
+                    <span className="font-sans text-xs text-concrete">
+                      {String(i + 1).padStart(2, "0")} · © {p.photographer} ·{" "}
+                      {p.license_url ? (
+                        <a href={p.license_url} target="_blank" rel="noreferrer" className="underline hover:text-acid">
+                          {p.license}
+                        </a>
+                      ) : (
+                        p.license
+                      )}
+                    </span>
+                    <a
+                      href={p.source_page_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-mono text-xs tracking-normal text-concrete hover:text-acid"
+                    >
+                      SOURCE ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+
+            <button
+              type="button"
+              onClick={() => setReportOpen(true)}
+              className="mt-6 flex items-center gap-2 font-mono text-xs tracking-normal text-concrete hover:text-burnt"
+            >
+              <Flag className="h-3.5 w-3.5" /> REPORT INCORRECT INFORMATION
+            </button>
+          </section>
+        </div>
+
+        {/* ── SIDEBAR ────────────────────────────────────────────────────── */}
+        <aside className="min-w-0 space-y-6 lg:col-span-4">
+          <div className="sticky top-24 space-y-6">
+            <div className="border border-line p-5">
+              <p className="label-mono text-concrete">QUICK FACTS</p>
+              <dl className="mt-4 space-y-3">
+                {[
+                  { k: "จังหวัด", v: location.province_th },
+                  { k: "อำเภอ/เขต", v: location.district ?? UNKNOWN },
+                  { k: "พิกัด", v: formatCoords(location.latitude, location.longitude) },
+                  { k: "ประเภท", v: location.location_type },
+                  { k: "ภาพที่ยืนยัน", v: `${location.photo_count} ภาพ` },
+                  { k: "ตรวจสอบล่าสุด", v: formatThaiDate(location.verified_at) },
+                ].map((row) => (
+                  <div
+                    key={row.k}
+                    className="flex items-start justify-between gap-4 border-b border-line pb-2.5 last:border-0"
+                  >
+                    <dt className="font-sans text-xs text-concrete">{row.k}</dt>
+                    <dd className="text-right font-sans text-xs text-paper/75">{row.v}</dd>
+                  </div>
+                ))}
+              </dl>
+              <div className="mt-4 grid grid-cols-2 gap-2">
+                <Button size="sm" variant="outline" onClick={() => copy(shareUrl, "คัดลอกลิงก์แล้ว")}>
+                  <Copy className="h-3.5 w-3.5" /> LINK
+                </Button>
+                <Button size="sm" variant="outline" onClick={() => setReportOpen(true)}>
+                  <Flag className="h-3.5 w-3.5" /> REPORT
+                </Button>
+              </div>
+            </div>
+
+            <div className="border border-line p-5">
+              <div className="flex items-center gap-2">
+                <Info className="h-4 w-4 text-acid" />
+                <p className="label-mono text-concrete">BEFORE YOU SHOOT</p>
+              </div>
+              <ol className="mt-3 space-y-2.5 font-sans text-[12px] leading-relaxed text-concrete">
+                <li>
+                  <span className="text-acid">01</span> ติดต่อเจ้าของพื้นที่/หน่วยงานรัฐ และขออนุญาตเป็นลายลักษณ์อักษร
+                </li>
+                <li>
+                  <span className="text-acid">02</span> ตรวจสอบกฎโดรนกับ กสทช./กรมการบินพลเรือน
+                </li>
+                <li>
+                  <span className="text-acid">03</span> ตรวจสอบข้อห้ามถ่ายในเขตศาสนสถานหรือพื้นที่หวงห้าม
+                </li>
+                <li>
+                  <span className="text-acid">04</span> เตรียมแผนสำรองด้านสภาพอากาศและแสง
+                </li>
+              </ol>
+            </div>
+
+            <div className="border border-line p-5">
+              <p className="label-mono text-concrete">NEARBY FRAMES</p>
+              <div className="mt-3">
+                {nearby.map(({ location: l, distanceKm }) => (
+                  <LocationCard key={l.id} location={l} variant="compact" distanceKm={distanceKm} />
+                ))}
+              </div>
+              <Link
+                to="/map"
+                className="mt-4 flex items-center gap-1 font-mono text-xs tracking-normal text-acid hover:text-paper"
+              >
+                OPEN FULL MAP <ArrowUpRight className="h-3 w-3" />
+              </Link>
+            </div>
+
+            <div className="clay-panel p-5">
+              <p className="label-mono text-concrete">TEAM WORKFLOW</p>
+              <p className="mt-2 font-sans text-xs leading-relaxed text-concrete">
+                เพิ่มสถานที่นี้ลงบอร์ดโปรเจกต์ ใส่โน้ตลำดับความสำคัญ แล้ว export เป็น shortlist สำหรับทีม
+              </p>
+              <Button className="mt-3 w-full" size="sm" onClick={() => setBoardOpen(true)}>
+                <Plus className="h-3.5 w-3.5" /> ADD TO MV BOARD
+              </Button>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      {/* ── BOARD DIALOG ─────────────────────────────────────────────────── */}
+      <Dialog open={boardOpen} onOpenChange={setBoardOpen}>
+        <DialogContent>
+          <DialogTitle className="display text-3xl">ADD TO BOARD</DialogTitle>
+          <p className="mt-2 font-sans text-sm text-concrete">เลือกบอร์ดโปรเจกต์ หรือสร้างใหม่สำหรับ MV นี้</p>
+          <div className="mt-6 space-y-2">
+            {allBoards.length === 0 && (
+              <p className="border border-dashed border-paper/15 p-4 font-sans text-sm text-concrete">
+                ยังไม่มีบอร์ด — สร้างบอร์ดแรกด้านล่าง
+              </p>
+            )}
+            {allBoards.map((b) => (
+              <button
+                key={b.id}
+                type="button"
+                onClick={() => addToBoard(b.id)}
+                className="flex w-full items-center justify-between border border-line p-4 text-left hover:border-acid"
+              >
+                <span>
+                  <span className="block font-display text-lg font-bold">{b.title}</span>
+                  <span className="font-mono text-xs tracking-normal text-concrete">{b.items.length} LOCATIONS</span>
+                </span>
+                <Plus className="h-4 w-4 text-concrete" />
+              </button>
+            ))}
+          </div>
+          <div className="mt-6 border-t border-line pt-5">
+            <Label htmlFor="new-board">สร้างบอร์ดใหม่</Label>
+            <div className="flex gap-2">
+              <Input
+                id="new-board"
+                value={newBoard}
+                onChange={(e) => setNewBoard(e.target.value)}
+                placeholder="เช่น ET1CRUEL — DARK AMBIENT MV"
+                onKeyDown={(e) => e.key === "Enter" && createAndAdd()}
+              />
+              <Button onClick={createAndAdd} disabled={!newBoard.trim()}>
+                สร้าง
+              </Button>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {/* ── REPORT DIALOG ────────────────────────────────────────────────── */}
+      <Dialog
+        open={reportOpen}
+        onOpenChange={(open) => {
+          setReportOpen(open);
+          setReportError(false);
+        }}
+      >
+        <DialogContent>
+          <DialogTitle className="display text-3xl">REPORT AN ISSUE</DialogTitle>
+          <p className="mt-2 font-sans text-sm text-concrete">ช่วยให้ฐานข้อมูลแม่นยำขึ้น — รายงานจะถูกส่งเข้าคิวตรวจสอบ</p>
+          <div className="mt-5 space-y-4">
+            <div>
+              <Label htmlFor="report-reason">ประเภทปัญหา</Label>
+              <select
+                id="report-reason"
+                value={reportReason}
+                onChange={(e) => setReportReason(e.target.value)}
+                className="h-11 w-full border border-paper/25 bg-ink px-3 font-sans text-sm text-paper focus:border-acid focus:outline-none"
+              >
+                <option>ข้อมูลไม่ถูกต้อง</option>
+                <option>พิกัดผิด</option>
+                <option>ภาพไม่ตรงกับสถานที่</option>
+                <option>สถานะการอนุญาตเปลี่ยน</option>
+                <option>สถานที่ปิดปรับปรุง/เข้าถึงไม่ได้</option>
+                <option>อื่น ๆ</option>
+              </select>
+            </div>
+            <div>
+              <Label htmlFor="report-detail">รายละเอียด</Label>
+              <Textarea
+                id="report-detail"
+                value={reportText}
+                onChange={(e) => setReportText(e.target.value)}
+                placeholder="อธิบายสิ่งที่พบ พร้อมลิงก์อ้างอิงถ้ามี"
+              />
+            </div>
+          </div>
+          <div className="mt-6 flex justify-end gap-2">
+            <Button variant="ghost" onClick={() => setReportOpen(false)}>
+              ยกเลิก
+            </Button>
+            {reportError && (
+              <p role="alert" className="text-sm text-burnt">
+                ส่งรายงานไม่สำเร็จ โปรดลองอีกครั้ง
+              </p>
+            )}
+            <Button onClick={() => void submitReport()} disabled={reportSending}>
+              {reportSending ? "กำลังส่ง…" : "ส่งรายงาน"}
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {toast && (
+        <div className="fixed bottom-6 left-1/2 z-[70] flex -translate-x-1/2 items-center gap-2 border border-acid/50 bg-ink px-4 py-3 text-paper shadow-2xl">
+          <Check className="h-4 w-4 text-acid" />
+          <span className="font-sans text-sm">{toast}</span>
+          <button type="button" onClick={() => setToast(null)} aria-label="ปิด">
+            <X className="h-3.5 w-3.5 text-concrete" />
+          </button>
+        </div>
+      )}
+
+      <div className="border-t border-line">
+        <div className="container-x flex items-center justify-between py-5">
+          <Link
+            to="/explore"
+            className="flex items-center gap-2 font-mono text-xs tracking-normal text-concrete hover:text-acid"
+          >
+            <ArrowLeft className="h-3.5 w-3.5" /> BACK TO EXPLORE
+          </Link>
+          <span className="flex items-center gap-1 font-mono text-xs tracking-normal text-concrete">
+            <Users className="h-3 w-3" /> SHOT BY THE FRAMEHUNT COMMUNITY
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}

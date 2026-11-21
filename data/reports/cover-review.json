@@ -1,0 +1,4524 @@
+{
+  "checked_at": "2026-11-20T16:47:41.158Z",
+  "evaluated": 564,
+  "visual_checked": 564,
+  "changed": 0,
+  "night_tagged": 0,
+  "hidden_total": 130,
+  "night_photos_added": 10,
+  "night_total": 35,
+  "selected": [
+    {
+      "slug": "amphawa-floating-market",
+      "cover_id": "amphawa-floating-market-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Amphawa_floating_market_I.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ananta-samakhom-throne-hall",
+      "cover_id": "ananta-samakhom-throne-hall-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ananta_Samakhom_at_night_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ancient-city-thailand",
+      "cover_id": "ancient-city-thailand-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ancient_city_002.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ao-nang",
+      "cover_id": "ao-nang-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:144_%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88_7_Tambon_Ao_Nang,_Amphoe_Mueang_Krabi,_Chang_Wat_Krabi_81000,_Thailand_-_panoramio_(34).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ao-phang-nga-national-park",
+      "cover_id": "ao-phang-nga-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ao_Phang_Nga_National_Park_P1120245.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "asiatique-the-riverfront",
+      "cover_id": "asiatique-the-riverfront-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Asiatique_the_Riverfront_02.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "asok-bts-station",
+      "cover_id": "asok-bts-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:ASOK_SKYTRAIN_STATION_SUKHUMVIT_ROAD_BANGKOK_THAILAND_JAN_2012_(7021924885).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "assumption-cathedral-bangkok",
+      "cover_id": "assumption-cathedral-bangkok-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Pope_Francis_Visit_Thailand_2019_By_Trisorn_Triboon_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ayutthaya-historical-park",
+      "cover_id": "ayutthaya-historical-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Historical_Park_(44635489300).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ayutthaya-railway-station",
+      "cover_id": "ayutthaya-railway-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:AYUTTHAYA_RAILWAY_STATION_THAILAND_JAN_2012_(6817817124).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "baan-dam-museum",
+      "cover_id": "baan-dam-museum-signature-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Baan_Dum_(Black_House)_-_By_Thawan_Duchanee_-_Chiang_Rai_-_Thailand_-_06_(35173590681).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "baiyoke-tower-ii",
+      "cover_id": "baiyoke-tower-ii-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_at_night_01_(MK).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ban-chiang",
+      "cover_id": "ban-chiang-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Ban_Chiang_Woman_making_pots.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ban-laem-railway-station",
+      "cover_id": "ban-laem-railway-station-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:SRT_NKF_1227_at_Ban_Laem_railway_station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "ban-pong-railway-station",
+      "cover_id": "ban-pong-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:BanPong-Station1.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ban-rak-thai",
+      "cover_id": "ban-rak-thai-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ban_Rak_Thai_Mae_Hong_Sorn_Thailand_(125159245).jpeg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ban-wichayen",
+      "cover_id": "ban-wichayen-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wichayen_House_03.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-bamru-railway-station",
+      "cover_id": "bang-bamru-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Bamru_Railway_Station_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-khen-railway-station",
+      "cover_id": "bang-khen-railway-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Khen_Station_(NEW)_20230128-1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-khun-non-mrt-station",
+      "cover_id": "bang-khun-non-mrt-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Khun_Non_MRT_Station_2019.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-khun-phrom-palace",
+      "cover_id": "bang-khun-phrom-palace-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Khun_Phrom_Palace_interior_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-luang-mosque",
+      "cover_id": "bang-luang-mosque-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Luang_Mosque_-_2017-02-25_(004).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-nam-phueng-floating-market",
+      "cover_id": "bang-nam-phueng-floating-market-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Nam_Phueng,_Phra_Pradaeng_District,_Samut_Prakan,_Thailand_-_panoramio_(5).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-pa-in-railway-station",
+      "cover_id": "bang-pa-in-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Pa-In_railway_station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-pa-in-royal-palace",
+      "cover_id": "bang-pa-in-royal-palace-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:TH-bang-pa-in-garten.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-phlat-mrt-station",
+      "cover_id": "bang-phlat-mrt-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Bang_Plad_-_Platform_with_glass_wall.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-pu-recreation-center",
+      "cover_id": "bang-pu-recreation-center-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%81%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%B9_Bangpu_Recreation_Center_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-saen-beach",
+      "cover_id": "bang-saen-beach-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Grey_scooter_with_spare_tire.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-sue-grand-station",
+      "cover_id": "bang-sue-grand-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Sue_Grand_Station_20211114-3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-wa-bts-station",
+      "cover_id": "bang-wa-bts-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Train_No.108_at_Bang_Wa_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bang-yi-khan-mrt-station",
+      "cover_id": "bang-yi-khan-mrt-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Bang_Yi_Khan_%E2%80%93_Platform_%E2%80%93_intersection_crossing_bridge.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bangkok-art-and-culture-centre",
+      "cover_id": "bangkok-art-and-culture-centre-ph-6",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Art_and_Culture_Centre_(19405194938).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "bangkok-city-hall",
+      "cover_id": "bangkok-city-hall-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_City_Hall_in_December_2019.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bangkok-international-trade-and-exhibition-centre",
+      "cover_id": "bangkok-international-trade-and-exhibition-centre-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2006_TIPREX.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bangkok-kunsthalle",
+      "cover_id": "bangkok-kunsthalle-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Kunsthalle_-_exterior_(2026)_-_img_06.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "bangkok-national-museum",
+      "cover_id": "bangkok-national-museum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:War_elephant_in_national_museum_Bangkok.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bangkok-national-theatre",
+      "cover_id": "bangkok-national-theatre-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Tha_National_Theatre_Bangkok_1.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bangkokian-museum",
+      "cover_id": "bangkokian-museum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Folk_Museum.jpeg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "benjakitti-park",
+      "cover_id": "benjakitti-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Benjakiti_Park_at_sunset.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "benjasiri-park",
+      "cover_id": "benjasiri-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:SUKHUMVIT_ROAD_CENTRAL_BANGKOK_THAILAND_JAN_2012_(7190066336).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "betong",
+      "cover_id": "betong-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Tano_Maero,_Betong_District,_Yala_95110,_Thailand_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bhumibol-bridge",
+      "cover_id": "bhumibol-bridge-night-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Saphan_Bhumibol_at_Dusk_-_Bangkok_(5020710455).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bhumibol-dam",
+      "cover_id": "bhumibol-dam-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Bhumibol_Dam_1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "big-buddha",
+      "cover_id": "big-buddha-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Buddha_-_Phuket,_Thailand.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bo-kluea",
+      "cover_id": "bo-kluea-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Bo_Kluea_Tai,_Bo_Kluea_District,_Nan,_Thailand_-_panoramio_-_mohigan.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bobae-market",
+      "cover_id": "bobae-market-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:BobaeStreetVendors.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bua-tong-waterfall",
+      "cover_id": "bua-tong-waterfall-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B8%95%E0%B8%AD%E0%B8%87_Buatong_Waterfall_Thailand_-_panoramio_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "bueng-boraphet",
+      "cover_id": "bueng-boraphet-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Hot_air_balloon_festival_in_Bueng_Boraphet_-_angle_1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "cathedral-of-the-immaculate-conception-chanthaburi",
+      "cover_id": "cathedral-of-the-immaculate-conception-chanthaburi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_view_of_Cathedral_of_Immaculate_Conception,_Chantaburi_20241230.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "central-chidlom",
+      "cover_id": "central-chidlom-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Central_Chidlom.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "central-embassy",
+      "cover_id": "central-embassy-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Central_Embassy_Level_2_Garden_201801.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "centralworld",
+      "cover_id": "centralworld-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:CentralWorld_at_night_20261105_(1).jpg",
+      "image_checks": 4,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chae-son-national-park",
+      "cover_id": "chae-son-national-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Chae_Son_National_Park04.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chai-nat-bird-park",
+      "cover_id": "chai-nat-bird-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Chai_Nat_Bird_Park_lake_and_eagle_statue.jpg",
+      "image_checks": 1,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chao-phraya-sky-park",
+      "cover_id": "chao-phraya-sky-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Chao_Phraya_Sky_Park_%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%AA%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84_%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2_(October_2021)_-_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "charan-13-mrt-station",
+      "cover_id": "charan-13-mrt-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Charan_13_%E2%80%93_Platform.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "charoen-krung-road",
+      "cover_id": "charoen-krung-road-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_charoen_krung_road_Sam_yot_road_IMG_6831.JPG",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chatuchak-park",
+      "cover_id": "chatuchak-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Oecophylla_smaragdina_-_Weaver_ant_(8487845936).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chatuchak-weekend-market",
+      "cover_id": "chatuchak-weekend-market-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Chatuchak_Weekend_Market_Soi.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chiang-khan",
+      "cover_id": "chiang-khan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:THE_ROYAL_CHIANGKHAN_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chiang-mai-city-arts-and-cultural-centre",
+      "cover_id": "chiang-mai-city-arts-and-cultural-centre-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_City_Art_and_Cultural_Centre.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "chiang-mai-night-bazaar",
+      "cover_id": "chiang-mai-night-bazaar-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:CHIANG_MAI_NIGHT_BAZAAR_THAILAND_FEB_2012_(6869571256).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "chiang-mai-railway-station",
+      "cover_id": "chiang-mai-railway-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_Train_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "childrens-discovery-museum-bangkok",
+      "cover_id": "childrens-discovery-museum-bangkok-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Troodon_Nest_Model_-_Bangkok_Childrens_Discovery_Museum.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chong-nonsi-bts-station",
+      "cover_id": "chong-nonsi-bts-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Chong_Nonsi_Station.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "christ-church-bangkok",
+      "cover_id": "christ-church-bangkok-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Christ_Church_Bangkok_-_%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B9%84%E0%B8%84%E0%B8%A3%E0%B9%89%E0%B8%AA%E0%B8%95%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%8A%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E_(2026_Jul)_-_IMG_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chulalongkorn-university-centenary-park",
+      "cover_id": "chulalongkorn-university-centenary-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:CU_Centenary_Park_(I).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chulalongkorn-university-museum-of-natural-history",
+      "cover_id": "chulalongkorn-university-museum-of-natural-history-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%22Night%22_at_Chulalongkorn_University_Museum_of_Natural_History_(Dec_2022)_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "chumphon-railway-station",
+      "cover_id": "chumphon-railway-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Chumphon_Station_2.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "coin-museum-treasury-department",
+      "cover_id": "coin-museum-treasury-department-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Coin_Museum_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "customs-house-bangkok",
+      "cover_id": "customs-house-bangkok-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B8%E0%B8%A5%E0%B8%81%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "damnoen-saduak-floating-market",
+      "cover_id": "damnoen-saduak-floating-market-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Damnoen_Saduak_Floating_Market_1977_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "democracy-monument",
+      "cover_id": "democracy-monument-ph-8",
+      "source": "https://commons.wikimedia.org/wiki/File:02-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%95%E0%B8%A2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-chiang-dao",
+      "cover_id": "doi-chiang-dao-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Doi_Chiang_Dao_in_the_clouds.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-inthanon",
+      "cover_id": "doi-inthanon-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Doi_Inthanon_4.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-inthanon-national-park",
+      "cover_id": "doi-inthanon-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Doi_Inthanon_NP_2.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-phu-kha-national-park",
+      "cover_id": "doi-phu-kha-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Tropidophorus_thai,_Thai_stream_skink_-_Doi_Phu_Kha_National_Park_(47786510481).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-phu-nang-national-park",
+      "cover_id": "doi-phu-nang-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Doi_Phu_Nang_National_Park_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%A0%E0%B8%B9%E0%B8%99%E0%B8%B2%E0%B8%87_(Dec_2021)_-_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-suthep",
+      "cover_id": "doi-suthep-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Doi_suthep_steps.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "doi-suthep-pui-national-park",
+      "cover_id": "doi-suthep-pui-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Vendor_at_Doi_Suthep.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "don-wai-floating-market",
+      "cover_id": "don-wai-floating-market-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Mai_Nub_ped_palo_(pot-stewed_duck).jpg",
+      "image_checks": 2,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "elephant-building",
+      "cover_id": "elephant-building-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87_%E0%B9%81%E0%B8%A5%E0%B8%B0_%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99_(Elephant_Building_and_BTS_Skytrain).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "emquartier",
+      "cover_id": "emquartier-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Emquartier_27-03-2015.JPG",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "emsphere",
+      "cover_id": "emsphere-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Siam_square_at_night.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "erawan-falls",
+      "cover_id": "erawan-falls-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Erawan_Falls_4.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "erawan-museum",
+      "cover_id": "erawan-museum-ph-7",
+      "source": "https://commons.wikimedia.org/wiki/File:Erawan_memories_2_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "erawan-national-park",
+      "cover_id": "erawan-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Erawan_National_Park,_Kanchanaburi,_Thailand_(355632005).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "fai-chai-mrt-station",
+      "cover_id": "fai-chai-mrt-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Fai_Chai_%E2%80%93_Traditional_sign.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "first-thailao-friendship-bridge",
+      "cover_id": "first-thailao-friendship-bridge-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Thai-Lao_Friendship_Bridge_(10729268664).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "gaysorn-village",
+      "cover_id": "gaysorn-village-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%88_%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%B7%E0%B8%99.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "giant-swing",
+      "cover_id": "giant-swing-ph-6",
+      "source": "https://commons.wikimedia.org/wiki/File:Giant_Swing_3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "goethe-institut-thailand",
+      "cover_id": "goethe-institut-thailand-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Goethe-Institut_Thailand_(Bangkok),_2019_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "grand-palace",
+      "cover_id": "grand-palace-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87_%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_0.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "great-buddha-of-thailand",
+      "cover_id": "great-buddha-of-thailand-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Phai_Cham_Sin,_Wiset_Chai_Chan_District,_Ang_Thong_14110,_Thailand_-_panoramio_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "haew-narok-waterfall",
+      "cover_id": "haew-narok-waterfall-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Haew_narok_waterfall_first_tier.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "haew-suwat-waterfall",
+      "cover_id": "haew-suwat-waterfall-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Haeo_Suwat_waterfall.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "haroon-mosque",
+      "cover_id": "haroon-mosque-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Haroon_Mosque_%E0%B8%A1%E0%B8%B1%E0%B8%AA%E0%B8%A2%E0%B8%B4%E0%B8%94%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B8%B9%E0%B8%93_2020_2563_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "hat-chao-mai-national-park",
+      "cover_id": "hat-chao-mai-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%AB%E0%B8%A1_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%A5%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%88140_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%AB%E0%B8%A1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "hat-yai-junction-railway-station",
+      "cover_id": "hat-yai-junction-railway-station-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Thamnoonvithi_1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "hellfire-pass",
+      "cover_id": "hellfire-pass-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:HELLFIRE_PASS_ON_THE_DEATH_RAILWAY_70_KMS_FROM_KANCHANABURI_THAILAND_JAN_2013_(8512998120).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "holy-rosary-church-bangkok",
+      "cover_id": "holy-rosary-church-bangkok-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Inside_Wat_Karawah.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "hua-hin-railway-station",
+      "cover_id": "hua-hin-railway-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Hua_Hin_railway_station_(8289451232).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "hua-lamphong-mrt-station",
+      "cover_id": "hua-lamphong-mrt-station-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Platform_2_of_Hua_Lamphong_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "hua-lamphong-railway-station",
+      "cover_id": "hua-lamphong-railway-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:202307_Bangkok_Railway_Station_at_night_03.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "hua-takhe-railway-station",
+      "cover_id": "hua-takhe-railway-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Hua_Takhe_Railway_Station_202212-3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "huai-khwang-mrt-station",
+      "cover_id": "huai-khwang-mrt-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Huai_Khwang_Station_platform_level_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "huai-mae-khamin-waterfall",
+      "cover_id": "huai-mae-khamin-waterfall-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Huaymaekamin_Waterfall_at_Khuean_Srinagarindra_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "huai-nam-dang-national-park",
+      "cover_id": "huai-nam-dang-national-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Park_1080_-HuaNamDung03.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "huai-tueng-thao-reservoir",
+      "cover_id": "huai-tueng-thao-reservoir-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Don_Kaeo_-_Huai_Tueng_Thao_-_0007.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "huai-yang-waterfall-national-park",
+      "cover_id": "huai-yang-waterfall-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Beachen_Huai_Yang_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "huamak-railway-station",
+      "cover_id": "huamak-railway-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Hua_Mak_railway_station_20220501-5.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "iconsiam",
+      "cover_id": "iconsiam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Iconsiam_at_Night_(II).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "immaculate-conception-church-bangkok",
+      "cover_id": "immaculate-conception-church-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%9B%E0%B8%8A%E0%B8%B1%E0%B8%8D_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B8%95_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "impact-arena",
+      "cover_id": "impact-arena-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Impact_Arena_Muang_Thong_Thani_at_nighttime.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "indonesia-mosque-bangkok",
+      "cover_id": "indonesia-mosque-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2020May_Indonesia_Mosque_Bangkok_%E0%B8%A1%E0%B8%B1%E0%B8%AA%E0%B8%A2%E0%B8%B4%E0%B8%94%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%94%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "indoor-stadium-huamark",
+      "cover_id": "indoor-stadium-huamark-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Outside_view_of_Hua_Mak_Indoor_Stadium_(2026)_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "itsaraphap-mrt-station",
+      "cover_id": "itsaraphap-mrt-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Itsaraphap_station_(Decoration).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "jim-thompson-house",
+      "cover_id": "jim-thompson-house-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Jim_Thompson_House_Bangkok_P1110285.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kaeng-khoi-junction-railway-station",
+      "cover_id": "kaeng-khoi-junction-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaeng_Khoi_Station.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kaeng-tana-national-park",
+      "cover_id": "kaeng-tana-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Let_the_wind_blows_at_Kangtana_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kamphaeng-phet-historical-park",
+      "cover_id": "kamphaeng-phet-historical-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamphaeng_Phet_City_Pillar_Shrine.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kamthieng-house-museum",
+      "cover_id": "kamthieng-house-museum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamthieng_house_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kanchanaburi-railway-station",
+      "cover_id": "kanchanaburi-railway-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:THAI_RAILWAYS_KRUPPS_BUILT_LOCO_HAULED_NAM_TOK_BOUND_TRAIN_AT_KANCHANABURI_THAILAND_JAN_2013_(8515939684).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kantang-railway-station",
+      "cover_id": "kantang-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Kantang_train_station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "karon-beach",
+      "cover_id": "karon-beach-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Karon_View_Point_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kata-beach",
+      "cover_id": "kata-beach-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Kata_Beach_(5730394104).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-chang-hai-cave",
+      "cover_id": "khao-chang-hai-cave-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Chang_Hai_cave_Ahoerstemeier_16.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-chi-chan",
+      "cover_id": "khao-chi-chan-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:DFC_0460_Weathered_wooden_stilt_house_and_dock_built_over_a_sandy_rocky_shoreline_with_tropical_trees_in_the_background.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-khitchakut-national-park",
+      "cover_id": "khao-khitchakut-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Khitchakut_National_Park_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-kho",
+      "cover_id": "khao-kho-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Kho_tempel.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-laem-yamu-ko-samet-national-park",
+      "cover_id": "khao-laem-yamu-ko-samet-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Khao_Laem_Ya%E2%80%93Mu_Ko_Samet_National_Park_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-lak",
+      "cover_id": "khao-lak-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsunami_shelter_near_Khao_Lak,_Thailand..jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-luang-cave",
+      "cover_id": "khao-luang-cave-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Tham_Khao_Luang_Cave_2014-04_--3.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-luang-national-park",
+      "cover_id": "khao-luang-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Krung_Ching_Waterfall_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-ngon-nak",
+      "cover_id": "khao-ngon-nak-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Ngon_Nak_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-ngu-stone-park",
+      "cover_id": "khao-ngu-stone-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Ngoo_Rock_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "khao-ok-thalu",
+      "cover_id": "khao-ok-thalu-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%AD%E0%B8%81%E0%B8%97%E0%B8%B0%E0%B8%A5%E0%B8%B8_%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A5%E0%B8%B8%E0%B8%87.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-phing-kan",
+      "cover_id": "khao-phing-kan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Phing_Kan_and_Koh_Tapu_(James_Bond_Island).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-pukhao-ya-national-park",
+      "cover_id": "khao-pukhao-ya-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:20151010_125125_-_Copy.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-sam-roi-yot-national-park",
+      "cover_id": "khao-sam-roi-yot-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Khao_Sam_Roi_Yot_National_Park_No.2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-sok-national-park",
+      "cover_id": "khao-sok-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:1022-khao-sok-national-park-01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khao-yai-national-park",
+      "cover_id": "khao-yai-national-park-ph-7",
+      "source": "https://commons.wikimedia.org/wiki/File:1001_Khao_Yai_National_Park_3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khaosan-road",
+      "cover_id": "khaosan-road-ph-6",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Khaosan_Road_Ovedc_00.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-bang-luang",
+      "cover_id": "khlong-bang-luang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Khlong_Bang_Luang_Floating_Market.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-bangkok-noi",
+      "cover_id": "khlong-bangkok-noi-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Bang_Khun_Si,_Bangkok_Noi,_Bangkok_10700,_Thailand_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-lan-national-park",
+      "cover_id": "khlong-lan-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Klonglan_waterfall_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-maha-nak",
+      "cover_id": "khlong-maha-nak-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%84_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B9%88%E0%B8%B2%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-mon-bangkok",
+      "cover_id": "khlong-mon-bangkok-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Khlong_Mon_at_Wat_Bang_Sao_Thong.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-ong-ang",
+      "cover_id": "khlong-ong-ang-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(1).jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "khlong-phadung-krung-kasem",
+      "cover_id": "khlong-phadung-krung-kasem-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Khlong_Phadung_Krung_Kasem_IMG_7321.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "khlong-phanom-national-park",
+      "cover_id": "khlong-phanom-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Virgin_tropical_forest_in_southern_Thailand,_Khlong_Phanom,_Surat_Thani.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-prawet-burirom",
+      "cover_id": "khlong-prawet-burirom-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%A7%E0%B8%A8%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-rop-krung",
+      "cover_id": "khlong-rop-krung-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Canal_Khlong_Rop_Krung.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-toei-market",
+      "cover_id": "khlong-toei-market-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Workers_cutting_meat_in_Khlong_Toei_Market,_Bangkok.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khlong-toei-mrt-station",
+      "cover_id": "khlong-toei-mrt-station-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Platform_1_of_Khlong_Toei_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khun-dan-prakan-chon-dam",
+      "cover_id": "khun-dan-prakan-chon-dam-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:View_from_Khun_Dan_Prakarn_Chon_Dam_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khun-tan-railway-station",
+      "cover_id": "khun-tan-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Stellwerk_im_Bahnhof_Khun_Tan.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "khun-tan-tunnel",
+      "cover_id": "khun-tan-tunnel-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Khun_Tan_tunnel_cave_(%E0%B8%AD%E0%B8%B8%E0%B9%82%E0%B8%A1%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%99).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kian-an-keng-shrine",
+      "cover_id": "kian-an-keng-shrine-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Kuan_An_Keng_Shrine.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "king-narais-palace",
+      "cover_id": "king-narais-palace-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Lopburi_02.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "king-prajadhipok-museum",
+      "cover_id": "king-prajadhipok-museum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:John_Sampson_%26_Son_Department_Store,_BKK.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "ko-chang",
+      "cover_id": "ko-chang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Chang_eastern_bay_panorama.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-kradan",
+      "cover_id": "ko-kradan-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Ko_Kradan_-_panoramio_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-kret",
+      "cover_id": "ko-kret-ph-12",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94_%E0%B8%88.%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_Koh_Kret,Nonthaburi_(11).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-lan",
+      "cover_id": "ko-lan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ko_Lan_sunset.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-lanta-yai",
+      "cover_id": "ko-lanta-yai-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:4245,_Tambon_Ko_Lanta_Yai,_Amphoe_Ko_Lanta,_Chang_Wat_Krabi_81150,_Thailand_-_panoramio_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-lipe",
+      "cover_id": "ko-lipe-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Lipe_(island),_Bronze_tropical_sunset,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-mak",
+      "cover_id": "ko-mak-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Mak_(island),_Thailand,_Sunset_on_the_beach_with_palms.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-muk",
+      "cover_id": "ko-muk-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:2016_Prowincja_Trang,_Ko_Muk_(03).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-panyi",
+      "cover_id": "ko-panyi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ao_Phang_Nga_National_Park_P1120297.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-pha-ngan",
+      "cover_id": "ko-pha-ngan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_PhanGan_Einsamer_Strand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-phayam",
+      "cover_id": "ko-phayam-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Thailand_-_Koh_Phayam_(24245344054).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-poda",
+      "cover_id": "ko-poda-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Poda_12.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-rang",
+      "cover_id": "ko-rang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Chang_diving_3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-samet",
+      "cover_id": "ko-samet-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Fire_dancer_on_Samet_Island,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-samui",
+      "cover_id": "ko-samui-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2013_04_09_Koh_Samui_(10).jpg",
+      "image_checks": 1,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-sichang",
+      "cover_id": "ko-sichang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%AA%E0%B8%B5%E0%B8%8A%E0%B8%B1%E0%B8%87_2014-01-04_09-43.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-tao",
+      "cover_id": "ko-tao-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Diving_boat_at_Koh_Tao,_Thailand_1075.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ko-tarutao",
+      "cover_id": "ko-tarutao-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Koh_Tarutao,_Thailand,_Ao_Pante_Malacca_beach_at_sunset.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "krue-se-mosque",
+      "cover_id": "krue-se-mosque-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A1%E0%B8%B1%E0%B8%AA%E0%B8%A2%E0%B8%B4%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%8B%E0%B8%B0.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "krung-thon-bridge",
+      "cover_id": "krung-thon-bridge-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Shang_Hi_Bridge_in_Cloudy.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kudi-chin",
+      "cover_id": "kudi-chin-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Kudi_Chin_community_-_2017-02-25_(003).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "kuiburi-national-park",
+      "cover_id": "kuiburi-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Kui_Buri_National_Park_(Prachuap_Khiri_Khan_Province,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kwan-phayao",
+      "cover_id": "kwan-phayao-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Kwan_Phayao_%E0%B8%81%E0%B8%A7%E0%B9%8A%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2_(25-12-2021)_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "kwan-riam-floating-market",
+      "cover_id": "kwan-riam-floating-market-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Min_Buri,_Bangkok_10510,_Thailand_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "laem-son-national-park",
+      "cover_id": "laem-son-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Laem_Son_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lam-nam-kok-national-park",
+      "cover_id": "lam-nam-kok-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Mushrooms_on_a_log_in_Lam_Nam_Kok_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lam-pao-dam",
+      "cover_id": "lam-pao-dam-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Lam_Pao_Dam_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lan-sang-national-park",
+      "cover_id": "lan-sang-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%87.JPG",
+      "image_checks": 2,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lanna-folklife-museum",
+      "cover_id": "lanna-folklife-museum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Lanna_Folklife_Museum_at_night.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "lat-krabang-railway-station",
+      "cover_id": "lat-krabang-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Lat_Krabang_Railway_Station1.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lat-phrao-mrt-station",
+      "cover_id": "lat-phrao-mrt-station-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Lat_Phrao_Station_-_platform_level_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lop-buri-railway-station",
+      "cover_id": "lop-buri-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "lumphini-park",
+      "cover_id": "lumphini-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Lumphini_Park_-_panoramio_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mae-fah-luang-art-and-cultural-park",
+      "cover_id": "mae-fah-luang-art-and-cultural-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiang_Rai_-_Rai_Mae_Fah_Luang_-_0062-Pano.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "mae-sa-waterfall",
+      "cover_id": "mae-sa-waterfall-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:MAE_SA_WATERFALL.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mae-surin-waterfall-national-park",
+      "cover_id": "mae-surin-waterfall-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Namtok_Mae_Surin,_Sunset_in_the_mountains,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mae-wang-national-park",
+      "cover_id": "mae-wang-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:1112%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%B2%E0%B8%872.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "maeklong-railway-market",
+      "cover_id": "maeklong-railway-market-ph-8",
+      "source": "https://commons.wikimedia.org/wiki/File:Maeklong_Railway_(9394213822).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "maha-chai-railway-station",
+      "cover_id": "maha-chai-railway-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:MAHACHAI_STATION_THAILAND_JAN_2012_(6966442397).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "maha-chesadabodindranusorn-bridge",
+      "cover_id": "maha-chesadabodindranusorn-bridge-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Maha_Chesadabodindranusorn_Bridge_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mahadthai-uthit-bridge",
+      "cover_id": "mahadthai-uthit-bridge-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Saphan_Mahadthai_Uthit_Bangkok_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mahakan-fort",
+      "cover_id": "mahakan-fort-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%AC_Mahakarn_Fort_(2).JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mahanakhon",
+      "cover_id": "mahanakhon-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Reserved_Exit_to_MahaNakhon_at_Chong_Nonsi_Station.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "maya-bay",
+      "cover_id": "maya-bay-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Maya_Bay_boats.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "maya-lifestyle-shopping-center",
+      "cover_id": "maya-lifestyle-shopping-center-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%A1%E0%B8%8D%E0%B9%88%E0%B8%B2_%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C_%E0%B8%8A%E0%B8%AD%E0%B8%9B%E0%B8%9B%E0%B8%B4%E0%B8%87_%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C_Maya_Lifestyle_Shopping_Center_Chiangmai_(4).jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mbk-center",
+      "cover_id": "mbk-center-night-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:MBK_Bangkok_Night.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "memorial-bridge-bangkok",
+      "cover_id": "memorial-bridge-bangkok-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_Phuttha_Yodfa_Bridge.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "min-buri-mrt-station",
+      "cover_id": "min-buri-mrt-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Pink_Line_Min_Buri_Station_20231203-1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mrigadayavan-palace",
+      "cover_id": "mrigadayavan-palace-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Mrigadayavan_Palace_by_Heuristics.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mu-ko-ang-thong-national-park",
+      "cover_id": "mu-ko-ang-thong-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ang_Thong_Sunset.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mu-ko-chang-national-park",
+      "cover_id": "mu-ko-chang-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Narongchaiv_1045.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mu-ko-chumphon-national-park",
+      "cover_id": "mu-ko-chumphon-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Mu_Ko_Chumphon_National_Park_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "mueang-sing-historical-park",
+      "cover_id": "mueang-sing-historical-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%97%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_003.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "museum-of-contemporary-art-bangkok",
+      "cover_id": "museum-of-contemporary-art-bangkok-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Museum_of_Contemporary_Art_(MOCA),_Bangkok,_Thailand_-_20161201-04.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "museum-siam",
+      "cover_id": "museum-siam-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Museum_Siam_building_(View_from_MRT_Sanamchai_train_station_entrance).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nai-harn-beach",
+      "cover_id": "nai-harn-beach-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Phuket_-_Nai_Harn_Beach_005.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nakhon-lampang-railway-station",
+      "cover_id": "nakhon-lampang-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Nakhon_Lampang_Railway_Station_%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F_%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87_(Dec_2021)_IMG_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nakhon-pathom-railway-station",
+      "cover_id": "nakhon-pathom-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Nakhon_Pathom_Railway_Station.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nakhon-ratchasima-railway-station",
+      "cover_id": "nakhon-ratchasima-railway-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_0211_Nakhon_Ratchasima_train_station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nam-nao-national-park",
+      "cover_id": "nam-nao-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2013_Beware_of_the_Elephants.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nam-tok-railway-station",
+      "cover_id": "nam-tok-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:THAI_RAILWAYS_BANGKOK_BOUND_KRUPPS_BUILT_LOCO_HAULED_TRAIN_AT_NAM_TOK_STATION_THAILAND_JAN_2013_(8511880531).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "namtok-chet-sao-noi-national-park",
+      "cover_id": "namtok-chet-sao-noi-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Chet_Sao_Noi_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "namtok-phlio-national-park",
+      "cover_id": "namtok-phlio-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:1011_-_Namtokphlio_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nan-national-museum",
+      "cover_id": "nan-national-museum-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Nan_National_Museum_2014.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nana-bts-station",
+      "cover_id": "nana-bts-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:NANA_SKYTRAIN_STATION_ON_SUKHUMVIT_ROAD_BANGKOK_THAILAND_FEB_2012_(6843467820).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nana-plaza",
+      "cover_id": "nana-plaza-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Nana_Plaza,_Bangkok_(31503590258).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "naris-bridge",
+      "cover_id": "naris-bridge-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B8%A8%E0%B8%94%E0%B8%B3%E0%B8%A3%E0%B8%B1%E0%B8%AA_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B9%88%E0%B8%B2%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "neilson-hays-library",
+      "cover_id": "neilson-hays-library-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%A5%E0%B8%AA%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AE%E0%B8%AA%E0%B9%8C565.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "noen-maprang",
+      "cover_id": "noen-maprang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:TH-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%A1%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nong-han-lake",
+      "cover_id": "nong-han-lake-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nong-nooch-tropical-garden",
+      "cover_id": "nong-nooch-tropical-garden-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Na_Chom_Thian,_Sattahip_District,_Chon_Buri,_Thailand_-_panoramio_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "nonthaburi-civic-center-mrt-station",
+      "cover_id": "nonthaburi-civic-center-mrt-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Nonthaburi_Civic_Center_Station.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "noppharat-thara-beach",
+      "cover_id": "noppharat-thara-beach-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Hat_Noppharat_Thara_beach_3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ob-luang-national-park",
+      "cover_id": "ob-luang-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Park_1068-AobLaung01.JPG",
+      "image_checks": 2,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "one-bangkok",
+      "cover_id": "one-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Storeys_at_One_Bangkok-2024-12-3.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pa-hin-ngam-national-park",
+      "cover_id": "pa-hin-ngam-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:1105_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%AB%E0%B8%B4%E0%B8%99%E0%B8%87%E0%B8%B2%E0%B8%A1.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pa-sak-jolasid-dam",
+      "cover_id": "pa-sak-jolasid-dam-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Pa_Sak_Cholasit_Dam471.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pai-canyon",
+      "cover_id": "pai-canyon-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Pai_Canyon,_Thailand_2012-12-08_-_panoramio_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pak-chong-railway-station",
+      "cover_id": "pak-chong-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Pak_Chong_Railway_Station.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pak-khlong-talat",
+      "cover_id": "pak-khlong-talat-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Pak_Khlong_Talat_P1100373.JPG",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pak-phanang",
+      "cover_id": "pak-phanang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:4151,_Tambon_Khanap_Nak,_Amphoe_Pak_Phanang,_Chang_Wat_Nakhon_Si_Thammarat_80170,_Thailand_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pang-mapha",
+      "cover_id": "pang-mapha-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Loi-Krathong-00357_(23443318680).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pang-sida-national-park",
+      "cover_id": "pang-sida-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Landing_of_butterflies_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%9B%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B8%94%E0%B8%B2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pang-ung",
+      "cover_id": "pang-ung-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99_%E0%B8%93_%E0%B8%9B%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%B8%E0%B9%8B%E0%B8%87.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "patong-beach",
+      "cover_id": "patong-beach-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangla_Walking_Street.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "patpong",
+      "cover_id": "patpong-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:ID19748.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pattaya-beach",
+      "cover_id": "pattaya-beach-night-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Pattaya_at_night_by_Don_Ramey_Logan.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pha-taem-national-park",
+      "cover_id": "pha-taem-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Pha_Taem_bis.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phae-mueang-phi",
+      "cover_id": "phae-mueang-phi-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Phae_Mueang_Phi_Forest_Park3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "phahon-yothin-mrt-station",
+      "cover_id": "phahon-yothin-mrt-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Phahon_Yothin_MRT_Station_platforms_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phahurat",
+      "cover_id": "phahurat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phahurat_Road.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phan-fa-lilat-bridge",
+      "cover_id": "phan-fa-lilat-bridge-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Deails_of_Phan_Fa_Lilat_Bridge_(2021)_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phan-phiphop-lila-bridge",
+      "cover_id": "phan-phiphop-lila-bridge-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%A0%E0%B8%9E%E0%B8%A5%E0%B8%B5%E0%B8%A5%E0%B8%B2_April2021_Phanphiphop_Lila_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phang-nga-bay",
+      "cover_id": "phang-nga-bay-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Dreamy_sunrise_over_Phang_Nga_bay,_Koh_Yao_tropical_island,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phanom-rung-historical-park",
+      "cover_id": "phanom-rung-historical-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%97%E0%B8%AB%E0%B8%B4%E0%B8%99%E0%B8%9E%E0%B8%99%E0%B8%A1%E0%B8%A3%E0%B8%B8%E0%B9%89%E0%B8%87.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phanthai-norasing-shrine",
+      "cover_id": "phanthai-norasing-shrine-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_07.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phaya-thai-palace",
+      "cover_id": "phaya-thai-palace-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%99%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%B5_%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B8%9E%E0%B8%8D%E0%B8%B2%E0%B9%84%E0%B8%97.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phet-kanchanarom-park",
+      "cover_id": "phet-kanchanarom-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phetchaburi-railway-station",
+      "cover_id": "phetchaburi-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phetchaburi_Railway_Station.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phi-phi-islands",
+      "cover_id": "phi-phi-islands-ph-7",
+      "source": "https://commons.wikimedia.org/wiki/File:Ko_Phi_Phi_high_panorama_(5452431613).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phi-sua-samut-fort",
+      "cover_id": "phi-sua-samut-fort-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9C%E0%B8%B5%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3_%E0%B8%AD.%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phimai-historical-park",
+      "cover_id": "phimai-historical-park-ph-9",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%97%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%A22.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phitthayasathian-bridge",
+      "cover_id": "phitthayasathian-bridge-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Chai_Phatthanasilp_%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B9%8C_01.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "phlaeng-fai-fort",
+      "cover_id": "phlaeng-fai-fort-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%9C%E0%B8%A5%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2_%E0%B8%AD.%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%94%E0%B8%87_%E0%B8%88.%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-athit-road",
+      "cover_id": "phra-athit-road-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_Athit_Road_-_2017-01-26_(003).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-chudadhuj-palace",
+      "cover_id": "phra-chudadhuj-palace-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B8%E0%B8%91%E0%B8%B2%E0%B8%98%E0%B8%B8%E0%B8%8A%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%90%E0%B8%B2%E0%B8%99_%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%AA%E0%B8%B5%E0%B8%8A%E0%B8%B1%E0%B8%87.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-chulachomklao-fort",
+      "cover_id": "phra-chulachomklao-fort-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Chulachomklao_Fort_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-maha-chedi-chai-mongkhon",
+      "cover_id": "phra-maha-chedi-chai-mongkhon-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_Maha_Chedi_Chai_Mongkol.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-nakhon-khiri",
+      "cover_id": "phra-nakhon-khiri-ph-12",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_Nakhon_Khiri_(Petchaburi)-001.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-pathom-chedi",
+      "cover_id": "phra-pathom-chedi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B8%90%E0%B8%A1%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1_(4).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-pinklao-bridge",
+      "cover_id": "phra-pinklao-bridge-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Pinklao_Bridge.JPG",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-prang-sam-yot",
+      "cover_id": "phra-prang-sam-yot-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Prang_Sam_Yod.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-ram-ratchaniwet",
+      "cover_id": "phra-ram-ratchaniwet-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_Ram_Ratchaniwet_Palace.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phra-sumen-fort",
+      "cover_id": "phra-sumen-fort-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Fort_Phra_Sumen,_Bangkok,_Thailand_(4246732568).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phraya-nakhon-cave",
+      "cover_id": "phraya-nakhon-cave-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phraya_Nakhon_Cave.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-chi-fa",
+      "cover_id": "phu-chi-fa-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Pu_Chi_Fah_05.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-hin-rong-kla-national-park",
+      "cover_id": "phu-hin-rong-kla-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Phu_Hin_Rong_Kla_rock_formation.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-kradueng-national-park",
+      "cover_id": "phu-kradueng-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:6th_place_-_Wild_Mushrooms_in_forest_on_Phu_Kradueng_National_Park,Thailand.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-laen-kha-national-park",
+      "cover_id": "phu-laen-kha-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Phu_Lan_Kha_National_Park.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-langka-forest-park",
+      "cover_id": "phu-langka-forest-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phulangka_12.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-langka-national-park",
+      "cover_id": "phu-langka-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:D85_4398_Spider_from_Phu_Langka_National_Park,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-pha-thoep-national-park",
+      "cover_id": "phu-pha-thoep-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Phu_Pha_Thoep_National_Park_(MGK21329).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-phrabat-historical-park",
+      "cover_id": "phu-phrabat-historical-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Tham_Khon.JPG",
+      "image_checks": 1,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-ruea-national-park",
+      "cover_id": "phu-ruea-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phurua_Sunrise.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-soi-dao-national-park",
+      "cover_id": "phu-soi-dao-national-park-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Phu_Soi_Dao_camping_area.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-suan-sai-national-park",
+      "cover_id": "phu-suan-sai-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:IMG_1195_Sunset_at_Phu_Suansai_National_park,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phu-wiang-national-park",
+      "cover_id": "phu-wiang-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:PWNP_Dinosaur_Site_3.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "phutthamonthon-park",
+      "cover_id": "phutthamonthon-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Buddha_Monthon,Nakornpathom,Thailand_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pipit-banglamphu",
+      "cover_id": "pipit-banglamphu-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B8%B4%E0%B8%97%E0%B8%A3%E0%B8%A3%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99_1.4.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "prasat-hin-phanom-wan",
+      "cover_id": "prasat-hin-phanom-wan-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Phnom-Wan-002.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "prasat-khao-noi-si-chomphu",
+      "cover_id": "prasat-khao-noi-si-chomphu-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Prasat_Khao_Noi_(Si_Shampu)-003.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "prasat-muang-tam",
+      "cover_id": "prasat-muang-tam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(02b)_Prasat_Muang_Tam_(NgnL)-08369.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "prasat-sa-kamphaeng-noi",
+      "cover_id": "prasat-sa-kamphaeng-noi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Prasat_Sa_Kamphaeng_Noi-002.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "prasat-sa-kamphaeng-yai",
+      "cover_id": "prasat-sa-kamphaeng-yai-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Prasat_Sa_Kamphaeng_Yai-003.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "prasat-sikhoraphum",
+      "cover_id": "prasat-sikhoraphum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Prasat_Sikhoraphum-001.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "pratunam",
+      "cover_id": "pratunam-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Pratunam_market.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "promthep-cape",
+      "cover_id": "promthep-cape-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Sunset_on_Promthep_Cape,_Phuket_island,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "queen-sirikit-botanic-garden",
+      "cover_id": "queen-sirikit-botanic-garden-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Queen_Sirikit_Botanic_Garden_-_Chiang_Mai_2013_2492.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "queen-sirikit-national-convention-center",
+      "cover_id": "queen-sirikit-national-convention-center-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Queen_Sirikit_Convention_center_Thai_Photographed_by_Trisorn_Triboon-62.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "queen-sirikit-national-convention-centre-mrt-station",
+      "cover_id": "queen-sirikit-national-convention-centre-mrt-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Platform_2_of_Queen_Sirikit_Centre_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "queen-sirikit-park",
+      "cover_id": "queen-sirikit-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Banana_plantation_in_Queen_Sirikit_Park_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "railay-beach",
+      "cover_id": "railay-beach-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Coral_Reef_in_the_Andaman_Sea_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rajabhakti-park",
+      "cover_id": "rajabhakti-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Rajabhakti_Park_under_repair_works_(2022).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rajamangala-national-stadium",
+      "cover_id": "rajamangala-national-stadium-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Flood_shelter_at_Rajamangala_Stadium,_Bangkok,_Thailand,_October_2011.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rama-iii-bridge",
+      "cover_id": "rama-iii-bridge-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Krung_Thep_Bridge_Sunrise.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rama-ix-bridge",
+      "cover_id": "rama-ix-bridge-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Rama_IX_Bridge_(I).jpg",
+      "image_checks": 4,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rama-vi-bridge",
+      "cover_id": "rama-vi-bridge-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Rama_6_bridge.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rama-viii-bridge",
+      "cover_id": "rama-viii-bridge-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Rama_VIII_Bridge,_Bangkok_(8284731101).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rama-viii-park",
+      "cover_id": "rama-viii-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Rama_VIII_Pier.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ratchaburi-railway-station",
+      "cover_id": "ratchaburi-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ratchabburi-station.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ratchadaphisek-road",
+      "cover_id": "ratchadaphisek-road-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Central_Rama_3_-_panoramio.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ratchaprasong",
+      "cover_id": "ratchaprasong-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:BTS_divergence_route_before_the_Central_world._%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E5%89%8D%E3%81%AEBTS%E5%88%86%E5%B2%90%E8%B7%AF%E7%B7%9A_-_panoramio.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ratchathewi-bts-station",
+      "cover_id": "ratchathewi-bts-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Platforms_of_Ratchathewi_Station.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ratchawong-pier",
+      "cover_id": "ratchawong-pier-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:2022_January_-_Ratchawong_Pier_%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "river-city-bangkok",
+      "cover_id": "river-city-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:River_City_Aerial_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "robot-building",
+      "cover_id": "robot-building-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B8%AB%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C_UOB_BANK_BANGKOK_(robot_building).jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "roi-et-tower",
+      "cover_id": "roi-et-tower-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%AD%E0%B9%82%E0%B8%AB%E0%B8%A7%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%B6%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8D%E0%B8%8A%E0%B8%B1%E0%B8%A2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "rommaninat-park",
+      "cover_id": "rommaninat-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_-_Rommaninat_Park_%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%A3%E0%B8%A1%E0%B8%93%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%96_(2026)_-_IMG_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "royal-barge-national-museum",
+      "cover_id": "royal-barge-national-museum-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%B5.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "royal-thai-air-force-museum",
+      "cover_id": "royal-thai-air-force-museum-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9P_-_Front_Markings_(RTAF_Museum).JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sai-thong-national-park",
+      "cover_id": "sai-thong-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Sai_Thong_National_Park_Chaiyaphum_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sai-yok-national-park",
+      "cover_id": "sai-yok-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Tha_Sao,_Sai_Yok_District,_Kanchanaburi,_Thailand_-_panoramio_(5).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sai-yok-noi-waterfall",
+      "cover_id": "sai-yok-noi-waterfall-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Sai_Yok_Noi_Falls_wv.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "saint-louis-church-bangkok",
+      "cover_id": "saint-louis-church-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:St_Louis_Church_Bangkok_2018_05.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sala-chalermkrung-royal-theatre",
+      "cover_id": "sala-chalermkrung-royal-theatre-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "sala-daeng-bts-station",
+      "cover_id": "sala-daeng-bts-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Si_Lom%E2%80%93Sala_Daeng_Flyover.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sala-keoku",
+      "cover_id": "sala-keoku-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Sala_Keoku_1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sala-ya-railway-station",
+      "cover_id": "sala-ya-railway-station-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Salaya_railway_station_2019.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sam-phan-bok",
+      "cover_id": "sam-phan-bok-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B9%82%E0%B8%9A%E0%B8%81_-_panoramio_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sam-yan",
+      "cover_id": "sam-yan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_-_Sam_Yan_Intersection_-_%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99_(2025)_-_img_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sam-yot-mrt-station",
+      "cover_id": "sam-yot-mrt-station-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Sam_Yot_train_station_(Platform_with_sign_and_old-day_tram_images_for_decoration).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "samila-beach",
+      "cover_id": "samila-beach-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Songkhla_Laem_Samila.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sampeng-market",
+      "cover_id": "sampeng-market-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Sampeng_Lane_in_Samphanthawong_District,_Bangkok,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "samsen-railway-station",
+      "cover_id": "samsen-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsen_Station.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "samyan-mitrtown",
+      "cover_id": "samyan-mitrtown-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Chuam_Mitr_tunnel_Samyan_Mitrtown_side.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sanam-chai-mrt-station",
+      "cover_id": "sanam-chai-mrt-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Blue_Line,_Sanam_Chai_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "sanam-chandra-palace",
+      "cover_id": "sanam-chandra-palace-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1_(9).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sanctuary-of-truth",
+      "cover_id": "sanctuary-of-truth-ph-12",
+      "source": "https://commons.wikimedia.org/wiki/File:Carvings_at_the_Sanctuary_of_Truth,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "santa-cruz-church-bangkok",
+      "cover_id": "santa-cruz-church-bangkok-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Church_-_2017-02-25_(001).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "santi-chai-prakan-park",
+      "cover_id": "santi-chai-prakan-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Santi_Chai_Prakan_2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "saphan-chaloem-la-56",
+      "cover_id": "saphan-chaloem-la-56-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B9%89%E0%B8%B2_56_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%99_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(6).JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "saphan-charoen-rat-31",
+      "cover_id": "saphan-charoen-rat-31-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:V.P.R_-_Royal_monogram_of_King_Vajiravudh_at_Charoen_Rajja_31_Bridge,_Pak_Khlong_Talat,_Bangkok_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "saphan-han",
+      "cover_id": "saphan-han-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Deepavali_Bangkok_2022_at_Khlong_Ong_Ang_-_image_21.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "saphan-taksin-bts-station",
+      "cover_id": "saphan-taksin-bts-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Train_No.126_at_Saphan_Taksin_Station.jpg",
+      "image_checks": 4,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "saranrom-palace",
+      "cover_id": "saranrom-palace-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Saranrom_Palace_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "saranrom-park",
+      "cover_id": "saranrom-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Bkksanamsaranrom0205a.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sathorn-bridge",
+      "cover_id": "sathorn-bridge-night-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Zigzag_Stairs_at_Dusk_(17992418955).jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sdok-kok-thom",
+      "cover_id": "sdok-kok-thom-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Prasat_Sdok_Kok_Thom-2-HDR.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "seri-thai-park",
+      "cover_id": "seri-thai-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B5%E0%B9%84%E0%B8%97%E0%B8%A2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "si-satchanalai-historical-park",
+      "cover_id": "si-satchanalai-historical-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%99%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2_002.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "si-thep-historical-park",
+      "cover_id": "si-thep-historical-park-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Hi_Pa_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "siam-bts-station",
+      "cover_id": "siam-bts-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_skyline_at_sunset_from_Siam_BTS_Skytrain_station,_Bangkok,_Thailand.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "siam-discovery",
+      "cover_id": "siam-discovery-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Habitat_in_Siam_Discovery_201801.JPG",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "siam-paragon",
+      "cover_id": "siam-paragon-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Siam_center,pathum_Wan_bangkok_Thailand_-_panoramio.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "siam-square",
+      "cover_id": "siam-square-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Siam_square_at_night.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "silom-road",
+      "cover_id": "silom-road-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Silom_Saladaeng_Soi_1_night_view_Don_Ramey_Logan.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "similan-islands",
+      "cover_id": "similan-islands-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Similan_Adasi.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sirikit-dam",
+      "cover_id": "sirikit-dam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ferry_Sirikit_Dam_Nan_river_2014_b.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sirinat-national-park",
+      "cover_id": "sirinat-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Nai_Yang_Beach,_Phuket_(4448621322).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "soi-cowboy",
+      "cover_id": "soi-cowboy-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Soi_Cowboy_2023_03.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "song-wat-road",
+      "cover_id": "song-wat-road-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%82%E0%B8%81%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%94_2.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "songkhla-lake",
+      "cover_id": "songkhla-lake-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Songkhla_Lake_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "srinagarind-dam",
+      "cover_id": "srinagarind-dam-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Si_Nakharindra_Dam_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "state-tower",
+      "cover_id": "state-tower-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Chao_Praya_River_-_Bangrak.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "suan-luang-rama-ix",
+      "cover_id": "suan-luang-rama-ix-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Suan_Luang_Rama_9_Park_03.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "suan-pakkad-palace",
+      "cover_id": "suan-pakkad-palace-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:SUAN_PAKKAD_PALACE_MUSEUM_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sukhothai-historical-park",
+      "cover_id": "sukhothai-historical-park-ph-9",
+      "source": "https://commons.wikimedia.org/wiki/File:201401011550b_(Hartmann_Linge)_Sukhothai_Historical_Park_Western_Part.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sukhumvit-road",
+      "cover_id": "sukhumvit-road-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Koreatown_Bangkok_Thailand01.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "surat-thani-railway-station",
+      "cover_id": "surat-thani-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Surat_Thani_railway_station_1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "surawong-road",
+      "cover_id": "surawong-road-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Bkk_suriwonse_british_club.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "sutthisan-mrt-station",
+      "cover_id": "sutthisan-mrt-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Sutthisan_Station_platform_level_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ta-phraya-national-park",
+      "cover_id": "ta-phraya-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:The_male_wild_ox_(the_bull)_of_the_East_Forest_while_walking_out_of_the_jungle_to_find_water_during_twilight.jpg",
+      "image_checks": 1,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "talat-noi",
+      "cover_id": "talat-noi-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Lamphun_chai,_talat_Noi,_Samphanthewong,bangkok_-_panoramio.jpg",
+      "image_checks": 4,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "talat-phlu",
+      "cover_id": "talat-phlu-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%B0%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B9%8A%E0%B8%AD%E0%B8%81_%E0%B9%86_%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B9.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "talat-phlu-bts-station",
+      "cover_id": "talat-phlu-bts-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:BTS_Talad_Phlu_S10.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "talat-phlu-railway-station",
+      "cover_id": "talat-phlu-railway-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B9_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B5_2562_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "taling-chan-floating-market",
+      "cover_id": "taling-chan-floating-market-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Thailand_2015_(20843173255).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "taling-chan-junction-railway-station",
+      "cover_id": "taling-chan-junction-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:202402_Station_Building_Interior_of_Taling_Chan_Junction_Station.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tao-poon-mrt-station",
+      "cover_id": "tao-poon-mrt-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_MRT_Tao_Poon.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tat-ton-national-park",
+      "cover_id": "tat-ton-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Winter_Tatton_Waterfall_-_002.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "terminal-21-asok",
+      "cover_id": "terminal-21-asok-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Fuji_at_Terminal_21_Asoke.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "terminal-21-korat",
+      "cover_id": "terminal-21-korat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_0210_Terminal_21_Korat_01.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tha-phae-gate",
+      "cover_id": "tha-phae-gate-ph-12",
+      "source": "https://commons.wikimedia.org/wiki/File:201703291111a_Chiang_Mai,_City_Wall,_Tha_Phae_Gate.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tha-phra-mrt-station",
+      "cover_id": "tha-phra-mrt-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Ta_Phra_station_(View_from_Charansanitwong_Rd.).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tha-tien",
+      "cover_id": "tha-tien-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%B6%E0%B8%81%E0%B9%81%E0%B8%96%E0%B8%A7%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B8%A2%E0%B8%99.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thai-hua-museum",
+      "cover_id": "thai-hua-museum-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Phuket_Thai_Hua_School_(I).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "thai-human-imagery-museum",
+      "cover_id": "thai-human-imagery-museum-signature-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Thai_Human_Imagery_Museum_%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%AB%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2_%E0%B8%AD.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A8%E0%B8%A3%E0%B8%B5_%E0%B8%88.%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1_(73).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "thailand-cultural-centre",
+      "cover_id": "thailand-cultural-centre-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Thailand_Cultural_Centre_4.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thalang-road",
+      "cover_id": "thalang-road-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Phuket_Town_Thailand-Houses-in-Thalang-Road-03.jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tham-krasae-railway-station",
+      "cover_id": "tham-krasae-railway-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Thamkra_Sae-01b.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "tham-lot",
+      "cover_id": "tham-lot-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Loi-Krathong-00372_(23712927756).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "tham-luang-nang-non",
+      "cover_id": "tham-luang-nang-non-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Tham_Luang_-_monument2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "than-bok-khorani-national-park",
+      "cover_id": "than-bok-khorani-national-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Streams,_rivers_and_mangrove_forests_of_Than_Bok_Khorani,_Thailand.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "than-sawan-waterfall",
+      "cover_id": "than-sawan-waterfall-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C_Than_Sawan_Waterfall_(Dec_2021)_-_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thap-lan-national-park",
+      "cover_id": "thap-lan-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%99_9.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thi-lo-su-waterfall",
+      "cover_id": "thi-lo-su-waterfall-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Namtok_Thi_Lo_Su06.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thon-buri-railway-station",
+      "cover_id": "thon-buri-railway-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:THAI_RAILWAYS_DMU_AT_THONBURI_STATION_BANGKOK_THAILAND_JAN_2013_(8528104938).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thong-pha-phum-national-park",
+      "cover_id": "thong-pha-phum-national-park-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Thong_Pha_Phum_No.3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "thung-salaeng-luang-national-park",
+      "cover_id": "thung-salaeng-luang-national-park-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Misty_Sunrise_over_Thung_Salaeng_Luang_Savannah.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-tham-suea",
+      "cover_id": "wat-tham-suea-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:2016-04-08_Tiger_Cave_Temple_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ton-son-mosque",
+      "cover_id": "ton-son-mosque-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Tonson_Masjid_%E0%B8%A1%E0%B8%B1%E0%B8%AA%E0%B8%A2%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%99_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AF_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "trang-railway-station",
+      "cover_id": "trang-railway-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Trang_-_railway_station_platform_-_Sep_2024.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "trok-mor-market",
+      "cover_id": "trok-mor-market-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:TrokMorKhaoKaeng.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ubol-ratana-dam",
+      "cover_id": "ubol-ratana-dam-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Nam_Phong_national_park_5.jpg",
+      "image_checks": 2,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "victory-monument-bangkok",
+      "cover_id": "victory-monument-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Victory_Monument_at_night.jpg",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "vimanmek-mansion",
+      "cover_id": "vimanmek-mansion-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Vimanmek_Palace_Bangkok.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wachirabenchathat-park",
+      "cover_id": "wachirabenchathat-park-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wachirathan-waterfall",
+      "cover_id": "wachirathan-waterfall-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Wachirathan_Waterfall_2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "walking-street-pattaya",
+      "cover_id": "walking-street-pattaya-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A7%D0%B0%D1%81%D1%82_%D0%BE%D1%82_Walking_Street.JPG",
+      "image_checks": 5,
+      "night_evidence": true,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "wang-lang-market",
+      "cover_id": "wang-lang-market-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wang_Lang_Road_at_Twilight.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wang-na",
+      "cover_id": "wang-na-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wang-pho-railway-station",
+      "cover_id": "wang-pho-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%82%E0%B8%9E_%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%84%E0%B8%97%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%84_%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "warorot-market",
+      "cover_id": "warorot-market-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Talat_Warorot,_Chiang_Mai,_Thailand_(4246641396).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-amarintraram",
+      "cover_id": "wat-amarintraram-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Amarin_hill.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-amphawan-chetiyaram",
+      "cover_id": "wat-amphawan-chetiyaram-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%95%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%A1_01.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ao-noi",
+      "cover_id": "wat-ao-noi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ao_Noi,_Mueang_Prachuap_Khiri_Khan_District,_Prachuap_Khiri_Khan,_Thailand_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-apson-sawan",
+      "cover_id": "wat-apson-sawan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%B1%E0%B8%9B%E0%B8%AA%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(21).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-arun",
+      "cover_id": "wat-arun-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%93%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(5).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "wat-bamphen-chin-phrot",
+      "cover_id": "wat-bamphen-chin-phrot-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B3%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%8D%E0%B8%88%E0%B8%B5%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%95_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ban-rai",
+      "cover_id": "wat-ban-rai-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Kut_Phiman,_Dan_Khun_Thot_District,_Nakhon_Ratchasima,_Thailand_-_panoramio_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-bang-kung",
+      "cover_id": "wat-bang-kung-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_bangkung_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-bang-na-nai",
+      "cover_id": "wat-bang-na-nai-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2%E0%B9%83%E0%B8%99_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(19).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-bang-na-nok",
+      "cover_id": "wat-bang-na-nok-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Bangna-nok-2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-bang-yi-khan",
+      "cover_id": "wat-bang-yi-khan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%B1%E0%B8%99_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%94_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(4).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-benchamabophit",
+      "cover_id": "wat-benchamabophit-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:02-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9A%E0%B8%8D%E0%B8%88%E0%B8%A1%E0%B8%9A%E0%B8%9E%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-bowonniwet-vihara",
+      "cover_id": "wat-bowonniwet-vihara-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Ubosot_of_Wat_Bowonniwet.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-bukkhalo",
+      "cover_id": "wat-bukkhalo-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B9%82%E0%B8%A5.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-buppharam-chiang-mai",
+      "cover_id": "wat-buppharam-chiang-mai-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:@@@_Wat_Bopparam.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chaiwatthanaram",
+      "cover_id": "wat-chaiwatthanaram-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Thailand_Wat_Chaiwatthanaram.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chaloem-phra-kiat-phrachomklao-rachanusorn",
+      "cover_id": "wat-chaloem-phra-kiat-phrachomklao-rachanusorn-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phrabat_Pu_Pha_Daeng_(29964655795).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chaloem-phra-kiat-worawihan",
+      "cover_id": "wat-chaloem-phra-kiat-worawihan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:WAT_CHALOEM_PHRAKIAT_WORAWIHAN_IN_THAILAND.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chalong",
+      "cover_id": "wat-chalong-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%8A%E0%B8%A2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_(%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B8%A5%E0%B8%AD%E0%B8%87)_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chamthewi",
+      "cover_id": "wat-chamthewi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%97%E0%B8%A7%E0%B8%B5.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chedi-luang",
+      "cover_id": "wat-chedi-luang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:001_Viharn_(9205800810).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chedi-thong",
+      "cover_id": "wat-chedi-thong-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81_%E0%B8%88.%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chiang-man",
+      "cover_id": "wat-chiang-man-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiang_Mai,_Wat_Chiang_Man.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chinorasaram",
+      "cover_id": "wat-chinorasaram-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B4%E0%B9%82%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%AD%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(8).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chomphuwek",
+      "cover_id": "wat-chomphuwek-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%A1%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%A7%E0%B8%81_copy.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chong-klang",
+      "cover_id": "wat-chong-klang-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chulamanee-amphawa",
+      "cover_id": "wat-chulamanee-amphawa-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%B8%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A1%E0%B8%93%E0%B8%B5_Wat_Chulamanee_2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-chulamanee",
+      "cover_id": "wat-chulamanee-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Chulamani,_Phitsanulok_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A1%E0%B8%93%E0%B8%B5_%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%93%E0%B8%B8%E0%B9%82%E0%B8%A5%E0%B8%81_(March_2022)_-_img_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-debsirindrawas",
+      "cover_id": "wat-debsirindrawas-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A8%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B9%88%E0%B8%B2%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(11).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-hong-rattanaram",
+      "cover_id": "wat-hong-rattanaram-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%87%E0%B8%AA%E0%B9%8C%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-hua-lamphong",
+      "cover_id": "wat-hua-lamphong-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Thailand_Stray-cat-in-Wat-Hua-Lamphong-01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-huay-pla-kang",
+      "cover_id": "wat-huay-pla-kang-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Huay_Pla_Kang_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B9%89%E0%B8%87_Chiang_Rai_%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2_06.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-indrawihan",
+      "cover_id": "wat-indrawihan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Intharawihan_-_Statue.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-intharam-bangkok",
+      "cover_id": "wat-intharam-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kalayanamitr",
+      "cover_id": "wat-kalayanamitr-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%A5%E0%B8%A2%E0%B8%B2%E0%B8%93%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kamphaeng-bang-chak",
+      "cover_id": "wat-kamphaeng-bang-chak-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Kamphaeng_Bang_Chak_(I).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kamphaeng-laeng",
+      "cover_id": "wat-kamphaeng-laeng-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Kampaeng_Laeng-006.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kanchanasinghat",
+      "cover_id": "wat-kanchanasinghat-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Kanchana_Singhat_view.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kasattrathirat",
+      "cover_id": "wat-kasattrathirat-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:003_Light_up_at_Night_(9189742603).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kharuehabodi",
+      "cover_id": "wat-kharuehabodi-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B8%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B9%80%E0%B9%80%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%84%E0%B8%A4%E0%B8%AB%E0%B8%9A%E0%B8%94%E0%B8%B5.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-khema-phirataram",
+      "cover_id": "wat-khema-phirataram-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%82%E0%B8%A1%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%A3%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_(13).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-khun-chan",
+      "cover_id": "wat-khun-chan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%95%E0%B8%A2%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_(%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C)_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(12).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-khun-inthapramun",
+      "cover_id": "wat-khun-inthapramun-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A1%E0%B8%B9%E0%B8%A5_%E0%B8%88.%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87_(28).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-klang-bang-kaew",
+      "cover_id": "wat-klang-bang-kaew-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_klang_bang_kaew_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ko-non",
+      "cover_id": "wat-ko-non-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%AD%E0%B8%99_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-koh-bangkok",
+      "cover_id": "wat-koh-bangkok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%95%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%99_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-kudidao",
+      "cover_id": "wat-kudidao-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Kudi_Dao,_Ayutthaya_0313.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-lat-krabang",
+      "cover_id": "wat-lat-krabang-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Lat_Krabang,_Bangkok7.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-lokayasutharam",
+      "cover_id": "wat-lokayasutharam-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%A2%E0%B8%AA%E0%B8%B8%E0%B8%98%E0%B8%B2_04.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-maha-but",
+      "cover_id": "wat-maha-but-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%9A%E0%B8%B8%E0%B8%A8%E0%B8%A2%E0%B9%8C_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(6).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-mahathat",
+      "cover_id": "wat-mahathat-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:2015_Wat_Mahathat,_Ayutthaya_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-mahathat-worawihan-phetchaburi",
+      "cover_id": "wat-mahathat-worawihan-phetchaburi-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Mahathat_Worawihan_(Petchaburi)-013.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-mahathat-yuwaratrangsarit",
+      "cover_id": "wat-mahathat-yuwaratrangsarit-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2009-08-28_08-30_Bangkok,_Wat_Mahathat.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-maheyong",
+      "cover_id": "wat-maheyong-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%93%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B9%80%E0%B8%AB%E0%B8%A2%E0%B8%87%E0%B8%84%E0%B8%93%E0%B9%8C.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-mangkon-kamalawat",
+      "cover_id": "wat-mangkon-kamalawat-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%A1%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B9%88%E0%B8%B2%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(12).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-mangkon-mrt-station",
+      "cover_id": "wat-mangkon-mrt-station-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:MRT_Wat_Mangkon_train_station_(Entrance_1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-moli-lokayaram",
+      "cover_id": "wat-moli-lokayaram-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Moli_Lokayaram_(I).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-na-phra-men",
+      "cover_id": "wat-na-phra-men-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayutthaya_-_Wat_Na_Phra_Men_-_0001.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-nak-prok",
+      "cover_id": "wat-nak-prok-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%9B%E0%B8%A3%E0%B8%81_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-nang-nong",
+      "cover_id": "wat-nang-nong-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2022)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-nang-ratchaworawihan",
+      "cover_id": "wat-nang-ratchaworawihan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-nimmanoradi",
+      "cover_id": "wat-nimmanoradi-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%94%E0%B8%B5_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(6).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-niwet-thammaprawat",
+      "cover_id": "wat-niwet-thammaprawat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Wat_Niwet_Thammaprawat_1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-nong-pah-pong",
+      "cover_id": "wat-nong-pah-pong-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9E%E0%B8%87_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pa-lelai-worawihan",
+      "cover_id": "wat-pa-lelai-worawihan-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B9%84%E0%B8%A5%E0%B8%A2%E0%B8%81%E0%B9%8C%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B8%88.%E0%B8%AA%E0%B8%B8%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_(16).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pa-maha-chedi-kaew",
+      "cover_id": "wat-pa-maha-chedi-kaew-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Lan_Khuat_-_Elephant_statue_(MGK20886).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pa-phu-kon",
+      "cover_id": "wat-pa-phu-kon-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Pa_Phu_Kon_Udon_Thani.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-paknam-bhasicharoen",
+      "cover_id": "wat-paknam-bhasicharoen-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:The_stupa_at_Wat_Paknam_Bhasicharoen.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pariwat",
+      "cover_id": "wat-pariwat-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A7%E0%B8%B2%E0%B8%AA%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%A1_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "wat-pathum-wanaram",
+      "cover_id": "wat-pathum-wanaram-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pha-lat",
+      "cover_id": "wat-pha-lat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_-_Wat_Pha_Lat_-_0001.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pha-sorn-kaew",
+      "cover_id": "wat-pha-sorn-kaew-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%8A%E0%B8%A1%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%9C%E0%B8%B2%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pha-tak-suea",
+      "cover_id": "wat-pha-tak-suea-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B2%E0%B8%95%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD_%E0%B8%AD._%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1_%E0%B8%88.%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B2%E0%B8%A2_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phanan-choeng",
+      "cover_id": "wat-phanan-choeng-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:2015_Wat_Phanan_Choeng_03.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phaowana-phirataram",
+      "cover_id": "wat-phaowana-phirataram-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phawana_Phirataram.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pho",
+      "cover_id": "wat-pho-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%95%E0%B8%B8%E0%B8%9E%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%A1%E0%B8%A5%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-borommathat-chaiya",
+      "cover_id": "wat-phra-borommathat-chaiya-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Boromathat_Chaiya_(Thailand).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-dhammakaya",
+      "cover_id": "wat-phra-dhammakaya-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:201701_Aerial_Photo_of_Wat_Phra_Dhammakaya.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-kaeo-don-tao",
+      "cover_id": "wat-phra-kaeo-don-tao-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Kaew_Don_Tao_Suchada_Ram_04.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-mahathat-nakhon-si-thammarat",
+      "cover_id": "wat-phra-mahathat-nakhon-si-thammarat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Mahathat_Woramahawihan_in_night_(2016).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-non-chaksi",
+      "cover_id": "wat-phra-non-chaksi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:WAT_PHRA_NON_CHAKSRI_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-ram",
+      "cover_id": "wat-phra-ram-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephant_with_Wat_Phra_Ram_in_the_background_(8523720674).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-si-rattana-mahathat-phitsanulok",
+      "cover_id": "wat-phra-si-rattana-mahathat-phitsanulok-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Sri_Rattana_Mahathat_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-si-sanphet",
+      "cover_id": "wat-phra-si-sanphet-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Wat_Phra_Si_Sanphet_(Site_of_Royal_Palace)_(45746098464).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-singh",
+      "cover_id": "wat-phra-singh-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:009_Mythological_Creature_(9205551392).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-chae-haeng",
+      "cover_id": "wat-phra-that-chae-haeng-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Wat_Phra_That_Chae_Haeng_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-cho-hae",
+      "cover_id": "wat-phra-that-cho-hae-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:The_little_pagoda_in_Wat_Phra_That_So_He_(Buddhist_temple).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-doi-kham",
+      "cover_id": "wat-phra-that-doi-kham-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:17-meter-tall_seated_Buddha_image,_Wat_Phra_That_Doi_Kham.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-doi-kong-mu",
+      "cover_id": "wat-phra-that-doi-kong-mu-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-hariphunchai",
+      "cover_id": "wat-phra-that-hariphunchai-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:025_Ubosot_(9203645431).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-khao-noi",
+      "cover_id": "wat-phra-that-khao-noi-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phra_That_Khao_Noi.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-lampang-luang",
+      "cover_id": "wat-phra-that-lampang-luang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Lampangluang1.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-pha-ngao",
+      "cover_id": "wat-phra-that-pha-ngao-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_That_Pha_Ngao_04.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-phanom",
+      "cover_id": "wat-phra-that-phanom-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phra_That_Phanom_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-that-suthon-mongkhon-khiri",
+      "cover_id": "wat-phra-that-suthon-mongkhon-khiri-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phrae_Wat_Phra_That_Suthon_Mongkhon_Khiri_05.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phra-thong",
+      "cover_id": "wat-phra-thong-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phraya-siri-aisawan",
+      "cover_id": "wat-phraya-siri-aisawan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B8%E0%B9%82%E0%B8%9A%E0%B8%AA%E0%B8%96%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B9%84%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phu-khao-thong",
+      "cover_id": "wat-phu-khao-thong-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Phu_Khao_Thong-008.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-phumin",
+      "cover_id": "wat-phumin-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:OAT_9859.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pong-sanuk",
+      "cover_id": "wat-pong-sanuk-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Pong_Sanuk_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%87%E0%B8%AA%E0%B8%99%E0%B8%B8%E0%B8%81_(October_2021)_-_img_06.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-poramai-yikawat",
+      "cover_id": "wat-poramai-yikawat-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Paramai_Yikawat_(II).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-pradu-chimphli",
+      "cover_id": "wat-pradu-chimphli-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2022)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B9%E0%B9%88%E0%B8%89%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%B5_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-prayurawongsawat",
+      "cover_id": "wat-prayurawongsawat-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Chedi_Wat_Prayur_(III).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-rai-khing",
+      "cover_id": "wat-rai-khing-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Rai_King_waterside.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-rakhang",
+      "cover_id": "wat-rakhang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_08_-_22_-_sunset_over_the_river_(3166234343).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ratcha-orasaram",
+      "cover_id": "wat-ratcha-orasaram-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B9%82%E0%B8%AD%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ratchabophit",
+      "cover_id": "wat-ratchabophit-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B5%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ratchaburana-ayutthaya",
+      "cover_id": "wat-ratchaburana-ayutthaya-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%93%E0%B8%B0_%E0%B8%AD.%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2_%E0%B8%88.%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ratchanatdaram",
+      "cover_id": "wat-ratchanatdaram-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:0000009_-_Wat_Sraket_Rajavaravihara_004.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ratchapradit",
+      "cover_id": "wat-ratchapradit-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B8%AA%E0%B8%96%E0%B8%B4%E0%B8%95%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B5%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-ratchasittharam",
+      "cover_id": "wat-ratchasittharam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-rong-khun",
+      "cover_id": "wat-rong-khun-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:031_Kinnara_(9214609872).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-rong-suea-ten",
+      "cover_id": "wat-rong-suea-ten-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Rong_Suea_Ten_(Blue_Temple,_Chiang_Rai)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%99_(October_2021)_-_img_01.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-saket",
+      "cover_id": "wat-saket-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A8%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B9%88%E0%B8%B2%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sala-loi",
+      "cover_id": "wat-sala-loi-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:2019_0210_Wat_Sala_Loi_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sam-phran",
+      "cover_id": "wat-sam-phran-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B9%83%E0%B8%94%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A3%E0%B8%B9%E0%B8%9B.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-saman-rattanaram",
+      "cover_id": "wat-saman-rattanaram-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Saman_Rattanaram,Chachoengsao,Thailand_(12).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sangkat-rattana-khiri",
+      "cover_id": "wat-sangkat-rattana-khiri-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%AA%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%84%E0%B8%B5%E0%B8%A3%E0%B8%B5_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B1%E0%B8%A2%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(10).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-si-khom-kham",
+      "cover_id": "wat-si-khom-kham-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Phayao_-_Ubosot_(ordination_hall)_at_Wat_Si_Khom_Kham_Jan_2024.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-si-rong-mueang",
+      "cover_id": "wat-si-rong-mueang-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Si_Rong_Mueang_-_Lampang_-_Thailand_-_03_(34425497773).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sing-railway-station",
+      "cover_id": "wat-sing-railway-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Sing_Railway_Station_20230325-1.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sirindhorn-wararam",
+      "cover_id": "wat-sirindhorn-wararam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Twilight_at_Sinrinthorn_wararam.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sommanat-wihan",
+      "cover_id": "wat-sommanat-wihan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%AA%E0%B8%A1%E0%B8%99%E0%B8%B1%E0%B8%AA%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B9%E0%B8%9E%E0%B9%88%E0%B8%B2%E0%B8%A2_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(23).JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sothonwararam",
+      "cover_id": "wat-sothonwararam-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Front_views_of_Wat_Sothon.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sri-thammaram",
+      "cover_id": "wat-sri-thammaram-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Si_Thammaram,_Yasothon_-_20250414_103219.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-suan-dok",
+      "cover_id": "wat-suan-dok-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Chmwsuandok9906a.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-sutharam",
+      "cover_id": "wat-sutharam-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%99_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(25).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-suthat",
+      "cover_id": "wat-suthat-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:(2020)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B8%97%E0%B8%B1%E0%B8%A8%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-suthiwat-wararam",
+      "cover_id": "wat-suthiwat-wararam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%A1(%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%A7%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1)_01.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-suwannaram-ratchaworawihan",
+      "cover_id": "wat-suwannaram-ratchaworawihan-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Suwannaram_view.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-tang-sai",
+      "cover_id": "wat-tang-sai-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Thong_Chai,_Bang_Saphan_District,_Prachuap_Khiri_Khan,_Thailand_-_panoramio_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-tha-sung",
+      "cover_id": "wat-tha-sung-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1_(%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%8B%E0%B8%B8%E0%B8%87)_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B1%E0%B8%A2%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-tham-khao-noi",
+      "cover_id": "wat-tham-khao-noi-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Tham_Khao_Noi,Kanchanaburi_(1).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-thammikarat",
+      "cover_id": "wat-thammikarat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:2015_Wat_Thammikarat_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-thepthidaram",
+      "cover_id": "wat-thepthidaram-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:(2019)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-thipphaya-wari-wihan",
+      "cover_id": "wat-thipphaya-wari-wihan-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%B4%E0%B8%9E%E0%B8%A2%E0%B8%A7%E0%B8%B2%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3_%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(3).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-thung-si-mueang",
+      "cover_id": "wat-thung-si-mueang-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_-_panoramio_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-traimit",
+      "cover_id": "wat-traimit-ph-5",
+      "source": "https://commons.wikimedia.org/wiki/File:0005387_-_Wat_Traimitr_Withayaram_001.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-umong",
+      "cover_id": "wat-umong-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Umong9.JPG",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-worachettharam",
+      "cover_id": "wat-worachettharam-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Worachettharam_-_panoramio.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-yai-chai-mongkhon",
+      "cover_id": "wat-yai-chai-mongkhon-ph-3",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Wat_Yai_Chai_Mongkhon_2.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-yai-chom-prasat",
+      "cover_id": "wat-yai-chom-prasat-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Yai_Chom_Prasat_02.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-yai-suwannaram",
+      "cover_id": "wat-yai-suwannaram-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Yai_Suwannaram_(Petchaburi)-009.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "editor"
+    },
+    {
+      "slug": "wat-yannawa",
+      "cover_id": "wat-yannawa-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Yannawa_-_004_Bells_(12130436326).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wat-yansangwararam",
+      "cover_id": "wat-yansangwararam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Vihara2010.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wiang-kum-kam",
+      "cover_id": "wiang-kum-kam-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:014_Chedi_That_Khao_(9206308282).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wongwian-yai-railway-station",
+      "cover_id": "wongwian-yai-railway-station-ph-4",
+      "source": "https://commons.wikimedia.org/wiki/File:Wongwian_Yai_Railway_Station_(I).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "wutthakat-bts-station",
+      "cover_id": "wutthakat-bts-station-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:BTS_Wutthakat_Station_(2).jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "ya-nui-beach",
+      "cover_id": "ya-nui-beach-ph-1",
+      "source": "https://commons.wikimedia.org/wiki/File:A_view_from_Yanui_Beach,_Phuket.jpg",
+      "image_checks": 3,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    },
+    {
+      "slug": "yaowarat-road",
+      "cover_id": "yaowarat-road-ph-2",
+      "source": "https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Samphanthawong,_Ulica_Yaowarat_(02).jpg",
+      "image_checks": 5,
+      "night_evidence": false,
+      "picked_by": "scored-images"
+    }
+  ]
+}

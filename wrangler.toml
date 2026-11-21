@@ -1,0 +1,18 @@
+# Cloudflare Pages project configuration.
+# Build command: npm run build   ·   Output directory: dist
+
+name = "framehunt-thailand"
+compatibility_date = "2026-01-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
+
+# Optional: per-IP rate limiting for /api/submissions and /api/reports.
+# Create the namespace with `wrangler kv namespace create SUBMISSION_RATE_LIMIT`
+# and paste the id below. Without it, rate limiting is skipped (documented).
+# [[kv_namespaces]]
+# binding = "SUBMISSION_RATE_LIMIT"
+# id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+# Non-secret values only. Secrets go through `wrangler pages secret put`.
+SITE_URL = "https://framehunt.co"

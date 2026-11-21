@@ -1,0 +1,2000 @@
+{
+  "meta": {
+    "generatedAt": "2026-11-21",
+    "japanWarehouseSource": "https://santajunior.github.io/japan-secondhand/",
+    "japanWarehouseSourceObservedAt": "2026-07-28",
+    "note": "Store listings are discovery leads. Confirm current status and opening hours with the shop before travelling."
+  },
+  "shops": [
+    {
+      "name": "Japan Life Center (ลาดพร้าว/พหลโยธิน 75-77)",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/JapanLifeCenter/posts/pfbid03cJD7W6Vygn66SPGDCsP19rBFugVBKQJqWTy15SurXUgbsHD2GkHDhFDyi1WVtgNl",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japan%20Life%20Center%20%28%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7%2F%E0%B8%9E%E0%B8%AB%E0%B8%A5%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99%2075-77%29%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "เปิด 10:00 (ทุกวัน)"
+    },
+    {
+      "name": "MASARU Japan Store (สุขุมวิท 69)",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/masarujapanstore",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MASARU%20Japan%20Store%20%28%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97%2069%29%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "10:00-19:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Momoko Japan สินค้านำเข้าญี่ปุ่นมือสอง",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/momokojapann/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Momoko%20Japan%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "09:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Nakayama บางนา-ตราด 54",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/nakayamabangna54/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakayama%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2-%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%94%2054%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "ไม่ระบุในเพจ"
+    },
+    {
+      "name": "Nakayama ราชพฤกษ์",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/nakayamaratchaphruek/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakayama%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%A4%E0%B8%81%E0%B8%A9%E0%B9%8C%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "10:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "ร้านลุงเคนจิ (ใกล้โรงไฟฟ้าบางแค)",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/kenjiunclefanclub",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-08",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%99%E0%B8%88%E0%B8%B4%20%28%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%29%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "ไม่ระบุในเพจ"
+    },
+    {
+      "name": "สองเกลอ มือสองของญี่ปุ่น",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/songgaer/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%AD%20%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "ไม่ระบุชัด (งานโกยรอบ 18:00)"
+    },
+    {
+      "name": "เจแปนทาวน์ โกดังสินค้ามือสองนำเข้าจากญี่ปุ่น (บางแค)",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/JapanTownSecondHandTrading",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%28%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%29%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "ไม่ระบุชัด"
+    },
+    {
+      "name": "เจแปนรียูส สินค้ามือสองนำเข้าจากญี่ปุ่น",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/japanreuse/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27 (16 ชม.ที่แล้ว)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%B9%E0%B8%AA%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "09:00-18:30 น."
+    },
+    {
+      "name": "โกดังญี่ปุ่น ปังปัง บางบอน 5",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/pangpangjapanwarehouse/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%9B%E0%B8%B1%E0%B8%87%E0%B8%9B%E0%B8%B1%E0%B8%87%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%AD%E0%B8%99%205%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "จ-อ,พฤ-ศ 10:00-15:00 · ส-อา 10:00-17:00 (พุธหยุด)"
+    },
+    {
+      "name": "โกดังสินค้าญี่ปุ่น โกนจา ประชาอุทิศ 19/1",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100086092205671",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B9%82%E0%B8%81%E0%B8%99%E0%B8%88%E0%B8%B2%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B4%E0%B8%A8%2019%2F1%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "หยุดทุกวันพุธ (เวลาเปิดไม่ระบุ)"
+    },
+    {
+      "name": "โกดังสินค้ามือ 2 โพธิ์แก้ว (ลาดพร้าว 122)",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/gigkanyaphat21",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%202%20%E0%B9%82%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B9%8C%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7%20%28%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7%20122%29%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "09:30-18:00 (หยุดอาทิตย์)"
+    },
+    {
+      "name": "โตเกียวพลาซ่ากรุงเทพ by ตาต้าคุง (หทัยราษฎร์ 31)",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ff1p49qoFWTBLjttvJvN62LyDo8UwVhgyJRQdEGF1DA2Cqz5fe1vXcaBjfC3Z9axl&id=61550638830822",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%20by%20%E0%B8%95%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%87%20%28%E0%B8%AB%E0%B8%97%E0%B8%B1%E0%B8%A2%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%2031%29%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "10:00-20:00 น. หยุดทุกวันจันทร์"
+    },
+    {
+      "name": "มามะซัง โกดังสินค้าญี่ปุ่นมือสอง สายสี่ (ศาลายา)",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/mamasang1/posts/pfbid02nBD89E8S34YRwDMBX1C7MUkozrAXMS12SKZfqzQAhfWZuYHHBkQTgQmDWQmGHCQUl",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A1%E0%B8%B2%E0%B8%A1%E0%B8%B0%E0%B8%8B%E0%B8%B1%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B5%E0%B9%88%20%28%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B2%29%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "09:00-18:00 น."
+    },
+    {
+      "name": "เอะโคะโละ ชอป (Ecolo Shop) นครชัยศรี",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/ecolocity/posts/pfbid0g8KRE3Rcmz52iAb7B38w9ciqJERVdXujsbspuyWn14EdrPVdqxYpNePAZwJVgzVMl",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%AD%E0%B8%B0%E0%B9%82%E0%B8%84%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B8%B0%20%E0%B8%8A%E0%B8%AD%E0%B8%9B%20%28Ecolo%20Shop%29%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A8%E0%B8%A3%E0%B8%B5%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "ไม่ระบุในเพจ (สถานะ \"เปิดอยู่ในขณะนี้\")"
+    },
+    {
+      "name": "โตเกียวพลาซ่านครปฐม by ตาต้าคุง",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61573523706250",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1%20by%20%E0%B8%95%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%87%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "10:00-20:00 น. หยุดทุกวันจันทร์"
+    },
+    {
+      "name": "โทระ โกดังญี่ปุ่น นครปฐม",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/torajapanshop/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%B0%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "09:00-18:00 (หยุดพุธ)"
+    },
+    {
+      "name": "ไฮ ฟูจิโกะ Japan โกดังสินค้าญี่ปุ่นมือสอง นครปฐม",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100093904107142",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%84%E0%B8%AE%20%E0%B8%9F%E0%B8%B9%E0%B8%88%E0%B8%B4%E0%B9%82%E0%B8%81%E0%B8%B0%20Japan%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "10:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "F โกดังสินค้าญี่ปุ่นมือสอง (สาขาเดิม แยกสปีดไทม์)",
+      "province": "นนทบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/FJPAN2/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "ปิดลงของใหม่ พุธ-พฤหัส 28/7/69",
+      "mapsUrl": "https://goo.gl/maps/6PXKeeUQkaGJEbKR6",
+      "hours": "11:30-20:00 (สาขาเดิม แยกสปีดไทม์)"
+    },
+    {
+      "name": "แม่เจี๊ยบโกดังญี่ปุ่นมือสอง",
+      "province": "นนทบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063957663962",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-20",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%9A%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "12:00-20:00 น. เปิดทุกวัน"
+    },
+    {
+      "name": "โกดังญี่ปุ่นมือ 2 บางใหญ่ เจ้นานา",
+      "province": "นนทบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61553658855782",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%202%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%20%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B2%20%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "ร้านเจ๊ปอง สินค้าญี่ปุ่นมือสอง สามโคก",
+      "province": "ปทุมธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063545591304",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-19",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%88%E0%B9%8A%E0%B8%9B%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%81%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "เปิดขายรอบใหม่ 09:00 น."
+    },
+    {
+      "name": "โยเนะ โกดังสินค้าญี่ปุ่นมือสอง (ลำลูกกา)",
+      "province": "ปทุมธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/yonejapanstore/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%A2%E0%B9%80%E0%B8%99%E0%B8%B0%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%28%E0%B8%A5%E0%B8%B3%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%81%E0%B8%B2%29%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "เปิดทุกวัน (ไม่มีหยุด)"
+    },
+    {
+      "name": "โตเกียวพลาซ่าสมุทรปราการ by ตาต้าคุง",
+      "province": "สมุทรปราการ",
+      "kind": "japan",
+      "source": "https://www.facebook.com/TokyoPlazaSMPK/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%20by%20%E0%B8%95%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%87%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3",
+      "hours": "10:00-20:00 น. หยุดทุกวันจันทร์"
+    },
+    {
+      "name": "Jantra โกดังสินค้าญี่ปุ่นมือสอง พระรามสอง",
+      "province": "สมุทรสาคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/jantra2handfromjapan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jantra%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3",
+      "hours": "เปิดทุกวัน (CF/ออนไลน์)"
+    },
+    {
+      "name": "Sakura โกดังสินค้ามือ 2 จากญี่ปุ่น กระทุ่มแบน",
+      "province": "สมุทรสาคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/sakura2ndhand/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%202%20%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%81%E0%B8%9A%E0%B8%99%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3",
+      "hours": "10:00-20:00 (หน้าร้าน) · ไลฟ์ จ-ส 11:30"
+    },
+    {
+      "name": "โตเกียวพลาซ่าสมุทรสาคร by ตาต้าคุง",
+      "province": "สมุทรสาคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063452988465",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3%20by%20%E0%B8%95%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%87%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3",
+      "hours": "10:00-20:00 น. หยุดทุกวันจันทร์"
+    },
+    {
+      "name": "C Mall Chainat สินค้าญี่ปุ่นมือสอง",
+      "province": "ชัยนาท",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063470127013",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%20Mall%20Chainat%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%99%E0%B8%B2%E0%B8%97",
+      "hours": "เปิดปกติ (ในห้าง C Mall)"
+    },
+    {
+      "name": "ของญี่ปุ่น มือ2 นครสวรรค์",
+      "province": "นครสวรรค์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100039310941342",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A1%E0%B8%B7%E0%B8%AD2%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C",
+      "hours": "เปิดตลอดเวลา"
+    },
+    {
+      "name": "จิปาถะญี่ปุ่นมือสอง สาขานครสวรรค์",
+      "province": "นครสวรรค์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063632753000",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "อัปเดตโซนใหม่ 28/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%88%E0%B8%B4%E0%B8%9B%E0%B8%B2%E0%B8%96%E0%B8%B0%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "จิปาถะญี่ปุ่นมือสอง สาขาอยุธยา",
+      "province": "พระนครศรีอยุธยา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61578140961104",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "ประกาศของเล่นลงใหม่ 1 ส.ค. (โพสต์วันนี้)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%88%E0%B8%B4%E0%B8%9B%E0%B8%B2%E0%B8%96%E0%B8%B0%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2",
+      "hours": "เปิดทุกวัน 09:30-19:00"
+    },
+    {
+      "name": "ยูกิโตะ โกดังสินค้าญี่ปุ่นมือสอง",
+      "province": "พระนครศรีอยุธยา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61560292642298",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A2%E0%B8%B9%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%95%E0%B8%B0%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2",
+      "hours": "ไม่ระบุชัด"
+    },
+    {
+      "name": "โตเกียวพลาซ่าวังน้อย by ตาต้าคุง",
+      "province": "พระนครศรีอยุธยา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100084614113140",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%20by%20%E0%B8%95%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%87%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AD%E0%B8%A2%E0%B8%B8%E0%B8%98%E0%B8%A2%E0%B8%B2",
+      "hours": "10:00-20:00 น. หยุดทุกวันจันทร์"
+    },
+    {
+      "name": "มาคราฟเจแปน สินค้าญี่ปุ่นลพบุรี",
+      "province": "ลพบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100065408116079",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A1%E0%B8%B2%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดปกติ (มีไลฟ์)"
+    },
+    {
+      "name": "ยูทากะ โกดังญี่ปุ่นมือสอง วังเพลิง โคกสำโรง",
+      "province": "ลพบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Yutaka2handfromjapan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-01",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A2%E0%B8%B9%E0%B8%97%E0%B8%B2%E0%B8%81%E0%B8%B0%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B8%87%20%E0%B9%82%E0%B8%84%E0%B8%81%E0%B8%AA%E0%B8%B3%E0%B9%82%E0%B8%A3%E0%B8%87%20%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "ไม่ระบุในเพจ"
+    },
+    {
+      "name": "ลพบุรีเจแปน",
+      "province": "ลพบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61577806170525",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "สินค้ามือสองญี่ปุ่นลพบุรี (พระพุทธบาท)",
+      "province": "ลพบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/bchjapan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%28%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%9A%E0%B8%B2%E0%B8%97%29%20%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-17:00 (หยุดจันทร์)"
+    },
+    {
+      "name": "Heng Heng Japan โกดังสินค้าญี่ปุ่น ปลีก/ส่ง",
+      "province": "สระบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/HengHengJapan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Heng%20Heng%20Japan%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B8%81%2F%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดปกติ (ไลฟ์สด)"
+    },
+    {
+      "name": "ยูทากะ สินค้าญี่ปุ่นมือสอง สิงห์บุรี",
+      "province": "สิงห์บุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100094395742198",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A2%E0%B8%B9%E0%B8%97%E0%B8%B2%E0%B8%81%E0%B8%B0%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "UYA Life อูย่า ไลฟ์ โกดังสินค้าญี่ปุ่นมือสอง",
+      "province": "สุพรรณบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100090862166008",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UYA%20Life%20%E0%B8%AD%E0%B8%B9%E0%B8%A2%E0%B9%88%E0%B8%B2%20%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B8%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 (หยุดจันทร์)"
+    },
+    {
+      "name": "ขวัญใจ โกดังสินค้าญี่ปุ่นมือสอง ราคาถูก",
+      "province": "สุพรรณบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100086922074066",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-05-17",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%82%E0%B8%A7%E0%B8%B1%E0%B8%8D%E0%B9%83%E0%B8%88%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%96%E0%B8%B9%E0%B8%81%20%E0%B8%AA%E0%B8%B8%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 น. หยุดทุกวันพฤหัสบดี"
+    },
+    {
+      "name": "เคียวได โกดังสินค้าญี่ปุ่นมือสอง อู่ทอง",
+      "province": "สุพรรณบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100088356016131",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%84%E0%B8%94%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AD%E0%B8%B9%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B8%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:00-18:00 (หยุดจันทร์)"
+    },
+    {
+      "name": "แบมบู โกดังสินค้านำเข้าญี่ปุ่น (ศรีประจันต์)",
+      "province": "สุพรรณบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100070697175758",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%81%E0%B8%9A%E0%B8%A1%E0%B8%9A%E0%B8%B9%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%28%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%8C%29%20%E0%B8%AA%E0%B8%B8%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 (เปิดทุกวัน ไม่มีหยุด)"
+    },
+    {
+      "name": "Japan-X โกดังสินค้าญี่ปุ่นมือสอง กาญจนบุรี",
+      "province": "กาญจนบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100088251037078",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japan-X%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "ร้านของแปลก โกดังญี่ปุ่น กาญจนบุรี",
+      "province": "กาญจนบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100059114433036",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%81%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดทุกวัน (โปรหมุนเวียน)"
+    },
+    {
+      "name": "โกดังญี่ปุ่นหนองเสือ กาญจนบุรี",
+      "province": "กาญจนบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61556519107618",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%20%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "ร้านน้องแอ้ม ศูนย์รวมสินค้ามือสองจากญี่ปุ่น ปราณบุรี",
+      "province": "ประจวบคีรีขันธ์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100057364695430",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-23",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%AD%E0%B9%89%E0%B8%A1%20%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B5%E0%B8%A3%E0%B8%B5%E0%B8%82%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C",
+      "hours": "เปิดตลอดเวลา"
+    },
+    {
+      "name": "โคจิ โอกาเนะ หัวหิน ร้านสินค้ามือสองนำเข้าญี่ปุ่น",
+      "province": "ประจวบคีรีขันธ์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100084278743529",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-06-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%84%E0%B8%88%E0%B8%B4%20%E0%B9%82%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B9%80%E0%B8%99%E0%B8%B0%20%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%AB%E0%B8%B4%E0%B8%99%20%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B5%E0%B8%A3%E0%B8%B5%E0%B8%82%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C",
+      "hours": "เปิดทุกวัน (มีนัด/จอง)"
+    },
+    {
+      "name": "ลุงดำ โกดังญี่ปุ่นมือสอง ราชบุรี",
+      "province": "ราชบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Baanadirec/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%94%E0%B8%B3%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-17:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "เจด้าเจแปน วังมะนาว",
+      "province": "ราชบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100088298553813",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โกดังญี่ปุ่น มังกรทอง เฟอร์นิเจอร์ญี่ปุ่น ราชบุรี",
+      "province": "ราชบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/mangkornthong.Ratchaburi/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-19",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%97%E0%B8%AD%E0%B8%87%20%E0%B9%80%E0%B8%9F%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:00-18:00 (หยุดอังคาร)"
+    },
+    {
+      "name": "โกดังญี่ปุ่นสามใบเถา ราชบุรี (บ้านโป่ง)",
+      "province": "ราชบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/3baiwarehouse/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%83%E0%B8%9A%E0%B9%80%E0%B8%96%E0%B8%B2%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%28%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%9B%E0%B9%88%E0%B8%87%29%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดทุกวัน (ไลฟ์สด)"
+    },
+    {
+      "name": "ไฮ จันจิ โกดังสินค้าญี่ปุ่นมือสอง ราชบุรี",
+      "province": "ราชบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0bVfKXUn2zAnJcQZaebc8dfLJ2R6zxgQd36UQU4EHqUW4itp63yVjmghDByZQaksml&id=100075638116184",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%84%E0%B8%AE%20%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%88%E0%B8%B4%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:00-18:00 น. เปิดทุกวัน (รอบใหม่เริ่มขาย 10:00 น.)"
+    },
+    {
+      "name": "Hi J-pan ไฮเจปัง โกดังญี่ปุ่นมือสอง เพชรบุรี",
+      "province": "เพชรบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Louizabelou/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hi%20J-pan%20%E0%B9%84%E0%B8%AE%E0%B9%80%E0%B8%88%E0%B8%9B%E0%B8%B1%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "ซูโม่ซัง โกดังญี่ปุ่น เพชรบุรี",
+      "province": "เพชรบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/sumosung.jp/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%8B%E0%B8%B9%E0%B9%82%E0%B8%A1%E0%B9%88%E0%B8%8B%E0%B8%B1%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-17:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "เจได สินค้าญี่ปุ่นมือสอง จันทบุรี",
+      "province": "จันทบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61550736347800",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B9%84%E0%B8%94%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 (หยุดจันทร์)"
+    },
+    {
+      "name": "เจ้ภา สินค้าญี่ปุ่นมือสองจันทบุรี",
+      "province": "จันทบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100094283977807",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-06-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%A0%E0%B8%B2%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "เฮียหมู โกดังญี่ปุ่นมือสองแปดริ้ว",
+      "province": "ฉะเชิงเทรา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100090634586038",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%AE%E0%B8%B5%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B9%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7%20%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2",
+      "hours": "07:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดัง32 สินค้าญี่ปุ่นมือสอง",
+      "province": "ฉะเชิงเทรา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/32japan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%8732%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2",
+      "hours": "เปิดทุกวัน ~17:00"
+    },
+    {
+      "name": "Japan Home โกดังสินค้าญี่ปุ่นมือสอง ชลบุรี",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/61575215263828",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japan%20Home%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 (หยุดอังคาร)"
+    },
+    {
+      "name": "Yoi Mise สินค้ามือสองจากญี่ปุ่น (ศรีราชา)",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/YoiMiseshop",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yoi%20Mise%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%28%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%29%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:00-18:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "สินค้าญี่ปุ่นมือสองพัทยา",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/100057634143488",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00"
+    },
+    {
+      "name": "แฮปปี้รียูส พัทยา (Happy Reuse Pattaya)",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/100063564821294",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "16 ก.ค. 2569 (11 วันที่แล้ว)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%81%E0%B8%AE%E0%B8%9B%E0%B8%9B%E0%B8%B5%E0%B9%89%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%B9%E0%B8%AA%20%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2%20%28Happy%20Reuse%20Pattaya%29%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "ไม่ระบุชัด"
+    },
+    {
+      "name": "โตเกียวพลาซ่าชลบุรี by ตาต้าคุง",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/61581340796552",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20by%20%E0%B8%95%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%87%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:00-20:00 น. หยุดทุกวันจันทร์"
+    },
+    {
+      "name": "คะเนะโมชิ สินค้าญี่ปุ่นมือ 2 นครนายก",
+      "province": "นครนายก",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Kanemoshi.NakhonNayok",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%84%E0%B8%B0%E0%B9%80%E0%B8%99%E0%B8%B0%E0%B9%82%E0%B8%A1%E0%B8%8A%E0%B8%B4%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%202%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81",
+      "hours": "09:00-20:00 (วันเปิดรอบ)"
+    },
+    {
+      "name": "ป้าป้า โกดังมือ2ญี่ปุ่น (ระยอง)",
+      "province": "ระยอง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/61560389686981",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-04-30",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%9B%E0%B9%89%E0%B8%B2%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%28%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87%29%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87",
+      "hours": "10:00-20:00 (ใน 5D Market)"
+    },
+    {
+      "name": "มือสองญี่ปุ่น ระยอง โกดังเขียว",
+      "province": "ระยอง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/JapanRayong",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "ยูยะ โกดังสินค้าญี่ปุ่นมือสอง สามย่าน ระยอง",
+      "province": "ระยอง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/61578702086640",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A2%E0%B8%B9%E0%B8%A2%E0%B8%B0%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังญี่ปุ่นมือสอง นิพนธ์ระยองรีไซเคิล",
+      "province": "ระยอง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/nipon.rayongrecycle",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B8%B4%E0%B8%9E%E0%B8%99%E0%B8%98%E0%B9%8C%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B9%80%E0%B8%84%E0%B8%B4%E0%B8%A5%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "ไมย่าระยอง สินค้าญี่ปุ่นมือสอง",
+      "province": "ระยอง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/miyashop99",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%84%E0%B8%A1%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%AD%E0%B8%87",
+      "hours": "เปิดทุกวัน ~19:00"
+    },
+    {
+      "name": "A11 shop สินค้าญี่ปุ่นมือสองกำแพงเพชร",
+      "province": "กำแพงเพชร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063572739119",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-12",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A11%20shop%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%20%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3",
+      "hours": "เปิดทุกวัน (ยกเว้นจันทร์)"
+    },
+    {
+      "name": "จิปาถะญี่ปุ่นกำแพงเพชร",
+      "province": "กำแพงเพชร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100075473845284",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%88%E0%B8%B4%E0%B8%9B%E0%B8%B2%E0%B8%96%E0%B8%B0%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%20%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3",
+      "hours": "09:00-18:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังญี่ปุ่น FC เจแปน กำแพงเพชร",
+      "province": "กำแพงเพชร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/61559932431456",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-05-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20FC%20%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%20%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3",
+      "hours": "เปิดตลอดเวลา"
+    },
+    {
+      "name": "โกดังญี่ปุ่นก๊อตจิ อ.วชิรบารมี",
+      "province": "พิจิตร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61565644340167",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%81%E0%B9%8A%E0%B8%AD%E0%B8%95%E0%B8%88%E0%B8%B4%20%E0%B8%AD.%E0%B8%A7%E0%B8%8A%E0%B8%B4%E0%B8%A3%E0%B8%9A%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%B5%20%E0%B8%9E%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A3",
+      "hours": "09:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "สินค้าญี่ปุ่นมือสอง ร้านพันธุ์เทพ",
+      "province": "สุราษฎร์ธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/japanphanthep/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "แอคทีฟ 28/7/69 (ยืนยันสุราษฎร์)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%9E%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "08:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังญี่ปุ่นท่าทอง",
+      "province": "พิษณุโลก",
+      "kind": "japan",
+      "source": "https://www.facebook.com/thathong.japan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87%20%E0%B8%9E%E0%B8%B4%E0%B8%A9%E0%B8%93%E0%B8%B8%E0%B9%82%E0%B8%A5%E0%B8%81",
+      "hours": "09:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "A11shop โกดังสินค้าญี่ปุ่นมือสอง สาขาลำปาง",
+      "province": "ลำปาง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61584098421659",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A11shop%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87%20%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87",
+      "hours": "ลงรอบเสาร์ 08:45 (มีหน้าร้าน)"
+    },
+    {
+      "name": "Okura Meko Japan shop โอกุระ เมโกะ ลำปาง",
+      "province": "ลำปาง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/okurameko2japan/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Okura%20Meko%20Japan%20shop%20%E0%B9%82%E0%B8%AD%E0%B8%81%E0%B8%B8%E0%B8%A3%E0%B8%B0%20%E0%B9%80%E0%B8%A1%E0%B9%82%E0%B8%81%E0%B8%B0%20%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87%20%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "วินเทจญี่ปุ่นมือ 2 ลำปาง",
+      "province": "ลำปาง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/vintagejpbynipa/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%88%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%202%20%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87%20%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังญี่ปุ่นมือสอง ลำพูน",
+      "province": "ลำพูน",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61579766664776",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-23",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A5%E0%B8%B3%E0%B8%9E%E0%B8%B9%E0%B8%99%20%E0%B8%A5%E0%B8%B3%E0%B8%9E%E0%B8%B9%E0%B8%99",
+      "hours": "เปิดทุกวัน (ลงของใหม่เป็นช่วง)"
+    },
+    {
+      "name": "โกดังญี่ปุ่น ศุโขไทย จ.สุโขทัย",
+      "province": "สุโขทัย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61555955392905",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A8%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B9%84%E0%B8%97%E0%B8%A2%20%E0%B8%88.%E0%B8%AA%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B8%97%E0%B8%B1%E0%B8%A2%20%E0%B8%AA%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B8%97%E0%B8%B1%E0%B8%A2",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โกดังสินค้าญี่ปุ่นสุโขทัย ปลีก-ส่ง",
+      "province": "สุโขทัย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100093179989307",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-17",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B8%97%E0%B8%B1%E0%B8%A2%20%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B8%81-%E0%B8%AA%E0%B9%88%E0%B8%87%20%E0%B8%AA%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B8%97%E0%B8%B1%E0%B8%A2",
+      "hours": "09:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "P.N. มือสองญี่ปุ่น อุตรดิตถ์",
+      "province": "อุตรดิตถ์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/P.N.Recycleshoputt/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-11",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=P.N.%20%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%95%E0%B8%96%E0%B9%8C%20%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%95%E0%B8%96%E0%B9%8C",
+      "hours": "เปิดทุกวัน (ไลฟ์/ประมูล)"
+    },
+    {
+      "name": "KOJI Chiang Rai โกดังไลฟ์สดสินค้ามือสองจากญี่ปุ่น",
+      "province": "เชียงราย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/kojijapan888/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KOJI%20Chiang%20Rai%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C%E0%B8%AA%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2",
+      "hours": "เปิดทุกวัน (ไลฟ์สด)"
+    },
+    {
+      "name": "ร้านซูโม่ / ฟูจิ เชียงราย สินค้าญี่ปุ่นมือสอง",
+      "province": "เชียงราย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Sumosumo2017/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%8B%E0%B8%B9%E0%B9%82%E0%B8%A1%E0%B9%88%20%2F%20%E0%B8%9F%E0%B8%B9%E0%B8%88%E0%B8%B4%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "อิมอิน อันนา สินค้าญี่ปุ่นมือสอง อ.พาน",
+      "province": "เชียงราย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/LayAofAimainAnna/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AD%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%B4%E0%B8%99%20%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B2%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AD.%E0%B8%9E%E0%B8%B2%E0%B8%99%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "เจแปน เชียงราย",
+      "province": "เชียงราย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61557662104954",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "ประกาศรอบใหม่ 28/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2",
+      "hours": "08:30-17:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Fukufuku สาขารวมโชค",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/fukufuku.ruamchokbranch/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fukufuku%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B9%82%E0%B8%8A%E0%B8%84%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "09:00-20:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Fukufuku สาขาสันกำแพงสายใหม่",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/fukufuku.sankampheangbranch/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fukufuku%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "09:00-20:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Japan plaza โกดังสินค้าญี่ปุ่นมือสอง เชียงใหม่",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61572588698987",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japan%20plaza%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "09:00-20:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "ร้านฮักจัง โกดังสินค้านำเข้าจากญี่ปุ่น",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/HugJangJapanShop/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AE%E0%B8%B1%E0%B8%81%E0%B8%88%E0%B8%B1%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "09:30-18:30 (ปิดพุธ)"
+    },
+    {
+      "name": "โกดังขุมทรัพย์ มือ2ญี่ปุ่น สาขาหน้า มช.",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063621398345",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%20%E0%B8%A1%E0%B8%B7%E0%B8%AD2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%20%E0%B8%A1%E0%B8%8A.%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "10:00-22:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังขุมทรัพย์ มือสองญี่ปุ่น สาขาท่ารั้ว",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/khumsup2hand/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-15",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%9E%E0%B8%A2%E0%B9%8C%20%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%A7%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โกดังมาดามมุก เจแปนเชียงใหม่",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61565468232867",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%A1%E0%B8%B8%E0%B8%81%20%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "08:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โทมิซัง โกดังญี่ปุ่น เชียงใหม่",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61587651083957",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%97%E0%B8%A1%E0%B8%B4%E0%B8%8B%E0%B8%B1%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": "10:00-20:00 (อังคาร-อาทิตย์ หยุดจันทร์)"
+    },
+    {
+      "name": "โกดังญี่ปุ่นมือ2เพชรบูรณ์ (NT Outlet)",
+      "province": "เพชรบูรณ์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/NTOutlet888/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-07",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD2%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%93%E0%B9%8C%20%28NT%20Outlet%29%20%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%93%E0%B9%8C",
+      "hours": "เปิดตลอดเวลา"
+    },
+    {
+      "name": "โมโดรุ สินค้าญี่ปุ่น-ยุโรป มือ1-2 กาฬสินธุ์",
+      "province": "กาฬสินธุ์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100076405741448",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%A1%E0%B9%82%E0%B8%94%E0%B8%A3%E0%B8%B8%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%A2%E0%B8%B8%E0%B9%82%E0%B8%A3%E0%B8%9B%20%E0%B8%A1%E0%B8%B7%E0%B8%AD1-2%20%E0%B8%81%E0%B8%B2%E0%B8%AC%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%20%E0%B8%81%E0%B8%B2%E0%B8%AC%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โกดังจัง โกดังสินค้าญี่ปุ่น ขอนแก่น",
+      "province": "ขอนแก่น",
+      "kind": "japan",
+      "source": "https://www.facebook.com/KODUNKJANGKKN/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%88%E0%B8%B1%E0%B8%87%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99%20%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังยินดี มือสองญี่ปุ่น ขอนแก่น (Yindee Japanshop)",
+      "province": "ขอนแก่น",
+      "kind": "japan",
+      "source": "https://www.facebook.com/asdsadsfdfxvxdf/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%20%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99%20%28Yindee%20Japanshop%29%20%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โตเกียวพลาซ่าขอนแก่น by ตาต้าคุง",
+      "province": "ขอนแก่น",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100057530375546",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://g.co/kgs/9aq4DL4",
+      "hours": "10:00-20:00 หยุดวันจันทร์"
+    },
+    {
+      "name": "โยชิซัง สินค้าญี่ปุ่น ขอนแก่น",
+      "province": "ขอนแก่น",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61550813338307",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B8%8B%E0%B8%B1%E0%B8%87%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99%20%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99",
+      "hours": "09:30-18:30 (หยุดพุธ)"
+    },
+    {
+      "name": "อินาริ สินค้ามือสองนำเข้าจากญี่ปุ่น นครพนม",
+      "province": "นครพนม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61578030604551",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B4%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9E%E0%B8%99%E0%B8%A1%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9E%E0%B8%99%E0%B8%A1",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "ไดฟุกุ สินค้าญี่ปุ่นมือสอง นครพนม",
+      "province": "นครพนม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063588093507",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%84%E0%B8%94%E0%B8%9F%E0%B8%B8%E0%B8%81%E0%B8%B8%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9E%E0%B8%99%E0%B8%A1%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9E%E0%B8%99%E0%B8%A1",
+      "hours": "เปิดทุกวัน (ลงตู้ใหม่เป็นรอบ)"
+    },
+    {
+      "name": "Nakayama โคราช",
+      "province": "นครราชสีมา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063545613937",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/ziM4qGAvcKL3oaNR8",
+      "hours": "09:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โตเกียวพลาซ่าโคราช by ตาต้าคุง",
+      "province": "นครราชสีมา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100057660879385",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/t61XMK2T81ouyQc19",
+      "hours": "10:00-20:00 หยุดวันจันทร์"
+    },
+    {
+      "name": "ปันปันเจแปน มือสองญี่ปุ่น บุรีรัมย์",
+      "province": "บุรีรัมย์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/PunpunJapan2021/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-21",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%9B%E0%B8%B1%E0%B8%99%E0%B8%9B%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%A1%E0%B8%A2%E0%B9%8C%20%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%A1%E0%B8%A2%E0%B9%8C",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โตเกียวพลาซ่าบุรีรัมย์",
+      "province": "บุรีรัมย์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/TokyoplazaBRR/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%A1%E0%B8%A2%E0%B9%8C%20%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%A1%E0%B8%A2%E0%B9%8C",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "สินค้ามือสองจากญี่ปุ่น มหาสารคาม",
+      "province": "มหาสารคาม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/japan.by.neung/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "6 พ.ค. 2569 (เงียบ ~2.5 เดือน)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B2%E0%B8%A1%20%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B2%E0%B8%A1",
+      "hours": "เปิดอยู่แต่หยุดเป็นบางช่วง"
+    },
+    {
+      "name": "แม่เตอร์ 4 สารคาม By Olan",
+      "province": "มหาสารคาม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Gunnoi23/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-23",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=16.2293538,103.2712473",
+      "hours": "ตู้เปิด 09:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "ไดฟุกุ 3 มุกดาหาร",
+      "province": "มุกดาหาร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100069322713421",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/7rkRsu5vUw3idvNM9",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "ไดฟุกุ 2 สาขาสกลนคร",
+      "province": "สกลนคร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/difuku2/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-04",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%84%E0%B8%94%E0%B8%9F%E0%B8%B8%E0%B8%81%E0%B8%B8%202%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%81%E0%B8%A5%E0%B8%99%E0%B8%84%E0%B8%A3%20%E0%B8%AA%E0%B8%81%E0%B8%A5%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": "09:00-18:00 (หยุดจันทร์)"
+    },
+    {
+      "name": "ร้านแป้งโกะ โกดังสินค้าญี่ปุ่นมือสอง สุรินทร์",
+      "province": "สุรินทร์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100091084777840",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B9%82%E0%B8%81%E0%B8%B0%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โตเกียวพลาซ่าสุรินทร์",
+      "province": "สุรินทร์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100067895873383",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/WymAbgobKNZCq7Mf8",
+      "hours": "เปิดทุกวัน 09:00-17:00"
+    },
+    {
+      "name": "Japantwohand by เจ๊นิต อำนาจเจริญ",
+      "province": "อำนาจเจริญ",
+      "kind": "japan",
+      "source": "https://www.facebook.com/japantwohandamnatcharoen/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/ZkDPdcwRmRG5idat7",
+      "hours": "08:30-17:30 (จันทร์-เสาร์)"
+    },
+    {
+      "name": "น้องมีนาสินค้ามือสองญี่ปุ่นอุดรธานี",
+      "province": "อุดรธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100075929799281",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/cgdLR8rxFpaQE9bi8",
+      "hours": "เปิดตลอดเวลา"
+    },
+    {
+      "name": "สินค้าญี่ปุ่นมือ 2 กม.9 อุดร",
+      "province": "อุดรธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100064212721333",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%202%20%E0%B8%81%E0%B8%A1.9%20%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A3%20%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A3%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "09:00 (วันเปิดขาย)"
+    },
+    {
+      "name": "แม่เตอร์สาขา 3 Jp - Ubon",
+      "province": "อุบลราชธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61552585635978",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%203%20Jp%20-%20Ubon%20%E0%B8%AD%E0%B8%B8%E0%B8%9A%E0%B8%A5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "09:30-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังญี่ปุ่น โคโนมิ (Konomi Ubon)",
+      "province": "อุบลราชธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063778951773",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B9%82%E0%B8%84%E0%B9%82%E0%B8%99%E0%B8%A1%E0%B8%B4%20%28Konomi%20Ubon%29%20%E0%B8%AD%E0%B8%B8%E0%B8%9A%E0%B8%A5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "เปิดทุกวัน (ปิดพฤหัส 30ก.ค.)"
+    },
+    {
+      "name": "เคเจ เจแปน สินค้าญี่ปุ่นมือสอง เลย",
+      "province": "เลย",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100090779540761",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/CAoQMSFoBCxXAH6s8",
+      "hours": "09:30-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "นาริตะ กระบี่",
+      "province": "กระบี่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61557535265153",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%95%E0%B8%B0%20%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B5%E0%B9%88%20%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B5%E0%B9%88",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โอ๊ะโอ โกดังสินค้าญี่ปุ่น กระบี่",
+      "province": "กระบี่",
+      "kind": "japan",
+      "source": "https://www.facebook.com/OHOjuree/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/bGFSHnP7KEEJzjkU8",
+      "hours": "เปิดตลอดเวลา"
+    },
+    {
+      "name": "กาญจน์ ซุปเปอร์ สโตร์ สาขาชุมพร (เขาปีบ ทุ่งตะโก)",
+      "province": "ชุมพร",
+      "kind": "japan",
+      "source": "https://www.facebook.com/KanStoreKhaopipChumphon/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B9%8C%20%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B9%82%E0%B8%95%E0%B8%A3%E0%B9%8C%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3%20%28%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%9B%E0%B8%B5%E0%B8%9A%20%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%95%E0%B8%B0%E0%B9%82%E0%B8%81%29%20%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3",
+      "hours": "10:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "วาโนะเจแปน สินค้าญี่ปุ่นมือสอง ตรัง",
+      "province": "ตรัง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/wanojapantrang/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-17",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A7%E0%B8%B2%E0%B9%82%E0%B8%99%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87%20%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87",
+      "hours": "เปิดร้าน+โปรเสาร์"
+    },
+    {
+      "name": "สินค้าญี่ปุ่นมือสอง ร้านโยอิ (ตรัง?)",
+      "province": "ตรัง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/yoijung2018/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%AD%E0%B8%B4%20%28%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87%3F%29%20%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87",
+      "hours": "เปิดร้าน+โปรเสาร์"
+    },
+    {
+      "name": "กาญจน์ ซุปเปอร์ สโตร์ สาขานครศรีธรรมราช",
+      "province": "นครศรีธรรมราช",
+      "kind": "japan",
+      "source": "https://www.facebook.com/KanstoreNakhonSrithammarat/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/fsQL8eFEZxCMdwrf7",
+      "hours": "11:00-20:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "อันโกะ สินค้าญี่ปุ่นมือสอง นครศรีธรรมราช",
+      "province": "นครศรีธรรมราช",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Anko2018/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://goo.gl/maps/djWFR7qDfFNjeUav9",
+      "hours": "10:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โตเกียว สินค้าญี่ปุ่นมือสอง นครศรีธรรมราช",
+      "province": "นครศรีธรรมราช",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61559071692428",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/TSFosHG4d792BHpw8",
+      "hours": "09:30-19:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "โกดังสินค้ามือสอง ปัตตานี",
+      "province": "ปัตตานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61559675187971",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B2%E0%B8%99%E0%B8%B5%20%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "10:00-18:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Nagoya โกดังญี่ปุ่นพัทลุง",
+      "province": "พัทลุง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100083196916983",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "14 ก.ค. 2569 (13 วันที่แล้ว)",
+      "mapsUrl": "https://maps.app.goo.gl/JHkF62tRXtfNocfq8",
+      "hours": "เปิดทุกวัน 08:00-19:00"
+    },
+    {
+      "name": "โมกะตะ สินค้ามือสองนำเข้าจากญี่ปุ่น พัทลุง",
+      "province": "พัทลุง",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063807949610",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/UTcdPsr5faPnG1wM8",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "Japan Life Center สาขา 4 ภูเก็ต",
+      "province": "ภูเก็ต",
+      "kind": "japan",
+      "source": "https://www.facebook.com/japanlifecenter4/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japan%20Life%20Center%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%204%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "เจียเหอ สินค้ามือสองญี่ปุ่น ภูเก็ต",
+      "province": "ภูเก็ต",
+      "kind": "japan",
+      "source": "https://www.facebook.com/jieheshop/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "ตู้ใหม่มาแล้ว 28/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B9%80%E0%B8%AB%E0%B8%AD%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95",
+      "hours": "10:00-20:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "ไจแอนท์ สินค้าญี่ปุ่นมือสอง ภูเก็ต",
+      "province": "ภูเก็ต",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063441987256",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "11 มิ.ย. 2569 (เงียบ ~45 วัน)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%84%E0%B8%88%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B9%8C%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95",
+      "hours": "ไม่ระบุ"
+    },
+    {
+      "name": "Sakura โกดังสินค้ามือสองนำเข้าจากญี่ปุ่น หาดใหญ่",
+      "province": "สงขลา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/sakura2ndhatyai/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%20%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2",
+      "hours": "เปิดทุกวัน (CF/ขายหน้าร้าน)"
+    },
+    {
+      "name": "นานะซัง สินค้าญี่ปุ่น-ยุโรปมือสอง หาดใหญ่",
+      "province": "สงขลา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/Nana2handhouse/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26 (5 ชม.ที่แล้ว)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%8B%E0%B8%B1%E0%B8%87%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%A2%E0%B8%B8%E0%B9%82%E0%B8%A3%E0%B8%9B%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%20%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2",
+      "hours": "เปิดทุกวัน 10:00-19:00"
+    },
+    {
+      "name": "ปาปาแมน สินค้าญี่ปุ่นมือสองหาดใหญ่",
+      "province": "สงขลา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/papaman.jp/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-26 (8 ชม.ที่แล้ว)",
+      "mapsUrl": "https://maps.app.goo.gl/SLtvVysPsXU6APUo8",
+      "hours": "09:30-19:30"
+    },
+    {
+      "name": "เจ๊แมวโกดังญี่ปุ่น / ยากูซ่าเจแปน สงขลา",
+      "province": "สงขลา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/ce.m.w.kodang.yipun",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%88%E0%B9%8A%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%2F%20%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B9%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2%20%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2",
+      "hours": "ขายออนไลน์+แจ้งวันลง"
+    },
+    {
+      "name": "โกดังญี่ปุ่นสินค้ามือสองท่าสะอ้าน",
+      "province": "สงขลา",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100077469881759",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-24 (2 วันที่แล้ว)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%AD%E0%B9%89%E0%B8%B2%E0%B8%99%20%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "Kan Shoppu ปตท.ประดู่ สุราษฎร์ธานี",
+      "province": "สุราษฎร์ธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/kanshoppu/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/3UwFZZNuBcu1dFFo9",
+      "hours": "10:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Kan Shoppu สาขา 2 ท่าทองใหม่ (กาญจนดิษฐ์)",
+      "province": "สุราษฎร์ธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/kanshoppu2/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://bit.ly/4c9EDG2",
+      "hours": "09:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "กาญจน์ สโตร์ อาณาจักรสินค้าญี่ปุ่นมือสอง สุราษฎร์ธานี",
+      "province": "สุราษฎร์ธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/KanstoreSuratthani/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B9%8C%20%E0%B8%AA%E0%B9%82%E0%B8%95%E0%B8%A3%E0%B9%8C%20%E0%B8%AD%E0%B8%B2%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "10:00-20:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "เนโกะ สินค้าญี่ปุ่นมือสอง (สี่แยกบางกุ้ง)",
+      "province": "สุราษฎร์ธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/NekoSurat/",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-25",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%99%E0%B9%82%E0%B8%81%E0%B8%B0%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%28%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%29%20%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "เปิดทุกวัน"
+    },
+    {
+      "name": "โกดังโอชิน สินค้าญี่ปุ่นมือสอง",
+      "province": "เพชรบูรณ์",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100088717297497",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "20 เม.ย. 2569 (เงียบ ~3 เดือน+)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B9%82%E0%B8%AD%E0%B8%8A%E0%B8%B4%E0%B8%99%20%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%93%E0%B9%8C",
+      "hours": "เปิดเฉพาะวันอาทิตย์ 08:00-17:00"
+    },
+    {
+      "name": "มุสลิม เจแปน โกดังจำหน่ายสินค้าญี่ปุ่นมือสอง",
+      "province": "สตูล",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063776896687",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%A1%E0%B8%B8%E0%B8%AA%E0%B8%A5%E0%B8%B4%E0%B8%A1%20%E0%B9%80%E0%B8%88%E0%B9%81%E0%B8%9B%E0%B8%99%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%20%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%A5",
+      "hours": "เปิดทุกวัน (ขายออนไลน์ด้วย)"
+    },
+    {
+      "name": "มุซาชิ โกดังสินค้าญี่ปุ่นมือสอง",
+      "province": "นครนายก",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61558104166177",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-27",
+      "mapsUrl": "https://maps.app.goo.gl/a95AQtmTGsr94PjS8",
+      "hours": "09:00-18:30 (เปิดทุกวัน)"
+    },
+    {
+      "name": "Tamaya (ทามะยะ) โกดังสินค้ามือสองญี่ปุ่น ลำลูกกา & หทัยราษฎร์",
+      "province": "ปทุมธานี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0sSfst5P8H87K3nGM11K6VuyAWGQgcA8xaV7GZRCgkxaLvACBqmUSxHMcJVVgtHzVl&id=61557871972741",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tamaya%20%28%E0%B8%97%E0%B8%B2%E0%B8%A1%E0%B8%B0%E0%B8%A2%E0%B8%B0%29%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%A5%E0%B8%B3%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%81%E0%B8%B2%20%26%20%E0%B8%AB%E0%B8%97%E0%B8%B1%E0%B8%A2%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5",
+      "hours": "10:15-18:45 น. (ตามโพสต์สาขาหทัยราษฎร์)"
+    },
+    {
+      "name": "โกดังสินค้านำเข้าจากญี่ปุ่น By มาดามปิ่น",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100063611797294",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20By%20%E0%B8%A1%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%A1%E0%B8%9B%E0%B8%B4%E0%B9%88%E0%B8%99%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "09:30 (วันเปิดขาย)"
+    },
+    {
+      "name": "โกดังญี่ปุ่น นินจา พิษณุโลก",
+      "province": "พิษณุโลก",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=61586848530653",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "2026-07-28",
+      "mapsUrl": "https://maps.app.goo.gl/es1mUJcAiuDyEyyVA",
+      "hours": "10:00-19:00 (เปิดทุกวัน)"
+    },
+    {
+      "name": "J-Store premium (ศรีราชา)",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/J.store.premium",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "โปร+ของใหม่ลง 29/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=J-Store%20premium%20%28%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%29%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "09:00-18:00 (หยุดจันทร์)"
+    },
+    {
+      "name": "Hi Japan 2 โกดังนำเข้าญี่ปุ่น นครปฐม",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/HiJapan2",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "ประกาศเปิดตู้ใหม่ 30 ก.ค. (โพสต์ 1 วันก่อน)",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hi%20Japan%202%20%E0%B9%82%E0%B8%81%E0%B8%94%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "ไลฟ์สดโชว์ของ 18.30 (โกดังใหม่)"
+    },
+    {
+      "name": "Hi Japan สาขา 3 (วัดทัพหลวง) นครปฐม",
+      "province": "นครปฐม",
+      "kind": "japan",
+      "source": "https://www.facebook.com/HijapanByNumthip",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "ประกาศเปิดตู้ใหม่ 29/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hi%20Japan%20%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%203%20%28%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%B1%E0%B8%9E%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%29%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1",
+      "hours": "เปิดตลอดเวลา (เปิดตู้ใหม่เป็นรอบ)"
+    },
+    {
+      "name": "Honey Japan Shop (บางละมุง) ชลบุรี",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/profile.php?id=100092990575949",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "แอคทีฟ 29/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Honey%20Japan%20Shop%20%28%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B8%E0%B8%87%29%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "10:30-18:00 (หยุดอังคาร · ขายหน้าร้าน)"
+    },
+    {
+      "name": "Kanpai Reuse Pattaya (นาเกลือ) ชลบุรี",
+      "province": "ชลบุรี",
+      "kind": "japan",
+      "source": "https://www.facebook.com/kanpaireuse.pattaya",
+      "sourceName": "Thai Japan second-hand warehouse directory",
+      "lastObservedAt": "แอคทีฟ 29/7/69",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kanpai%20Reuse%20Pattaya%20%28%E0%B8%99%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD%29%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": "ขายหน้าร้าน (สินค้าใหม่ทุกสัปดาห์)"
+    },
+    {
+      "name": "(un)FASHION S39",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%28un%29FASHION%20S39%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "blocstore",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=blocstore%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Horse Unit",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Horse%20Unit%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Woot Woot",
+      "province": "กรุงเทพมหานคร",
+      "kind": "vintage",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Woot%20Woot%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Blulagoon Store",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Blulagoon%20Store%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "USEMEREPEAT",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=USEMEREPEAT%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Zotusstore",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zotusstore%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Tokyo Joe Bangkok",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Joe%20Bangkok%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Treasure Factory Phra Khanong",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Treasure%20Factory%20Phra%20Khanong%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Pattavikorn Market",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pattavikorn%20Market%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Chatuchak Weekend Market — vintage sections",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chatuchak%20Weekend%20Market%20%E2%80%94%20vintage%20sections%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Mixt Chatuchak — second-hand floor",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mixt%20Chatuchak%20%E2%80%94%20second-hand%20floor%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Bang Sue Junction",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bang%20Sue%20Junction%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Shinjuku Outlet",
+      "province": "กรุงเทพมหานคร",
+      "kind": "clothing",
+      "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Outlet%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Komehyo Thailand",
+      "province": "กรุงเทพมหานคร",
+      "kind": "japan",
+      "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Komehyo%20Thailand%20%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3",
+      "hours": null
+    },
+    {
+      "name": "Kodang Ratchawong Vintage Warehouse",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kodang%20Ratchawong%20Vintage%20Warehouse%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "FAMOUS STORE Chiang Mai",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=FAMOUS%20STORE%20Chiang%20Mai%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "ALTERGROUND Vintage",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ALTERGROUND%20Vintage%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Ifoundinbasket Vintage",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ifoundinbasket%20Vintage%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "JET SHOP Second-Hand",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JET%20SHOP%20Second-Hand%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Bedlam Store",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bedlam%20Store%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Collectors Store Chiang Mai",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Collectors%20Store%20Chiang%20Mai%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Toro Secondhand Market",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Toro%20Secondhand%20Market%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Kaber Vintage Clothes Shop",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaber%20Vintage%20Clothes%20Shop%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "SURTRICT STORE",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SURTRICT%20STORE%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Nostalgia Vintage Nimman",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nostalgia%20Vintage%20Nimman%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Free Bird Cafe Thrift Shop",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Free%20Bird%20Cafe%20Thrift%20Shop%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Night Ground Society",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Night%20Ground%20Society%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Takiang Vintage Store",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Takiang%20Vintage%20Store%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "All in store.cnx",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=All%20in%20store.cnx%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "CHIANGMAI HARDCORE",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CHIANGMAI%20HARDCORE%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Madam Muk Second Hand Warehouse",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Madam%20Muk%20Second%20Hand%20Warehouse%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Hugjang Japan Premium Outlet",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hugjang%20Japan%20Premium%20Outlet%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Daruma Japan Chiangmai Airport",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Daruma%20Japan%20Chiangmai%20Airport%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "DARUMA JAPAN CHIANGMAI Saraphi",
+      "province": "เชียงใหม่",
+      "kind": "japan",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=DARUMA%20JAPAN%20CHIANGMAI%20Saraphi%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Ai Teng Jeans",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Editorial place guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ai%20Teng%20Jeans%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Nong Ho Flea Market",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Chiang Mai vintage guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nong%20Ho%20Flea%20Market%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Jing Jai Market Chiang Mai — vintage zone",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+      "sourceName": "Chiang Mai vintage guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai%20%E2%80%94%20vintage%20zone%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Toro Clothing — San Sai flagship",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://www.timeout.com/chiang-mai/shopping/chiang-mais-best-vintage-stores-and-markets",
+      "sourceName": "Time Out Chiang Mai",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Toro%20Clothing%20%E2%80%94%20San%20Sai%20flagship%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "Melon Second-hand",
+      "province": "เชียงใหม่",
+      "kind": "clothing",
+      "source": "https://chiangmaiwiki.com/clothes-and-fashion/",
+      "sourceName": "Chiang Mai Wiki clothing guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Melon%20Second-hand%20%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+      "hours": null
+    },
+    {
+      "name": "ตลาดยรรยงค์ (Yanyong Market)",
+      "province": "สงขลา",
+      "kind": "clothing",
+      "source": "https://www.youtube.com/watch?v=JvlSIlHFugQ",
+      "sourceName": "Hat Yai second-hand shopping guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A2%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%87%E0%B8%84%E0%B9%8C%20%28Yanyong%20Market%29%20%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2",
+      "hours": null
+    },
+    {
+      "name": "Chillva Market — vintage market",
+      "province": "ภูเก็ต",
+      "kind": "clothing",
+      "source": "https://www.morriscope.com/blog/Best-thrift-store-vintage-shop-thailand",
+      "sourceName": "Thailand thrift guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chillva%20Market%20%E2%80%94%20vintage%20market%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95",
+      "hours": null
+    },
+    {
+      "name": "Naka Weekend Market",
+      "province": "ภูเก็ต",
+      "kind": "clothing",
+      "source": "https://thairanked.com/en/rankings/best-places-buy-vintage-clothes-thailand/",
+      "sourceName": "Thailand vintage markets guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Naka%20Weekend%20Market%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95",
+      "hours": null
+    },
+    {
+      "name": "Phuket Vintage",
+      "province": "ภูเก็ต",
+      "kind": "clothing",
+      "source": "https://www.morriscope.com/blog/Best-thrift-store-vintage-shop-thailand",
+      "sourceName": "Thailand thrift guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Phuket%20Vintage%20%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95",
+      "hours": null
+    },
+    {
+      "name": "Soi Buakhao Second-hand Clothing Market",
+      "province": "ชลบุรี",
+      "kind": "clothing",
+      "source": "https://www.morriscope.com/blog/Best-thrift-store-vintage-shop-thailand",
+      "sourceName": "Thailand thrift guide",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soi%20Buakhao%20Second-hand%20Clothing%20Market%20%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5",
+      "hours": null
+    },
+    {
+      "name": "ตลาดโรงเกลือ อรัญประเทศ",
+      "province": "สระแก้ว",
+      "kind": "clothing",
+      "source": "https://www.wongnai.com/restaurants/334122Ll",
+      "sourceName": "Wongnai place listing",
+      "lastObservedAt": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD%20%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%8D%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7",
+      "hours": null
+    }
+  ]
+}
