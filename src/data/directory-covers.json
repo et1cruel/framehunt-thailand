@@ -1,0 +1,2557 @@
+{
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/le-normandie": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/25e0c6781e9841f2af0d367e764b8d12.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/le-normandie"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mezzaluna": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2dfa5a14ef6540f090d6ca6e95fa7cab.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mezzaluna"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/cote-by-mauro-colagreco": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/25d13b1f27114c34a6bc8ee824ef199c.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/cote-by-mauro-colagreco"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chef-s-table1184372": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/63d6a78916a640a0abfbe243e6679614.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chef-s-table1184372"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/avant": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f2014e966c5a4e83adc10bce2283e2bd.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/avant"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nahm": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7457a2cf8dbc4944ac67e900fb962d0c.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nahm"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/elements": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e24fb2eda33445ceacc81f58aa926e07.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/elements"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/signature-1194955": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6f218567930e4c9ebe4caee264371afe.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/signature-1194955"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/saneh-jaan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/178cf460c074488abece98c78a663b19.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/saneh-jaan"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jaras": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/925d9c15d2114d95b0a901cf001fdc45.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jaras"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/long-dtai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/db96058c0e1b4c0c8f928d2fe39ab65b.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/long-dtai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/riva-del-fiume": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f6ba4f955c944c819884653164df6d7a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/riva-del-fiume"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/khao1183932": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e62027a79e2f4020bc3b781267a9e7c4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/khao1183932"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/hom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/02cf593519e84ae88138f77485577a22.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/hom"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nan-bei": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c838f4175b9a47c9bfecbc937da65608.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nan-bei"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/ta-khai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4960dfb2a92148b78fad9c2a4e7ed662.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/ta-khai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/celadon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/68683f0e805c4d37bb63dadd65b64a05.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/celadon"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/la-cucina-1213953": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b43bd3cac3b7452a9a8faedaeb20bdef.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/la-cucina-1213953"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/suhring": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/21f4aa1d06924c448a993179c0556ec5.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/suhring"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/inddee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3383f03250ea4f909948cf1566cf39d8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/inddee"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mia": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3fd20f45f410456293c76f6de56b8432.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mia"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/blue-by-alain-ducasse": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/228bd258b7ca457faa7219b38dc6c5fc.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/blue-by-alain-ducasse"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/juksunchae": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/61b6a8a9ffff49fbaf7f0ffe83bfbaba.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/juksunchae"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/igniv": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ebcfabe67bcf4811802b135f9ecd607e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/igniv"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chim-by-siam-wisdom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1a7868ba63ab4709ba1450ff9a9a6b1d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chim-by-siam-wisdom"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/coda-1206365": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/725c2d9e94714dfaa9a398e48067184e.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/coda-1206365"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-fai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3f84b5bba5a145c0a4a640236fd10a3a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-fai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/80-20": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0c9270fd60fb4555a5aaa7f4a8fcf7c2.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/80-20"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/resonance": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ae87213538294e2ea1356d7ab080bc4a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/resonance"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/akkee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d36137322e6a4595a45f562e0a8c92f5.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/akkee"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/r-haan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/617bc94c7eb148ae9d162914c5e24bdd.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/r-haan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/haoma": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6b52dae432d54398aa4f8a8d2192ff68.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/haoma"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/potong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/265d491cedd74b9f86448f56e4b841e8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/potong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/plu": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f4e23fde8dae4e47a23c11c60d3d804b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/plu"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/maan-muang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b6d18a10a9a04137b53baa7285a0f36a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/maan-muang"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/thien-duong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/dc13f95c9e73422d8aa1e85809ea5450.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/thien-duong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-pee-lek": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/894fa9a1261649bdbad92a11ff8baa73.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-pee-lek"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/jaan-joor": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/07aae5e0fbd943369f0fd066c1a8f2a6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/jaan-joor"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/krua-apsorn-sam-sen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/57be7069a95446a1a28d44dc120447ec.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/krua-apsorn-sam-sen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-suriyasai-1195317": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bf1778bae16747b9af574654271b0057.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-suriyasai-1195317"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/giglio-trattoria-fiorentina": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d6640aa15f334f1d92253278cfd51d70.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/giglio-trattoria-fiorentina"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tapori": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ea2467df44614a7781a6bd9a1ca3f9b1.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tapori"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/si-sawat": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5a10ea5063a84fb48715bcf34cde53cc.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/si-sawat"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1661202528534a8f821388d14dfe2f6e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khao"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chakrabongse-dining": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0605826c249d4db6a9abaf72f59e71c1.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chakrabongse-dining"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/the-local": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bfa4f0d8d4be4405a225b59d00470b61.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/the-local"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/enoteca": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/18fa4a8f91d34c30bb95d4b6449fc6dd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/enoteca"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/tambu": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/237adb9b75614bdc86529da8c2233170.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/tambu"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tori-tama": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/073038e4bf3242c68b9148bb1c2b0d80.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tori-tama"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nusara-1192382": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c658ab9e41484cfa84f8a936cb63d587.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nusara-1192382"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/yu-ting-yuan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4542f0579a88492db8131aa9ab71d094.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/yu-ting-yuan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ginza-sushi-ichi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/be8efad7024a4ceda3a38b9600d192d1.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ginza-sushi-ichi"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/sizzle": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/55a28156d4cf49c4a896b99be3012ec5.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/sizzle"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/north": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/50a6bc435f37423193f2fb8a044d31b2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/north"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/grok": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/45f2c5142bb94410825e51a177b7c01b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/grok"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/cuisine-de-garden1184019": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/142d7ae65c9f47b68169e301bc20c838.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/cuisine-de-garden1184019"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/paste": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/86b2e8e4b18246358fd30d5ed707f9a7.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/paste"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/redbox": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8b6023f18f794284bcc4db79aa8985f1.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/redbox"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khaan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/72548db453b24f249c796e20c4c2ea8e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khaan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phra-nakhon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3958e1b6a14f460f9356aacc0cac20b0.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phra-nakhon"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/palmier-by-guillaume-galliot": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f4c8cb4c606b4c948f377aaf413e5c7c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/palmier-by-guillaume-galliot"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/taan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6599070e742b440ca21190ad9eeb3347.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/taan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/scarlett": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d212a09c8e2846059861c62ef5822094.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/scarlett"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/margo-1243328": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/126760787c0c4a02af73ddb74062cdbd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/margo-1243328"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/kinlum-kindee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a92d4e8a319c4edbbec83acd4db7bf7f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/kinlum-kindee"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/100-mahaseth": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3bff88e3f850446b88bdbbbff9eb9183.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/100-mahaseth"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7e140f24944f4de5bc0c18e73f8ce52d.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/praya-dining": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a4c419a381f544fb8f7ffc39000d5bc8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/praya-dining"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/talung-thai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3cf74123fc114382ae99bf2616e6faca.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/talung-thai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/punjab-grill1183627": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e645b2330f1d41998bf555d80c614e5c.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/punjab-grill1183627"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/talung": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ae288bf03ab24d6880b794d42c6da37f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/talung"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jhol": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/df5d223d4e44434db6e54dac82dc005f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jhol"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/torisawa-22": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d44169a0cf744ba2a995c05b68ad4ad6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/torisawa-22"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/supanniga-eating-room-tha-tian": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0efe67f82820413d976219c73e9d43fd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/supanniga-eating-room-tha-tian"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/kaen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3a51c7f8b87b4c9aaabe79866581ec6d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/kaen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/savelberg-1196627": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5400045703bd44cf89a0256ec57eaf58.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/savelberg-1196627"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/cadence-by-dan-bark": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/505e3f954cd24e46b2eada87b35250fb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/cadence-by-dan-bark"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/delia": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/de8a7486edd64c3cae2c4598569d947f.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/delia"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/wah-lok-1194310": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4d72b6fad9b04b91a3d71a69ba4aeafb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/wah-lok-1194310"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/nitan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d74b261b9f9a4d74bb67927d07e66032.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/nitan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/indus": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4fc2d43533be4323a262d972c10d9af6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/indus"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baannok-bangkok": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c961b6fb16c84a7c806337d47c3ea958.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baannok-bangkok"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/new-york-steakhouse": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0028b6a872424003bc09e52ce50df3ae.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/new-york-steakhouse"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/koh-thai-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e9ea44414ddf48439df3a7dff6ccbf55.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/koh-thai-kitchen"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/pru": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1ac73a79df2040ffb2b76865cdeb5684.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/pru"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/cannubi-by-umberto-bombana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/cb6e0861c07a4257b98414baf1771104.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/cannubi-by-umberto-bombana"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/aulis-1210910": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3cf121b3fc9549f9b23ebbaf56cb5654.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/aulis-1210910"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/maison-dunand": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3b50cebfaa244e2b9650281a6cfa8718.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/maison-dunand"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/duet-by-david-toutain": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4b38903b4ccc4524926a75d715dede84.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/duet-by-david-toutain"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ojo-bangkok": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bda156593ade46bb8661cd780a9a3322.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ojo-bangkok"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/saffron-1206156": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d2ba40a5537046808c9d7ee9e77e0681.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/saffron-1206156"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/fish-club": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e5bd4bf598ce4de298a84c7f19af2051.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/fish-club"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/fishhouse": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/74fdbd13ca2d4f90a9306ea524ed8504.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/fishhouse"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sorn": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/28e95eb0490347fa8bbbccc03fa9d0cb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sorn"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-tepa": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0db2437711a045af8755beefe5f47a4c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-tepa"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gaa-1194845": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/41a646013d914d148e66982b0f5e945c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gaa-1194845"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/etcha": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bf499e1600f7404abd388f5205b86906.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/etcha"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nawa": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8bb3ce39e4e246cfafab7f2b950ad6a6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nawa"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/aksorn": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/10c3225460674d9c958bb1bc075b504f.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/aksorn"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/le-du": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/428c834a0d194e9db0fcc5eb56433267.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/le-du"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/i-sang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/400ac1294a51498cbe18f89b5589e905.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/i-sang"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sartoria-by-paulo-airaudo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/630b3a76bac747a79bcec2eb305b3474.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sartoria-by-paulo-airaudo"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/samrub-samrub-thai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0345b29c31a34b44b83ae608c8ad094f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/samrub-samrub-thai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/machri": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9d70cb9c1d5f479189ab2c30e2d72043.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/machri"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/belen-by-paulo-airaudo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/679464b8772a46cba1b5d4e19b002710.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/belen-by-paulo-airaudo"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gaggan-anand": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0fa466457bab4c9ba965bd09aa54b845.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gaggan-anand"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/suan-thip": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e8bb21a05e944d07818e9abbbb34999e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/suan-thip"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/liana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c67ff0a7d378444d80ac872b0e40bb87.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/liana"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bo-lan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8110c1ba2a494880ab9f3b47bb0069bc.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bo-lan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tharn": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/66e54ad9720743dcb3a78b84af7becc5.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tharn"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/omemo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/005044a60be14a70a15c70be72fac091.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/omemo"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/the-china-house-by-chef-fei": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/07cb50932dbe4b57a06516916330597e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/the-china-house-by-chef-fei"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/goat": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/21125294575c42a4b9fba8c9f99cc895.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/goat"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sushi-saito-1208794": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9acec617789d447da176cbb47a2ffe84.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sushi-saito-1208794"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/wana-yook": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/510d3dcd855a452ca0fbee2681be6194.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/wana-yook"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/chuan-chim": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/42a3fd661eb7448abc61f876dec2cec6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/chuan-chim"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/hia-wan-khao-tom-pla": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1ca83712a0cd43259d46b5e2739d5618.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/hia-wan-khao-tom-pla"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krachang-khao-lak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/96ab6fae59c748619c64f5b2ec6c14ed.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krachang-khao-lak"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kolun-h": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/18cc8a08f09a4f4aa585e425138ba32a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kolun-h"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/toh-daeng-by-baan-ar-jor-museum-home": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/93e29944b2624835a5f9b7a0120325d2.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/toh-daeng-by-baan-ar-jor-museum-home"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/ruanthai-kungpao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f13abe47ae5f43a9a4fadb35eb03a396.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/ruanthai-kungpao"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/mon-phochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9be344a0150e4c42b7b9759155fc761a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/mon-phochana"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/thai-niyom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/35d78bbdaa574920b435c1782eccefe6.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/thai-niyom"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/nub-1243494": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/af7fd168ffb8404e91ddbdc84f4c236c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/nub-1243494"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/krua-baan-platong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/586680b774f343a9b57015d6b320a995.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/krua-baan-platong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/k-panich": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2dd11b87d6134ff18d622444a376818e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/k-panich"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huan-soontaree": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fdfe7cb1ee5d4cec8263869f21b02a0e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huan-soontaree"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/rotee-pa-day": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a8c4505f613e462f9ee72fcda523930d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/rotee-pa-day"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/chai-phochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a75912db8e844b5e85d388d0e7000ebe.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/chai-phochana"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/keawloon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/35c000142236457293c25fd7e7f733d3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/keawloon"
+  },
+  "https://guide.michelin.com/th/en/pathum-thani-region/pathum-thani/restaurant/khao-mun-gai-nha-jone": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/daa4d3673d8d41a39796d5b3506004b3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/pathum-thani-region/pathum-thani/restaurant/khao-mun-gai-nha-jone"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sane": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a3d403f1758940f4bd6cca3c6e58ac1a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sane"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/khanom-ochin": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e0307cee88a140c78c607173d9b0fb44.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/khanom-ochin"
+  },
+  "https://guide.michelin.com/th/en/pathum-thani-region/pathum-thani/restaurant/pae-pochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e7f78b1afe5b4f339369ed18af5e3230.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/pathum-thani-region/pathum-thani/restaurant/pae-pochana"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/thai-tham": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fdc10aa18042484983120ce25f2f766f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/thai-tham"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/no-name-noodle": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f8d7ff5c0bc44e768dddbc64011856c7.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/no-name-noodle"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-laew-tae-r-rom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/956ce7563e6f448ab59c2b2ff34608d4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-laew-tae-r-rom"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/lung-khajohn-wat-ket": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3473b140e369403bb6180aa0a750f455.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/lung-khajohn-wat-ket"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phed-phed-bistro": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/03ed268700c9400787d81065491042dd.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phed-phed-bistro"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/khanom-mho-kaeng-mae-yai-phai-ling": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/312e7070e0934eebb42aa9fd1bd11f60.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/khanom-mho-kaeng-mae-yai-phai-ling"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/meena-rice-based-cuisine": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b8e8be83dbdf455fbd599b42b5362896.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/meena-rice-based-cuisine"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bokkia-tha-din-daeng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6067f860d4284d56978f5df3572d62b8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bokkia-tha-din-daeng"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/khao-soi-thai-yai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2f5fb73cffea4e85a32dda3fa159543b.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/khao-soi-thai-yai"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/khao-lam-mae-khai-toon-klao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/990d8a410dda437d9b45d9d60601620d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/khao-lam-mae-khai-toon-klao"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/hok-kee-lao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1563b66937424f839dbee6db8d06f547.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/hok-kee-lao"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/beer-hima-prachachuen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bbf7a9a88d9e4f85aa017d8fc6fea477.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/beer-hima-prachachuen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/urai-braised-goose": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/327ae8881c2d45afa86f505ad42726a6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/urai-braised-goose"
+  },
+  "https://guide.michelin.com/th/en/samut-sakhon-region/samut-sakhon/restaurant/ruean-panya": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/23dcd13eead34f36a743d8c0800a65e0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/samut-sakhon-region/samut-sakhon/restaurant/ruean-panya"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-prapha-crispy-pancake-phra-nakhon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1d83e62302b6455395b5f63e0d0b97db.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-prapha-crispy-pancake-phra-nakhon"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ten-suns": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7ee212ce3e0a4e938048bd552c357fe9.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ten-suns"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/khao-tom-thanon-di-buk": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/153ca705faad4f6d9c588a5745f25989.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/khao-tom-thanon-di-buk"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/sann": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/febe18c9207d4618af7dee00dd2cac5b.png?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/sann"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/krua-praya-phuket": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7599372eea7342a9ace46282e52bfd31.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/krua-praya-phuket"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/krua-kao-kuk": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b1f39827221a4ca7884dcb788794b5b3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/krua-kao-kuk"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/peng-duck-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7ad7e306727c4346867b0b0af4f6629d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/peng-duck-noodles"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/khao-piak-udon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a4d0459b32724e7ea29e1e94f3553512.png?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/khao-piak-udon"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/prik-yuak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/95271f19b4fe4e1189c97dfcd308f055.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/prik-yuak"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/prasit-pochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1a00b4f56fec4823bdbfd55db3a57d3e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/prasit-pochana"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/keo-pla": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b5668984f2d64b9eaa239949073ecab0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/keo-pla"
+  },
+  "https://guide.michelin.com/th/en/pathum-thani-region/pathum-thani/restaurant/morakot-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e478618e2b8842248d73e527e90c78f6.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/pathum-thani-region/pathum-thani/restaurant/morakot-kitchen"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/tue-ka-ko-na-prince": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d3b0bdd168ca441895efcecc657e7540.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/tue-ka-ko-na-prince"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-tonfon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/83917e888ba04763a25e7ca2a3f5834c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-tonfon"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/mor-mu-dong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/63b68a7d97d649d090e8a9982aaabb40.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/mor-mu-dong"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/phakakrong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6b20364ff9614ed59897609a5893f0a3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/phakakrong"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/sanae-thai-cuisine": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/06bf9e691e87439586b6b16663bf3953.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/sanae-thai-cuisine"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/nampetch": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c7bc371997134308b685d9695d545b7b.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/nampetch"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/roe-dang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a6ade6b23ec5411a9b2014e84558bbc2.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/roe-dang"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/khao-soi-mae-sai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/47168a2ec6df46f9998943338efe4342.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/khao-soi-mae-sai"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/pa-ting": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5e14d9aa19504cc5b30c4b4f239845ac.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/pa-ting"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/pae-jok-38-years": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c22ef9c930bb4056b91c7b5c8bee7d66.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/pae-jok-38-years"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/saiyut-and-doctor-sai-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/29b45ff8b4bd4f42b67f74f728fed462.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/saiyut-and-doctor-sai-kitchen"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/roti-taew-nam": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fd79a2bccf43443a877a3f1f11a5e43b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/roti-taew-nam"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/surf-turf-by-soul-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c82801917aec4f7e8e47db1faeee79b9.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/surf-turf-by-soul-kitchen"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/phunisa": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/443257bb4601480e8ce610e5d29d6e3a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/phunisa"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/krua-lawng-khao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9c0d45bd1cd641a9a01ce4fb617f04ab.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/krua-lawng-khao"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/euang-kam-sai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5876a32337bd4b1596b02024c6c157f5.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/euang-kam-sai"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/guay-jub-chang-moi-tat-mai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/dd87496acec64bbf9435caa2db151213.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/guay-jub-chang-moi-tat-mai"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/go-benz": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6ed352d69f8a452eb765d302d1c55a83.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/go-benz"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/pranom-shredded-chicken-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bcd1247ec8b84388a2854d482ffbcd2b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/pranom-shredded-chicken-noodles"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/pathongko-mae-pranee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f4875fae375a424cb212ae8e05bdec65.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/pathongko-mae-pranee"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/naam-yoi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/783234dfd8604c5e9207e1729dbf1e8a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/naam-yoi"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/guay-tiew-mu-rung-rueang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/20408170f9384deabb337a2b970d70ee.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/guay-tiew-mu-rung-rueang"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/somsak-pu-ob-charoen-rat": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6b1fc223cc1542c6b201d71bbd7395dd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/somsak-pu-ob-charoen-rat"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lucky-seafood": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/54ec70cadeba4e96b18c79691c3e4e90.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lucky-seafood"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/pa-pleung-mhee-kratok": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/014203164b85444994f49d35b0de59d9.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/pa-pleung-mhee-kratok"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/gongkham": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/994b2aa4324b4629828283c298ddfb0a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/gongkham"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/dan-chicken-rice-san-sai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/40cd26d2e505428cbdfc7f54f103d11e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/dan-chicken-rice-san-sai"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/kaeng-pa-loong-sa-nga": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3f33f4fb867946f8bc18f2e2cb6e2e1b.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/kaeng-pa-loong-sa-nga"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/kin-kub-ei": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/819b2491c1ac481db338b0827be4f3ce.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/kin-kub-ei"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/lucky-restaurant": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/11c081612c7945648f7d3359cdb448a3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/lucky-restaurant"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/rasik-local-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e89b58516b524726901fff75c4295b45.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/rasik-local-kitchen"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/yok-kheng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f70de471adc846549ce3eff862cf2319.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/yok-kheng"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/krua-suwimol": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ec749e868edf449f8456ec2af92f691c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/krua-suwimol"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/kai-yang-saeng-thai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/83d8d20c13044bceab8c6ade494d8a14.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/kai-yang-saeng-thai"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/mok": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6c64d1f6ec1545c28bf12b4bf88a6a39.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/mok"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/krua-jay-sim": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d2256efa7d464a16831bccf2b3d4a7ee.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/krua-jay-sim"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/so-jeng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9eed32d2bc82423483b512ed77c61019.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/so-jeng"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/pladids": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e95e8bce39f0461a8a825eba590d7823.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/pladids"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/janhom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/de89dd2400e1410b897d8781cda472cb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/janhom"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/ton-mayom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8d38db185e204b0fa39987c0a53b7135.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/ton-mayom"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/jun-hom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f9fa1ef6a06c4951bdc687858b6cf441.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/jun-hom"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huen-jai-yong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6e5c31f4a17e4d809b2152c1bdbe876a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huen-jai-yong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rue-poh": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9e8c7897402c4ed8bf66ce380cb15cb3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rue-poh"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/dear-phangan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/667368b150bd44eaae00b36e53a2ff1b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/dear-phangan"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/pad-thai-bua-dang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1d6af47ca61347a8a842eef919b98480.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/pad-thai-bua-dang"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/lung-shall-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a8f19932a8cb423aa863e4fad26397f9.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/lung-shall-kitchen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/samlor": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2bc60c44096a4fa9b2f74b5a79907b27.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/samlor"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-pu-karn": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/444e71cdd6534a56a3d950bb682cb317.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-pu-karn"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/baan-suan-lung-khai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d588c1242b3a4d279a3f74719828b5d3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/baan-suan-lung-khai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kin-kub-koi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3cc98bfe8855470e93adbe34d57c194d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kin-kub-koi"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/lom-kaow": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3c9f1596cfe34bccbf0f8816aef36a86.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/lom-kaow"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/praprai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6d343928d3a74b52b17547c1147446a8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/praprai"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/halong-bay": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9ca19d21a39849e6b78228e53d084443.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/halong-bay"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kam-kin-suk": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c001b33fcb30482fb7f25a1ffdaa0f73.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kam-kin-suk"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gokfayuen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bee6689efbd94722a7538888f623fd00.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/gokfayuen"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/u-khao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4250b73010c342dea3683120d861e639.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/u-khao"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/lab-somphit": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f6f0995249dd4ab3b6c1e091daeee653.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/lab-somphit"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/lob-baan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a2f75936dcd24b0ea22384d137f42b82.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/lob-baan"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/agave": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0225e70ae603457382c61e956bf9705a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/agave"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/somphop-khao-tom-pla": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b5f423e5a6a446918b1dc206d426728f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/somphop-khao-tom-pla"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/baan-nam-ngiew-wieng-kao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c9feaad00bf04be0bd8ed670b53bda19.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/baan-nam-ngiew-wieng-kao"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/duck-noodle-house": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/723124d813fc4cb68daccfb29b8fcd74.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/duck-noodle-house"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/the-charm": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/45e55f16bac04eb9a8bf59f562522b22.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/the-charm"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/grim-nguan-noodle": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d5619e37c0964aa2a5d92fee8e337e61.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/grim-nguan-noodle"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-luang-ten": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1c008179c238474397d0603bb6927a5c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-luang-ten"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/mekin-farm": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/feb7a3282f5b4b2a82b9d1120ba77283.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/mekin-farm"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/chawee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/57d21585e9604429a57f6bd3454a7f6f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/chawee"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/roti-chaofa": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ece2711f1dd14a25ab173773bcaa2c51.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/roti-chaofa"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/magnolia-cafe": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/19a8f8062a6348689c2e194a11874929.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/magnolia-cafe"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kao-soy-prin": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f4b3d9cbc0f547a2bc0f72c402cd5657.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kao-soy-prin"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-thum-padthai-kheng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ca3a850723a545f6854c5377899eff83.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-thum-padthai-kheng"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/jae-nueang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9c132a8980174a3a9a64b2f161e4de49.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/jae-nueang"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/banmai-chay-nam": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f6d3cbb7d26e43e7beef3247c803e202.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/banmai-chay-nam"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/sow-jeck-pochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8d70920c6d8245eaaac2e36e37784a32.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/sow-jeck-pochana"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-ta-koh-rai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e17758f63191436aa12244d4dd9f3c80.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-ta-koh-rai"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/pa-lek-boat-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c4f0f019a9414601a7a61f784266c82b.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/pa-lek-boat-noodles"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/a-pong-mae-sunee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f2f3bd800f864cd18309697bf2b1c84b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/a-pong-mae-sunee"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bunloet": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/72f4d9ff70cf419aa1488cfbe2b23fe2.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bunloet"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huen-muan-jai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0080cc764abe4d81b7e74fd622d5e995.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/huen-muan-jai"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/one-chun": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6795d62d7bdd423f864cb066e0abee65.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/one-chun"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/eat-pad-thai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9f3966144ae34c798a8ac9ca5cef3cdf.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/eat-pad-thai"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/hong-seng-pochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5fb77ef774bd4f4e8434bc7f1db62981.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/hong-seng-pochana"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/here-joi-beef-noodle": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/62abfecb00c2434299722d6772b4893f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/here-joi-beef-noodle"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kin-lookdeaw": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7ba99d31cddd47eb973e678682132dd4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kin-lookdeaw"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ann-tha-din-daeng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a0cc0e5bd514434989460eb5018aba2e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ann-tha-din-daeng"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/leng-yentafo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b8b3010fd61c49db9d53b3bc2984a5f4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/leng-yentafo"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/aunglo-by-yangrak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/59af645733f44f47a7bf2d2fb2826f60.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/aunglo-by-yangrak"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/khun-jaeng-guay-tiew-pak-mor-kao-wang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/cca3ee34411c4d1a9c2f5ac19033e46e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/khun-jaeng-guay-tiew-pak-mor-kao-wang"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/som-tum-jinda": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/cfaa096274d44fee82f005acf566bf86.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/som-tum-jinda"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-khonkhon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/27aa00eb248a4f68993ec98b16b96eda.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-khonkhon"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kha-mu-jae-mhai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/62041655e72e478faa4d329230c21419.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kha-mu-jae-mhai"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-ko-yot": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2b7301147ef54eca90c7a116d6f69a40.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/krua-ko-yot"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/kor-lhai-toh": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1e8f5a7a86d2413f9138e6b6b9235f81.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/kor-lhai-toh"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-jay-miad": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/187ffbfb716f4cfabf8b323ab6a148c0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-jay-miad"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/rossarin": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b9229a3643144ebdae24b3c95e0009aa.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/rossarin"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/roy": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ed82f2df63c140408cf79c739d9b5158.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/roy"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/kub-khao-mae": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a89c4d00d64f4510b177f60d27800767.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/kub-khao-mae"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-ngor-beef-noodle": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d381e81c944b4db19097db135dc2517e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-ngor-beef-noodle"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/plaew-nakhon-pathom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4a5c299c082e4d8e93ff4823df5b6115.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/plaew-nakhon-pathom"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/baan-heng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/36c4ae02e73942009272ae9ae69a5dd5.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/baan-heng"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-phraya": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/498118a75ddc4223bd0200f43bfb3349.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/baan-phraya"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/nai-khlong-boat-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/36abef60aec148f1a33c79168b33a3a2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/nai-khlong-boat-noodles"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khanom-jeen-baan-bang-kan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/12f6dc136add4df3887ff1ef58f2adf7.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khanom-jeen-baan-bang-kan"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khanom-chin-pa-son": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/718519ad800b46a7933447b8470cdf87.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khanom-chin-pa-son"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ma-maison-1217053": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0407ca9445ce4e6fb6d5b28eaae34737.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ma-maison-1217053"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/p-saw": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/480ec1bf67b445a9ade828d35c695041.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/p-saw"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khrua-nong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/299a2fc12cf04ae9a4ac8de7e8f16e6e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khrua-nong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/guay-jub-mr-joe": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/36cbed7fc08c408fa76081b81244bfcf.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/guay-jub-mr-joe"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/small-dinner-club": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c10cfb4b562948aaa55aedcd9773d29a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/small-dinner-club"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jek-tod": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b267223fe9f1434bb39d0d79e708d0f4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jek-tod"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/withee-laab": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6763a23e954e43c8976d0f9eb50aadf2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/withee-laab"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/klai-lib": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c35c6840c5ea47f78eedc640bf0c7b91.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/klai-lib"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/fuego": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5d8b806c48f94eafbd6ed55be6407d43.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/fuego"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/krua-taan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/94c552ac039d49b98366df8d43f158ea.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/krua-taan"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/roti-sai-mai-abeedeen-pranom-sangaroon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f763dc18b69d400fbba9e86bc6ef8c5f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/roti-sai-mai-abeedeen-pranom-sangaroon"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/sang-ka-sri": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/639ba548a4734a8bb30c164f427faabc.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/sang-ka-sri"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/charoen-saeng-silom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b916e92214f14ac69ba8cdb791e9d0c2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/charoen-saeng-silom"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/banya": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4b419a3a0ca74f6293c69d2a2bf88224.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/banya"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/go-ang-seafood": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0ec1db43b5524866ad8fada2052e516b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/go-ang-seafood"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/aheesah-roddee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6017fbc4ff09464aa56dd921deae101d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/aheesah-roddee"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/baan-plai-khlong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8b57bddcaf62452ea003992499798218.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/baan-plai-khlong"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/sukjai-by-pata-obasan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/05099c2c17c04a88b578a6414060c756.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/sukjai-by-pata-obasan"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/tub-ping": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/faef01754da540cba31d2133d1ac7c3b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/tub-ping"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/jay-jew-talew-bin": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/752a47af77bb4e44b4595b5a9de169e8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/jay-jew-talew-bin"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/preaw-pak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/937d91903e34424faff9da14fce32bce.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/preaw-pak"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/radna-suanmak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6ddeb2fc9ddf461a9e545e5238c66e13.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/radna-suanmak"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ms-maria-mr-singh": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3daa6ae6979b4ea7a22a7b7fe53da04b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/ms-maria-mr-singh"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-khlong-hua-pla-mo-fai-1195212": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e1e6f3c7b2e5436b81c1c4283b66cd51.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mae-khlong-hua-pla-mo-fai-1195212"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/wansuk": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a663dc4e94714716b4c7dd0d1367e9e6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/wansuk"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lay-lao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fab59044f5474f4e8a800741ab07f245.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lay-lao"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/heh": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5a407c2476dd41fab37fdee094189abd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/heh"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/poirot": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/49208e21f1344419bbd270c3635eaa21.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/poirot"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/kang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a37494d06687423b88e442359d289742.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/kang"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/pa-porn-traditional-pork-noodle": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/389124acf0674e1799b88122403ed91b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/pa-porn-traditional-pork-noodle"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rongros": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/45daa66d57a14ca4be9545e49481288b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rongros"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/la-gaetana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/49fddc55a03f4e3d80ff9e58b01e012f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/la-gaetana"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/krua-chao-koh": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/909727d10d2f4390a134b5eef82153c2.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/krua-chao-koh"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/five-olives": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b7993ba8673a4bfaab7beb5c682bc924.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/five-olives"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/jay-noi-kratoke": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6f5aa356b6004a3eb2d432cad70490b1.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/jay-noi-kratoke"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tung-sui-heng-pochana-stadium-one": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/56fd0fce62a643cd828539a99ffb3327.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tung-sui-heng-pochana-stadium-one"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/foong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7600020f7e304eb2b5075a2533389700.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/foong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bisou": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c87bd9d3763c4ebe987b553b5028fcc3.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bisou"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/mae-pong-sri": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e4f9cd9baa114c099f438f86503a7f74.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/mae-pong-sri"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/tiffin-by-la-sala": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fefb86031b3e4b4c8c1187017ddfdd44.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/tiffin-by-la-sala"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/phae-krung-kao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8606defb9cea43f2af212a3d1a99f537.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/phae-krung-kao"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/krua-sa-ros-jad": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/43539a4f139d4beb9c8e2d6337af2d61.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/krua-sa-ros-jad"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/o-tao-bang-niao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6ba78b27d3984efa8156d903a6512d44.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/o-tao-bang-niao"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/local-canteen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5099326f1059435f931a87078c34047c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/local-canteen"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-nai-baan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3805f15b0efe4480a0362260af255cfe.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-nai-baan"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/gin-d": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d305b019eec84585bc5fd51d3f9ebed2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/gin-d"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/laab-ton-yang-san-phi-suea": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5c0650bcc4f547438dfd78ff32e220c9.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/laab-ton-yang-san-phi-suea"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/phensiri": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5f8036d164b64c909e42e68c3daae8c9.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/phensiri"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jadjan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/318e6213a1c44c6cbf3e4ca7c490e15a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jadjan"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/ekachan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d8d6b66c789b47ea9c2e3596dd1ddc45.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/ekachan"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/baan-rearn-mai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/258c4d94d87446e984308561d0f1f4b6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/baan-rearn-mai"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/nai-liak-beef-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d8d983247b914b838ff2ec2e9b3825f1.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/nai-liak-beef-noodles"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/suriyan-chandra": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/974b09f9119c44c2812793ed8ebeb78d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/suriyan-chandra"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khun-thip-s-satay": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/77661b457c8b4265ae5bde8f5b34debd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khun-thip-s-satay"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/kiti-panit": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8019dae81bfb4bb58088dcd21ef70dff.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/kiti-panit"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chef-man-sathon": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8db7c2198b984d29914d8f587319b00f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chef-man-sathon"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/somtum-je-phai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4682839df35141f6bd3451df697d0a9c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/somtum-je-phai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/clara": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c85070f552bf40f4b11153bfdf65253c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/clara"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-ton-sai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b8e2bc2eed434e63856e638b39c54ed0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-ton-sai"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jongjit-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ffbf3eb2b9e64c648aa01e1d80fa5b7d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jongjit-kitchen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phat-kaolao-beef": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bdb17e61bfd5459cad03bce300fa62cb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phat-kaolao-beef"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/chom-tawan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f9b707ba4cf744c0b9554ed9c16620c3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/chom-tawan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rark": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/abd75f8174ef4341a70bca24b5331d6e.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/rark"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/acqua": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bdc04d73eb2e425f95c5d70039c60733.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/acqua"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nikaku": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ab42d313815841c49fdf8f4840d0cfd0.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/nikaku"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/heng-khao-moo-daeng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/329cc83bd9b840e396c67f9f2a98ac07.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/heng-khao-moo-daeng"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/klang-na-pla-khao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/52a50ac1d8554454974cd4a9dd8916e0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/klang-na-pla-khao"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/wagyu-steakhouse": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2111e7836fe8402381a1a3d5d2a4c250.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/wagyu-steakhouse"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/kruvit-raft-ban-laem-hin": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b19e395f378a4452a524de6f92941e53.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/kruvit-raft-ban-laem-hin"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/saigon-recipe": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6a0345d1704248378307ed5dc14b01cf.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/saigon-recipe"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/the-smokaccia-laboratory": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4ceca899fc9d4276b07e645cf66e56cf.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/the-smokaccia-laboratory"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/lam-phu-2": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/76ddfebab52642c7ad7e8f2f1e69146f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/lam-phu-2"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/busarin-cuisine": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/db838584c4b44fda92d776cb11462fba.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/busarin-cuisine"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/sookjailand": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f922abcb1be445ed991b3ae3727f2c14.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/sookjailand"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/arunwan-1200640": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2541aaf59044401eb453d09cdea611ad.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/arunwan-1200640"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/poondang-kaengron": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c7cc4475cdfc452e81de535c6d3c9aad.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/poondang-kaengron"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jamn": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4638a0569ae849b581e016c74ab28b37.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jamn"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/navan-navan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/95ebd0e842b74e2aa3d40fd3322e4fb0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/navan-navan"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/indian-by-nature": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4658965a5fe7408f8c7c0a68e7bbab55.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/indian-by-nature"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/shrimp-noodles-ao-kae": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d06b41e339e64735b1b8c83d7d4b00fa.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/shrimp-noodles-ao-kae"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/fried-banana-rama-5": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/56958f2b43614515a1bf14379c36c806.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/fried-banana-rama-5"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/banrimbung": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a7baedd1eaa44d0d870208b502883dc1.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/banrimbung"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/pitak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9bc3168e51ee4bc99c8049da6910f271.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/pitak"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/khao-tom-ped-jek-tong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/07cf9ae60876461982b1fcdd697d5e26.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/khao-tom-ped-jek-tong"
+  },
+  "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/chuan-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/03fbd4c45e404b11b0c8e0b9f4d57f6a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nonthaburi-region/nonthaburi/restaurant/chuan-kitchen"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/khanom-jeen-yai-pao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/83328fa1994b4f66884ff782be67bf1f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/khanom-jeen-yai-pao"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/neon-boat-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6d0dd92e27374d57b4b1664d13319816.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/neon-boat-noodles"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/luma-1243409": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a8d9f77274f9471099dcacbbd36d995a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/luma-1243409"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/larb-duang-dee-mee-sook": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d6a7624c86204692943aa691d92c007c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/larb-duang-dee-mee-sook"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/somboon-seafood-surawong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c0237ad3e1774cc1a71dd33dab918195.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/somboon-seafood-surawong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/garlic": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/254c85579ad047219d7588ced84fddeb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/garlic"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/yen-ta-fo-muek-khai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5561a395609847fc9cc713877dbce657.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/yen-ta-fo-muek-khai"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/bucha": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/11132958e8f8467f9ce0a705e5a8699a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/bucha"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/whale-chicken-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fe36c7741e5647c094c10b2a7307f5dc.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/whale-chicken-noodles"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/seifu": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7df3a4c731ba4d04b7bd251d8bf7b7cc.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/seifu"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kaenkrung": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/50061d07899940c1851d2df937d7a56a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/kaenkrung"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jikasei-b": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/04b5bc0107504e058e65350b840ce8d0.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jikasei-b"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-pomphet": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/540768c03b9445038afc9466e0d4aabf.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-pomphet"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/mook-manee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d971d5cbe8c54811bd8a5a0c17c1b192.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/mook-manee"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/meesapam-khun-yai-chian": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1e2df427ae71406db060a4b750ff7939.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/meesapam-khun-yai-chian"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/grand-chaopraya": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/03d226c5061b4d79b6ea36e1c71088fd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/grand-chaopraya"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/chum-saraphi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/11ebc06cb6bc4f4d822587f214454976.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/chum-saraphi"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/nam-ngiao-yong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/67c94cfcb8e840db889bb5cfee46fc58.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/nam-ngiao-yong"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/krua-loong-loy-pa-lan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4ba9416fb1a64679a7a96c34a0ab1eba.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/krua-loong-loy-pa-lan"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/juumpo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/eba334e0b1ee43369e90c394cac18d72.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/juumpo"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/o-cha-rot": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c13c7ac7d830456aa5ed9fb0a181b9c3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/o-cha-rot"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/krua-nam-prik-tuol-kao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2b63cd8e2e2e41bf9340b093da5b2361.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/krua-nam-prik-tuol-kao"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/bang-por-seafood-takho": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/abc1fb1465fe47d7bf14aac18bebda1a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/bang-por-seafood-takho"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/sukan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/bb063e9d24bb48f38e3783ef445fe12f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/sukan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mhom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/852b8500e4534b5d9493ba2206f277e7.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mhom"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/khrua-ban-po-ta": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a1964df3b47640c28db3a57ea444626b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/khrua-ban-po-ta"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/k-by-vicky-cheng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ad0e8d002c724a9688c021a311d2e026.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/k-by-vicky-cheng"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/lertrod": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ec5d61eee4204c259c7169436b5edcc7.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/lertrod"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/eat-me": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a3dc4364dc174c3f90161cab862c371b.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/eat-me"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sushi-saryu": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e45da8095ea0418193957f92b9b51e8d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sushi-saryu"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/khrua-ohm": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f89cf4e861e84cbabb3a40ae6bfb5543.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/khrua-ohm"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jao-nai-fish-ball": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/69cca715d0b7463c989ca9d994a1b090.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jao-nai-fish-ball"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/hong-khao-tom-pla": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d13cd8e2808c444d817be0d83fa1c119.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/hong-khao-tom-pla"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/nern-khao-view-talay": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a91a6925c6004871aa6a7247a19efa40.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/nern-khao-view-talay"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/tiapthong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/febad20eadbc4f32b70416377be377ae.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/tiapthong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/anakade": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/993cc35dc4fa4099a90082e294098fe3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/anakade"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/peang-prai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2d753e935586471a9ebcbba3501f2360.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/peang-prai"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/noodles-soi-12-ban-suan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d5bbd516fe2c42f594ef2c7420b38284.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/noodles-soi-12-ban-suan"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/yangzi-jiang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c0c541a90cb64de79c79378d7e72cd79.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/yangzi-jiang"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kampun-gai-yang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/40b5f0a55ef84114bffc3c7d232668e7.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kampun-gai-yang"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/lumdee-te-khuadang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5676b8d35d42410aa4fab966fc6c8f47.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/lumdee-te-khuadang"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/bang-dean": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3680018d36f5421198931defd81f87cd.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/bang-dean"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/guay-tiew-pet-tun-saraphi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/ced81bf0f9db43e49f7a63ea4326cb48.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/guay-tiew-pet-tun-saraphi"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/seafood-at-trisara": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/65e8b61b39d04cbea92a1895a47fa82e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/seafood-at-trisara"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/chomchan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/418298cb51d44ba39f761d901b682687.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/chomchan"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/reunros": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/434e0e84ffa74046ba5e701ab35cc153.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/reunros"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/huen-lamphun-suan-phak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b7cd4f0f967947d89fc1420e4decc89c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/huen-lamphun-suan-phak"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/kapi-sator": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0fddcc2d2f6d47389a3c7fe9c6da38ec.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/kapi-sator"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/nina-s-cafe-restaurant": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/274542b206f0425d872f127fdfcaed91.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/nina-s-cafe-restaurant"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/baan-chik-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3a26cdc8e25f4aa6a5fc1ea974b342ad.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/baan-chik-noodles"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/view-mun": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/917975409b544c8cb247283ecba03aba.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/view-mun"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/som-tum-jae-kai-1st-branch": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9b27c262f21f4004916ce3189104b15f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/som-tum-jae-kai-1st-branch"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/yung-khao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f645ffdf3202463486c59e63de727a20.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/yung-khao"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/siplor": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e02f06bf98a940bc8a8a364568c16674.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/siplor"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/ko-kia": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/376b42b8377e41d2b6bbf9da1e2fa869.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/ko-kia"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/la-dotta": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fef36d9e9541402c83e32d6ca96916e4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/la-dotta"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/ayutthayarom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f5ff523f7a72424a9e1e4c3aea02c445.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/ayutthayarom"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tammang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/667ed3ff315e49cda39c212826195f30.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tammang"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/rock-un": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8a50b0a7012e40f09e17614fd476199d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/rock-un"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bangkok-bold-kitchen-central-embassy": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/40f58199b65b44bc8ebc291da5e2d2f0.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/bangkok-bold-kitchen-central-embassy"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-jia-yentafo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5eee569381af4d31a687c46414b76e8e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-jia-yentafo"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/baan-suan-mae-rim": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9e5f1812809d48a583420d81cf2063d4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/baan-suan-mae-rim"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chop-chop-cook-shop": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/229664a6aee04ec281a1c2957d585187.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/chop-chop-cook-shop"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/nai-ho-chicken-rice": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a90f75b3886241948cfc168f694ffd32.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/nai-ho-chicken-rice"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/na-chae": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6824c2239750458a9075e92b1ad98b93.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/na-chae"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/adhoc": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/273c904e77b8439dabc2c08707c0bb6c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/adhoc"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/ko-seng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4237ac8d637a452e9a3476a10b2b812a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/ko-seng"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mohhom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/02b24f843c5a427387b8bf585794da93.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mohhom"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mama-yaya": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5730e5aa174044febc7ff55771fdc021.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/mama-yaya"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/kaprao-e-jae": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/adad088b1d1945b59c46c01e00005a83.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/kaprao-e-jae"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jaidee-shrimp": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/812c491505b3433781aaf3b69a9c0606.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jaidee-shrimp"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-pla-tu-tid-oun": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/27b038c22e9347528e4051a1d4d18fdc.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/krua-pla-tu-tid-oun"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/khaotom-chedi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9dd702b7e9774cfbb32ec7fe0dce15f4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/khaotom-chedi"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sanyod-sathon-bang-rak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/43cfc56f90524fd88aa3d17efbdfffb3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sanyod-sathon-bang-rak"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/royd": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/9951c0816fa14d768ea05bf9c52d0f35.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/royd"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/the-ranch-1206143": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/88b361f003934c828a5a24ae95078e2f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/the-ranch-1206143"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/santi-pochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5a091348bbd4413f99265ae1b9ee7d23.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/santi-pochana"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/day-night-of-surat-thani": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/08e8400fcc4a4c83bbe7869eaead7c57.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/day-night-of-surat-thani"
+  },
+  "https://guide.michelin.com/th/en/samut-prakan-region/samut-prakan/restaurant/rabiang-talay": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a926d4037eed459d81de76c0ce06474e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/samut-prakan-region/samut-prakan/restaurant/rabiang-talay"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/rimsaun": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/919572627f58455abac01ceec9e57689.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/rimsaun"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/charmgang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/89cdbf132360421485ef4a09027c14fa.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/charmgang"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/jok-guay-jab-tom-sen-bat-queue": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/da7be120016740218b03f74b6bd6db9b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/jok-guay-jab-tom-sen-bat-queue"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/felix-1253138": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4a98640b2a4c4d418f992a52ee705183.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/felix-1253138"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/shinedine": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/42e5ea5c44ec49c2bf1aa74f8bfcd1ac.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/shinedine"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/rong-cheng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/6f58253dc2854c819f22de0d15598fea.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/rong-cheng"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/apollo-pork-satay": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/827ce5fd04254c2884f69bf5f1b1d456.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/apollo-pork-satay"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/tha-kham": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a0872ff88b4448d4bc9f08590d4313e6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/tha-kham"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/siam-nora": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b2c58235a97c40ddbf06d571e4de114a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/siam-nora"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phukej": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5f49e2a8c5d3463e87757b9b394625de.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/phukej"
+  },
+  "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/la-voi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e6d1a754e7394e28a654e44c5cd9447f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chon-buri-region/chon-buri_2758557/restaurant/la-voi"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/sanpakoi-kanomjeen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/cb918c7f7fff4830a50e2d64a167b3b1.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/sanpakoi-kanomjeen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/vilas": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b8bfec991ca04e21a9742053b4c5d70b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/vilas"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/tumkratoei-sagate": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0f9e70694875461fb1266e97319e5c09.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/tumkratoei-sagate"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/kanyawela": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/88676af739714444b506b90f5965c720.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/kanyawela"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/khao-hor-baitong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/3783727722b9430f972a6c0809104226.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/khao-hor-baitong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/taang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1672ec96ad414fcb85f161fe83d14273.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/taang"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/lia-pak": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/312a3babf3894a40b1dfdca6808e59ba.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/lia-pak"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sakot": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4168751b59bd442b82ee3c53be410460.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sakot"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/purple-laurel": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/35f7a6e926414f32afd78b7995ab4a3a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/purple-laurel"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/kin-dee-1247038": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d58ec46d39c445c5ad95f1e2e5c14a09.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/kin-dee-1247038"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/arva-1243396": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c4d3afb8483b4197b5bf61aabfe92821.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/arva-1243396"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khum-hom": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a2087748d39c4e52a8a58da2c159a3b7.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khum-hom"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khao-san-sek": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c78cf0f083c943d28958a27a33eb1892.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/khao-san-sek"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/soma-1242092": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2505ae3f22e944d095d5b5075da082bb.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/soma-1242092"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/fillets": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/268a8f3ffeef46899f7c1804a6dc923f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/fillets"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/stage": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2e2780d3314a49ab96b833f325c4837f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/stage"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/here-hai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8dd74869c97843c094b3736fc703244c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/here-hai"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kaow-laor": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d6a8d5294d4b49679e3a1213e8fadba4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/kaow-laor"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/nai-ngieb-phutthamonthon-sai-4": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/152277208f57497ebdeee4b0c3b37efa.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/nai-ngieb-phutthamonthon-sai-4"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/maadae-slow-fish-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/be976e0b7e9b496dacb37493459fa977.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/maadae-slow-fish-kitchen"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/krua-supanniga-by-khunyai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0ac3e4104ac147228e5a4e44e5f8604b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/krua-supanniga-by-khunyai"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/kai-yang-wanna": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/8af8656db567450c870230735a9883ba.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/kai-yang-wanna"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/krua-khun-nid": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/51b8355c649947d6b0a9aa4dc4b0e93a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/krua-khun-nid"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/chabaa-barn": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e6afe863de044979bfa7617a0fc738e4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/chabaa-barn"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/o-pochana": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/97f7466f749c4f2b99f1fdc7add6e3d8.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/o-pochana"
+  },
+  "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/kai-yang-sueb-siri": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f58971b61fde46aca46942a3b972dd84.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-ratchasima-region/nakhon-ratchasima/restaurant/kai-yang-sueb-siri"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/antito": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/c3b509d4724c4942a0d670526fd6610b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/antito"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/guang-tang-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/e9a52c4e6756428aaab6192dbdb1ed87.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/guang-tang-noodles"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/gorjan": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4ba327ee1832444588035935275e3759.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/gorjan"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/l-arome-by-the-sea": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fc85cfb71f1b4deca22fe65070bc0fe6.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/l-arome-by-the-sea"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/krua-samchai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0574ab78b29b46b2beb5598b1fecc75c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/krua-samchai"
+  },
+  "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/somchai-ped-palo-go-tae-bang-len": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fc010542d3a142cf8aaae109e03c2fbe.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/nakhon-pathom-region/nakhon-pathom/restaurant/somchai-ped-palo-go-tae-bang-len"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/lab-mu-worachai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/67fd911ac9014b7a945cdb537a9eb481.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/lab-mu-worachai"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/friend-s-table": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d075d56766a6490d834be52f26742c20.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/friend-s-table"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/yakiniku-sudo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/1559c632aae849aca863ae4c731a2a25.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/yakiniku-sudo"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/krua-phech-doi-ngam-krua-mueang-classic": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/21a62dd3927d43c7ad85a3b7fbc92f8d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/krua-phech-doi-ngam-krua-mueang-classic"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sornthong": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/61a2db50ca1a4bf1b0d27d4d506c735c.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sornthong"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sushi-masato": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/336ea5bdc8e64066876032c5373e7b1b.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sushi-masato"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/khao-horm": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/184a85b989ad4171b2e795a58ad70134.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/koh-samui_7770005/restaurant/khao-horm"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tai-yai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d984aad9e6054805bdd2ac3c2fdd1828.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/tai-yai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/amalur": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f022b68c2d0940f5aad5cd01eb3049f3.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/amalur"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/pari": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/07d65b88408c40ccb71c2ef80278408d.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/pari"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/buabok": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a10a5eb8187e4f09bd937f2f0aa72480.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/buabok"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/choen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/039c1a51a38f41ae8b6f4bda94647f61.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/choen"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/food-by-fire": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/adbda213806442af9bf6b40d4f3667f7.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/food-by-fire"
+  },
+  "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khok-kloi-bami-tom-yam-khai": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b6141bd180e44ccca7ca3706737e183f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/th-phang-nga-region/th-phang-nga/restaurant/khok-kloi-bami-tom-yam-khai"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lenzi": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/0a819fe547a4481095807a993f3dd319.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lenzi"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/indochine": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d84c2283cd9a4903a1c4c4d2194ced1e.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/indochine"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sang-tha-tien": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/889807cda4e94ac6a591ff2441410743.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sang-tha-tien"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/rabiang-patchanee": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f7fcca79c4eb4b18932a40a6c1648f29.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/rabiang-patchanee"
+  },
+  "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/khao-kriab-pak-mor-talat-na-san-jao": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/abeb1ae4fff045fcb99e86dd8b52ba10.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/cchanghwad-suraasdrthaanii/suraasdrthaanii_2719394/restaurant/khao-kriab-pak-mor-talat-na-san-jao"
+  },
+  "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/khon-kaen-grilled-pork-neck": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4b8bbc984ff4424187cf30698febaab3.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/khon-kaen-region/khon-kaen/restaurant/khon-kaen-grilled-pork-neck"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lahnyai-nusara": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b28a350ba9f54212bbc1b3225332ab3c.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/lahnyai-nusara"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/aeeen-japanese-vegan-neo-shokudo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7da724dbfca14017baefe0c28322df6a.jpg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/aeeen-japanese-vegan-neo-shokudo"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/pae-araya": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/884a8c9e49a24b61a6e808561a73cad4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/pae-araya"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sra-bua-by-num-weerawat": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/f694e0fe4de744a18672666552b64ccc.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/sra-bua-by-num-weerawat"
+  },
+  "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/pa-noi-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/4ed34a203e0e4aa8941695ffac7d4b0a.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/udon-thani-region/udon-thani/restaurant/pa-noi-noodles"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/somtam-porntip": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a1fb23f84c2345edab627790586bb92f.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/somtam-porntip"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/moo-ping-khun-por": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/2ae74455312b4ff292d2b5e203050ed2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/moo-ping-khun-por"
+  },
+  "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-farangkhoo": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/192001a42828435c98d62af656dd0840.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phra-nakhon-si-syutthaya-region/phra-nakhon-si-ayutthaya/restaurant/baan-farangkhoo"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/wi-set-wi-so": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/7687e20eae4a4964a89dbc6122c01ef9.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/wi-set-wi-so"
+  },
+  "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/larb-sangsiri-nai-mueang": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/d282ab5d52a84a1399e3d7eb900ffed2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/ubon-ratchathani-province/ubon-ratchathani/restaurant/larb-sangsiri-nai-mueang"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/phu-khao-fai-udomphon-noodles": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/a1cfb6a7e7294a4598e89a1712807ea2.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/phu-khao-fai-udomphon-noodles"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/electric-sheep": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/b59806b604144a4eabfa1e051ad5e705.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/electric-sheep"
+  },
+  "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/blackitch-artisan-kitchen": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/5566c39a11e546e6b9e24a3f6435c2f4.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/chiang-mai-region/chiang-mai/restaurant/blackitch-artisan-kitchen"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/krua-yai-pleng": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/61ce46bbafdf42c5a7ddcafc49f80287.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/krua-yai-pleng"
+  },
+  "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jaan-by-khun-jim": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/654ae572c0994181b2f55dde9e3de678.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jaan-by-khun-jim"
+  },
+  "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jampa": {
+    "url": "https://prod-pics.guide.michelin.com/api/public/content/fbb56e6510fc4e338a2ab61289f1fd67.jpeg?format=webp",
+    "credit": "MICHELIN Guide",
+    "source": "https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/jampa"
+  },
+  "สวนทวีวนารมย์|กรุงเทพมหานคร": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A7%E0%B8%99.jpg/500px-%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A7%E0%B8%99.jpg?utm_source=th.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Phoebus 28 · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A7%E0%B8%99.jpg"
+  },
+  "เกาะพีพีดอน · หาดนพรัตน์ธารา - หมู่เกาะพีพี|กระบี่": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/KohPhiPhiDon_FromLookoutPoint.jpg/500px-KohPhiPhiDon_FromLookoutPoint.jpg?utm_source=th.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Amitparikh · Public domain · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:KohPhiPhiDon_FromLookoutPoint.jpg"
+  },
+  "เกาะไหง · หมู่เกาะลันตา|กระบี่": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Koh_Ngai_07.jpg/500px-Koh_Ngai_07.jpg?utm_source=th.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Khunkay · CC BY-SA 3.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Koh_Ngai_07.jpg"
+  },
+  "น้ำตกวังแก้ว · ดอยหลวง|เชียงราย": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81.jpg/500px-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81.jpg?utm_source=th.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Panupong34 · CC BY-SA 4.0 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81.jpg"
+  }
+}

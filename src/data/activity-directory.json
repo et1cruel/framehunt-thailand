@@ -1,6 +1,6 @@
 {
   "source": "ไดเรกทอรีสาธารณะ เว็บไซต์ผู้ให้บริการ และแผนที่ค้นหาสถานที่",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "places": [
     {
       "name": "กองหินม่วง,แดง · หมู่เกาะลันตา",
@@ -1390,6 +1390,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ลานกีฬา ป่าในเมือง · วนอุทยานพระแท่นดงรัง",
+      "province": "กาญจนบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.0272337,
+      "lon": 99.78509145,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "สันหนอกวัว · เขาแหลม",
       "province": "กาญจนบุรี",
       "categories": [
@@ -1426,6 +1437,51 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013"
     },
     {
+      "name": "จุดชมวิวผาสวย · วนอุทยานภูพระ",
+      "province": "กาฬสินธุ์",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 16.87962497,
+      "lon": 103.2728286,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวพระพุทธอนันตชินคีรี · วนอุทยานภูพระ",
+      "province": "กาฬสินธุ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.89646701,
+      "lon": 103.2450339,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำพระภูพระ · วนอุทยานภูพระ",
+      "province": "กาฬสินธุ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.8954941,
+      "lon": 103.2443295,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำเสียบสับ · วนอุทยานภูพระ",
+      "province": "กาฬสินธุ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.87983192,
+      "lon": 103.2663041,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกตาดสูง",
       "province": "กาฬสินธุ์",
       "categories": [
@@ -1435,6 +1491,17 @@
       "lat": 16.5332,
       "lon": 104.1902,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกตาดสูง · วนอุทยานน้ำตกตาดสูง",
+      "province": "กาฬสินธุ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.53328737,
+      "lon": 104.1899719,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ภูแฝก",
@@ -1459,6 +1526,17 @@
       "lat": 16.8722,
       "lon": 103.2695,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "รอยเท้าไดโนเสาร์ · วนอุทยานภูแฝก",
+      "province": "กาฬสินธุ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.68277275,
+      "lon": 103.9532634,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "แก่งผาคอยนาง - ริมธาร · แม่วงก์",
@@ -1644,6 +1722,28 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=894"
     },
     {
+      "name": "เกิ้งจ้อง · วนอุทยานภูหัน-ภูระงำ",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.02800395,
+      "lon": 102.5094531,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "เกิ้งย่ามา · วนอุทยานภูหัน-ภูระงำ",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.02530929,
+      "lon": 102.512326,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "คำโพน · น้ำพอง",
       "province": "ขอนแก่น",
       "categories": [
@@ -1662,6 +1762,17 @@
       "lat": 16.6514,
       "lon": 102.6123,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=890"
+    },
+    {
+      "name": "จุดชมวิวลานหินล้านปีภูหัน · วนอุทยานภูหัน-ภูระงำ",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.01416967,
+      "lon": 102.493542,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ต้นยางใหญ่ · ภูเวียง",
@@ -1797,6 +1908,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกบ๋าหลวง · วนอุทยานน้ำตกบ๋าหลวง",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.88935326,
+      "lon": 103.086406,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกพลาญทอง · ภูผาม่าน",
       "province": "ขอนแก่น",
       "categories": [
@@ -1815,6 +1937,17 @@
       "lat": 16.3323,
       "lon": 102.4675,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=890"
+    },
+    {
+      "name": "บ่อน้ำศักดิ์สิทธิ์ภูหัน · วนอุทยานภูหัน-ภูระงำ",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.0181009,
+      "lon": 102.4952488,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ผาจันได · น้ำพอง",
@@ -1870,6 +2003,28 @@
       "lat": 16.6442,
       "lon": 102.5964,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=890"
+    },
+    {
+      "name": "ภาพเขียนสีโบราญเกิ้งขาม · วนอุทยานภูหัน-ภูระงำ",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.02400398,
+      "lon": 102.5049355,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ภาพเขียนสีโบราณเกิ้งตะขาบ · วนอุทยานภูหัน-ภูระงำ",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.0278526,
+      "lon": 102.504981,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ภูหัน-ภูระงำ",
@@ -1946,6 +2101,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=890"
     },
     {
+      "name": "อ่างนางลอย · วนอุทยานน้ำตกบ๋าหลวง",
+      "province": "ขอนแก่น",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.89263834,
+      "lon": 103.0850308,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "อุทยานแห่งชาติน้ำพอง",
       "province": "ขอนแก่น",
       "categories": [
@@ -1959,6 +2125,28 @@
       "categories": [
         "fitness"
       ]
+    },
+    {
+      "name": "เกาะจุฬา · วนอุทยานเขาแหลมสิงห์",
+      "province": "จันทบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.46534043,
+      "lon": 102.0658132,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "เกาะนมสาว · วนอุทยานเขาแหลมสิงห์",
+      "province": "จันทบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.46358428,
+      "lon": 102.0228207,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "เขาพระบาท (งานประเพณีนมัสการรอยพระพุทธบาทเขาคิชฌกูฏ) · เขาคิชฌกูฏ",
@@ -2056,6 +2244,18 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=963"
     },
     {
+      "name": "ป่าเขาแหลมสิงห์ · วนอุทยานเขาแหลมสิงห์",
+      "province": "จันทบุรี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 12.47383686,
+      "lon": 102.0533836,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "สนามกีฬากลางจังหวัดจันทบุรี",
       "province": "จันทบุรี",
       "categories": [
@@ -2082,6 +2282,17 @@
       "lat": 12.6254,
       "lon": 102.1941,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=963"
+    },
+    {
+      "name": "อ่าวกระทิง · วนอุทยานเขาแหลมสิงห์",
+      "province": "จันทบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.47242489,
+      "lon": 102.0528917,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อุทยานแห่งชาติเขาสิบห้าชั้น",
@@ -2117,6 +2328,17 @@
       "lat": 13.2506,
       "lon": 101.3768,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกร่มไทรทอง · วนอุทยานน้ำตกเขาเจ้าบ่อทอง",
+      "province": "ชลบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 13.25036809,
+      "lon": 101.3756639,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "สนามกอล์ฟบางพระ",
@@ -2454,6 +2676,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกกะเปาะ · วนอุทยานน้ำตกกะเปาะ",
+      "province": "ชุมพร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 10.74401262,
+      "lon": 99.21181253,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "สนามกีฬากลางจังหวัดชุมพร",
       "province": "ชุมพร",
       "categories": [
@@ -2471,6 +2704,63 @@
       "lat": 10.3565,
       "lon": 99.2301,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=677"
+    },
+    {
+      "name": "จุดชมวิวดอยหัวแม่คำ · วนอุทยานดอยหัวแม่คำ",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 20.37880932,
+      "lon": 99.47569977,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวบนภูเขาหมู่บ้านพญาไพร · วนอุทยานสันผาพญาไพร",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 20.30268373,
+      "lon": 99.62411518,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิว · วนอุทยานพญาพิภักดิ์",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.85917775,
+      "lon": 100.332216,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวห้วยทรายมาน · วนอุทยานห้วยทรายมาน",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.39665348,
+      "lon": 100.3199997,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวอ่างเก็บน้ำห้วยน้ำช้าง · วนอุทยานห้วยน้ำช้าง",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.2287768,
+      "lon": 100.3702926,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ดอยผาโง้ม · ขุนแจ",
@@ -2530,6 +2820,18 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำผาแล · วนอุทยานถ้ำผาแล",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 19.92818562,
+      "lon": 100.4232153,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกขุนแจ · ขุนแจ",
       "province": "เชียงราย",
       "categories": [
@@ -2549,6 +2851,17 @@
       "lat": 20.2419,
       "lon": 100.2533,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกขุนน้ำยาบ · วนอุทยานน้ำตกขุนน้ำยาบ",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.24354982,
+      "lon": 100.259169,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกจำปาทอง · ดอยหลวง",
@@ -2572,6 +2885,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกตาดควัน · วนอุทยานน้ำตกตาดควัน",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.01820548,
+      "lon": 100.1867039,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกตาดสวรรค์",
       "province": "เชียงราย",
       "categories": [
@@ -2592,6 +2916,17 @@
       "lat": 20.0034,
       "lon": 100.1013,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกตาดสายรุ้ง · วนอุทยานน้ำตกตาดสายรุ้ง",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.00343319,
+      "lon": 100.1013123,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกธารทอง · ดอยหลวง",
@@ -2635,6 +2970,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกแม่สลอง · วนอุทยานน้ำตกแม่สลอง",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.19428702,
+      "lon": 99.61401548,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกแม่เหยี่ยน · ดอยหลวง",
       "province": "เชียงราย",
       "categories": [
@@ -2666,6 +3012,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกวังธารทอง · วนอุทยานน้ำตกวังธารทอง",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 20.29946761,
+      "lon": 100.2776236,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกศรีชมภู",
       "province": "เชียงราย",
       "categories": [
@@ -2676,6 +3033,17 @@
       "lat": 19.9242,
       "lon": 100.312,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกศรีชมภู · วนอุทยานน้ำตกศรีชมภู",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.92039705,
+      "lon": 100.3117307,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกห้วยตาดทอง",
@@ -2689,6 +3057,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกห้วยตาดทอง · วนอุทยานน้ำตกห้วยตาดทอง",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.78133528,
+      "lon": 100.0709221,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกห้วยแม่สัก",
       "province": "เชียงราย",
       "categories": [
@@ -2698,6 +3077,17 @@
       "lat": 19.9575,
       "lon": 100.0791,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกห้วยแม่สัก · วนอุทยานน้ำตกห้วยแม่สัก",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.95647794,
+      "lon": 100.0819128,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "พญาพิภักดิ์",
@@ -2772,6 +3162,17 @@
       "lat": 19.2628,
       "lon": 99.4626,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=903"
+    },
+    {
+      "name": "อ่างเก็บน้ำห้วยบ้าน · วนอุทยานน้ำตกตาดสวรรค์",
+      "province": "เชียงราย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.78725721,
+      "lon": 99.87979525,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อุทยานแห่งชาติขุนแจ",
@@ -3635,6 +4036,28 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกพ่าน · วนอุทยานน้ำตกพ่าน",
+      "province": "ตรัง",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.3129318,
+      "lon": 99.8246276,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "บ่อน้ำพุร้อน · วนอุทยานบ่อน้ำร้อนกันตัง",
+      "province": "ตรัง",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.40970163,
+      "lon": 99.46316796,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "บ่อน้ำร้อนกันตัง",
       "province": "ตรัง",
       "categories": [
@@ -3660,6 +4083,17 @@
         "football",
         "sports"
       ]
+    },
+    {
+      "name": "สะพานเส้นทางศึกษาธรรมชาติ · วนอุทยานบ่อน้ำร้อนกันตัง",
+      "province": "ตรัง",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.409720191,
+      "lon": 99.4627149,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "หาดฉางหลาง · หาดเจ้าไหม",
@@ -3893,6 +4327,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกปะหละทะ · วนอุทยานน้ำตกปะหละทะ",
+      "province": "ตาก",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.81803948,
+      "lon": 98.86101144,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกปางอ้าน้อย · ตากสินมหาราช",
       "province": "ตาก",
       "categories": [
@@ -4005,6 +4450,17 @@
       "lat": 16.751,
       "lon": 99.0611,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=933"
+    },
+    {
+      "name": "พระธาตุ · วนอุทยานพระธาตุห้วยลึก",
+      "province": "ตาก",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.24473688,
+      "lon": 98.25260533,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "พระธาตุห้วยลึก",
@@ -4663,6 +5119,61 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำธารทิพย์ · วนอุทยานเขาหลวง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.71401966,
+      "lon": 99.94625484,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำบ่อยา · วนอุทยานเขาหลวง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.73022248,
+      "lon": 99.94535908,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำประกายเพชร · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.30434454,
+      "lon": 100.397016,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำประดับเพชร · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.30548218,
+      "lon": 100.3957664,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำเพชรคิงคอง · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.30685929,
+      "lon": 100.3981409,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ถ้ำเพชร-ถ้ำทอง",
       "province": "นครสวรรค์",
       "categories": [
@@ -4672,6 +5183,51 @@
       "lat": 15.305,
       "lon": 100.394,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ถ้ำมรกต · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.30582845,
+      "lon": 100.3967651,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำวังไข่มุก · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.30646252,
+      "lon": 100.3936496,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำวิมานลอย · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.30801013,
+      "lon": 100.3976736,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ยอดเขาหลวง · วนอุทยานเขาหลวง",
+      "province": "นครสวรรค์",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.6738072,
+      "lon": 99.92612085,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "สนามกีฬากลางจังหวัดนครสวรรค์",
@@ -4785,6 +5341,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=934"
     },
     {
+      "name": "จุดชมวิว · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.85660917,
+      "lon": 100.7327257,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ดอยกู่สถาน (ดอยธง) · ขุนสถาน",
       "province": "น่าน",
       "categories": [
@@ -4840,6 +5407,39 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=937"
     },
     {
+      "name": "ถ้ำขอน · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.8561275,
+      "lon": 100.7340019,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำเจดีย์แก้ว · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.85468469,
+      "lon": 100.7346798,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำบ่อน้ำทิพย์ · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.85264276,
+      "lon": 100.7298382,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ถ้ำผาฆ้อง · ดอยภูคา",
       "province": "น่าน",
       "categories": [
@@ -4874,6 +5474,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำพระ · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.85528162,
+      "lon": 100.73461,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ถ้ำยอดวิมาน · ดอยภูคา",
       "province": "น่าน",
       "categories": [
@@ -4903,6 +5514,17 @@
       "lat": 19.3702,
       "lon": 100.54,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=940"
+    },
+    {
+      "name": "ถ้ำเหี้ย · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.85725169,
+      "lon": 100.731641,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกขุนลี · ขุนสถาน",
@@ -5089,6 +5711,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=944"
     },
     {
+      "name": "หนองน่าน · วนอุทยานถ้ำผาตูบ",
+      "province": "น่าน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.84685168,
+      "lon": 100.7308036,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "อุทยานแห่งชาติขุนน่าน",
       "province": "น่าน",
       "categories": [
@@ -5230,6 +5863,40 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=1016"
     },
     {
+      "name": "จุดชมวิวเขากะโหลก · วนอุทยานท้าวโกษา",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 12.33907037,
+      "lon": 99.9985268,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวป่าชายเลน · วนอุทยานปราณบุรี",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.41426457,
+      "lon": 99.98316473,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิว · วนอุทยานเขาตาม่องล่าย",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 11.83408463,
+      "lon": 99.8286245,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ชายหาดวนกร · หาดวนกร",
       "province": "ประจวบคีรีขันธ์",
       "categories": [
@@ -5336,6 +6003,39 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=1018"
     },
     {
+      "name": "ลานกางเต็นท์ · วนอุทยานเขาตาม่องล่าย",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 11.83613356,
+      "lon": 99.82990666,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานปอคาว · วนอุทยานห้วยน้ำซับ",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 11.20771202,
+      "lon": 99.43227108,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "สะพานทางเดินศึกษาธรรมชาติป่าชายเลน · วนอุทยานปราณบุรี",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.41353392,
+      "lon": 99.98517661,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "เส้นทางศึกษาธรรมชาติป่าชายเลน · เขาสามร้อยยอด",
       "province": "ประจวบคีรีขันธ์",
       "categories": [
@@ -5356,6 +6056,29 @@
       "lat": 11.2087,
       "lon": 99.4296,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "หาดเขากะโหลก · วนอุทยานท้าวโกษา",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 12.3395759,
+      "lon": 99.99874943,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "หาดปราณคีรี · วนอุทยานปราณบุรี",
+      "province": "ประจวบคีรีขันธ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.41506252,
+      "lon": 99.98751897,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "หาดสามพระยา · เขาสามร้อยยอด",
@@ -5701,6 +6424,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกน้ำมิน · วนอุทยานน้ำตกน้ำมิน",
+      "province": "พะเยา",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.44874185,
+      "lon": 100.4394055,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกภูซาง · ภูซาง",
       "province": "พะเยา",
       "categories": [
@@ -5751,6 +6485,17 @@
       "lat": 19.0494,
       "lon": 99.8606,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ลานกางเต็นท์ · วนอุทยานร่องคำหลวง",
+      "province": "พะเยา",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.04942558,
+      "lon": 99.86008703,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "แหล่งเรียนรู้เต่าปูลู บ้านฮวก · ภูซาง",
@@ -6127,6 +6872,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกรามัญ · วนอุทยานน้ำตกรามัญ",
+      "province": "พังงา",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 8.45154025,
+      "lon": 98.44731911,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกลำปี · เขาลำปี - หาดท้ายเหมือง",
       "province": "พังงา",
       "categories": [
@@ -6135,6 +6891,17 @@
       "lat": 8.4645,
       "lon": 98.2802,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=989"
+    },
+    {
+      "name": "น้ำตกสระนางมโนราห์ · วนอุทยานสระนางมโนราห์",
+      "province": "พังงา",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 8.512025675,
+      "lon": 98.5390359,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกสวนใหม่ · ศรีพังงา",
@@ -6366,6 +7133,28 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=998"
     },
     {
+      "name": "ถ้ำน้ำ · วนอุทยานเมืองเก่าชัยบุรี",
+      "province": "พัทลุง",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.679695189,
+      "lon": 100.0538301,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำพระนอน · วนอุทยานเมืองเก่าชัยบุรี",
+      "province": "พัทลุง",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.68175757,
+      "lon": 100.0618821,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ถ้ำมัจฉา · เขาปู่ - เขาย่า",
       "province": "พัทลุง",
       "categories": [
@@ -6465,6 +7254,17 @@
       "lat": 15.9694,
       "lon": 100.2258,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ป่ายางนาธรรมชาติ · วนอุทยานนครไชยบวร",
+      "province": "พิจิตร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.96853137,
+      "lon": 100.2217046,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "กังหันน้ำ · ภูหินร่องกล้า",
@@ -6773,6 +7573,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=791"
     },
     {
+      "name": "กระจกนางพันธุรัต · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83908518,
+      "lon": 99.95302653,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "เขานางพันธุรัต",
       "province": "เพชรบุรี",
       "categories": [
@@ -6794,6 +7605,28 @@
       "lat": 12.8254,
       "lon": 99.3632,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=642"
+    },
+    {
+      "name": "จุดชมวิวคอกช้าง · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83773771,
+      "lon": 99.94810092,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวทุ่งเศรษฐี · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83915759,
+      "lon": 99.95051123,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ชะอำ",
@@ -6818,6 +7651,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=642"
     },
     {
+      "name": "บ่อชุบตัวพระสังข์ · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83607234,
+      "lon": 99.95107094,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "บ้านกร่าง · แก่งกระจาน",
       "province": "เพชรบุรี",
       "categories": [
@@ -6836,6 +7680,61 @@
       "lat": 12.9797,
       "lon": 99.3856,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=642"
+    },
+    {
+      "name": "เมรุนางพันธุรัต · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83916672,
+      "lon": 99.95298076,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานกางเต็นท์ · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83959305,
+      "lon": 99.95260457,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานกางเต็นท์ · วนอุทยานชะอำ",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.78039505,
+      "lon": 99.96556511,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานเกือกเเก้ว · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83680196,
+      "lon": 99.94933215,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ศาลนางพันธุรัต · วนอุทยานเขานางพันธุรัต",
+      "province": "เพชรบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 12.83908585,
+      "lon": 99.95284224,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อ่างเก็บน้ำแก่งกระจาน (ที่ทำการ) · แก่งกระจาน",
@@ -7022,6 +7921,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=960"
     },
     {
+      "name": "ลานกางเต็นท์ · วนอุทยานเขารัง",
+      "province": "เพชรบูรณ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.24148895,
+      "lon": 101.0175451,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ลานชมดาว · ตาดหมอก",
       "province": "เพชรบูรณ์",
       "categories": [
@@ -7030,6 +7940,39 @@
       "lat": 16.3911,
       "lon": 101.2872,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=959"
+    },
+    {
+      "name": "วนอุทยานดงเจริญ · วนอุทยานดงเจริญ",
+      "province": "เพชรบูรณ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.97038538,
+      "lon": 100.8727085,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "วนอุทยานบึงสามพัน · วนอุทยานบึงสามพัน",
+      "province": "เพชรบูรณ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.76251611,
+      "lon": 101.01107169,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "วนอุทยานวังท่าดี · วนอุทยานวังท่าดี",
+      "province": "เพชรบูรณ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.99199332,
+      "lon": 101.2476139,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "วังท่าดี",
@@ -7101,6 +8044,42 @@
       "lat": 18.202,
       "lon": 100.2741,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ดอยม่อนแก้ว · วนอุทยานดอยม่อนแก้ว-ม่อนเด็ง",
+      "province": "แพร่",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 18.19375748,
+      "lon": 100.2711833,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ดอยม่อนเด็ง · วนอุทยานดอยม่อนแก้ว-ม่อนเด็ง",
+      "province": "แพร่",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 18.19411537,
+      "lon": 100.2744478,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำผาหลักหมื่น · วนอุทยานผาหลักหมื่น",
+      "province": "แพร่",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.98768813,
+      "lon": 99.93384751,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ถ้ำเอราวัณ - แก่งหลวง · ดอยผากลอง",
@@ -7194,6 +8173,17 @@
         "nature"
       ],
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=967"
+    },
+    {
+      "name": "แอ่งดินแพะเมืองผี · วนอุทยานแพะเมืองผี",
+      "province": "แพร่",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.18370794,
+      "lon": 100.2083059,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "เกาะแวว · สิรินาถ",
@@ -7320,6 +8310,17 @@
       ]
     },
     {
+      "name": "แก่งตาด · วนอุทยานโกสัมพี",
+      "province": "มหาสารคาม",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.25649404,
+      "lon": 103.0694048,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "โกสัมพี",
       "province": "มหาสารคาม",
       "categories": [
@@ -7342,12 +8343,34 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ชีหลง · วนอุทยานชีหลง",
+      "province": "มหาสารคาม",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.22634373,
+      "lon": 103.2808359,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "สนามกีฬากลางจังหวัดมหาสารคาม",
       "province": "มหาสารคาม",
       "categories": [
         "sports",
         "football"
       ]
+    },
+    {
+      "name": "หนองบุ่ง · วนอุทยานโกสัมพี",
+      "province": "มหาสารคาม",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.25510868,
+      "lon": 103.0671079,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "กลุ่มหินเทิบ · ภูผาเทิบ",
@@ -7358,6 +8381,17 @@
       "lat": 16.4307,
       "lon": 104.8076,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=911"
+    },
+    {
+      "name": "กลุ่มหินมหัศจรรย์ · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.34343968,
+      "lon": 104.5828578,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ดงบังอี่",
@@ -7381,6 +8415,28 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=911"
     },
     {
+      "name": "น้ำตกดงบังอี่ · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.34454399,
+      "lon": 104.5835857,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "น้ำตกถ้ำไทร · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.34644944,
+      "lon": 104.5825893,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกถ้ำพระ · ภูผาเทิบ",
       "province": "มุกดาหาร",
       "categories": [
@@ -7401,6 +8457,18 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=911"
     },
     {
+      "name": "ผากิ่ว · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 16.31864294,
+      "lon": 104.6014645,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ผางอย · ภูผาเทิบ",
       "province": "มุกดาหาร",
       "categories": [
@@ -7410,6 +8478,18 @@
       "lat": 16.4289,
       "lon": 104.7981,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=911"
+    },
+    {
+      "name": "ผาชะโงก · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 16.33275416,
+      "lon": 104.5781433,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ผาไทร/ถ้ำลอด · ภูผาเทิบ",
@@ -7432,6 +8512,18 @@
       "lat": 16.4228,
       "lon": 104.7949,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=911"
+    },
+    {
+      "name": "ผาหินรู · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 16.32586935,
+      "lon": 104.5799555,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ผาอูฐ · ภูผาเทิบ",
@@ -7499,6 +8591,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=913"
     },
     {
+      "name": "รอยพระพุทธบาทจำลอง · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.34135297,
+      "lon": 104.5836206,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ลานมุจลินท์ · ภูผาเทิบ",
       "province": "มุกดาหาร",
       "categories": [
@@ -7507,6 +8610,17 @@
       "lat": 16.4327,
       "lon": 104.8004,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=911"
+    },
+    {
+      "name": "สระสวรรค์ · วนอุทยานดงบังอี่",
+      "province": "มุกดาหาร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.34257378,
+      "lon": 104.5838333,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อ่างเก็บน้ำห้วยสิงห์ · ภูผาเทิบ",
@@ -7550,6 +8664,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=969"
     },
     {
+      "name": "จุดชมวิวทุ่งบัวตอง · วนอุทยานทุ่งบัวตอง",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.89311786,
+      "lon": 98.08944549,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ดอยปุย · น้ำตกแม่สุรินทร์",
       "province": "แม่ฮ่องสอน",
       "categories": [
@@ -7561,6 +8686,28 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=969"
     },
     {
+      "name": "ต้นสักใหญ่ · วนอุทยานไม้สักใหญ่",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.96791459,
+      "lon": 97.78584217,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำแก้วโกมล · วนอุทยานแก้วโกมล",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.39668839,
+      "lon": 97.97024441,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ถ้ำธาราลอด",
       "province": "แม่ฮ่องสอน",
       "categories": [
@@ -7570,6 +8717,17 @@
       "lat": 18.0961,
       "lon": 98.0894,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ถ้ำธาราลอด · วนอุทยานถ้ำธาราลอด",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.08626374,
+      "lon": 98.09358457,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ถ้ำน้ำฮูหายใจ · น้ำตกแม่สุรินทร์",
@@ -7623,6 +8781,18 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ทุ่งบัวตองดอยแม่อูคอ · วนอุทยานทุ่งบัวตอง",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 18.89498387,
+      "lon": 98.09034685,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกกลอโค๊ะ",
       "province": "แม่ฮ่องสอน",
       "categories": [
@@ -7632,6 +8802,17 @@
       "lat": 17.8049,
       "lon": 97.8474,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกกลอโค๊ะ · วนอุทยานน้ำตกกลอโค๊ะ",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.80502288,
+      "lon": 97.84737542,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกกึ้ดหลวง/น้ำตกแม่สะกึ๊ด · น้ำตกแม่สุรินทร์",
@@ -7666,6 +8847,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกแม่ยวมหลวง · วนอุทยานน้ำตกแม่ยวมหลวง",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.84022164,
+      "lon": 98.04370832,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกแม่สวรรค์น้อย",
       "province": "แม่ฮ่องสอน",
       "categories": [
@@ -7675,6 +8867,17 @@
       "lat": 18.16,
       "lon": 98.0716,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกแม่สวรรค์น้อย · วนอุทยานน้ำตกแม่สวรรค์น้อย",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 18.17374014,
+      "lon": 98.09007077,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกแม่สะงากลาง · ถ้ำปลา - น้ำตกผาเสื่อ",
@@ -7696,6 +8899,17 @@
       "lat": 19.0653,
       "lon": 97.9967,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกไม้ซางหนาม · วนอุทยานน้ำตกไม้ซางหนาม",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 19.06897023,
+      "lon": 98.01487074,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกสอยดาว · ถ้ำปลา - น้ำตกผาเสื่อ",
@@ -7729,6 +8943,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกห้วยแม่แสด · วนอุทยานน้ำตกห้วยแม่แสด",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.9179925,
+      "lon": 97.91559972,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ป่าต้นสักใหญ่ หน่วย ฯ สว.3 (ห้วยบง) · สาละวิน",
       "province": "แม่ฮ่องสอน",
       "categories": [
@@ -7750,6 +8975,18 @@
       "lat": 19.2307,
       "lon": 97.877,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ผาหินตั้ง · วนอุทยานผาหินตั้ง",
+      "province": "แม่ฮ่องสอน",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 19.23776157,
+      "lon": 97.87220241,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ไม้สักใหญ่",
@@ -8223,6 +9460,39 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำดิน · วนอุทยานถ้ำเขาน้อย",
+      "province": "ราชบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 13.72032172,
+      "lon": 99.56868333,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำปากกว้าง · วนอุทยานถ้ำเขาน้อย",
+      "province": "ราชบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 13.72000615,
+      "lon": 99.56829413,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำแม่ธรณี · วนอุทยานถ้ำเขาน้อย",
+      "province": "ราชบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 13.72017058,
+      "lon": 99.56756389,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำพุร้อนโป่งกระทิง · เฉลิมพระเกียรติไทยประจัน",
       "province": "ราชบุรี",
       "categories": [
@@ -8241,6 +9511,28 @@
       "lat": 13.2684,
       "lon": 99.5031,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=1021"
+    },
+    {
+      "name": "สวนหิน · วนอุทยานถ้ำเขาน้อย",
+      "province": "ราชบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 13.71763955,
+      "lon": 99.5672711,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "เส้นทางศึกษาธรรมชาติ · วนอุทยานถ้ำเขาน้อย",
+      "province": "ราชบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 13.72077683,
+      "lon": 99.56737112,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อุทยานแห่งชาติเฉลิมพระเกียรติไทยประจัน",
@@ -8482,6 +9774,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำหลวงเวียงแก้ว · วนอุทยานดอยเวียงแก้ว",
+      "province": "ลำพูน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.92764872,
+      "lon": 98.98112472,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ทุ่งกิ๊ก · แม่ปิง",
       "province": "ลำพูน",
       "categories": [
@@ -8511,6 +9814,17 @@
       "lat": 18.4968,
       "lon": 99.2977,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=981"
+    },
+    {
+      "name": "น้ำตกสายรุ้ง · วนอุทยานดอยเวียงแก้ว",
+      "province": "ลำพูน",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.91924315,
+      "lon": 98.98618648,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ย.1 · ดอยขุนตาล",
@@ -8581,6 +9895,30 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=946"
     },
     {
+      "name": "จุดชมวิวผาบ่อง · วนอุทยานภูผาล้อม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.56831316,
+      "lon": 101.8737438,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวยอดภูบ่อบิด · วนอุทยานภูบ่อบิด",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.4860064,
+      "lon": 101.7566298,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ซับหนองหิน · ภูเรือ",
       "province": "เลย",
       "categories": [
@@ -8623,6 +9961,107 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=948"
     },
     {
+      "name": "ถ้ำแก้ว · วนอุทยานน้ำตกห้วยเลา",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.06115343,
+      "lon": 101.717651,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำแก้ว · วนอุทยานภูผาล้อม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.56779049,
+      "lon": 101.8705631,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำแขวน · วนอุทยานภูผาล้อม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.55060924,
+      "lon": 101.8666681,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำแจ้ง · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.8615821,
+      "lon": 101.8450043,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำผาจันได · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.88164703,
+      "lon": 101.8492564,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำผาล้อม · วนอุทยานภูผาล้อม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.56705797,
+      "lon": 101.868151,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำพระ (ภูบ่อบิด) · วนอุทยานภูบ่อบิด",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.48577778,
+      "lon": 101.7555348,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำโพธิสัตว์ · วนอุทยานผางาม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.0895312,
+      "lon": 101.7793799,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำลอด · วนอุทยานภูบ่อบิด",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.48606123,
+      "lon": 101.7565836,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ถ้ำแสงธรรมพรหมมาวาส",
       "province": "เลย",
       "categories": [
@@ -8632,6 +10071,39 @@
       "lat": 17.8551,
       "lon": 101.8548,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ถ้ำแสงธรรม · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.86092086,
+      "lon": 101.8439094,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำห้วยนา · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.85177901,
+      "lon": 101.8491196,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำเหี้ยะ · วนอุทยานน้ำตกห้วยเลา",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.06041866,
+      "lon": 101.7178939,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกแก่งสุข · ภูเรือ",
@@ -8765,6 +10237,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=945"
     },
     {
+      "name": "น้ำตกเพียงดิน · วนอุทยานผางาม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.06613432,
+      "lon": 101.748125,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกวังกวาง · ภูกระดึง",
       "province": "เลย",
       "categories": [
@@ -8816,6 +10299,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกห้วยเลา · วนอุทยานน้ำตกห้วยเลา",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.06286611,
+      "lon": 101.7124931,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกหินสามชั้น · ภูเรือ",
       "province": "เลย",
       "categories": [
@@ -8844,6 +10338,17 @@
       "lat": 17.5314,
       "lon": 100.9675,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=948"
+    },
+    {
+      "name": "บ่อน้ำผุด · วนอุทยานภูผาล้อม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.56519643,
+      "lon": 101.8719812,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ผางาม",
@@ -9043,6 +10548,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=946"
     },
     {
+      "name": "ลานกางเต็นท์ปางอุ๋งเมืองเลย · วนอุทยานหริรักษ์",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.50875198,
+      "lon": 101.6140528,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ลานกางเต็นท์ภูสน · ภูเรือ",
       "province": "เลย",
       "categories": [
@@ -9099,6 +10615,29 @@
       "lat": 16.8767,
       "lon": 101.7606,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=945"
+    },
+    {
+      "name": "สวนสวรรค์ · วนอุทยานผางาม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.05846726,
+      "lon": 101.7614195,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "สวนหินผางาม · วนอุทยานผางาม",
+      "province": "เลย",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.05406784,
+      "lon": 101.7488871,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "สวนหินพาลี · ภูเรือ",
@@ -9529,6 +11068,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=953"
     },
     {
+      "name": "อ่างเก็บน้ำห้วยด่านบ่วง · วนอุทยานภูผาแด่น",
+      "province": "สกลนคร",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.01335817,
+      "lon": 104.1060069,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "อ่างเก็บน้ำห้วยหวด · ภูผายล",
       "province": "สกลนคร",
       "categories": [
@@ -9609,6 +11159,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=1007"
     },
     {
+      "name": "บ่อน้ำเหนือธรณี · วนอุทยานควนเขาวัง",
+      "province": "สงขลา",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.007524347,
+      "lon": 100.3116488,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "สนามกีฬากลางจังหวัดสงขลา",
       "province": "สงขลา",
       "categories": [
@@ -9623,6 +11184,17 @@
         "sports",
         "football"
       ]
+    },
+    {
+      "name": "เส้นทางศึกษาธรรมชาติ · วนอุทยานควนเขาวัง",
+      "province": "สงขลา",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 7.008052912,
+      "lon": 100.3134425,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อุทยานแห่งชาติเขาน้ำค้าง",
@@ -9795,6 +11367,17 @@
       "lat": 6.9288,
       "lon": 100.0538,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "น้ำตกธาราสวรรค์ · วนอุทยานน้ำตกธาราสวรรค์",
+      "province": "สตูล",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 6.93429461,
+      "lon": 100.0512213,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกยาโรย · ทะเลบัน",
@@ -10320,6 +11903,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำลม - ถ้ำวัง · วนอุทยานถ้ำลม-ถ้ำวัง",
+      "province": "สุโขทัย",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.2254372,
+      "lon": 99.53181811,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกตาดดาว · ศรีสัชนาลัย",
       "province": "สุโขทัย",
       "categories": [
@@ -10458,6 +12052,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=919"
     },
     {
+      "name": "น้ำตกพุม่วง · วนอุทยานพุม่วง",
+      "province": "สุพรรณบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.35441495,
+      "lon": 99.85511242,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ป่าสนสองใบ · พุเตย",
       "province": "สุพรรณบุรี",
       "categories": [
@@ -10507,6 +12112,17 @@
         "football",
         "sports"
       ]
+    },
+    {
+      "name": "สวนหินพุหางนาค · วนอุทยานพุม่วง",
+      "province": "สุพรรณบุรี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.37240672,
+      "lon": 99.86245178,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "เขาหนอง · ใต้ร่มเย็น",
@@ -11026,6 +12642,28 @@
       ]
     },
     {
+      "name": "น้ำตกโตงใหญ่ · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.76831547,
+      "lon": 103.3715248,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "บ่อขมิ้น · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.76383616,
+      "lon": 103.3707594,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ป่าสนหนองคู",
       "province": "สุรินทร์",
       "categories": [
@@ -11035,6 +12673,96 @@
       "lat": 14.6844,
       "lon": 97.7632,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ผาชมวิว · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 14.76874437,
+      "lon": 103.3772433,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ผาดอกบัว · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 14.76313761,
+      "lon": 103.3742384,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "พระพุทธสุรินทรมงคล · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.7593826,
+      "lon": 103.3659627,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ระบบนิเวศป่าสนสองใบ · วนอุทยานป่าสนหนองคู",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.68293432,
+      "lon": 103.7648178,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานกางเต็นท์ · วนอุทยานป่าสนหนองคู",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.68392411,
+      "lon": 103.7639579,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานหินล้านปี · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.76544409,
+      "lon": 103.3706359,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ศาลาอัฐมุข · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.7623134,
+      "lon": 103.3675849,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "สถูปบรรจุอัฐิหลวงปู่ดูลย์ อตุโล · วนอุทยานพนมสวาย",
+      "province": "สุรินทร์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 14.76201485,
+      "lon": 103.3688224,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "สนามกีฬากลางจังหวัดหนองคาย",
@@ -11135,6 +12863,18 @@
       "lat": 17.2061,
       "lon": 102.4685,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ผาชมเมือง · วนอุทยานบัวบาน",
+      "province": "หนองบัวลำภู",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 17.20628581,
+      "lon": 102.4677039,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ผาหินฝ่ามือแดง · ภูเก้า - ภูพานคำ",
@@ -11241,6 +12981,117 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=892"
     },
     {
+      "name": "จุดชมวิวผาชื่นวาริน · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.90979036,
+      "lon": 104.7920023,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวภูสิงห์จุดสูงสุดจังหวัดอำนาจเจริญ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.88747949,
+      "lon": 104.7748934,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำยาว · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.9221306,
+      "lon": 104.833771,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ถ้ำหินสอ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.90431229,
+      "lon": 104.802088,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ทุ่งดอกหญ้าป่าลานตาดไฮ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.89109068,
+      "lon": 104.7701532,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ทุ่งดอกหญ้าป่าลานถ้ำฉลาม · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.88866448,
+      "lon": 104.7937148,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ทุ่งดอกหญ้าป่าลานหินแยก · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.89597882,
+      "lon": 104.7761637,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "น้ำตกธิดาเทพ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.89746952,
+      "lon": 104.7933415,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ปากแข้ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.9008278,
+      "lon": 104.7706934,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "พระเทพรัตนโกสินทร์ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.89639481,
+      "lon": 104.767709,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ภูสิงห์-ภูผาผึ้ง",
       "province": "อำนาจเจริญ",
       "categories": [
@@ -11251,6 +13102,50 @@
       "lat": 15.8875,
       "lon": 98.7746,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "ลานควายตู้ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.89050219,
+      "lon": 104.7693412,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานหินปุ่ม · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.90400966,
+      "lon": 104.7880285,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "เส้นทางศึกษาธรรมชาติ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.889829,
+      "lon": 104.7739286,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "อ่างเก็บน้ำห้วยสีโท · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+      "province": "อำนาจเจริญ",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.88619322,
+      "lon": 104.7403697,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกคอยนาง",
@@ -11292,6 +13187,39 @@
       "categories": [
         "golf"
       ]
+    },
+    {
+      "name": "สะพานหินธรรมชาติ · วนอุทยานภูเขาสวนกวาง",
+      "province": "อุดรธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.89809906,
+      "lon": 103.0613908,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "อ่างเก็บน้ำลำพันชาติ · วนอุทยานวังสามหมอ",
+      "province": "อุดรธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.05010144,
+      "lon": 103.5028331,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "อ่างเก็บน้ำลำห้วยทราย · วนอุทยานภูเขาสวนกวาง",
+      "province": "อุดรธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 16.86399146,
+      "lon": 102.9463917,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "อุทยานแห่งชาตินายูง - น้ำโสม (เตรียมการ)",
@@ -11400,6 +13328,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=994"
     },
     {
+      "name": "แก่งวังวัว · วนอุทยานห้วยน้ำลี",
+      "province": "อุตรดิสถ์",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 17.87761815,
+      "lon": 100.3074682,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "เขาพลึง-บ้านด่าน",
       "province": "อุตรดิสถ์",
       "categories": [
@@ -11446,6 +13385,17 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "ถ้ำพุหวาย · วนอุทยานถ้ำเขาวง",
+      "province": "อุทัยธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.01105978,
+      "lon": 99.44330907,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ห้วยคต",
       "province": "อุทัยธานี",
       "categories": [
@@ -11455,6 +13405,17 @@
       "lat": 15.2984,
       "lon": 99.5686,
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
+    },
+    {
+      "name": "อ่างเก็บน้ำคลองไก่เถื่อน · วนอุทยานห้วยคต",
+      "province": "อุทัยธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.29803121,
+      "lon": 99.56891552,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "แก่งกะเลา · ภูจองนายอย",
@@ -11485,6 +13446,41 @@
       "lat": 14.4319,
       "lon": 105.2782,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=958"
+    },
+    {
+      "name": "จุดชมวิวน้ำตกผาหลวง · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.60763713,
+      "lon": 105.3825798,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวปล่องช้างลอด · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.60991603,
+      "lon": 105.376959,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "จุดชมวิวหม้อหินผาหลวง · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.61184272,
+      "lon": 105.3763468,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "จุมชมทิวทัศน์ผาแต้ม · ผาแต้ม",
@@ -11557,6 +13553,17 @@
       "lat": 15.4576,
       "lon": 105.5777,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=957"
+    },
+    {
+      "name": "ทุ่งดอกหญ้านามพระราชทาน · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.61158622,
+      "lon": 105.38352,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกกวางโตน · ผาแต้ม",
@@ -11651,6 +13658,18 @@
       "sourceUrl": "https://data.go.th/dataset/gdpublish-nationalparksname"
     },
     {
+      "name": "น้ำตกผาหลวง · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.60745662,
+      "lon": 105.38241155,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "น้ำตกรากไทร · แก่งตะนะ",
       "province": "อุบลราชธานี",
       "categories": [
@@ -11659,6 +13678,28 @@
       "lat": 15.2995,
       "lon": 105.4857,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=956"
+    },
+    {
+      "name": "น้ำตกรากไทร · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.60857863,
+      "lon": 105.3818446,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "น้ำตกลงปล่อง · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.60911937,
+      "lon": 105.3930584,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "น้ำตกสราลีภิรมย์ · ภูจองนายอย",
@@ -11701,6 +13742,17 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=958"
     },
     {
+      "name": "โบกนกยูง · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.60922455,
+      "lon": 105.3949056,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ป่าดงนาทาม · ผาแต้ม",
       "province": "อุบลราชธานี",
       "categories": [
@@ -11732,6 +13784,18 @@
       "lat": 15.2603,
       "lon": 105.575,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=956"
+    },
+    {
+      "name": "ผาผึ้งภูหลวง (ภาพเขียนสีโบราณ) · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.61391059,
+      "lon": 105.3777592,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "ผาเมย · ผาแต้ม",
@@ -11830,6 +13894,28 @@
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=958"
     },
     {
+      "name": "ลานจระเข้หิน · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.61105001,
+      "lon": 105.3902542,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "ลานเต่าหิน · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.61191724,
+      "lon": 105.3803209,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "ลานผาผึ้ง · แก่งตะนะ",
       "province": "อุบลราชธานี",
       "categories": [
@@ -11856,6 +13942,18 @@
       ]
     },
     {
+      "name": "สวนหินงามผาจุ่น · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.59782421,
+      "lon": 105.384819,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
       "name": "สวนหินภูกระบอ · ผาแต้ม",
       "province": "อุบลราชธานี",
       "categories": [
@@ -11874,6 +13972,29 @@
       "lat": 15.2977,
       "lon": 105.4724,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=956"
+    },
+    {
+      "name": "เสาเฉลียงเก้านางดอนบาก · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.61767149,
+      "lon": 105.3829622,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
+    },
+    {
+      "name": "เสาเฉลียงผาขาม · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest",
+        "mountain"
+      ],
+      "lat": 15.63047674,
+      "lon": 105.3960845,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "เสาเฉลียง · ผาแต้ม",
@@ -11904,6 +14025,17 @@
       "lat": 15.7447,
       "lon": 105.4949,
       "sourceUrl": "https://portal.dnp.go.th/Content/nationalpark?contentId=957"
+    },
+    {
+      "name": "หยดน้ำทิพย์ · วนอุทยานน้ำตกผาหลวง",
+      "province": "อุบลราชธานี",
+      "categories": [
+        "nature",
+        "forest"
+      ],
+      "lat": 15.60840667,
+      "lon": 105.3819562,
+      "sourceUrl": "https://data.go.th/dataset/gdpublish-typesattractionsinpark"
     },
     {
       "name": "หลักศิลาจารึกเจ้าชายจิตรเสน · แก่งตะนะ",

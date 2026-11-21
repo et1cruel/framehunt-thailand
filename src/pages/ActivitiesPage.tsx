@@ -3,6 +3,7 @@ import { ArrowUpRight, Dumbbell, MapPin, Search, Sparkles } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import activityDirectory from "@/data/activity-directory.json";
+import { DirectoryCover } from "@/components/DirectoryCover";
 
 type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain";
 type ActivityPlace = { name: string; province: string; district?: string; categories: ActivityCategory[]; sourceUrl?: string; lat?: number; lon?: number; accessNote?: string };
@@ -55,6 +56,7 @@ export default function ActivitiesPage() {
           {filtered.map((place, index) => (
             <li key={`${place.name}-${place.province}-${index}`}>
               <article className="clay-panel flex h-full min-h-44 flex-col justify-between gap-5 p-5 transition-transform hover:-translate-y-0.5">
+                <DirectoryCover name={place.name} province={place.province} />
                 <div><div className="mb-3 flex flex-wrap gap-1.5">{place.categories.map((item) => <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-[#315b50]">{categoryNames[item]}</span>)}</div><h3 className="font-bold leading-snug">{place.name}</h3><p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{place.district ? `${place.district} · ` : ""}{place.province}</p>{place.accessNote && <p className="mt-2 text-xs font-medium text-burnt">{place.accessNote}</p>}</div>
                 <div className="flex flex-wrap gap-2"><a className="clay-control inline-flex w-fit items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white" href={place.lat && place.lon ? `https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lon}` : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.province} Thailand`)}`} target="_blank" rel="noreferrer">แผนที่ <ArrowUpRight className="h-3.5 w-3.5" aria-hidden /></a>{place.sourceUrl && <a className="clay-control inline-flex w-fit items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white" href={place.sourceUrl} target="_blank" rel="noreferrer">ข้อมูลต้นทาง <ArrowUpRight className="h-3.5 w-3.5" aria-hidden /></a>}</div>
               </article>

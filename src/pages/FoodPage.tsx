@@ -3,6 +3,7 @@ import { ArrowUpRight, ForkKnife, MapPin, Search } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import foodDirectory from "@/data/food-directory.json";
+import { DirectoryCover } from "@/components/DirectoryCover";
 
 type FoodCategory = "michelin" | "local" | "mookata" | "buffet";
 type Restaurant = {
@@ -103,6 +104,7 @@ export default function FoodPage() {
             <li key={`${restaurant.name}-${restaurant.province}-${index}`}>
               <article className="clay-panel flex h-full min-h-48 flex-col justify-between gap-5 p-5 transition-transform hover:-translate-y-0.5">
                 <div>
+                  <DirectoryCover name={restaurant.name} province={restaurant.province} source={restaurant.source} />
                   <div className="mb-3 flex flex-wrap gap-1.5">
                     {restaurant.categories.map((item) => (
                       <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-sage">{categoryLabels[item]}</span>

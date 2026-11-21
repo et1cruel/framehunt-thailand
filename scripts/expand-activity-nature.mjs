@@ -116,16 +116,32 @@ const contactCsvUrl = "https://catalog.dnp.go.th/dataset/6ed04038-08f9-48c0-b7cc
 const contactRows = parseCsv(await fetch(contactCsvUrl).then((response) => response.text()));
 const contactHeaders = contactRows[0].map((value) => value.replace(/^\uFEFF/, "").trim());
 const field = (row, header) => row[contactHeaders.indexOf(header)]?.trim() ?? "";
+const forestProvinces = new Map();
 for (const row of contactRows.slice(1)) {
   const unit = field(row, "หน่วยงาน");
   if (!/(วนอุทยาน|สวนรุกขชาติ|สวนพฤกษศาสตร์)/u.test(unit)) continue;
   const name = field(row, "ชื่อหน่วยงาน");
   const province = field(row, "จังหวัด");
+  if (unit.includes("วนอุทยาน")) forestProvinces.set(normalize(name), province);
   const lat = Number(field(row, "Lat"));
   const lon = Number(field(row, "Long"));
   const categories = unit.includes("วนอุทยาน") ? ["forest", "nature"] : ["park", "nature"];
   if (/(ภู|ดอย|เขา|ผา|ยอดดอย)/u.test(name)) categories.push("mountain");
   add({ name, province, categories, lat: Number.isFinite(lat) ? lat : undefined, lon: Number.isFinite(lon) ? lon : undefined, sourceUrl: "https://data.go.th/dataset/gdpublish-tel-park" });
+}
+
+const forestUrl = "https://catalog.dnp.go.th/dataset/901465e3-290d-47af-aaa4-83e967b48ac5/resource/1b2b63b5-bd30-4d06-b32d-e96a57ba8d6e/download/typesattractionsinpark.csv";
+const forestBytes = await fetch(forestUrl).then((response) => response.arrayBuffer());
+const forestRows = parseCsv(new TextDecoder("windows-874").decode(forestBytes));
+for (const [, park, rawName, type, rawLat, rawLon] of forestRows.slice(1)) {
+  const name = rawName?.trim();
+  const province = forestProvinces.get(normalize(park?.trim()));
+  if (!name || !province || existingKeys.has(`${normalize(name)}|${normalize(province)}`)) continue;
+  const lat = Number(rawLat), lon = Number(rawLon);
+  const validCoordinates = Number.isFinite(lat) && lat >= 5 && lat <= 21 && Number.isFinite(lon) && lon >= 97 && lon <= 106;
+  const categories = ["nature", "forest"];
+  if (/(ภูเขา|ดอย|ยอด|ผา|หน้าผา|เขา)/u.test(`${type} ${name}`)) categories.push("mountain");
+  add({ name: `${name} · วนอุทยาน${park.trim()}`, province, categories, lat: validCoordinates ? lat : undefined, lon: validCoordinates ? lon : undefined, sourceUrl: "https://data.go.th/dataset/gdpublish-typesattractionsinpark" });
 }
 
 // Bangkok's official Green Bangkok catalogue includes park name, district and activity tags.

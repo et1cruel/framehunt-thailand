@@ -3,6 +3,7 @@ import { ArrowUpRight, MapPin, Search, Shirt, Store } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import directory from "@/data/secondhand-shops.json";
+import { DirectoryCover } from "@/components/DirectoryCover";
 
 type ShopKind = "japan" | "clothing" | "vintage";
 type Shop = {
@@ -101,6 +102,7 @@ export default function SecondhandPage() {
             <li key={`${shop.name}-${shop.province}-${index}`}>
               <article className="clay-panel flex h-full min-h-44 flex-col justify-between gap-5 p-5 transition-transform hover:-translate-y-0.5">
                 <div>
+                  <DirectoryCover name={shop.name} province={shop.province} />
                   <div className="mb-3 flex items-center justify-between gap-3">
                     <span className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-sage">{kindLabels[shop.kind]}</span>
                     <Store className="h-4 w-4 shrink-0 text-sage" aria-hidden />

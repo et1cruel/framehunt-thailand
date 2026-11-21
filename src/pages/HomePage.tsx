@@ -206,7 +206,7 @@ export default function HomePage() {
         <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4 lg:gap-4">
           {QUICK_CATEGORIES.map((cat) => {
             const focusSlug =
-              cat.key === "art" ? "bangkok-art-and-culture-centre" : cat.key === "hidden" ? "saphan-han" : null;
+              cat.key === "art" ? "bangkok-art-and-culture-centre" : cat.key === "hidden" ? "saphan-han" : cat.key === "temple" ? "doi-suthep" : null;
             const matches = published.filter((location) =>
               cat.slugs.some((slug) => location.categories.includes(slug)),
             );
