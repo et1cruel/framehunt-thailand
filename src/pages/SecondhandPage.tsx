@@ -23,6 +23,10 @@ const kindLabels: Record<ShopKind, string> = {
   vintage: "วินเทจและของสะสม",
 };
 const dateFormatter = new Intl.DateTimeFormat("th-TH", { dateStyle: "medium", timeZone: "Asia/Bangkok" });
+function observedDate(value: string) {
+  const parsed = new Date(`${value}T12:00:00+07:00`);
+  return Number.isNaN(parsed.getTime()) ? value : dateFormatter.format(parsed);
+}
 
 export default function SecondhandPage() {
   const [query, setQuery] = useState("");
@@ -103,7 +107,7 @@ export default function SecondhandPage() {
                   </div>
                   <h3 className="font-bold leading-snug">{shop.name}</h3>
                   <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.province}</p>
-                  {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete">บันทึกในแหล่งข้อมูล: {dateFormatter.format(new Date(`${shop.lastObservedAt}T12:00:00+07:00`))}</p>}
+                  {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete">บันทึกในแหล่งข้อมูล: {observedDate(shop.lastObservedAt)}</p>}
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-sage hover:bg-sage hover:text-white" href={shop.mapsUrl} target="_blank" rel="noreferrer">
