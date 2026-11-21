@@ -127,6 +127,7 @@ export interface LocationRecord {
   moods: { slug: string; relevance_score: number }[];
   photos: LocationPhoto[];
   photo_count: number;
+  curated_photo_minimum?: 1;
   sources: LocationSource[];
   permission: PermissionInfo;
   filming: FilmingInfo;

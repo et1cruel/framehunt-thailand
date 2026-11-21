@@ -43,18 +43,19 @@ export function isPublishable(loc: LocationRecord): boolean {
     loc.longitude >= 97 &&
     loc.longitude <= 106 &&
     loc.sources.some((source) => source.source_url.startsWith("https://")) &&
-    loc.photos.length >= MIN_VERIFIED_PHOTOS &&
+    loc.photos.length >= (loc.curated_photo_minimum ?? MIN_VERIFIED_PHOTOS) &&
     verifiedPhotos(loc).length === loc.photos.length
   );
 }
 
 export function photoGate(loc: LocationRecord) {
   const verified = verifiedPhotos(loc).length;
+  const required = loc.curated_photo_minimum ?? MIN_VERIFIED_PHOTOS;
   return {
     verified,
-    required: MIN_VERIFIED_PHOTOS,
-    passes: verified >= MIN_VERIFIED_PHOTOS,
-    missing: Math.max(0, MIN_VERIFIED_PHOTOS - verified),
+    required,
+    passes: verified >= required,
+    missing: Math.max(0, required - verified),
   };
 }
 
@@ -175,7 +176,7 @@ export function createLocationCatalog(records: LocationRecord[], generatedAt: st
       if (filters.moods.length && !filters.moods.some((m) => loc.moods.some((x) => x.slug === m))) continue;
       if (filters.permission && loc.filming_permission_status !== filters.permission) continue;
       if (filters.verifiedOnly && !loc.verified_at) continue;
-      if (filters.withPhotosOnly && loc.photo_count < MIN_VERIFIED_PHOTOS) continue;
+      if (filters.withPhotosOnly && loc.photo_count < (loc.curated_photo_minimum ?? MIN_VERIFIED_PHOTOS)) continue;
 
       const distanceKm = origin ? haversineKm(origin, { lat: loc.latitude, lng: loc.longitude }) : null;
       if (filters.radiusKm != null && distanceKm != null && distanceKm > filters.radiusKm) continue;

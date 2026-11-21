@@ -173,7 +173,7 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
         <Switch
           checked={filters.withPhotosOnly}
           onCheckedChange={(v) => onChange({ withPhotosOnly: v })}
-          label="เฉพาะที่มีภาพครบ 5 ภาพ"
+          label="เฉพาะที่มีภาพ"
         />
         <Switch
           checked={filters.verifiedOnly}

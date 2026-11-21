@@ -29,7 +29,7 @@ describe("publish gate", () => {
     expect(published.length).toBeGreaterThan(0);
     for (const loc of published) {
       expect(loc.status).toBe("published");
-      expect(loc.photos.filter((p) => p.is_verified).length).toBeGreaterThanOrEqual(MIN_VERIFIED_PHOTOS);
+      expect(loc.photos.filter((p) => p.is_verified).length).toBeGreaterThanOrEqual(loc.curated_photo_minimum ?? MIN_VERIFIED_PHOTOS);
       expect(loc.photos.length).toBe(loc.photos.filter((p) => p.is_verified).length);
       expect(Number.isFinite(loc.latitude)).toBe(true);
       expect(Number.isFinite(loc.longitude)).toBe(true);
@@ -61,6 +61,13 @@ describe("publish gate", () => {
       photo_count: 2,
     };
     expect(isPublishable(fake)).toBe(false);
+  });
+
+  it("accepts an explicitly curated location with a verified image", () => {
+    const curated = { ...first, curated_photo_minimum: 1 as const, photos: first.photos.slice(0, 1), photo_count: 1 };
+    expect(isPublishable(curated)).toBe(true);
+    expect(photoGate(curated).passes).toBe(true);
+    expect(isPublishable({ ...curated, photos: [] })).toBe(false);
   });
 
   it("rejects a record with non-numeric coordinates", () => {

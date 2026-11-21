@@ -12,7 +12,7 @@ export function Footer() {
             <p className="display text-3xl md:text-4xl">Framehunt Thailand</p>
             <p className="mt-5 max-w-md font-sans text-sm leading-relaxed text-concrete">
               แพลตฟอร์มค้นหาโลเคชันสำหรับมิวสิกวิดีโอ ภาพยนตร์ และงานภาพทั่วประเทศไทย
-              ทุกสถานที่ที่เผยแพร่ต้องมีภาพถ่ายจริงที่ตรวจสอบสิทธิ์แล้วอย่างน้อย 5 ภาพ
+              ภาพสถานที่มีเครดิตและข้อมูลใบอนุญาตประกอบ
             </p>
           </div>
 

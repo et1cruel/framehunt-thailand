@@ -4,10 +4,10 @@
     "source": "Wikidata + Wikimedia Commons",
     "min_photos_required": 5,
     "total_locations": 833,
-    "published": 574,
-    "draft": 259,
+    "published": 582,
+    "draft": 251,
     "rejected": 408,
-    "verified_photos": 3187,
+    "verified_photos": 3211,
     "photographers": 681,
     "license_breakdown": {
       "CC BY-SA 4.0": 1584,
@@ -31545,10 +31545,10 @@
       "website_url": "https://en.wikipedia.org/wiki/Don_Mueang_station",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.91972222,100.6008333",
       "verified_at": "2026-11-20T15:05:42.233Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T15:05:42.233Z",
-      "updated_at": "2026-11-20T15:05:42.233Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "vintage-architecture",
         "old-building"
@@ -31670,7 +31670,8 @@
       ],
       "qid": "Q6585967",
       "commons_category": "Don Muang Station",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "404334b4-9c51-5898-a54b-6b803938df78",
@@ -57460,10 +57461,10 @@
       "website_url": "https://en.wikipedia.org/wiki/Khlong_Lat_Mayom_Floating_Market",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.761861111111,100.41558055556",
       "verified_at": "2026-11-20T15:05:42.233Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T15:05:42.233Z",
-      "updated_at": "2026-11-20T15:05:42.233Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "creative-community",
         "vintage-architecture"
@@ -57617,7 +57618,8 @@
       ],
       "qid": "Q64737922",
       "commons_category": "Khlong Lat Mayom Floating Market",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "cde3f5d9-5a84-5ba2-7831-d56c5a547f05",
@@ -74105,10 +74107,10 @@
       "website_url": "https://en.wikipedia.org/wiki/Leng_Buai_Ia_Shrine",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.741944,100.509167",
       "verified_at": "2026-11-20T15:05:42.233Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T15:05:42.233Z",
-      "updated_at": "2026-11-20T15:05:42.233Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "religious-architecture"
       ],
@@ -74292,7 +74294,8 @@
       ],
       "qid": "Q2357415",
       "commons_category": "Leng Buai Ia Shrine",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "db433ee2-5f67-5216-8ad0-d52c061ef5d0",
@@ -87791,10 +87794,10 @@
       "website_url": "https://en.wikipedia.org/wiki/National_Gallery_(Thailand)",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.75894607,100.49384236",
       "verified_at": "2026-11-20T13:20:20.958Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T13:20:20.958Z",
-      "updated_at": "2026-11-20T13:20:20.958Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "museum",
         "unique-architecture"
@@ -87980,7 +87983,8 @@
       ],
       "qid": "Q1968373",
       "commons_category": "National Gallery of Thailand",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "1733e98a-7ed6-5f4d-01f8-08f8cac88548",
@@ -95019,10 +95023,10 @@
       "website_url": null,
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.7779274,100.5434434",
       "verified_at": "2026-11-20T15:05:42.233Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T15:05:42.233Z",
-      "updated_at": "2026-11-20T15:05:42.233Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "unique-architecture",
         "concrete"
@@ -95055,7 +95059,7 @@
           "perceptual_hash": "ff6eb7abe34341c1",
           "width": 4592,
           "height": 2584,
-          "is_cover": true,
+          "is_cover": false,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Pearl Bangkok",
@@ -95151,7 +95155,7 @@
           "perceptual_hash": "fef0f9e8ea6935b3",
           "width": 3024,
           "height": 4032,
-          "is_cover": false,
+          "is_cover": true,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Pearl Bangkok",
@@ -95234,7 +95238,8 @@
       ],
       "qid": "Q137945465",
       "commons_category": "Pearl Bangkok",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "0264a4e5-e79c-5fb1-aa7a-06d4d75a0531",
@@ -118649,10 +118654,10 @@
       "website_url": "https://en.wikipedia.org/wiki/Rama_VII_Bridge",
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.814389,100.514269",
       "verified_at": "2026-11-20T13:32:37.867Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T13:32:37.867Z",
-      "updated_at": "2026-11-20T13:32:37.867Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "unique-architecture"
       ],
@@ -118799,7 +118804,8 @@
       ],
       "qid": "Q4797664",
       "commons_category": "Rama VII Bridge",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "810d160a-0940-5de7-ab5c-4298c2d8f991",
@@ -205001,10 +205007,10 @@
       "website_url": null,
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.766819444444444,100.6521",
       "verified_at": "2026-11-20T15:05:42.233Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T15:05:42.233Z",
-      "updated_at": "2026-11-20T15:05:42.233Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "temple",
         "religious-architecture"
@@ -205037,7 +205043,7 @@
           "perceptual_hash": "e605ddce66464494",
           "width": 3624,
           "height": 2562,
-          "is_cover": true,
+          "is_cover": false,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Wat Si Bun Rueang, Bangkok",
@@ -205101,7 +205107,7 @@
           "perceptual_hash": "cc763072dacedb72",
           "width": 2976,
           "height": 3968,
-          "is_cover": false,
+          "is_cover": true,
           "is_verified": true,
           "verification_status": "automated",
           "subject_evidence": "commons-category:Wat Si Bun Rueang, Bangkok",
@@ -205222,7 +205228,8 @@
       ],
       "qid": "Q16004371",
       "commons_category": "Wat Si Bun Rueang, Bangkok",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "cab6551c-65f7-50be-c298-160d77002af5",
@@ -209860,10 +209867,10 @@
       "website_url": null,
       "maps_url": "https://www.google.com/maps/search/?api=1&query=13.720833333333,100.58638888889",
       "verified_at": "2026-11-20T15:05:42.233Z",
-      "published_at": null,
-      "status": "draft",
+      "published_at": "2026-11-21T03:42:22.462Z",
+      "status": "published",
       "created_at": "2026-11-20T15:05:42.233Z",
-      "updated_at": "2026-11-20T15:05:42.233Z",
+      "updated_at": "2026-11-21T03:42:22.462Z",
       "categories": [
         "temple",
         "religious-architecture"
@@ -210081,7 +210088,8 @@
       ],
       "qid": "Q20583674",
       "commons_category": "Wat That Thong",
-      "needs_admin_review": true
+      "needs_admin_review": true,
+      "curated_photo_minimum": 1
     },
     {
       "id": "e37bcedd-506f-5ea6-0137-7391c243a6a1",

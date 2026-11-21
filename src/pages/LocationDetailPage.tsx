@@ -112,7 +112,7 @@ export default function LocationDetailPage() {
         <p className="label-mono text-burnt">404 / NOT PUBLISHED</p>
         <h1 className="mt-4 display text-5xl md:text-7xl">FRAME NOT FOUND.</h1>
         <p className="mt-4 max-w-md font-sans text-sm leading-relaxed text-concrete">
-          สถานที่นี้ไม่มีอยู่ในฐานข้อมูลที่เผยแพร่ หรือยังไม่ผ่านเกณฑ์ภาพถ่ายจริง 5 ภาพ
+          สถานที่นี้ไม่มีอยู่ในฐานข้อมูลที่เผยแพร่ หรือยังอยู่ระหว่างตรวจสอบข้อมูล
         </p>
         <div className="mt-7 flex gap-2">
           <Button onClick={() => navigate("/explore")}>กลับไปค้นหา</Button>
@@ -299,7 +299,7 @@ export default function LocationDetailPage() {
                 <h2 className="mt-1 font-display text-2xl font-extrabold">ภาพถ่ายสถานที่จริง</h2>
               </div>
               <p className="font-mono text-xs tracking-normal text-concrete">
-                {location.photo_count} / MIN 5 · ALL VERIFIED
+                {location.photo_count} ภาพ · ตรวจสอบเครดิตแล้ว
               </p>
             </div>
             <PhotoGallery photos={location.photos} locationName={location.name_th} />

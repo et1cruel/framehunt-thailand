@@ -445,7 +445,7 @@ export default function HomePage() {
               <ul className="mt-7 space-y-4 font-sans text-sm leading-relaxed text-concrete">
                 <li className="flex gap-3">
                   <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-acid" />
-                  สถานที่ทุกแห่งต้องมีภาพถ่ายจริงที่ตรวจสอบสิทธิ์แล้วอย่างน้อย 5 ภาพก่อนเผยแพร่
+                  ภาพสถานที่มีเครดิตและข้อมูลใบอนุญาตประกอบ
                 </li>
                 <li className="flex gap-3">
                   <Camera className="mt-0.5 h-4 w-4 shrink-0 text-acid" />
