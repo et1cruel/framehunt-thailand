@@ -22,6 +22,7 @@ type View = "grid" | "list" | "map";
 const PAGE = 12;
 const SAVED_KEY = "framehunt:saved-searches";
 const DIRECTORY_PAGE = 12;
+const normalizePlaceName = (value: string) => value.toLocaleLowerCase("th").replace(/[^\p{L}\p{N}]/gu, "");
 
 function filtersFromParams(sp: URLSearchParams): SearchFilters {
   return {
@@ -40,7 +41,7 @@ function filtersFromParams(sp: URLSearchParams): SearchFilters {
 
 export default function ExplorePage() {
   const { language, t } = useLanguage();
-  const { searchLocations } = useLocationCatalog();
+  const { searchLocations, publishedLocations } = useLocationCatalog();
   const [sp, setSp] = useSearchParams();
   const filters = useMemo(() => filtersFromParams(sp), [sp]);
   const [query, setQuery] = useState(filters.q);
@@ -83,12 +84,16 @@ export default function ExplorePage() {
     const isNakhonPathomSearch = filters.province === "nakhon-pathom" || /นครปฐม|nakhon\s*pathom/i.test(searchText);
     if (!isNakhonPathomSearch) return [];
     const placeQuery = /นครปฐม|nakhon\s*pathom/i.test(searchText) ? "" : searchText;
+    const knownPlaces = new Set(publishedLocations().filter((location) => location.province_th === "นครปฐม")
+      .flatMap((location) => [location.name_th, location.name_en].filter(Boolean)
+        .map((name) => `${normalizePlaceName(name)}|${normalizePlaceName(location.province_th)}`)));
     return activityDirectory.places.filter((place) => {
       if (place.province !== "นครปฐม" || !place.categories.includes("nakhon-pathom")) return false;
+      if (knownPlaces.has(`${normalizePlaceName(place.name.split(" · ")[0])}|${normalizePlaceName(place.province)}`)) return false;
       if (!placeQuery) return true;
       return `${place.name} ${place.province} ${place.district ?? ""}`.toLocaleLowerCase("th").includes(placeQuery);
     });
-  }, [filters.province, filters.q]);
+  }, [filters.province, filters.q, publishedLocations]);
 
   useEffect(() => {
     setVisible(PAGE);
