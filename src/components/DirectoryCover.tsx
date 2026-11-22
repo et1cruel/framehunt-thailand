@@ -6,8 +6,8 @@ import covers from "@/data/directory-covers.json";
 type Cover = { url: string; source: string; credit: string };
 const coverIndex = covers as Record<string, Cover>;
 
-export function hasDirectoryCover(name: string, province: string) {
-  return Boolean(coverIndex[`${name}|${province}`]);
+export function hasDirectoryCover(name: string, province: string, source?: string) {
+  return Boolean(coverIndex[`${name}|${province}`] || (source ? coverIndex[source] : undefined));
 }
 
 export function DirectoryCover({ name, province, source }: { name: string; province: string; source?: string }) {

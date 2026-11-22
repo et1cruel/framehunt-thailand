@@ -4,7 +4,7 @@ import { ArrowUpRight, ForkKnife, MapPin, Search } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import foodDirectory from "@/data/food-directory.json";
-import { DirectoryCover } from "@/components/DirectoryCover";
+import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
 
 type FoodCategory = "michelin" | "local" | "mookata" | "buffet";
 type Restaurant = {
@@ -49,7 +49,7 @@ export default function FoodPage() {
       const matchesText = !needle || `${restaurant.name} ${restaurant.province} ${restaurant.sourceName}`.toLocaleLowerCase("th").includes(needle);
       const matchesCategory = category === "all" || restaurant.categories.includes(category);
       return matchesText && matchesCategory && (!province || restaurant.province === province);
-    });
+    }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province, b.source)) - Number(hasDirectoryCover(a.name, a.province, a.source)));
   }, [category, province, query]);
 
   return (

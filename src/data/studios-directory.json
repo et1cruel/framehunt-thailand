@@ -19,9 +19,7 @@
       "phone": "086-368-9990",
       "sourceUrl": "https://minervarecstudios.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Minerva+Recording+Studios+Ladprao+Bangkok",
-      "description": "สตูดิโอยอดนิยมของศิลปินอินดี้ไทยและวงระดับประเทศ (Three Man Down, Safeplanet) ออกแบบอะคูสติกมาตรฐานสากล รองรับทั้งการซ้อมวงและ Live Session",
-      "imageUrl": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Sound Engineering Studio"
+      "description": "สตูดิโอยอดนิยมของศิลปินอินดี้ไทยและวงระดับประเทศ (Three Man Down, Safeplanet) ออกแบบอะคูสติกมาตรฐานสากล รองรับทั้งการซ้อมวงและ Live Session"
     },
     {
       "id": "studio-2-บางนา",
@@ -42,9 +40,7 @@
       "phone": "089-137-7977",
       "sourceUrl": "https://vintagestudiothailand.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vintage+Studio+Thailand+Udomsuk+Bangkok",
-      "description": "สตูดิโอบันทึกเสียงและห้องซ้อมระดับตำนานเปิดให้บริการตั้งแต่ปี 2002 โดดเด่นด้วยอุปกรณ์ Pro Audio ไฮเอนด์ระดับโลกและอะคูสติกระดับมืออาชีพ",
-      "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Acoustic Rehearsal Room"
+      "description": "สตูดิโอบันทึกเสียงและห้องซ้อมระดับตำนานเปิดให้บริการตั้งแต่ปี 2002 โดดเด่นด้วยอุปกรณ์ Pro Audio ไฮเอนด์ระดับโลกและอะคูสติกระดับมืออาชีพ"
     },
     {
       "id": "studio-3-บางกะปิ",
@@ -65,9 +61,7 @@
       "phone": "081-807-6099",
       "sourceUrl": "https://polarbear.co.th",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Polarbear+Studios+Yothin+Pattana+Bangkok",
-      "description": "สตูดิโอดนตรีครบวงจร มีประสบการณ์กว่า 10 ปี ห้องซ้อมขนาดใหญ่รองรับวงเต็มวง อัดเสียงมัลติแทร็ก และถ่ายทำวิดีโอ Live Session",
-      "imageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Live Stage & Studio Lights"
+      "description": "สตูดิโอดนตรีครบวงจร มีประสบการณ์กว่า 10 ปี ห้องซ้อมขนาดใหญ่รองรับวงเต็มวง อัดเสียงมัลติแทร็ก และถ่ายทำวิดีโอ Live Session"
     },
     {
       "id": "studio-4-บางเขน",
@@ -88,9 +82,7 @@
       "phone": "081-445-6678",
       "sourceUrl": "https://candystudiogroup.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kandee+Ztudio+Bangkok",
-      "description": "สตูดิโอเพลงที่ก่อตั้งและดูแลโดยพี่อ๊อฟ Big Ass เน้นบรรยากาศผ่อนคลาย อะคูสติกแน่นจัดเต็มเพื่อวงร็อกและศิลปินรุ่นใหม่",
-      "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Vocal Booth & Studio Headphones"
+      "description": "สตูดิโอเพลงที่ก่อตั้งและดูแลโดยพี่อ๊อฟ Big Ass เน้นบรรยากาศผ่อนคลาย อะคูสติกแน่นจัดเต็มเพื่อวงร็อกและศิลปินรุ่นใหม่"
     },
     {
       "id": "studio-5-พญาไท",
@@ -112,8 +104,8 @@
       "sourceUrl": "https://dynamicstudiobkk.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dynamic+Recording+Studio+Bangkok",
       "description": "สตูดิโอระดับโปรชั้นแนวหน้าของประเทศ เชี่ยวชาญการออกแบบระบบเสียงและอะคูสติก รองรับการซ้อมวงสเกลคอนเสิร์ตและการบันทึกเสียงอัลบั้ม",
-      "imageUrl": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Electric Guitar & Tube Amp"
+      "imageUrl": "https://www.dynamicstudiobkk.com/wp-content/uploads/2010/02/studio1.jpg",
+      "imageCredit": "Dynamic Studio · ภาพถ่ายสตูดิโอจริง"
     },
     {
       "id": "studio-6-ราชเทวี",
@@ -133,9 +125,7 @@
       "phone": "089-812-3456",
       "sourceUrl": "https://www.facebook.com/horizonstudiobkk",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Horizon+Studio+Hollywood+Street+Ratchathewi+Bangkok",
-      "description": "ทำเลใจกลางเมืองเดินทางสะดวกสุดๆ ติด BTS ราชเทวี จุดรวมตัวของเหล่านักดนตรีสายร็อก อินดี้ และนักศึกษา อุปกรณ์แน่นราคาเป็นกันเอง",
-      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Multi-track Soundboard"
+      "description": "ทำเลใจกลางเมืองเดินทางสะดวกสุดๆ ติด BTS ราชเทวี จุดรวมตัวของเหล่านักดนตรีสายร็อก อินดี้ และนักศึกษา อุปกรณ์แน่นราคาเป็นกันเอง"
     },
     {
       "id": "studio-7-พระโขนง",
@@ -156,9 +146,7 @@
       "phone": "085-321-4567",
       "sourceUrl": "https://www.facebook.com/thesilverhousemusicstudio",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Silver+House+Music+Studio+Udomsuk+Bangkok",
-      "description": "ห้องซ้อมดนตรีบรรยากาศโฮมมี่ มีโซนคาเฟ่เครื่องดื่ม อาหาร และสวนสีเขียวให้นั่งพักผ่อน เครื่องดนตรีแบรนด์คุณภาพเยี่ยม",
-      "imageUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Guitars & Rehearsal Setup"
+      "description": "ห้องซ้อมดนตรีบรรยากาศโฮมมี่ มีโซนคาเฟ่เครื่องดื่ม อาหาร และสวนสีเขียวให้นั่งพักผ่อน เครื่องดนตรีแบรนด์คุณภาพเยี่ยม"
     },
     {
       "id": "studio-8-บางพลัด",
@@ -178,9 +166,7 @@
       "phone": "084-555-7890",
       "sourceUrl": "https://www.facebook.com/soundspacestudiobkk",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soundspace+Studio+ChangChui+Bangkok",
-      "description": "ห้องซ้อมดนตรีราคาย่อมเยาย่านฝั่งธนบุรี ตั้งอยู่ในโครงการช่างชุ่ย คุณภาพเสียงดี เหมาะกับนักเรียน นักศึกษา และวงอินดี้",
-      "imageUrl": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Ambient Rehearsal Space"
+      "description": "ห้องซ้อมดนตรีราคาย่อมเยาย่านฝั่งธนบุรี ตั้งอยู่ในโครงการช่างชุ่ย คุณภาพเสียงดี เหมาะกับนักเรียน นักศึกษา และวงอินดี้"
     },
     {
       "id": "studio-9-ลาดกระบัง",
@@ -200,9 +186,7 @@
       "phone": "082-123-9876",
       "sourceUrl": "https://www.facebook.com/jkmstudiolatkrabang",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JKM+Studio+Lat+Krabang+Bangkok",
-      "description": "ขวัญใจเด็กพระจอมเกล้าลาดกระบัง อุปกรณ์เครื่องดนตรีครบครัน มีโปรโมชั่นสะสมชั่วโมงซ้อมสุดคุ้ม บริการเป็นกันเอง",
-      "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Neon Music Studio Lights"
+      "description": "ขวัญใจเด็กพระจอมเกล้าลาดกระบัง อุปกรณ์เครื่องดนตรีครบครัน มีโปรโมชั่นสะสมชั่วโมงซ้อมสุดคุ้ม บริการเป็นกันเอง"
     },
     {
       "id": "studio-10-วังทองหลาง",
@@ -222,9 +206,7 @@
       "phone": "083-999-1234",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jam+Session+Studio+Ladprao+Bangkok",
-      "description": "ห้องซ้อมดนตรีเริ่มต้นเพียง 180 บาท/ชม. มีขนาดห้องให้เลือกหลากหลายตามจำนวนสมาชิก อุปกรณ์ครบพร้อมซ้อมทันที",
-      "imageUrl": "https://images.unsplash.com/photo-1546707012-c46675f12716?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Drum Kit & Studio Mics"
+      "description": "ห้องซ้อมดนตรีเริ่มต้นเพียง 180 บาท/ชม. มีขนาดห้องให้เลือกหลากหลายตามจำนวนสมาชิก อุปกรณ์ครบพร้อมซ้อมทันที"
     },
     {
       "id": "studio-11-ราชเทวี",
@@ -244,9 +226,7 @@
       "phone": "087-777-6543",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beat+Factory+Studio+Phaya+Thai+Bangkok",
-      "description": "สตูดิโอย่านพญาไท ใกล้รถไฟฟ้า เดินทางสะดวก มีคีย์บอร์ดและซินธิไซเซอร์พร้อมใช้งาน เหมาะกับแนวป๊อป อินดี้ และซินธ์ป๊อป",
-      "imageUrl": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Guitar Headstock & Amplifiers"
+      "description": "สตูดิโอย่านพญาไท ใกล้รถไฟฟ้า เดินทางสะดวก มีคีย์บอร์ดและซินธิไซเซอร์พร้อมใช้งาน เหมาะกับแนวป๊อป อินดี้ และซินธ์ป๊อป"
     },
     {
       "id": "studio-12-ดินแดง",
@@ -266,9 +246,7 @@
       "phone": "086-555-4321",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Melody+House+Din+Daeng+Bangkok",
-      "description": "ห้องซ้อมทำเลใจกลางเมืองดินแดง-สุทธิสาร บรรยากาศเงียบสงบ แอร์เย็นฉ่ำ อุปกรณ์พร้อมซ้อมวงทุกแนวเพลง",
-      "imageUrl": "https://images.unsplash.com/photo-1525994886773-080587e161c2?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Studio Monitors & Synthesizer"
+      "description": "ห้องซ้อมทำเลใจกลางเมืองดินแดง-สุทธิสาร บรรยากาศเงียบสงบ แอร์เย็นฉ่ำ อุปกรณ์พร้อมซ้อมวงทุกแนวเพลง"
     },
     {
       "id": "studio-13-สวนหลวง",
@@ -288,9 +266,7 @@
       "phone": "081-222-3344",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Monster+Music+Studio+Suan+Luang+Bangkok",
-      "description": "ห้องซ้อมดนตรีกว้างขวาง รองรับวงขนาด 5-8 คนสบายๆ อุปกรณ์คุณภาพสูง พร้อมบริการอัดเสียงเดโมสำหรับวงดนตรี",
-      "imageUrl": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Fender Amp & Electric Guitar"
+      "description": "ห้องซ้อมดนตรีกว้างขวาง รองรับวงขนาด 5-8 คนสบายๆ อุปกรณ์คุณภาพสูง พร้อมบริการอัดเสียงเดโมสำหรับวงดนตรี"
     },
     {
       "id": "studio-14-ทุ่งครุ",
@@ -310,9 +286,7 @@
       "phone": "089-444-5678",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=รักมิวสิค+ห้องซ้อมดนตรี+ทุ่งครุ+Bangkok",
-      "description": "สตูดิโอห้องซ้อมยอดฮิตของนักศึกษา มจธ. บางมด และนักดนตรีฝั่งธนบุรีใต้ อุปกรณ์จัดเต็ม เจ้าของเป็นกันเอง",
-      "imageUrl": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Band Rehearsal Space"
+      "description": "สตูดิโอห้องซ้อมยอดฮิตของนักศึกษา มจธ. บางมด และนักดนตรีฝั่งธนบุรีใต้ อุปกรณ์จัดเต็ม เจ้าของเป็นกันเอง"
     },
     {
       "id": "studio-15-เมืองนนทบุรี",
@@ -333,9 +307,7 @@
       "phone": "089-777-8899",
       "sourceUrl": "https://www.facebook.com/chaichanasound",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chaichana+Sound+Studio+Samakkee+Nonthaburi",
-      "description": "สตูดิโอขนาดใหญ่ยอดนิยมย่านติวานนท์-สามัคคี ครบครันทั้งห้องซ้อมดนตรี ห้องอัดเสียง และห้องซ้อมเต้น แอมป์หลอดและกลองสเปกคอนเสิร์ต",
-      "imageUrl": "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Mixing Console & Audio Monitors"
+      "description": "สตูดิโอขนาดใหญ่ยอดนิยมย่านติวานนท์-สามัคคี ครบครันทั้งห้องซ้อมดนตรี ห้องอัดเสียง และห้องซ้อมเต้น แอมป์หลอดและกลองสเปกคอนเสิร์ต"
     },
     {
       "id": "studio-16-ปากเกร็ด",
@@ -357,8 +329,8 @@
       "sourceUrl": "https://jrockencryption.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Studio+Encrypt+Chaengwattana+Pak+Kret+Nonthaburi",
       "description": "ห้องซ้อมดนตรีสไตล์ญี่ปุ่น ซาวด์ดี เก็บเสียงเยี่ยม มีความเป็นส่วนตัวสูง เหมาะสำหรับแนวร็อก J-Rock อินดี้ และอะคูสติก",
-      "imageUrl": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Studio Instruments Setup"
+      "imageUrl": "https://www.jrockencryption.com/images/content/original-1687700773629.png",
+      "imageCredit": "STUDIO Encrypt · ภาพถ่ายห้องซ้อมจริง"
     },
     {
       "id": "studio-17-เมืองนนทบุรี",
@@ -378,9 +350,7 @@
       "phone": "086-123-4567",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Acoustic+Room+Nonthaburi",
-      "description": "ห้องซ้อมดนตรีราคาย่อมเยาใกล้สะพานพระราม 5 และบิ๊กซีนนทบุรี เครื่องดนตรีเสียงดี เจ้าของเป็นกันเอง มีบริการเช่าเครื่องเสียง",
-      "imageUrl": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Keyboards & Production Desk"
+      "description": "ห้องซ้อมดนตรีราคาย่อมเยาใกล้สะพานพระราม 5 และบิ๊กซีนนทบุรี เครื่องดนตรีเสียงดี เจ้าของเป็นกันเอง มีบริการเช่าเครื่องเสียง"
     },
     {
       "id": "studio-18-เมืองนนทบุรี",
@@ -400,9 +370,7 @@
       "phone": "085-987-6543",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ห้องซ้อมดนตรีสหรัฐ+ตลาดขวัญ+นนทบุรี",
-      "description": "ห้องซ้อมดนตรีทำเลสะดวกใกล้ MRT สายสีม่วง ซาวด์บาลานซ์ดีเยี่ยม ราคาสบายกระเป๋าสำหรับน้องๆ นักเรียนและนักดนตรีอาชีพ",
-      "imageUrl": "https://images.unsplash.com/photo-1462965326201-d02e4f455804?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Studio Keyboard & Microphones"
+      "description": "ห้องซ้อมดนตรีทำเลสะดวกใกล้ MRT สายสีม่วง ซาวด์บาลานซ์ดีเยี่ยม ราคาสบายกระเป๋าสำหรับน้องๆ นักเรียนและนักดนตรีอาชีพ"
     },
     {
       "id": "studio-19-บางบัวทอง",
@@ -422,9 +390,7 @@
       "phone": "083-456-7890",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Good+Day+Musicroom+Bang+Bua+Thong+Nonthaburi",
-      "description": "ศูนย์รวมคนดนตรีโซนบางบัวทอง-บางใหญ่ ห้องกว้างขวาง อุปกรณ์คุณภาพดี ที่จอดรถสะดวกสบาย",
-      "imageUrl": "https://images.unsplash.com/photo-1518972559570-7cc1309f3229?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Vintage Audio Equipment"
+      "description": "ศูนย์รวมคนดนตรีโซนบางบัวทอง-บางใหญ่ ห้องกว้างขวาง อุปกรณ์คุณภาพดี ที่จอดรถสะดวกสบาย"
     },
     {
       "id": "studio-20-คลองหลวง",
@@ -444,9 +410,7 @@
       "phone": "088-269-6874",
       "sourceUrl": "https://www.facebook.com/88boymusic",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=88boymusic+studio+Rangsit+Pathum+Thani",
-      "description": "ขวัญใจเด็ก ม.กรุงเทพ และนักดนตรีย่านรังสิต มีห้องให้เลือกหลายขนาด (ตั้งแต่ไซส์ S ถึง A) ราคาเป็นกันเอง พร้อมบริการบันทึกภาพ/เสียง",
-      "imageUrl": "https://images.unsplash.com/photo-1526394931762-90052e97b376?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Audio Mixing Console Desk"
+      "description": "ขวัญใจเด็ก ม.กรุงเทพ และนักดนตรีย่านรังสิต มีห้องให้เลือกหลายขนาด (ตั้งแต่ไซส์ S ถึง A) ราคาเป็นกันเอง พร้อมบริการบันทึกภาพ/เสียง"
     },
     {
       "id": "studio-21-ธัญบุรี",
@@ -466,9 +430,7 @@
       "phone": "081-999-5566",
       "sourceUrl": "https://www.facebook.com/yukifreedomstudio",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yuki+Freedom+Studio+Rangsit+Pathum+Thani",
-      "description": "ห้องซ้อมและห้องอัดเสียงครบวงจรย่านรังสิต อุปกรณ์ระดับมืออาชีพ เหมาะกับวงดนตรีหรือศิลปินที่ต้องการซ้อมเพื่อเตรียมบันทึกเสียงต่อ",
-      "imageUrl": "https://images.unsplash.com/photo-1543791187-df796fa11835?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Rehearsal Stage & Drum Setup"
+      "description": "ห้องซ้อมและห้องอัดเสียงครบวงจรย่านรังสิต อุปกรณ์ระดับมืออาชีพ เหมาะกับวงดนตรีหรือศิลปินที่ต้องการซ้อมเพื่อเตรียมบันทึกเสียงต่อ"
     },
     {
       "id": "studio-22-คลองหลวง",
@@ -488,9 +450,7 @@
       "phone": "084-321-7654",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tiger+Studio+Rangsit+Phirom+Pathum+Thani",
-      "description": "ห้องซ้อมดนตรีใจกลางแหล่งวัยรุ่นซอยรังสิตภิรมย์ เดินทางสะดวก เครื่องดนตรีครบครัน ตอบโจทย์วงดนตรีนักศึกษา",
-      "imageUrl": "https://images.unsplash.com/photo-1519683109079-d5f539e1542f?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Synthesizer Keyboard Studio"
+      "description": "ห้องซ้อมดนตรีใจกลางแหล่งวัยรุ่นซอยรังสิตภิรมย์ เดินทางสะดวก เครื่องดนตรีครบครัน ตอบโจทย์วงดนตรีนักศึกษา"
     },
     {
       "id": "studio-23-ธัญบุรี",
@@ -510,9 +470,7 @@
       "phone": "082-345-6781",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Band+Practice+Zone+Thanyaburi+Pathum+Thani",
-      "description": "ห้องซ้อมราคาประหยัดที่สุดในโซนรังสิตคลอง เริ่มต้นเพียง 150 บาทต่อชั่วโมง อุปกรณ์พร้อมซ้อม เหมาะสำหรับวงซ้อมประจำ",
-      "imageUrl": "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Audio Interface & Studio Gear"
+      "description": "ห้องซ้อมราคาประหยัดที่สุดในโซนรังสิตคลอง เริ่มต้นเพียง 150 บาทต่อชั่วโมง อุปกรณ์พร้อมซ้อม เหมาะสำหรับวงซ้อมประจำ"
     },
     {
       "id": "studio-24-ลำลูกกา",
@@ -532,9 +490,7 @@
       "phone": "089-678-1234",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=B+Studio+Rangsit+Pathum+Thani",
-      "description": "ห้องซ้อมดนตรีใกล้ BTS คูคต ห้องโปร่งกว้างขวาง เสียงเครื่องดนตรีแน่นชัดเจน พร้อมโซนต้อนรับและที่จอดรถ",
-      "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Live Session & Studio Lights"
+      "description": "ห้องซ้อมดนตรีใกล้ BTS คูคต ห้องโปร่งกว้างขวาง เสียงเครื่องดนตรีแน่นชัดเจน พร้อมโซนต้อนรับและที่จอดรถ"
     },
     {
       "id": "studio-25-บางพลี",
@@ -555,9 +511,7 @@
       "phone": "095-889-1234",
       "sourceUrl": "https://www.facebook.com/joyspacestudio",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JOYSPACE+ห้องซ้อมดนตรี+สมุทรปราการ",
-      "description": "ห้องซ้อมดนตรีขนาดใหญ่ อุปกรณ์มาตรฐานสากล มี Lobby พักผ่อนส่วนตัวพร้อมทีวี YouTube และที่จอดรถกว้างขวางที่สุดในย่านหนามแดง-เทพารักษ์",
-      "imageUrl": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Sound Waves & Audio Console"
+      "description": "ห้องซ้อมดนตรีขนาดใหญ่ อุปกรณ์มาตรฐานสากล มี Lobby พักผ่อนส่วนตัวพร้อมทีวี YouTube และที่จอดรถกว้างขวางที่สุดในย่านหนามแดง-เทพารักษ์"
     },
     {
       "id": "studio-26-บางพลี",
@@ -579,8 +533,8 @@
       "sourceUrl": "https://lifebeatstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lifebeat+Studio+Bang+Phli+Samut+Prakan",
       "description": "สตูดิโอห้องซ้อมและห้องอัดเสียงโซนบางนา-บางพลี ใกล้เมกาบางนา มีห้องเล็กและห้องใหญ่ อุปกรณ์ครบครัน ราคาสบายกระเป๋า",
-      "imageUrl": "https://images.unsplash.com/photo-1525362081669-2b476bb628c3?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Vintage Guitar Amplifier"
+      "imageUrl": "https://static.wixstatic.com/media/825461_470555b727b648039f36a60c1b6c9a3f~mv2.jpg/v1/fill/w_676%2Ch_451%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_auto/825461_470555b727b648039f36a60c1b6c9a3f~mv2.jpg",
+      "imageCredit": "Lifebeat Studio · ภาพถ่ายห้องซ้อมจริง"
     },
     {
       "id": "studio-27-เมืองสมุทรปราการ",
@@ -600,9 +554,7 @@
       "phone": "083-222-1144",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cheer+Music+Paknam+Samut+Prakan",
-      "description": "สตูดิโอห้องซ้อมประจำย่านปากน้ำ สมุทรปราการ อุปกรณ์ดนตรีได้มาตรฐาน ดูแลรักษาอย่างดี เหมาะสำหรับวงซ้อมทุกสไตล์",
-      "imageUrl": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Studio Performance Space"
+      "description": "สตูดิโอห้องซ้อมประจำย่านปากน้ำ สมุทรปราการ อุปกรณ์ดนตรีได้มาตรฐาน ดูแลรักษาอย่างดี เหมาะสำหรับวงซ้อมทุกสไตล์"
     },
     {
       "id": "studio-28-เมืองสมุทรปราการ",
@@ -622,9 +574,7 @@
       "phone": "081-456-7812",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sound+Me+Hang+Studio+Samut+Prakan",
-      "description": "ห้องซ้อมดนตรีระบบอะคูสติกคุณภาพย่านแพรกษา ซาวด์มอนิเตอร์คมชัด แอมป์และกลองชุดพร้อมลุยทุกจังหวะ",
-      "imageUrl": "https://images.unsplash.com/photo-1461784121038-f088ca1e7714?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Band Room Instruments"
+      "description": "ห้องซ้อมดนตรีระบบอะคูสติกคุณภาพย่านแพรกษา ซาวด์มอนิเตอร์คมชัด แอมป์และกลองชุดพร้อมลุยทุกจังหวะ"
     },
     {
       "id": "studio-29-พระสมุทรเจดีย์",
@@ -644,9 +594,7 @@
       "phone": "087-654-3210",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Holls+Studio+Pracha+Uthit+90+Samut+Prakan",
-      "description": "ห้องซ้อมดนตรีบรรยากาศเป็นส่วนตัว รองรับวงดนตรีโซนพระสมุทรเจดีย์และประชาอุทิศ อุปกรณ์มาตรฐานครบชุด",
-      "imageUrl": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Electric Guitar In Studio"
+      "description": "ห้องซ้อมดนตรีบรรยากาศเป็นส่วนตัว รองรับวงดนตรีโซนพระสมุทรเจดีย์และประชาอุทิศ อุปกรณ์มาตรฐานครบชุด"
     },
     {
       "id": "studio-30-พุทธมณฑล",
@@ -667,9 +615,7 @@
       "phone": "089-111-2233",
       "sourceUrl": "https://overlooksalaya.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Overlook+Studio+Salaya+Nakhon+Pathom",
-      "description": "สตูดิโอห้องซ้อมและห้องอัดเสียงระดับโปรย่านศาลายา มีระบบจองห้องซ้อมออนไลน์ 24 ชั่วโมง อุปกรณ์มาตรฐานระดับคอนเสิร์ต",
-      "imageUrl": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Audio Desk & Drum Kit"
+      "description": "สตูดิโอห้องซ้อมและห้องอัดเสียงระดับโปรย่านศาลายา มีระบบจองห้องซ้อมออนไลน์ 24 ชั่วโมง อุปกรณ์มาตรฐานระดับคอนเสิร์ต"
     },
     {
       "id": "studio-31-พุทธมณฑล",
@@ -689,9 +635,7 @@
       "phone": "084-777-6655",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Stu.B+Rehearsal+Studio+Salaya+Nakhon+Pathom",
-      "description": "ห้องซ้อมยอดนิยมของนักศึกษาดุริยางคศิลป์ มหิดล ศาลายา เครื่องดนตรีได้มาตรฐานสูง เหมาะกับการซ้อมวง ซ้อมสอบ และเล่นแจม",
-      "imageUrl": "https://images.unsplash.com/photo-1453090927415-5f45085b65c0?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Sound Control Board"
+      "description": "ห้องซ้อมยอดนิยมของนักศึกษาดุริยางคศิลป์ มหิดล ศาลายา เครื่องดนตรีได้มาตรฐานสูง เหมาะกับการซ้อมวง ซ้อมสอบ และเล่นแจม"
     },
     {
       "id": "studio-32-เมืองนครปฐม",
@@ -711,9 +655,7 @@
       "phone": "086-333-4455",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=House+of+Music+Nakhon+Pathom+Silpakorn",
-      "description": "ห้องซ้อมยอดฮิตของเด็กศิลปากรและนักดนตรีเมืองนครปฐม ทำเลดีหน้า ม.ศิลปากร สนามจันทร์ เครื่องดนตรีแน่นเสียงกระหึ่ม",
-      "imageUrl": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Acoustic Wood Studio"
+      "description": "ห้องซ้อมยอดฮิตของเด็กศิลปากรและนักดนตรีเมืองนครปฐม ทำเลดีหน้า ม.ศิลปากร สนามจันทร์ เครื่องดนตรีแน่นเสียงกระหึ่ม"
     },
     {
       "id": "studio-33-เมืองนครปฐม",
@@ -733,9 +675,7 @@
       "phone": "082-888-7766",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Beat+Studio+Nakhon+Pathom",
-      "description": "ห้องซ้อมดนตรีราคานักศึกษากลางเมืองนครปฐม ซาวด์ใส คุมง่าย บรรยากาศเป็นกันเอง เหมาะกับการซ้อมประจำของวงดนตรี",
-      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Microphone & Rehearsal Room"
+      "description": "ห้องซ้อมดนตรีราคานักศึกษากลางเมืองนครปฐม ซาวด์ใส คุมง่าย บรรยากาศเป็นกันเอง เหมาะกับการซ้อมประจำของวงดนตรี"
     },
     {
       "id": "studio-34-นครชัยศรี",
@@ -755,9 +695,7 @@
       "phone": "081-555-6677",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MN+Music+Nakhon+Chaisi+Nakhon+Pathom",
-      "description": "จุดนัดซ้อมของวงดนตรีย่านนครชัยศรีและพุทธมณฑลสาย 7 บรรยากาศเงียบสงบเป็นส่วนตัว ที่จอดรถสะดวกสบาย",
-      "imageUrl": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Studio Acoustic Wall"
+      "description": "จุดนัดซ้อมของวงดนตรีย่านนครชัยศรีและพุทธมณฑลสาย 7 บรรยากาศเงียบสงบเป็นส่วนตัว ที่จอดรถสะดวกสบาย"
     },
     {
       "id": "studio-35-เมืองสมุทรสาคร",
@@ -777,9 +715,7 @@
       "phone": "089-222-3311",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sp+Music+มหาชัย+สมุทรสาคร",
-      "description": "ห้องซ้อมดนตรีมาตรฐานใจกลางมหาชัย เปิดบริการทุกวันตั้งแต่ 09:00 ถึง 23:30 น. อุปกรณ์ครบครันสำหรับวงดนตรีทุกแนว",
-      "imageUrl": "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Red Neon Music Studio"
+      "description": "ห้องซ้อมดนตรีมาตรฐานใจกลางมหาชัย เปิดบริการทุกวันตั้งแต่ 09:00 ถึง 23:30 น. อุปกรณ์ครบครันสำหรับวงดนตรีทุกแนว"
     },
     {
       "id": "studio-36-เมืองสมุทรสาคร",
@@ -799,9 +735,7 @@
       "phone": "083-111-9988",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Daddys+Home+Studio+Samut+Sakhon",
-      "description": "สตูดิโอบรรยากาศอบอุ่นเป็นกันเอง ห้องเก็บเสียงและอะคูสติกดีเยี่ยม อุปกรณ์จัดเต็ม รองรับทั้งการซ้อมวงและการอัดเสียง",
-      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Rehearsal Stage Amps"
+      "description": "สตูดิโอบรรยากาศอบอุ่นเป็นกันเอง ห้องเก็บเสียงและอะคูสติกดีเยี่ยม อุปกรณ์จัดเต็ม รองรับทั้งการซ้อมวงและการอัดเสียง"
     },
     {
       "id": "studio-37-กระทุ่มแบน",
@@ -821,9 +755,7 @@
       "phone": "085-444-2233",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Earthwalk+Studio+Krathum+Baen+Samut+Sakhon",
-      "description": "ห้องซ้อมดนตรียอดฮิตของชาวกระทุ่มแบน-อ้อมน้อย เจ้าของเป็นนักดนตรี ดูแลปรับแต่งซาวด์ให้วงอย่างมืออาชีพ",
-      "imageUrl": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Concert & Studio Rig"
+      "description": "ห้องซ้อมดนตรียอดฮิตของชาวกระทุ่มแบน-อ้อมน้อย เจ้าของเป็นนักดนตรี ดูแลปรับแต่งซาวด์ให้วงอย่างมืออาชีพ"
     },
     {
       "id": "studio-38-เมืองสมุทรสาคร",
@@ -843,9 +775,7 @@
       "phone": "086-777-1122",
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=บ้านเพื่อนมิวสิค+สมุทรสาคร",
-      "description": "ห้องซ้อมราคาสบายกระเป๋า บรรยากาศอบอุ่นเหมือนมาซ้อมที่บ้านเพื่อน เครื่องดนตรีพร้อมเล่นครบครัน",
-      "imageUrl": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&auto=format&fit=crop&q=80",
-      "imageCredit": "Unsplash · Sound Engineering Studio"
+      "description": "ห้องซ้อมราคาสบายกระเป๋า บรรยากาศอบอุ่นเหมือนมาซ้อมที่บ้านเพื่อน เครื่องดนตรีพร้อมเล่นครบครัน"
     }
   ]
 }

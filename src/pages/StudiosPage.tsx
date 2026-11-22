@@ -15,7 +15,7 @@ import {
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import studiosDirectory from "@/data/studios-directory.json";
-import { DirectoryCover } from "@/components/DirectoryCover";
+import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
 
 export type Studio = {
   id: string;
@@ -98,7 +98,7 @@ export default function StudiosPage() {
       const matchPrice = !maxPrice || studio.priceHourly <= maxPrice;
 
       return matchText && matchProvince && matchFeature && matchPrice;
-    });
+    }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province)) - Number(hasDirectoryCover(a.name, a.province)));
   }, [query, selectedProvince, selectedFeature, maxPrice]);
 
   return (

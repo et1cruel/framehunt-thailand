@@ -8,6 +8,7 @@ dist-ssr
 scripts/ingest/.cache
 data/private
 .DS_Store
+desktop.ini
 playwright-report
 test-results
 coverage

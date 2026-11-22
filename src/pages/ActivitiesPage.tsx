@@ -6,7 +6,7 @@ import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import activityDirectory from "@/data/activity-directory.json";
 import studiosDirectory from "@/data/studios-directory.json";
-import { DirectoryCover } from "@/components/DirectoryCover";
+import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
 import { sceneVenues } from "@/data/live-programs";
 
 type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night" | "temple" | "nakhon-pathom" | "studio";
@@ -39,7 +39,7 @@ export default function ActivitiesPage() {
     return places.filter((place) => {
       const matchesText = !needle || `${place.name} ${place.province} ${place.categories.map((item) => categoryNames[item]).join(" ")}`.toLocaleLowerCase("th").includes(needle);
       return matchesText && (category === "all" || place.categories.includes(category)) && (!province || place.province === province);
-    });
+    }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province, b.sourceUrl)) - Number(hasDirectoryCover(a.name, a.province, a.sourceUrl)));
   }, [category, province, query]);
 
   return (
