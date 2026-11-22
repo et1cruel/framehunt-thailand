@@ -3010,9 +3010,9 @@
     "credit": "Polarbear Studios"
   },
   "Kandee Ztudio (กานดี สตูดิโอ)|กรุงเทพมหานคร": {
-    "url": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1000&auto=format&fit=crop&q=80",
-    "credit": "Unsplash · Vocal Booth & Studio Headphones",
-    "source": "https://candystudiogroup.com"
+    "url": "https://s.isanook.com/wo/0/ui/42/214913/gal-214913-20221201093118-c862215.jpg",
+    "source": "https://www.sanook.com/women/214913/gallery/2168925/",
+    "credit": "Sanook"
   },
   "Dynamic Recording Studio (ไดนามิค)|กรุงเทพมหานคร": {
     "url": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=1000&auto=format&fit=crop&q=80",
@@ -6958,5 +6958,225 @@
     "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=3018ddd9-9761-4457-8059-1ec6732678ca.png",
     "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=5829",
     "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "น้ำตกจ๊อกกระดิ่น · ทองผาภูมิ|กาญจนบุรี": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=ac0f439a-cd85-43d1-a2c0-e456d49d4229.png",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1008",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "น้ำตกมะกอก · น้ำตกพลิ้ว|จันทบุรี": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=0c8d0bd6-f00f-4229-a45b-9da49faaceba.jpg",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=963",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "อ่างเก็บน้ำกงษีไร่ · น้ำตกพลิ้ว|จันทบุรี": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=ef94f909-91ab-451e-9c78-ed43fdd53460.png",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=963",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "บ่อน้ำพุร้อนเทพพนม · ออบหลวง|เชียงใหม่": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=010e1f6b-4688-4afd-b9fb-973ac9834b28.png",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=925",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "น้ำตกน้ำลีหลวง · ขุนสถาน|น่าน": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=ce82a494-2ea4-4ce0-8665-ea34970d5ea6.png",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=935",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "ถ้ำแก้ว · เขาสามร้อยยอด|ประจวบคีรีขันธ์": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=9663f584-7e2e-41ba-8974-06bc00e5edab.png",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1016",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "เกาะพนัก · อ่าวพังงา|พังงา": {
+    "url": "https://portal.dnp.go.th/DNP/FileSystem/download?uuid=9bedfc42-93ef-426e-ac94-3e8bd833c53e.png",
+    "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=997",
+    "credit": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช"
+  },
+  "สวนทวีกาญจนาภิเษก|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_3963-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-tawe-kanchanaphisek/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนป้อมมหากาฬ|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/04/IMG_0937-scaled.jpg",
+    "source": "https://greener.bangkok.go.th/park/suan-pom-mahakala/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "ลานคนเมือง ศาลาว่าการกรุงเทพมหานคร|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/04/IMG_0915-scaled.jpg",
+    "source": "https://greener.bangkok.go.th/park/lan-kon-mueang-bkk/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนพระนคร|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/park13-10.jpg",
+    "source": "https://greener.bangkok.go.th/park/suan-pranakorn/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนสมเด็จย่า 84|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_0596-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-somdet-ya-84/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนสาธารณะบึงน้ำลาดพร้าว 71|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_0121-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-satharana-bueng-nam-ladphrao-71/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนวัชราภิรมย์|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_8349-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-watchara-phiroam/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนปิยะภิรมย์|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_8680-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-piya-phiroam/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวน 60 พรรษา สมเด็จพระบรมราชินีนาถ|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_0209-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-60-phansa-somdet-phranangchao-phra-borommarachininat/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนพระยาภิรมย์|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_8410-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-praya-phiroam/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนบึงกระเทียม|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_8503-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-buengkratiem/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "สวนนวมินทร์ภิรมย์|กรุงเทพมหานคร": {
+    "url": "https://greener.bangkok.go.th/wp-content/uploads/2024/05/IMG_8651-scaled.jpeg",
+    "source": "https://greener.bangkok.go.th/park/suan-nawamin-phiroam/",
+    "credit": "Greener Bangkok · กรุงเทพมหานคร"
+  },
+  "วัดบุปผารามวรวิหาร (วัดดอกไม้)|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251903094735.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดอนงคารามวรวิหาร (วัดน้อยขำแถม)|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251803153454.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดทองศาลางาม|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261409080221.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดชำนิหัตถการ (วัดสามง่าม)|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261309174418.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดทองธรรมชาติวรวิหาร|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251803154038.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดบพิตรพิมุขวรวิหาร|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261509100227.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดจักรวรรดิราชาวาสวรมหาวิหาร (วัดสามปลื้ม)|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251903112947.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดสัมพันธวงศาราม (วัดเกาะแก้วลังการาม)|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251903113110.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดบรมนิวาสราชวรวิหาร|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251903102604.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดโสมนัสราชวรวิหาร (วัดโสมนัสวิหาร)|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251903102945.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดมกุฏกษัตริยารามราชวรวิหาร|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261009103159.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดพระยาทำวรวิหาร|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20251903095413.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดดาวดึงษาราม|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261209221823.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดอาวุธวิกสิตาราม|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261309073208.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดบางขุนเทียนนอก|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261309122716.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดบุณยประดิษฐ์|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261609094400.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดไผ่เงินโชตนาราม|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261209203241.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "วัดลาดพร้าว|กรุงเทพมหานคร": {
+    "url": "https://www.lovethailand.org/images/banner/content/lovethailand_banner_20261509090303.webp",
+    "source": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
+    "credit": "Lovethailand.org"
+  },
+  "JET SHOP Second-Hand|เชียงใหม่": {
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/mylivelog/20250109/20250109211344.jpg",
+    "source": "https://livelog81.hatenablog.jp/entry/chiangmai-vintage-clothing#JET-SHOP-Second-Hand",
+    "credit": "mylivelog · Hatena Blog"
+  },
+  "SURTRICT STORE|เชียงใหม่": {
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/mylivelog/20250109/20250109210218.jpg",
+    "source": "https://livelog81.hatenablog.jp/entry/chiangmai-vintage-clothing#SURTRICT-STORE",
+    "credit": "mylivelog · Hatena Blog"
+  },
+  "Takiang Vintage Store|เชียงใหม่": {
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/mylivelog/20250109/20250109210407.jpg",
+    "source": "https://livelog81.hatenablog.jp/entry/chiangmai-vintage-clothing#Takiang-Vintage-Store",
+    "credit": "mylivelog · Hatena Blog"
+  },
+  "Phannarai Residence, Silpakorn University Art Gallery|กรุงเทพมหานคร": {
+    "url": "https://rama9art-th1.s3.ap-southeast-7.amazonaws.com/f/media/name_records/images/12764e9ceef412a5d8d3fe23ce174cab55b8a6b998cecbebac18b2b7680ecbf7-s.jpg",
+    "source": "https://www.rama9art.org/galleries/1389",
+    "credit": "Rama IX Art Museum"
+  },
+  "Baan Tuek Art Center|เชียงใหม่": {
+    "url": "https://rama9art-th1.s3.ap-southeast-7.amazonaws.com/f/media/name_records/images/35c3295e6f9509884b6951e0e16cba6751186260025d2c45a5c61a39cd3f49f8-s.jpg",
+    "source": "https://www.rama9art.org/galleries/126",
+    "credit": "Rama IX Art Museum"
+  },
+  "Kunawong House Museum|กรุงเทพมหานคร": {
+    "url": "https://static.wixstatic.com/media/7f1029_ac02b633e1e54f739b536eba4afec2dc~mv2.png/v1/fill/w_980%2Ch_454%2Cq_90%2Cenc_avif%2Cquality_auto/7f1029_ac02b633e1e54f739b536eba4afec2dc~mv2.png",
+    "source": "https://www.kunawonghousemuseum.com/th/the-residence",
+    "credit": "Kunawong House Museum"
+  },
+  "Nova Contemporary|กรุงเทพมหานคร": {
+    "url": "https://falcon.groundcontrolth.com/upload/2800d8816e084e97095411f86ed827ec.jpg",
+    "source": "https://groundcontrolth.com/blogs/nova-infocus",
+    "credit": "GroundControl"
   }
 }
