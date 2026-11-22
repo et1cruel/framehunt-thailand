@@ -776,6 +776,26 @@
       "sourceUrl": "https://harmoniqstudio.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=บ้านเพื่อนมิวสิค+สมุทรสาคร",
       "description": "ห้องซ้อมราคาสบายกระเป๋า บรรยากาศอบอุ่นเหมือนมาซ้อมที่บ้านเพื่อน เครื่องดนตรีพร้อมเล่นครบครัน"
+    },
+    {
+      "id": "studio-tres-salaya",
+      "name": "TRES Music Studio ศาลายา",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "address": "65/21 ศาลายา อำเภอพุทธมณฑล ใกล้มหาวิทยาลัยมหิดล",
+      "rates": "เริ่มต้น ฿350 / ชั่วโมง (ห้องซ้อมเปียโน)",
+      "priceHourly": 350,
+      "features": [
+        "ห้องซ้อมเปียโน",
+        "ห้องซ้อมส่วนตัว",
+        "ที่จอดรถ"
+      ],
+      "equipment": "Yamaha Upright Piano",
+      "sourceUrl": "https://www.schoolandcollegelistings.com/TH/Nakhon-Pathom/130955910110569/TRES-Music-Studio",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=TRES+Music+Studio+Salaya+Nakhon+Pathom",
+      "imageUrl": "",
+      "imageCredit": "TRES Music Studio",
+      "description": "สตูดิโอสอนดนตรีและให้เช่าห้องซ้อมส่วนตัวรายชั่วโมง มีห้องซ้อมเปียโนพร้อม Yamaha Upright Piano และห้องสตูดิโอให้เช่าใกล้มหาวิทยาลัยมหิดล ศาลายา"
     }
   ]
 }

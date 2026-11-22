@@ -14226,7 +14226,9 @@
       "province": "นครปฐม",
       "district": "กำแพงแสน",
       "categories": [
-        "nakhon-pathom"
+        "nakhon-pathom",
+        "nature",
+        "forest"
       ],
       "sourceUrl": "https://www.nkppao.go.th/content-18-9618.html",
       "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
@@ -15494,6 +15496,53 @@
         "nakhon-pathom"
       ],
       "sourceUrl": "https://thai.tourismthailand.org/Attraction/วัดทรงธรรมกัลยาณี"
+    },
+    {
+      "name": "เส้นทางล่องเรือชมสวนและทุ่งบัวคลองมหาสวัสดิ์",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.mahasawat.go.th/content-36-4025.html"
+    },
+    {
+      "name": "สนามวิ่งและสนามกีฬามหาวิทยาลัยมหิดล ศาลายา",
+      "province": "นครปฐม",
+      "categories": [
+        "sports",
+        "fitness",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://pantip.com/topic/33184861"
+    },
+    {
+      "name": "วัดประชาราษฎร์บำรุง (วัดรางหมัน)",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.thaiholidayguide.com/attraction/wat-pracharat-bamrung-wat-rang-man/"
+    },
+    {
+      "name": "ศูนย์เรียนรู้ภูมิปัญญาไทยปิยะชนก",
+      "province": "นครปฐม",
+      "categories": [
+        "art",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/en/22-Nakhon-Pathom/1757-Piyachanok-Thai-Wisdom-Learning-Center.html"
+    },
+    {
+      "name": "อุทยานการอาชีพชัยพัฒนา",
+      "province": "นครปฐม",
+      "categories": [
+        "art",
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.chaipat.or.th/news-all/project-progress-reports/item/11615-1-2566-2.html"
     }
   ]
 }
