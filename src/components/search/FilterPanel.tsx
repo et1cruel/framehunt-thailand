@@ -1,3 +1,5 @@
+import { useLanguage } from "@/i18n/Language";
+import { Localized } from "@/i18n/Language";
 import { useId, useState } from "react";
 import { SlidersHorizontal, X } from "lucide-react";
 import type { SearchFilters } from "@/data/types";
@@ -23,6 +25,7 @@ const PERMISSIONS = [
 ];
 
 export function FilterFields({ filters, onChange, onReset }: Props) {
+  const { language, t } = useLanguage();
   const fieldId = useId();
   const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({
     urban: true,
@@ -40,24 +43,22 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
   return (
     <div className="space-y-7">
       <div className="flex items-center justify-between">
-        <p className="label-mono text-concrete">ตัวกรอง</p>
+        <p className="label-mono text-concrete"> <Localized text="ตัวกรอง" /> </p>
         <button
           type="button"
           onClick={onReset}
           className="label-mono text-concrete underline decoration-paper/20 underline-offset-4 hover:text-acid"
-        >
-          ล้างทั้งหมด
-        </button>
+        > <Localized text="ล้างทั้งหมด" /> </button>
       </div>
 
       <div>
-        <Label htmlFor={`${fieldId}-province`}>จังหวัด</Label>
+        <Label htmlFor={`${fieldId}-province`}> <Localized text="จังหวัด" /> </Label>
         <Select
           id={`${fieldId}-province`}
           value={filters.province}
           onChange={(e) => onChange({ province: e.target.value })}
         >
-          <option value="">ทุกจังหวัด</option>
+          <option value=""> <Localized text="ทุกจังหวัด" /> </option>
           {provinces.map((p) => (
             <option key={p.slug} value={p.slug}>
               {p.name_th} — {p.name_en}
@@ -67,7 +68,7 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
       </div>
 
       <div>
-        <Label>ประเภทสถานที่</Label>
+        <Label> <Localized text="ประเภทสถานที่" /> </Label>
         <div className="space-y-2">
           {grouped.map(({ group, meta, items }) => {
             const selectedCount = items.filter((c) => filters.categories.includes(c.slug)).length;
@@ -81,7 +82,7 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
                 >
                   <span className="flex items-center gap-2 font-sans text-xs text-paper/80">
                     <span className="h-2 w-2" style={{ background: meta.color }} />
-                    {meta.name_th}
+                    {language === "en" ? meta.name_en : meta.name_th}
                     {selectedCount > 0 && <span className="font-mono text-xs text-acid">({selectedCount})</span>}
                   </span>
                   <span className="font-mono text-xs text-concrete">{openGroups[group] ? "−" : "+"}</span>
@@ -110,7 +111,7 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
                             }
                             className="h-3 w-3 accent-acid"
                           />
-                          <span className="truncate">{c.name_th}</span>
+                          <span className="truncate">{language === "en" ? c.name_en : c.name_th}</span>
                         </label>
                       );
                     })}
@@ -152,7 +153,7 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
       </div>
 
       <div>
-        <Label htmlFor={`${fieldId}-permission`}>สถานะการอนุญาต</Label>
+        <Label htmlFor={`${fieldId}-permission`}> <Localized text="สถานะการอนุญาต" /> </Label>
         <Select
           id={`${fieldId}-permission`}
           value={filters.permission}
@@ -160,47 +161,43 @@ export function FilterFields({ filters, onChange, onReset }: Props) {
         >
           {PERMISSIONS.map((p) => (
             <option key={p.value} value={p.value}>
-              {p.label}
+              {t(p.label)}
             </option>
           ))}
         </Select>
-        <p className="mt-2 font-sans text-xs leading-relaxed text-concrete">
-          ข้อมูลส่วนใหญ่ยังไม่ผ่านการยืนยันจากหน่วยงาน — ระบบจะไม่ถือว่าสถานที่ที่เปิดให้ท่องเที่ยวอนุญาตถ่ายทำเชิงพาณิชย์โดยอัตโนมัติ
-        </p>
+        <p className="mt-2 font-sans text-xs leading-relaxed text-concrete"> <Localized text="ข้อมูลส่วนใหญ่ยังไม่ผ่านการยืนยันจากหน่วยงาน — ระบบจะไม่ถือว่าสถานที่ที่เปิดให้ท่องเที่ยวอนุญาตถ่ายทำเชิงพาณิชย์โดยอัตโนมัติ" /> </p>
       </div>
 
       <div className="space-y-3 border-t border-line pt-5">
         <Switch
           checked={filters.withPhotosOnly}
           onCheckedChange={(v) => onChange({ withPhotosOnly: v })}
-          label="เฉพาะที่มีภาพ"
+          label={t("เฉพาะที่มีภาพ")}
         />
         <Switch
           checked={filters.verifiedOnly}
           onCheckedChange={(v) => onChange({ verifiedOnly: v })}
-          label="เฉพาะพิกัดที่ยืนยันแล้ว"
+          label={language === "en" ? "Verified coordinates only" : "เฉพาะพิกัดที่ยืนยันแล้ว"}
         />
       </div>
 
       <div>
-        <Label htmlFor={`${fieldId}-sort`}>เรียงตาม</Label>
+        <Label htmlFor={`${fieldId}-sort`}> <Localized text="เรียงตาม" /> </Label>
         <Select
           id={`${fieldId}-sort`}
           value={filters.sort}
           onChange={(e) => onChange({ sort: e.target.value as SearchFilters["sort"] })}
         >
-          <option value="relevance">ความเกี่ยวข้อง</option>
-          <option value="recent">เพิ่มล่าสุด / ตรวจสอบล่าสุด</option>
-          <option value="photos">จำนวนภาพ</option>
-          <option value="distance">ระยะทาง (ต้องเปิดตำแหน่ง)</option>
+          <option value="relevance"> <Localized text="ความเกี่ยวข้อง" /> </option>
+          <option value="recent"> <Localized text="เพิ่มล่าสุด / ตรวจสอบล่าสุด" /> </option>
+          <option value="photos"> <Localized text="จำนวนภาพ" /> </option>
+          <option value="distance"> <Localized text="ระยะทาง (ต้องเปิดตำแหน่ง)" /> </option>
         </Select>
       </div>
 
       <div className="border border-line bg-paper/[0.02] p-3">
         <p className="label-mono mb-1 text-concrete">NEED A STARTING POINT?</p>
-        <p className="font-sans text-xs leading-relaxed text-concrete">
-          ลองค้นว่า “โกดังเก่า”, “ถ้ำ”, “Gothic” หรือเลือกจังหวัดแล้วกดดูผลลัพธ์
-        </p>
+        <p className="font-sans text-xs leading-relaxed text-concrete"> <Localized text="ลองค้นว่า “โกดังเก่า”, “ถ้ำ”, “Gothic” หรือเลือกจังหวัดแล้วกดดูผลลัพธ์" /> </p>
       </div>
     </div>
   );
@@ -223,12 +220,10 @@ export function FilterSheet(props: Props & { open: boolean; onOpenChange: (v: bo
         aria-describedby={undefined}
         className="bottom-0 left-0 top-auto max-h-[88vh] w-full max-w-none translate-x-0 translate-y-0 rounded-b-none border-x-0 border-b-0 p-5 md:p-7"
       >
-        <DialogTitle className="display mb-5 text-2xl">ตัวกรอง</DialogTitle>
+        <DialogTitle className="display mb-5 text-2xl"> <Localized text="ตัวกรอง" /> </DialogTitle>
         <FilterFields {...props} />
         <div className="sticky bottom-0 -mx-5 mt-6 border-t border-line bg-ink px-5 py-4 md:-mx-7 md:px-7">
-          <Button className="w-full" onClick={() => props.onOpenChange(false)}>
-            ดูผลลัพธ์ {props.resultCount} สถานที่
-          </Button>
+          <Button className="w-full" onClick={() => props.onOpenChange(false)}> <Localized text="ดูผลลัพธ์" /> {props.resultCount} <Localized text="สถานที่" /> </Button>
         </div>
       </DialogContent>
     </Dialog>
@@ -290,9 +285,7 @@ export function ActiveFilterChips({
         type="button"
         onClick={onReset}
         className="font-mono text-xs tracking-normal text-concrete hover:text-paper"
-      >
-        ล้างทั้งหมด
-      </button>
+      > <Localized text="ล้างทั้งหมด" /> </button>
     </div>
   );
 }
@@ -304,9 +297,7 @@ export function MobileFilterButton({ count, onClick }: { count: number; onClick:
       onClick={onClick}
       className="flex h-11 items-center gap-2 clay-control border border-white bg-ink/85 px-4 font-mono text-xs tracking-normal text-concrete lg:hidden"
     >
-      <SlidersHorizontal className="h-3.5 w-3.5" />
-      ตัวกรอง
-      {count > 0 && (
+      <SlidersHorizontal className="h-3.5 w-3.5" /> <Localized text="ตัวกรอง" /> {count > 0 && (
         <span className="flex h-4 min-w-4 items-center justify-center bg-acid px-1 text-xs text-ink">{count}</span>
       )}
     </button>

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
 import App from "@/App";
+import { LanguageProvider } from "@/i18n/Language";
 import { CatalogProvider } from "@/components/system/CatalogProvider";
 import { AuthProvider } from "@/services/auth";
 import "@/styles/index.css";
@@ -27,7 +28,7 @@ createRoot(root).render(
       <BrowserRouter>
         <AuthProvider>
           <CatalogProvider>
-            <App />
+            <LanguageProvider><App /></LanguageProvider>
           </CatalogProvider>
         </AuthProvider>
       </BrowserRouter>

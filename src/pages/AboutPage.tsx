@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, Camera, Database, FileWarning, MapPin, ShieldCheck, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/layout/SectionHeading";
@@ -207,9 +208,7 @@ export default function AboutPage() {
                 <th scope="col" className="label-mono px-4 py-3 text-concrete">
                   ใบอนุญาต
                 </th>
-                <th scope="col" className="label-mono px-4 py-3 text-right text-concrete">
-                  จำนวนภาพ
-                </th>
+                <th scope="col" className="label-mono px-4 py-3 text-right text-concrete"> <Localized text="จำนวนภาพ" /> </th>
                 <th scope="col" className="label-mono px-4 py-3 text-right text-concrete">
                   สัดส่วน
                 </th>
@@ -319,7 +318,7 @@ export default function AboutPage() {
               <Button variant="primary">เริ่มค้นหาโลเคชัน</Button>
             </Link>
             <Link to="/map">
-              <Button variant="outline">เปิดแผนที่</Button>
+              <Button variant="outline"> <Localized text="เปิดแผนที่" /> </Button>
             </Link>
           </div>
         </div>

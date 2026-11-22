@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { ArrowUpRight, MapPin, Search, Shirt, Store } from "lucide-react";
 import { Input } from "@/components/ui";
@@ -60,44 +61,42 @@ export default function SecondhandPage() {
         <h1 className="display mt-3 text-4xl md:text-6xl">
           SECONDHAND<span className="text-burnt">.</span>
         </h1>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-concrete sm:text-base">
-          รวมโกดังสินค้าญี่ปุ่นมือสองและแหล่งเสื้อผ้ามือสองจากหลายจังหวัด มีทั้งโกดังให้คุ้ย ร้านวินเทจคัดชิ้น และตลาดนัด
-        </p>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-concrete sm:text-base"> <Localized text="รวมโกดังสินค้าญี่ปุ่นมือสองและแหล่งเสื้อผ้ามือสองจากหลายจังหวัด มีทั้งโกดังให้คุ้ย ร้านวินเทจคัดชิ้น และตลาดนัด" /> </p>
         <div className="mt-5 flex flex-wrap gap-2 text-xs text-concrete">
-          <button type="button" aria-pressed={province === bangkok && kind === "clothing"} className="clay-control border border-white bg-white/80 px-3 py-2 font-semibold text-acid aria-pressed:bg-sage" onClick={() => { setQuery(""); setKind("clothing"); setProvince(bangkok); }}>เสื้อผ้ามือสองในกรุงเทพฯ</button>
+          <button type="button" aria-pressed={province === bangkok && kind === "clothing"} className="clay-control border border-white bg-white/80 px-3 py-2 font-semibold text-acid aria-pressed:bg-sage" onClick={() => { setQuery(""); setKind("clothing"); setProvince(bangkok); }}> <Localized text="เสื้อผ้ามือสองในกรุงเทพฯ" /> </button>
         </div>
       </section>
 
       <section className="clay-panel my-6 grid gap-3 p-4 md:grid-cols-[1fr_14rem_14rem]" aria-label="ตัวกรองร้านมือสอง">
         <label className="relative">
-          <span className="sr-only">ค้นหาชื่อร้านหรือจังหวัด</span>
+          <span className="sr-only"> <Localized text="ค้นหาชื่อร้านหรือจังหวัด" /> </span>
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-concrete" aria-hidden />
           <Input type="search" className="pl-9" placeholder="ค้นหาชื่อร้านหรือจังหวัด" value={query} onChange={(event) => setQuery(event.target.value)} />
         </label>
         <label>
-          <span className="sr-only">ประเภทสถานที่</span>
+          <span className="sr-only"> <Localized text="ประเภทสถานที่" /> </span>
           <select className="clay-control h-11 w-full border border-white bg-white/80 px-3 text-sm" value={kind} onChange={(event) => setKind(event.target.value as "all" | ShopKind)}>
-            <option value="all">ทุกประเภท</option>
-            <option value="japan">โกดังสินค้าญี่ปุ่น</option>
-            <option value="clothing">เสื้อผ้ามือสอง</option>
-            <option value="vintage">วินเทจ / ของสะสม</option>
+            <option value="all"> <Localized text="ทุกประเภท" /> </option>
+            <option value="japan"> <Localized text="โกดังสินค้าญี่ปุ่น" /> </option>
+            <option value="clothing"> <Localized text="เสื้อผ้ามือสอง" /> </option>
+            <option value="vintage"> <Localized text="วินเทจ / ของสะสม" /> </option>
           </select>
         </label>
         <label>
-          <span className="sr-only">จังหวัด</span>
+          <span className="sr-only"> <Localized text="จังหวัด" /> </span>
           <select className="clay-control h-11 w-full border border-white bg-white/80 px-3 text-sm" value={province} onChange={(event) => setProvince(event.target.value)}>
-            <option value="">ทุกจังหวัด</option>
+            <option value=""> <Localized text="ทุกจังหวัด" /> </option>
             {provinces.map((item) => <option key={item} value={item}>{item}</option>)}
           </select>
         </label>
       </section>
 
       <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
-        <h2 className="text-lg font-bold">แหล่งช้อปมือสองทั่วไทย</h2>
-        <p className="text-xs text-concrete">แสดง {filtered.length} จาก {shops.length} แห่ง · แนะนำให้เช็กวันเปิดกับร้านก่อนเดินทาง</p>
+        <h2 className="text-lg font-bold"> <Localized text="แหล่งช้อปมือสองทั่วไทย" /> </h2>
+        <p className="text-xs text-concrete"> <Localized text="แสดง" /> {filtered.length} <Localized text="จาก" /> {shops.length} <Localized text="แห่ง · แนะนำให้เช็กวันเปิดกับร้านก่อนเดินทาง" /> </p>
       </div>
       {filtered.length === 0 ? (
-        <div className="clay-panel p-8 text-center text-concrete">ไม่พบร้าน ลองเปลี่ยนคำค้นหาหรือตัวกรอง</div>
+        <div className="clay-panel p-8 text-center text-concrete"> <Localized text="ไม่พบร้าน ลองเปลี่ยนคำค้นหาหรือตัวกรอง" /> </div>
       ) : (
         <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
           {filtered.map((shop, index) => (
@@ -106,19 +105,18 @@ export default function SecondhandPage() {
                 <div>
                   <DirectoryCover name={shop.name} province={shop.province} />
                   <div className="mb-3 flex items-center justify-between gap-3">
-                    <span className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{kindLabels[shop.kind]}</span>
+                    <span className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{<Localized text={kindLabels[shop.kind]} />}</span>
                     <Store className="h-4 w-4 shrink-0 text-acid" aria-hidden />
                   </div>
                   <h3 className="font-bold leading-snug">{shop.name}</h3>
                   <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.district ? `${shop.district} · ` : ""}{shop.province}</p>
-                  {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete">บันทึกในแหล่งข้อมูล: {observedDate(shop.lastObservedAt)}</p>}
+                  {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete"> <Localized text="บันทึกในแหล่งข้อมูล:" /> {observedDate(shop.lastObservedAt)}</p>}
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={shop.mapsUrl} target="_blank" rel="noreferrer">
-                    แผนที่ <MapPin className="h-3.5 w-3.5" aria-hidden />
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={shop.mapsUrl} target="_blank" rel="noreferrer"> <Localized text="แผนที่" /> <MapPin className="h-3.5 w-3.5" aria-hidden />
                   </a>
                   <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={shop.source} target="_blank" rel="noreferrer">
-                    {shop.kind === "japan" ? "เพจร้าน / แหล่งที่มา" : "ข้อมูลร้าน"} <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
+                    {<Localized text={shop.kind === "japan" ? "แหล่งข้อมูล" : "ข้อมูลร้าน"} />} <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
                   </a>
                 </div>
               </article>

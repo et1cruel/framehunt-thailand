@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { ArrowUpRight, ForkKnife, MapPin, Search } from "lucide-react";
 import { Input } from "@/components/ui";
@@ -58,8 +59,7 @@ export default function FoodPage() {
           <ForkKnife className="h-4 w-4" aria-hidden />
           FRAMEHUNT FOOD · THAILAND
         </div>
-        <h1 className="display mt-3 text-4xl md:text-6xl">
-          กินทั่วไทย<span className="text-burnt">.</span>
+        <h1 className="display mt-3 text-4xl md:text-6xl"> <Localized text="กินทั่วไทย" /> <span className="text-burnt">.</span>
         </h1>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-concrete sm:text-base">
           จากหมูกระทะบุฟเฟต์มื้อดึก ไปจนถึงร้านอาหารถิ่นและร้านแนะนำทั่วประเทศ รวมไว้ให้ค้นหาตามชื่อ ประเภท และจังหวัด
@@ -72,7 +72,7 @@ export default function FoodPage() {
 
       <section className="clay-panel my-6 grid gap-3 p-4 md:grid-cols-[1fr_14rem_14rem]" aria-label="ตัวกรองร้านอาหาร">
         <label className="relative">
-          <span className="sr-only">ค้นหาชื่อร้านหรือจังหวัด</span>
+          <span className="sr-only"> <Localized text="ค้นหาชื่อร้านหรือจังหวัด" /> </span>
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-concrete" aria-hidden />
           <Input type="search" className="pl-9" placeholder="ค้นหาชื่อร้านหรือจังหวัด" value={query} onChange={(event) => setQuery(event.target.value)} />
         </label>
@@ -83,9 +83,9 @@ export default function FoodPage() {
           </select>
         </label>
         <label>
-          <span className="sr-only">จังหวัด</span>
+          <span className="sr-only"> <Localized text="จังหวัด" /> </span>
           <select className="clay-control h-11 w-full border border-white bg-white/80 px-3 text-sm" value={province} onChange={(event) => setProvince(event.target.value)}>
-            <option value="">ทุกจังหวัด</option>
+            <option value=""> <Localized text="ทุกจังหวัด" /> </option>
             {provinces.map((item) => <option key={item} value={item}>{item}</option>)}
           </select>
         </label>
@@ -93,11 +93,11 @@ export default function FoodPage() {
 
       <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
         <h2 className="text-lg font-bold">ร้านอาหารแนะนำทั่วไทย</h2>
-        <p className="text-xs text-concrete">แสดง {filtered.length} จาก {restaurants.length} ร้าน · เช็กสาขาและเวลาเปิดกับร้านก่อนเดินทาง</p>
+        <p className="text-xs text-concrete"> <Localized text="แสดง" /> {filtered.length} <Localized text="จาก" /> {restaurants.length} ร้าน · เช็กสาขาและเวลาเปิดกับร้านก่อนเดินทาง</p>
       </div>
 
       {filtered.length === 0 ? (
-        <div className="clay-panel p-8 text-center text-concrete">ไม่พบร้าน ลองเปลี่ยนคำค้นหาหรือตัวกรอง</div>
+        <div className="clay-panel p-8 text-center text-concrete"> <Localized text="ไม่พบร้าน ลองเปลี่ยนคำค้นหาหรือตัวกรอง" /> </div>
       ) : (
         <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
           {filtered.map((restaurant, index) => (
@@ -107,7 +107,7 @@ export default function FoodPage() {
                   <DirectoryCover name={restaurant.name} province={restaurant.province} source={restaurant.source} />
                   <div className="mb-3 flex flex-wrap gap-1.5">
                     {restaurant.categories.map((item) => (
-                      <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{categoryLabels[item]}</span>
+                      <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{<Localized text={categoryLabels[item]} />}</span>
                     ))}
                   </div>
                   <h3 className="font-bold leading-snug">{restaurant.name}</h3>
@@ -115,11 +115,9 @@ export default function FoodPage() {
                   <p className="mt-2 text-xs text-concrete">แหล่งข้อมูล: {restaurant.sourceName}</p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={restaurant.mapsUrl} target="_blank" rel="noreferrer">
-                    แผนที่ <MapPin className="h-3.5 w-3.5" aria-hidden />
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={restaurant.mapsUrl} target="_blank" rel="noreferrer"> <Localized text="แผนที่" /> <MapPin className="h-3.5 w-3.5" aria-hidden />
                   </a>
-                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={restaurant.source} target="_blank" rel="noreferrer">
-                    รายละเอียด / แหล่งที่มา <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
+                  <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={restaurant.source} target="_blank" rel="noreferrer"> <Localized text="รายละเอียด / แหล่งที่มา" /> <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
                   </a>
                 </div>
               </article>

@@ -1,3 +1,5 @@
+import { useLanguage } from "@/i18n/Language";
+import { Localized } from "@/i18n/Language";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Focus, ArrowUpRight, Heart, Menu, Search } from "lucide-react";
@@ -22,6 +24,7 @@ const iconClass =
   "clay-control relative grid h-10 w-10 place-items-center border border-white bg-ink/85 text-paper hover:bg-sage hover:text-acid";
 
 export function Header() {
+  const { language, setLanguage, t } = useLanguage();
   const [open, setOpen] = useState(false);
   const { favorites } = useFavorites();
 
@@ -52,12 +55,12 @@ export function Header() {
                 )
               }
             >
-              {item.label}
+              {t(item.label)}
             </NavLink>
           ))}
         </nav>
 
-        <div className="flex shrink-0 gap-1.5">
+        <div className="flex shrink-0 gap-1.5"><div role="group" aria-label="Language" className="flex items-center rounded-xl bg-white/80 p-1">{(["en", "th"] as const).map((code) => <button key={code} type="button" aria-label={code === "en" ? "English" : "ภาษาไทย"} aria-pressed={language === code} onClick={() => setLanguage(code)} className={cn("rounded-lg px-2 py-2 text-xs font-bold text-acid", language === code && "bg-sage")}>{code.toUpperCase()}</button>)}</div>
           <Link to="/explore" className={cn(iconClass, "hidden sm:grid")} aria-label="ไปหน้าค้นหา">
             <Search className="h-4 w-4" />
           </Link>
@@ -77,7 +80,7 @@ export function Header() {
               </button>
             </DialogTrigger>
             <DialogContent className="max-w-md" aria-describedby={undefined}>
-              <DialogTitle className="mb-5 pr-12 font-display text-2xl">เมนู Framehunt</DialogTitle>
+              <DialogTitle className="mb-5 pr-12 font-display text-2xl"> <Localized text="เมนู Framehunt" /> </DialogTitle>
               <nav className="grid gap-2" aria-label="เมนูมือถือ">
                 {NAV.map((item) => (
                   <NavLink
@@ -91,7 +94,7 @@ export function Header() {
                       )
                     }
                   >
-                    {item.label}
+                    {t(item.label)}
                     <ArrowUpRight className="h-4 w-4 text-acid" />
                   </NavLink>
                 ))}
@@ -99,9 +102,7 @@ export function Header() {
                   to="/admin"
                   onClick={() => setOpen(false)}
                   className="mt-2 px-4 py-2 text-sm text-concrete hover:text-acid"
-                >
-                  สำหรับผู้ดูแล
-                </Link>
+                > <Localized text="สำหรับผู้ดูแล" /> </Link>
               </nav>
             </DialogContent>
           </Dialog>

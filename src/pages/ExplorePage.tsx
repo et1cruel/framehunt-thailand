@@ -1,3 +1,5 @@
+import { useLanguage } from "@/i18n/Language";
+import { Localized } from "@/i18n/Language";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowUpRight, Bookmark, Grid2X2, List, LocateFixed, Map as MapIcon, X } from "lucide-react";
@@ -34,6 +36,7 @@ function filtersFromParams(sp: URLSearchParams): SearchFilters {
 }
 
 export default function ExplorePage() {
+  const { language, t } = useLanguage();
   const { searchLocations } = useLocationCatalog();
   const [sp, setSp] = useSearchParams();
   const filters = useMemo(() => filtersFromParams(sp), [sp]);
@@ -163,7 +166,7 @@ export default function ExplorePage() {
           <div className="hidden text-right md:block">
             <p className="label-mono text-concrete">QUERY</p>
             <p className="mt-1 max-w-sm truncate font-sans text-sm text-concrete">
-              {filters.q || provinceLabel || "ทุกสถานที่ที่เผยแพร่"}
+              {filters.q || provinceLabel || t("ทุกสถานที่ที่เผยแพร่")}
             </p>
           </div>
         </div>
@@ -193,8 +196,7 @@ export default function ExplorePage() {
             onClick={saveSearch}
             className="clay-control flex min-h-11 items-center gap-2 border border-white bg-ink/85 px-3 font-mono text-xs tracking-normal text-concrete hover:border-acid hover:text-acid"
           >
-            <Bookmark className="h-3.5 w-3.5" /> บันทึกการค้นหา
-          </button>
+            <Bookmark className="h-3.5 w-3.5" /> <Localized text="บันทึกการค้นหา" /> </button>
           <div className="flex gap-1 rounded-xl border border-white bg-ink-2/90 p-0.5 sm:ml-auto">
             {(
               [
@@ -224,9 +226,7 @@ export default function ExplorePage() {
           </div>
         </div>
         {geoError && (
-          <p role="status" className="text-sm text-burnt">
-            ใช้ตำแหน่งปัจจุบันไม่ได้ โปรดตรวจสิทธิ์ตำแหน่งในเบราว์เซอร์
-          </p>
+          <p role="status" className="text-sm text-burnt"> <Localized text="ใช้ตำแหน่งปัจจุบันไม่ได้ โปรดตรวจสิทธิ์ตำแหน่งในเบราว์เซอร์" /> </p>
         )}
 
         {saved.length > 0 && (
@@ -277,9 +277,7 @@ export default function ExplorePage() {
                     checked={inArea}
                     onChange={(e) => setInArea(e.target.checked)}
                     className="h-3 w-3 accent-acid"
-                  />
-                  เฉพาะในพื้นที่แผนที่
-                </label>
+                  /> <Localized text="เฉพาะในพื้นที่แผนที่" /> </label>
               )}
               <select
                 value={filters.sort}
@@ -309,7 +307,7 @@ export default function ExplorePage() {
                       className="group flex items-center justify-between border border-line p-3 hover:border-paper/40"
                     >
                       <div className="min-w-0">
-                        <p className="truncate font-display text-base font-bold">{r.location.name_th}</p>
+                        <p className="truncate font-display text-base font-bold">{language === "en" ? r.location.name_en : r.location.name_th}</p>
                         <p className="font-mono text-xs tracking-normal text-concrete">
                           {r.location.province_th} · {r.location.photo_count} PHOTOS
                         </p>
@@ -339,8 +337,7 @@ export default function ExplorePage() {
                 <div ref={sentinel} className="h-10" />
                 {visible < results.length && (
                   <div className="mt-6 flex justify-center">
-                    <Button variant="outline" onClick={() => setVisible((v) => v + PAGE)}>
-                      โหลดเพิ่ม ({results.length - visible})
+                    <Button variant="outline" onClick={() => setVisible((v) => v + PAGE)}> <Localized text="โหลดเพิ่ม (" /> {results.length - visible})
                     </Button>
                   </div>
                 )}
@@ -358,8 +355,7 @@ export default function ExplorePage() {
                 ))}
                 {visible < results.length && (
                   <div className="mt-6 flex justify-center">
-                    <Button variant="outline" onClick={() => setVisible((v) => v + PAGE)}>
-                      โหลดเพิ่ม ({results.length - visible})
+                    <Button variant="outline" onClick={() => setVisible((v) => v + PAGE)}> <Localized text="โหลดเพิ่ม (" /> {results.length - visible})
                     </Button>
                   </div>
                 )}
@@ -368,10 +364,7 @@ export default function ExplorePage() {
           </div>
 
           <div className="mt-12 border-t border-line pt-5">
-            <p className="font-sans text-xs leading-relaxed text-concrete">
-              ผลลัพธ์ทั้งหมดอ้างอิงจากฐานข้อมูลที่เผยแพร่จริง · พิกัดจาก Wikidata · ภาพจาก Wikimedia Commons พร้อมเครดิตและใบอนุญาต ·
-              สถานะการอนุญาตถ่ายทำที่ระบุ “ยังไม่ยืนยัน” หมายความว่าต้องตรวจสอบกับหน่วยงานก่อนทุกครั้ง
-            </p>
+            <p className="font-sans text-xs leading-relaxed text-concrete"> <Localized text="ผลลัพธ์ทั้งหมดอ้างอิงจากฐานข้อมูลที่เผยแพร่จริง · พิกัดจาก Wikidata · ภาพจาก Wikimedia Commons พร้อมเครดิตและใบอนุญาต ·\n              สถานะการอนุญาตถ่ายทำที่ระบุ “ยังไม่ยืนยัน” หมายความว่าต้องตรวจสอบกับหน่วยงานก่อนทุกครั้ง" /> </p>
           </div>
         </div>
       </div>
@@ -388,9 +381,7 @@ export default function ExplorePage() {
       {origin && (
         <div className="fixed bottom-5 left-1/2 z-30 -translate-x-1/2 border border-acid/40 bg-ink px-4 py-2 font-mono text-xs tracking-normal text-acid shadow-xl">
           ใช้ตำแหน่งของคุณ · {origin.lat.toFixed(3)}, {origin.lng.toFixed(3)}
-          <button type="button" onClick={() => setOrigin(null)} className="ml-3 text-concrete hover:text-paper">
-            ปิด
-          </button>
+          <button type="button" onClick={() => setOrigin(null)} className="ml-3 text-concrete hover:text-paper"> <Localized text="ปิด" /> </button>
         </div>
       )}
     </div>

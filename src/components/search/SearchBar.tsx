@@ -1,3 +1,5 @@
+import { useLanguage } from "@/i18n/Language";
+import { Localized } from "@/i18n/Language";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search, ArrowRight, MapPin, Tag, Sparkles, X } from "lucide-react";
@@ -33,6 +35,7 @@ export function SearchBar({
   className,
   showButton = true,
 }: Props) {
+  const { language } = useLanguage();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -97,7 +100,7 @@ export function SearchBar({
               setOpen(false);
             }
           }}
-          placeholder={placeholder}
+          placeholder={language === "en" && placeholder === "ชื่อสถานที่ จังหวัด หรือบรรยากาศ…" ? "Place, province or mood…" : placeholder}
           aria-label="ค้นหาโลเคชัน"
           aria-autocomplete="list"
           aria-expanded={open && items.length > 0}
@@ -126,7 +129,7 @@ export function SearchBar({
               size === "lg" ? "h-11 px-3 sm:px-4" : "h-9 px-3",
             )}
           >
-            <span className="hidden sm:inline">ค้นหา</span>
+            <span className="hidden sm:inline"> <Localized text="ค้นหา" /> </span>
             <ArrowRight className="h-4 w-4" />
           </button>
         )}

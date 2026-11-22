@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "@/components/layout/Header";
@@ -41,9 +42,7 @@ export default function App() {
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:bg-acid focus:px-4 focus:py-2 focus:font-mono focus:text-xs focus:uppercase focus:tracking-normal focus:text-ink"
-        >
-          ข้ามไปยังเนื้อหาหลัก
-        </a>
+        > <Localized text="ข้ามไปยังเนื้อหาหลัก" /> </a>
         <ScrollToTop />
         <Header />
         <main id="main" className="flex-1">

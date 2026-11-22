@@ -1,0 +1,18 @@
+import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import english from "./en.json";
+
+type Language = "th" | "en";
+const LanguageContext = createContext({ language: "th" as Language, setLanguage: (_language: Language) => {}, t: (text: string) => text });
+export function LanguageProvider({ children }: { children: ReactNode }) {
+  const [language, setLanguage] = useState<Language>(() => {
+    try { return localStorage.getItem("framehunt:language") === "en" ? "en" : "th"; } catch { return "th"; }
+  });
+  useEffect(() => {
+    document.documentElement.lang = language;
+    try { localStorage.setItem("framehunt:language", language); } catch { /* Storage may be unavailable. */ }
+  }, [language]);
+  const t = (text: string) => language === "en" ? (english as Record<string, string>)[text.trim()] ?? text : text;
+  return <LanguageContext.Provider value={{ language, setLanguage, t }}>{children}</LanguageContext.Provider>;
+}
+export function useLanguage() { return useContext(LanguageContext); }
+export function Localized({ text }: { text: string }) { const { t } = useLanguage(); return <>{t(text)}</>; }

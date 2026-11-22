@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowUpRight, Crosshair, Layers, MapPin, Search, X } from "lucide-react";
@@ -151,7 +152,7 @@ export default function MapPage() {
               aria-label="กรองตามจังหวัด"
               className="h-10"
             >
-              <option value="">ทุกจังหวัด</option>
+              <option value=""> <Localized text="ทุกจังหวัด" /> </option>
               {provinces.map((p) => (
                 <option key={p.slug} value={p.slug}>
                   {p.name_th} — {p.name_en}
@@ -202,9 +203,7 @@ export default function MapPage() {
             </div>
             {origin && <RadiusSelect radiusKm={filters.radiusKm} onChange={(radiusKm) => patch({ radiusKm })} />}
             {geoError && (
-              <p role="status" className="text-sm text-burnt">
-                ใช้ตำแหน่งปัจจุบันไม่ได้ โปรดตรวจสิทธิ์ตำแหน่งในเบราว์เซอร์
-              </p>
+              <p role="status" className="text-sm text-burnt"> <Localized text="ใช้ตำแหน่งปัจจุบันไม่ได้ โปรดตรวจสิทธิ์ตำแหน่งในเบราว์เซอร์" /> </p>
             )}
           </div>
 

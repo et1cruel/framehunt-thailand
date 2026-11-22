@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { Link, useLocation } from "react-router-dom";
 import { ArrowLeft, Compass, Map, Search } from "lucide-react";
 import { Button } from "@/components/ui";
@@ -29,13 +30,11 @@ export default function NotFoundPage() {
         <div className="mt-8 flex flex-wrap gap-3">
           <Link to="/explore">
             <Button>
-              <Search className="h-3.5 w-3.5" /> ค้นหาโลเคชัน
-            </Button>
+              <Search className="h-3.5 w-3.5" /> <Localized text="ค้นหาโลเคชัน" /> </Button>
           </Link>
           <Link to="/map">
             <Button variant="outline">
-              <Map className="h-3.5 w-3.5" /> เปิดแผนที่
-            </Button>
+              <Map className="h-3.5 w-3.5" /> <Localized text="เปิดแผนที่" /> </Button>
           </Link>
           <Link to="/">
             <Button variant="ghost">

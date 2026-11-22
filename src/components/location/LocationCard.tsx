@@ -1,3 +1,4 @@
+import { useLanguage } from "@/i18n/Language";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Heart, MapPin, Camera } from "lucide-react";
@@ -64,6 +65,7 @@ function HoverPhotos({ photos, cover, sizes }: { photos: LocationRecord["photos"
 }
 
 export function LocationCard({ location, variant = "grid", distanceKm, className }: Props) {
+  const { language } = useLanguage();
   const { isFavorite, toggle } = useFavorites();
   const saved = isFavorite(location.id);
   const cover = location.photos.find((p) => p.is_cover) ?? location.photos[0];
@@ -80,9 +82,9 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           <PhotoImage photo={cover} sizes="96px" className="h-full w-full object-cover frame-img" />
         </div>
         <div className="min-w-0 flex-1">
-          <p className="label-mono text-concrete">{location.province_th}</p>
+          <p className="label-mono text-concrete">{language === "en" ? location.province : location.province_th}</p>
           <h3 className="mt-1 truncate font-display text-lg font-bold tracking-tight group-hover:text-acid">
-            {location.name_th}
+            {language === "en" ? location.name_en || location.name_th : location.name_th}
           </h3>
           <p className="mt-1 font-mono text-xs tracking-normal text-concrete">
             {location.photo_count} PHOTOS
@@ -110,19 +112,19 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         <div className="flex flex-col justify-between gap-4 px-2 py-2 pr-12 sm:pr-10">
           <div>
             <div className="flex flex-wrap items-center gap-2">
-              <span className="label-mono text-acid">{location.province_th}</span>
+              <span className="label-mono text-acid">{language === "en" ? location.province : location.province_th}</span>
               {primaryCat && (
                 <span className="label-mono text-concrete">{categoryBySlug.get(primaryCat)?.name_en}</span>
               )}
             </div>
             <Link to={`/locations/${location.slug}`}>
               <h3 className="mt-2 font-display text-2xl font-extrabold tracking-tight transition-colors group-hover:text-acid md:text-3xl">
-                {location.name_th}
+                {language === "en" ? location.name_en || location.name_th : location.name_th}
               </h3>
               <p className="mt-1 font-sans text-sm text-concrete">{location.name_en}</p>
             </Link>
             <p className="mt-3 line-clamp-2 max-w-2xl font-sans text-sm leading-relaxed text-concrete">
-              {location.description_th}
+              {language === "en" ? location.description_en || location.description_th : location.description_th}
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
@@ -161,7 +163,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
       <div className="relative aspect-[4/3] overflow-hidden rounded-[1rem] bg-ink-2">
         <Link
           to={"/locations/" + location.slug}
-          aria-label={location.name_th}
+          aria-label={language === "en" ? location.name_en || location.name_th : location.name_th}
           className="absolute inset-0 focus-visible:outline-offset-[-3px]"
         >
           <HoverPhotos photos={location.photos} cover={cover} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
@@ -182,11 +184,11 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
 
       <div className="flex flex-1 flex-col px-2.5 pb-2 pt-3">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-          <p className="text-sm font-semibold text-acid">{location.province_th}</p>
+          <p className="text-sm font-semibold text-acid">{language === "en" ? location.province : location.province_th}</p>
           <PermissionPill status={location.permission.permission_status} />
         </div>
         <Link to={"/locations/" + location.slug} className="mt-2 block group-hover:text-acid">
-          <h3 className="break-words text-lg font-bold leading-snug md:text-xl">{location.name_th}</h3>
+          <h3 className="break-words text-lg font-bold leading-snug md:text-xl">{language === "en" ? location.name_en || location.name_th : location.name_th}</h3>
           <p className="mt-0.5 line-clamp-1 text-sm text-concrete">{location.name_en}</p>
         </Link>
         <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-3 text-xs text-concrete">

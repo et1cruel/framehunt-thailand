@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -704,7 +705,7 @@ function LocalAdmin({
                   onChange={(e) => setReportFilter(e.target.value as typeof reportFilter)}
                   className="w-auto min-w-36"
                 >
-                  <option value="all">ทั้งหมด</option>
+                  <option value="all"> <Localized text="ทั้งหมด" /> </option>
                   <option value="open">เปิดอยู่</option>
                   <option value="resolved">แก้ไขแล้ว</option>
                   <option value="dismissed">ไม่ใช่ปัญหา</option>

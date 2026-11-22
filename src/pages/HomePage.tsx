@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, ArrowUpRight, Dices, MapPin, Camera, ShieldCheck, Compass } from "lucide-react";
@@ -89,12 +90,9 @@ export default function HomePage() {
         <div className="grid grid-cols-1 items-stretch gap-4 lg:grid-cols-[0.88fr_1.12fr] lg:gap-5">
           <div className="glass-panel relative z-10 flex min-w-0 flex-col justify-center px-5 py-6 sm:px-9 sm:py-11 lg:px-10 xl:px-12">
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-white bg-sage/75 px-3 py-1.5 text-sm font-medium text-acid sm:mb-6">
-              <Camera className="h-4 w-4" aria-hidden /> ฐานข้อมูลโลเคชันถ่ายทำ
-            </div>
+              <Camera className="h-4 w-4" aria-hidden /> <Localized text="ฐานข้อมูลโลเคชันถ่ายทำ" /> </div>
             <h1 className="display max-w-[12ch] text-[clamp(2.65rem,5.1vw,5.4rem)]">Find your next frame.</h1>
-            <p className="mt-4 max-w-md text-[0.98rem] leading-relaxed text-concrete sm:text-base">
-              หาโลเคชันสำหรับมิวสิกวิดีโอ หนัง และงานภาพทั่วไทย ค้นจากสถานที่หรือบรรยากาศ พร้อมภาพจริง มุมกล้อง และพิกัด
-            </p>
+            <p className="mt-4 max-w-md text-[0.98rem] leading-relaxed text-concrete sm:text-base"> <Localized text="หาโลเคชันสำหรับมิวสิกวิดีโอ หนัง และงานภาพทั่วไทย ค้นจากสถานที่หรือบรรยากาศ พร้อมภาพจริง มุมกล้อง และพิกัด" /> </p>
             <div className="mt-5 sm:mt-7">
               <SearchBar
                 value={query}
@@ -107,15 +105,13 @@ export default function HomePage() {
               <Link
                 to="/explore"
                 className="clay-control inline-flex min-h-11 items-center gap-2 border border-white bg-sage px-4 text-sm font-semibold text-acid hover:bg-sage/75"
-              >
-                ดูทุกโลเคชัน <ArrowRight className="h-4 w-4" />
+              > <Localized text="ดูทุกโลเคชัน" /> <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
                 to="/map"
                 className="inline-flex min-h-11 items-center gap-1.5 rounded-xl px-2 text-sm font-semibold text-paper hover:bg-white/75 sm:px-3"
               >
-                <MapPin className="h-4 w-4 text-acid" /> เปิดแผนที่
-              </Link>
+                <MapPin className="h-4 w-4 text-acid" /> <Localized text="เปิดแผนที่" /> </Link>
               <Button
                 variant="ghost"
                 className="gap-1.5 px-2 sm:px-4"
@@ -124,8 +120,7 @@ export default function HomePage() {
                   if (result) navigate("/locations/" + result.slug);
                 }}
               >
-                <Dices className="h-4 w-4 text-acid" /> สุ่มให้หน่อย
-              </Button>
+                <Dices className="h-4 w-4 text-acid" /> <Localized text="สุ่มให้หน่อย" /> </Button>
             </div>
           </div>
 
@@ -204,11 +199,11 @@ export default function HomePage() {
           href="/explore"
         />
         <div className="mt-4 flex flex-wrap gap-2 text-sm font-semibold text-[#315b50]">
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/studios">ห้องซ้อมดนตรี กทม.-ปริมณฑล</Link>
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/cave">สำรวจถ้ำทั้งหมด</Link>
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/art">พื้นที่ศิลปะทั้งหมด</Link>
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/nakhon-pathom">เที่ยวนครปฐม · กำแพงแสน</Link>
-          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=night">พื้นที่ดนตรีกลางคืน</Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/studios"> <Localized text="ห้องซ้อมดนตรี กทม.-ปริมณฑล" /> </Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/cave"> <Localized text="สำรวจถ้ำทั้งหมด" /> </Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/art"> <Localized text="พื้นที่ศิลปะทั้งหมด" /> </Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/collections/nakhon-pathom"> <Localized text="เที่ยวนครปฐม · กำแพงแสน" /> </Link>
+          <Link className="clay-control border border-white bg-white/80 px-3 py-2" to="/activities?category=night"> <Localized text="พื้นที่ดนตรีกลางคืน" /> </Link>
         </div>
 
         <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4 lg:gap-4">
@@ -274,7 +269,7 @@ export default function HomePage() {
       <section className="border-y border-white/80 bg-lilac/40 py-12 md:py-16">
         <div className="container-x">
           <SectionHeading
-            title={<>ค้นหาตามภูมิภาค</>}
+            title={<> <Localized text="ค้นหาตามภูมิภาค" /> </>}
             description="จากกรุงเทพฯ สู่ภาคเหนือ ภาคอีสาน ภาคใต้ และชายฝั่งตะวันออก — ค้นตามพื้นที่ถ่ายทำจริง"
             href="/map"
             hrefLabel="เปิดแผนที่"
@@ -412,8 +407,7 @@ export default function HomePage() {
                 </p>
               </div>
               <Link to="/map" className="pointer-events-auto hidden sm:block">
-                <Button variant="paper" size="sm">
-                  เปิดแผนที่ <ArrowUpRight className="h-3.5 w-3.5" />
+                <Button variant="paper" size="sm"> <Localized text="เปิดแผนที่" /> <ArrowUpRight className="h-3.5 w-3.5" />
                 </Button>
               </Link>
             </div>
@@ -445,9 +439,7 @@ export default function HomePage() {
               </h3>
               <ul className="mt-7 space-y-4 font-sans text-sm leading-relaxed text-concrete">
                 <li className="flex gap-3">
-                  <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-acid" />
-                  ภาพสถานที่มีเครดิตและข้อมูลใบอนุญาตประกอบ
-                </li>
+                  <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-acid" /> <Localized text="ภาพสถานที่มีเครดิตและข้อมูลใบอนุญาตประกอบ" /> </li>
                 <li className="flex gap-3">
                   <Camera className="mt-0.5 h-4 w-4 shrink-0 text-acid" />
                   ทุกภาพมีเครดิต ผู้ถ่าย ใบอนุญาต และลิงก์ต้นทาง — ไม่ใช้ภาพ AI แทนสถานที่จริง
@@ -459,14 +451,10 @@ export default function HomePage() {
               </ul>
               <div className="mt-7 flex flex-wrap gap-2 border-t border-line pt-5">
                 <Link to="/about">
-                  <Button variant="outline" size="sm">
-                    นโยบายข้อมูล
-                  </Button>
+                  <Button variant="outline" size="sm"> <Localized text="นโยบายข้อมูล" /> </Button>
                 </Link>
                 <Link to="/submit">
-                  <Button variant="ghost" size="sm">
-                    เสนอสถานที่ →
-                  </Button>
+                  <Button variant="ghost" size="sm"> <Localized text="เสนอสถานที่ →" /> </Button>
                 </Link>
               </div>
             </div>
@@ -477,8 +465,7 @@ export default function HomePage() {
                 รวมโลเคชันที่ชอบไว้ในโปรเจกต์ MV เดียวกัน จัดลำดับ เพิ่มโน้ต แล้วส่งลิงก์ให้ทีมได้ทันที
               </p>
               <Link to="/boards" className="mt-4 inline-block">
-                <Button variant="primary" size="sm">
-                  สร้างบอร์ดแรก <ArrowRight className="h-3.5 w-3.5" />
+                <Button variant="primary" size="sm"> <Localized text="สร้างบอร์ดแรก" /> <ArrowRight className="h-3.5 w-3.5" />
                 </Button>
               </Link>
             </div>
@@ -490,7 +477,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-t border-line bg-acid py-16 text-ink md:py-20">
         <div className="container-x relative flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
-            <h2 className="max-w-2xl text-3xl font-bold md:text-5xl">เริ่มโปรเจกต์จากโลเคชันที่ใช่</h2>
+            <h2 className="max-w-2xl text-3xl font-bold md:text-5xl"> <Localized text="เริ่มโปรเจกต์จากโลเคชันที่ใช่" /> </h2>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link to="/find-my-vibe">

@@ -1,3 +1,5 @@
+import { useLanguage } from "@/i18n/Language";
+import { Localized } from "@/i18n/Language";
 import { frameNotes } from "@/data/frame-notes";
 import { useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
@@ -61,6 +63,7 @@ function TriRow({ label, value, note }: { label: string; value: string; note?: s
 }
 
 export default function LocationDetailPage() {
+  const { language } = useLanguage();
   const { getLocation, nearbyLocations } = useLocationCatalog();
   const { slug = "" } = useParams();
   const navigate = useNavigate();
@@ -81,7 +84,7 @@ export default function LocationDetailPage() {
   const nearby = useMemo(() => (location ? nearbyLocations(location, 4) : []), [location, nearbyLocations]);
 
   useSeo({
-    title: location ? `${location.name_th} — ${location.province_th}` : "ไม่พบสถานที่",
+    title: location ? `${language === "en" ? location.name_en || location.name_th : location.name_th} — ${language === "en" ? location.province : location.province_th}` : "ไม่พบสถานที่",
     description: location?.description_th,
     image: location?.photos[0]?.image_url,
     canonical: location ? `${window.location.origin}/locations/${location.slug}` : undefined,
@@ -116,9 +119,7 @@ export default function LocationDetailPage() {
         </p>
         <div className="mt-7 flex gap-2">
           <Button onClick={() => navigate("/explore")}>กลับไปค้นหา</Button>
-          <Button variant="outline" onClick={() => navigate("/map")}>
-            เปิดแผนที่
-          </Button>
+          <Button variant="outline" onClick={() => navigate("/map")}> <Localized text="เปิดแผนที่" /> </Button>
         </div>
       </div>
     );
@@ -226,7 +227,7 @@ export default function LocationDetailPage() {
               src={cover.image_url}
               srcSet={`${cover.thumb_url} 500w, ${cover.image_url} 1920w`}
               sizes="(max-width: 767px) 90vw, 92vw"
-              alt={`${location.name_th} — ${cover.title}`}
+              alt={`${language === "en" ? location.name_en || location.name_th : location.name_th} — ${cover.title}`}
               className="h-full w-full object-cover"
               fetchPriority="high"
             />
@@ -243,7 +244,7 @@ export default function LocationDetailPage() {
               {location.province.toUpperCase()}
             </Link>
             <span>/</span>
-            <span className="text-paper">{location.name_th}</span>
+            <span className="text-paper">{language === "en" ? location.name_en || location.name_th : location.name_th}</span>
           </div>
 
           <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
@@ -253,12 +254,12 @@ export default function LocationDetailPage() {
                 <Badge variant="acid">{location.photo_count} VERIFIED PHOTOS</Badge>
                 <Badge>{location.zone === "A" ? "BANGKOK" : location.zone === "B" ? "METRO REGION" : "THAILAND"}</Badge>
               </div>
-              <h1 className="mt-4 display text-[clamp(1.9rem,4.5vw,4.2rem)]">{location.name_th}</h1>
+              <h1 className="mt-4 display text-[clamp(1.9rem,4.5vw,4.2rem)]">{language === "en" ? location.name_en || location.name_th : location.name_th}</h1>
               <p className="mt-2 font-sans text-sm text-concrete md:text-base">{location.name_en}</p>
               <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-xs tracking-normal text-concrete">
                 <span className="flex items-center gap-1">
                   <MapPin className="h-3 w-3" /> {location.district ? `${location.district}, ` : ""}
-                  {location.province_th}
+                  {language === "en" ? location.province : location.province_th}
                 </span>
                 <span className="flex items-center gap-1">
                   <Camera className="h-3 w-3" /> {location.photo_count} PHOTOS
@@ -302,7 +303,7 @@ export default function LocationDetailPage() {
                 {location.photo_count} ภาพ · ตรวจสอบเครดิตแล้ว
               </p>
             </div>
-            <PhotoGallery photos={location.photos} locationName={location.name_th} />
+            <PhotoGallery photos={location.photos} locationName={language === "en" ? location.name_en || location.name_th : location.name_th} />
             {frame && framePhoto && (
               <div className="clay-panel mt-5 p-5">
                 <h3 className="text-sm font-bold text-acid">มุมกล้องที่คัดไว้</h3>
@@ -326,7 +327,7 @@ export default function LocationDetailPage() {
               <h2 className="mt-1 font-display text-2xl font-extrabold">เกี่ยวกับสถานที่</h2>
             </div>
             <p className="mt-5 max-w-3xl whitespace-pre-line font-sans text-[15px] leading-[1.9] text-concrete">
-              {location.description_th}
+              {language === "en" ? location.description_en || location.description_th : location.description_th}
             </p>
             <div className="mt-4 flex flex-wrap items-center gap-2">
               {location.categories.map((c) => (

@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import {
@@ -459,8 +460,7 @@ export default function BoardsPage() {
                 สร้างบอร์ดสำหรับ MV เรื่องต่อไป แล้วเพิ่มสถานที่จากหน้ารายละเอียด
               </p>
               <Button className="mt-5" onClick={() => setCreateOpen(true)}>
-                <Plus className="h-4 w-4" /> สร้างบอร์ดแรก
-              </Button>
+                <Plus className="h-4 w-4" /> <Localized text="สร้างบอร์ดแรก" /> </Button>
             </div>
           ) : (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

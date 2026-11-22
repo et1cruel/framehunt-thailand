@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import { Input, Select } from "@/components/ui";
@@ -73,9 +74,7 @@ export default function LiveMusicPage() {
           <Link
             className="clay-control border border-white bg-white/90 px-4 py-2 text-sm font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white"
             to="/studios"
-          >
-            ห้องซ้อมดนตรี กทม.-ปริมณฑล
-          </Link>
+          > <Localized text="ห้องซ้อมดนตรี กทม.-ปริมณฑล" /> </Link>
           <Link
             className="clay-control border border-white bg-ink px-4 py-2 text-sm font-semibold text-acid hover:bg-sage"
             to="/submit"
@@ -109,7 +108,7 @@ export default function LiveMusicPage() {
           ))}
         </Select>
         <Select aria-label="จังหวัดของงาน" value={province} onChange={(e) => patch("province", e.target.value)}>
-          <option value="">ทุกจังหวัด</option>
+          <option value=""> <Localized text="ทุกจังหวัด" /> </option>
           {sourceProvinces.map((value) => (
             <option key={value} value={value}>
               {provinceBySlug.get(value)?.name_th ?? value}

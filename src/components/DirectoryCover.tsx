@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useState } from "react";
 import { ImageOff } from "lucide-react";
 import covers from "@/data/directory-covers.json";
@@ -18,7 +19,7 @@ export function DirectoryCover({ name, province, source }: { name: string; provi
       {cover && !failed ? <>
         <img className="aspect-[5/3] w-full object-cover" src={url} alt={`ภาพ ${name}`} loading="lazy" decoding="async" onError={() => setFailed(true)} />
         <a href={cover.source} target="_blank" rel="noreferrer" className="absolute bottom-2 right-2 max-w-[90%] rounded-md bg-black/75 px-2 py-1 text-[10px] leading-snug text-white">{cover.credit}</a>
-      </> : <div className="flex aspect-[5/3] items-center justify-center gap-2 text-sm text-[#526b68]"><ImageOff className="h-4 w-4" aria-hidden /> ยังไม่มีภาพสถานที่</div>}
+      </> : <div className="flex aspect-[5/3] items-center justify-center gap-2 text-sm text-[#526b68]"><ImageOff className="h-4 w-4" aria-hidden /> <Localized text="ยังไม่มีภาพสถานที่" /> </div>}
     </div>
   );
 }

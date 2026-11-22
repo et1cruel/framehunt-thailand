@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -108,8 +109,7 @@ export default function StudiosPage() {
           <Music className="h-4 w-4" aria-hidden />
           FRAMEHUNT MUSIC STUDIOS · BANGKOK & METROPOLITAN
         </div>
-        <h1 className="display mt-3 text-4xl md:text-6xl">
-          ห้องซ้อมดนตรี<span className="text-burnt">.</span>
+        <h1 className="display mt-3 text-4xl md:text-6xl"> <Localized text="ห้องซ้อมดนตรี" /> <span className="text-burnt">.</span>
         </h1>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-concrete sm:text-base">
           รวมห้องซ้อมดนตรี สตูดิโอบันทึกเสียง และห้องซ้อมวงในกรุงเทพฯ และปริมณฑล 
@@ -234,8 +234,7 @@ export default function StudiosPage() {
             </span>
           )}
         </h2>
-        <p className="text-xs text-concrete">
-          แสดง {filtered.length} จากทั้งหมด {studios.length} แห่ง
+        <p className="text-xs text-concrete"> <Localized text="แสดง" /> {filtered.length} จากทั้งหมด {studios.length} แห่ง
         </p>
       </div>
 
@@ -327,8 +326,7 @@ export default function StudiosPage() {
                       target="_blank"
                       rel="noreferrer"
                       className="clay-control inline-flex items-center gap-1 border border-white bg-white/85 px-2.5 py-1.5 text-xs font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white"
-                    >
-                      แผนที่ <ArrowUpRight className="h-3 w-3" />
+                    > <Localized text="แผนที่" /> <ArrowUpRight className="h-3 w-3" />
                     </a>
 
                     {studio.sourceUrl && (
