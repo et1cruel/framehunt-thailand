@@ -1,6 +1,6 @@
 {
   "source": "ไดเรกทอรีสาธารณะ เว็บไซต์ผู้ให้บริการ และแผนที่ค้นหาสถานที่",
-  "updated": "2026-11-21",
+  "updated": "2026-11-23",
   "places": [
     {
       "name": "กองหินม่วง,แดง · หมู่เกาะลันตา",
@@ -14958,6 +14958,371 @@
       ],
       "sourceUrl": "https://www.lovethailand.org/travel/th/17-กรุงเทพมหานคร/16293-50-วัดสวยในกรุงเทพ-2570-วัดดัง-วัดเก่าแก่-พร้อมพิกัด.html",
       "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
+    },
+    {
+      "name": "สวนนกยูง สามพราน",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.694730103874537,
+      "lon": 100.2366055,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%99%E0%B8%81%E0%B8%A2%E0%B8%B9%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%99"
+    },
+    {
+      "name": "Lemon Me Farm เลมอนมีฟาร์ม",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.8855639,
+      "lon": 100.286055,
+      "sourceUrl": "https://www.tripniceday.com/place/lemon-me-farm-%E0%B9%80%E0%B8%A5%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B8%A1%E0%B8%B5%E0%B8%9F%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1"
+    },
+    {
+      "name": "ตลาดองค์พระปฐมเจดีย์",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.819210262559597,
+      "lon": 100.0585775077343,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B8%90%E0%B8%A1%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C-1743602012075"
+    },
+    {
+      "name": "สวนลุงบุญเลิศและป้าแจ๋ว · คลองมหาสวัสดิ์",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.8076035,
+      "lon": 100.2840482,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%A8-%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%88%E0%B9%8B%E0%B8%A7-%E0%B9%81%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%87%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B4%E0%B9%8C"
+    },
+    {
+      "name": "ไชน่าทาวน์ ศาลายา",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.7877,
+      "lon": 100.3121341,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B9%84%E0%B8%8A%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%97%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C-%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B2"
+    },
+    {
+      "name": "เมืองรัตติยา",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.974401403951875,
+      "lon": 100.20323759999997,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B4%E0%B8%A2%E0%B8%B2"
+    },
+    {
+      "name": "สยามชัยหาดทรายขาว",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.782907863442304,
+      "lon": 100.13053111732005,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B8%B2%E0%B8%A7-(%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%A2)"
+    },
+    {
+      "name": "ตลาดบ้านรังนก",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.972366653951267,
+      "lon": 100.20385224999995,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%81"
+    },
+    {
+      "name": "พิพิธภัณฑ์ภาพยนตร์ไทย (หอภาพยนตร์)",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom",
+        "art"
+      ],
+      "lat": 13.798900003905182,
+      "lon": 100.3030253500001,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2-(%E0%B8%AB%E0%B8%AD%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B9%8C)"
+    },
+    {
+      "name": "นาบัวลุงแจ่ม",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.8106834,
+      "lon": 100.2713179,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%99%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B9%81%E0%B8%88%E0%B9%88%E0%B8%A1"
+    },
+    {
+      "name": "ชุมชนบ้านโรงหวด",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.8019798,
+      "lon": 100.2235663,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%94"
+    },
+    {
+      "name": "เกาะลัดอีแท่น",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.7567283,
+      "lon": 100.2734359,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%B5%E0%B9%81%E0%B8%97%E0%B9%88%E0%B8%99"
+    },
+    {
+      "name": "ดูบัว คาเฟ่ (Dubua Café)",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.896928353934037,
+      "lon": 100.23464869999998,
+      "sourceUrl": "https://www.tripniceday.com/place/dubua-caf%C3%A9"
+    },
+    {
+      "name": "บ้านพิพิธภัณฑ์ 2 งิ้วราย",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom",
+        "art"
+      ],
+      "lat": 13.8009301,
+      "lon": 100.2100327,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C-2-%E0%B8%87%E0%B8%B4%E0%B9%89%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A2"
+    },
+    {
+      "name": "วัดหนองพงนก",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 14.082811638665252,
+      "lon": 99.98360741177065,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%87%E0%B8%99%E0%B8%81"
+    },
+    {
+      "name": "อารามไท่เสวียนก้วน มูลนิธิเต๋าธรรมะสยาม",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.767621,
+      "lon": 100.2777432,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B9%84%E0%B8%97%E0%B9%88%E0%B9%80%E0%B8%AA%E0%B8%A7%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%81%E0%B9%89%E0%B8%A7%E0%B8%99-%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%99%E0%B8%B4%E0%B8%98%E0%B8%B4%E0%B9%80%E0%B8%95%E0%B9%8B%E0%B8%B2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B0%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1"
+    },
+    {
+      "name": "Family Garden สามพราน",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.7214534038775,
+      "lon": 100.21459879999999,
+      "sourceUrl": "https://www.tripniceday.com/place/family-garden-%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%99"
+    },
+    {
+      "name": "วัดสรรเพชญ",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.741341779017096,
+      "lon": 100.2303347736597,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%8D"
+    },
+    {
+      "name": "วัดดอนมะกอก",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 14.039883442711458,
+      "lon": 100.01648857729816,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%AD%E0%B8%99%E0%B8%A1%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%81"
+    },
+    {
+      "name": "Kannika Garden",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.784837903901032,
+      "lon": 100.28256315,
+      "sourceUrl": "https://www.tripniceday.com/place/kannika-garden"
+    },
+    {
+      "name": "วัดดอนยายหอม",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.7372392,
+      "lon": 100.0815254,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%AD%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%AD%E0%B8%A1"
+    },
+    {
+      "name": "วัดบางช้างเหนือ",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.7224757,
+      "lon": 100.20598,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD"
+    },
+    {
+      "name": "พิพิธภัณฑ์พระพุทธวิถีนายก",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom",
+        "art"
+      ],
+      "lat": 13.7945,
+      "lon": 100.192748,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A7%E0%B8%B4%E0%B8%96%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81"
+    },
+    {
+      "name": "วัดบางแขม",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.7756181,
+      "lon": 100.0316183,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%82%E0%B8%A1"
+    },
+    {
+      "name": "ยีญวน กลิ่นสวนไอดิน",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.705721403872879,
+      "lon": 100.20617239999999,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A2%E0%B8%B5%E0%B8%8D%E0%B8%A7%E0%B8%99-%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B9%84%E0%B8%AD%E0%B8%94%E0%B8%B4%E0%B8%99"
+    },
+    {
+      "name": "วัดศรีมหาโพธิ์ นครปฐม",
+      "province": "นครปฐม",
+      "district": "นครชัยศรี",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.8692032,
+      "lon": 100.1695076,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B9%82%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B9%8C-%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1"
+    },
+    {
+      "name": "Bubble in the Forest Cafe",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "lat": 13.7888322,
+      "lon": 100.3048324,
+      "sourceUrl": "https://www.tripniceday.com/place/bubble-in-the-forest-cafe"
+    },
+    {
+      "name": "วัดราษฎร์วราราม",
+      "province": "นครปฐม",
+      "district": "กำแพงแสน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 14.045835,
+      "lon": 100.012401,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1"
+    },
+    {
+      "name": "วัดพะเนียงแตก",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.8658985,
+      "lon": 100.0774346,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%81%E0%B8%95%E0%B8%81"
+    },
+    {
+      "name": "Little Tree Garden สามพราน",
+      "province": "นครปฐม",
+      "district": "สามพราน",
+      "categories": [
+        "nakhon-pathom",
+        "nature"
+      ],
+      "lat": 13.687674253867602,
+      "lon": 100.25224469999999,
+      "sourceUrl": "https://www.tripniceday.com/place/little-tree-garden-%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%99"
+    },
+    {
+      "name": "วัดเกษมสุริยัมนาจ",
+      "province": "นครปฐม",
+      "district": "บางเลน",
+      "categories": [
+        "nakhon-pathom",
+        "temple"
+      ],
+      "lat": 13.998368,
+      "lon": 100.1815057,
+      "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B1%E0%B8%A1%E0%B8%99%E0%B8%B2%E0%B8%88"
     }
   ]
 }
