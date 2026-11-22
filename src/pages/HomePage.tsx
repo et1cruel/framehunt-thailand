@@ -25,6 +25,7 @@ export default function HomePage() {
 
   const published = publishedLocations();
   const stats = locationStats();
+  const nakhonDirectoryCount = collectionItems("nakhon-pathom", published).count;
 
   const hero = useMemo(
     () =>
@@ -166,12 +167,13 @@ export default function HomePage() {
           </figure>
         </div>
 
-        <dl className="mt-4 grid grid-cols-2 gap-2.5 lg:grid-cols-4 lg:gap-4">
+        <dl className="mt-4 grid grid-cols-2 gap-2.5 lg:grid-cols-5 lg:gap-4">
           {[
             { label: "โลเคชันที่ตรวจสอบแล้ว", value: stats.published, icon: Compass, tone: "bg-lilac/85" },
             { label: "ภาพถ่ายจริง", value: stats.verifiedPhotos, icon: Camera, tone: "bg-peach/85" },
             { label: "จังหวัด", value: stats.provincesCovered, icon: MapPin, tone: "bg-sage/85" },
             { label: "ช่างภาพที่ให้เครดิต", value: stats.photographers, icon: ShieldCheck, tone: "bg-lilac/85" },
+            { label: "จุดเที่ยวนครปฐม · รวมไดเรกทอรี", value: nakhonDirectoryCount, icon: MapPin, tone: "bg-sage/85" },
           ].map(({ label, value, icon: Icon, tone }) => (
             <div
               key={label}
