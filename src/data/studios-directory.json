@@ -612,90 +612,10 @@
         "ใกล้มหิดล"
       ],
       "equipment": "Tama Starclassic, Marshall Tube, Fender Twin, Ampeg, Shure Beta",
-      "phone": "089-111-2233",
+      "phone": "080-997-9084",
       "sourceUrl": "https://overlooksalaya.com",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Overlook+Studio+Salaya+Nakhon+Pathom",
       "description": "สตูดิโอห้องซ้อมและห้องอัดเสียงระดับโปรย่านศาลายา มีระบบจองห้องซ้อมออนไลน์ 24 ชั่วโมง อุปกรณ์มาตรฐานระดับคอนเสิร์ต"
-    },
-    {
-      "id": "studio-31-พุทธมณฑล",
-      "name": "Stu.B Rehearsal Studio ศาลายา",
-      "province": "นครปฐม",
-      "district": "พุทธมณฑล",
-      "address": "ซอยสุขาภิบาล 18 ตำบลศาลายา อำเภอพุทธมณฑล (ใกล้ ม.มหิดล ศาลายา)",
-      "rates": "฿200 - ฿320 / ชม.",
-      "priceHourly": 200,
-      "features": [
-        "ห้องซ้อมวง",
-        "ขวัญใจเด็กดุริยางคศิลป์",
-        "เปียโน/คีย์บอร์ดไฟฟ้า",
-        "ห้องเก็บเสียง"
-      ],
-      "equipment": "Pearl Drums, Roland RD Stage Piano, Marshall, Fender",
-      "phone": "084-777-6655",
-      "sourceUrl": "https://harmoniqstudio.com",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Stu.B+Rehearsal+Studio+Salaya+Nakhon+Pathom",
-      "description": "ห้องซ้อมยอดนิยมของนักศึกษาดุริยางคศิลป์ มหิดล ศาลายา เครื่องดนตรีได้มาตรฐานสูง เหมาะกับการซ้อมวง ซ้อมสอบ และเล่นแจม"
-    },
-    {
-      "id": "studio-32-เมืองนครปฐม",
-      "name": "House of Music นครปฐม",
-      "province": "นครปฐม",
-      "district": "เมืองนครปฐม",
-      "address": "ถนนทรงพล ตำบลสนามจันทร์ อำเภอเมืองนครปฐม (หน้ามหาวิทยาลัยศิลปากร สนามจันทร์)",
-      "rates": "฿200 - ฿300 / ชม.",
-      "priceHourly": 200,
-      "features": [
-        "ห้องซ้อมวง",
-        "หน้า ม.ศิลปากร สนามจันทร์",
-        "แอมป์หลอด",
-        "ราคานักศึกษา"
-      ],
-      "equipment": "Gretsch Drums, Marshall, Peavey, Ampeg, Shure SM58",
-      "phone": "086-333-4455",
-      "sourceUrl": "https://harmoniqstudio.com",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=House+of+Music+Nakhon+Pathom+Silpakorn",
-      "description": "ห้องซ้อมยอดฮิตของเด็กศิลปากรและนักดนตรีเมืองนครปฐม ทำเลดีหน้า ม.ศิลปากร สนามจันทร์ เครื่องดนตรีแน่นเสียงกระหึ่ม"
-    },
-    {
-      "id": "studio-33-เมืองนครปฐม",
-      "name": "The Beat Studio นครปฐม",
-      "province": "นครปฐม",
-      "district": "เมืองนครปฐม",
-      "address": "ถนนราชมรรคา ตำบลพระปฐมเจดีย์ อำเภอเมืองนครปฐม (ใกล้องค์พระปฐมเจดีย์)",
-      "rates": "฿180 - ฿260 / ชม.",
-      "priceHourly": 180,
-      "features": [
-        "ห้องซ้อมวง",
-        "ใกล้องค์พระปฐมเจดีย์",
-        "ราคาประหยัด",
-        "โซนต้อนรับ"
-      ],
-      "equipment": "Tama Drums, Marshall, Fender, Yamaha Keyboard",
-      "phone": "082-888-7766",
-      "sourceUrl": "https://harmoniqstudio.com",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Beat+Studio+Nakhon+Pathom",
-      "description": "ห้องซ้อมดนตรีราคานักศึกษากลางเมืองนครปฐม ซาวด์ใส คุมง่าย บรรยากาศเป็นกันเอง เหมาะกับการซ้อมประจำของวงดนตรี"
-    },
-    {
-      "id": "studio-34-นครชัยศรี",
-      "name": "MN Music นครชัยศรี",
-      "province": "นครปฐม",
-      "district": "นครชัยศรี",
-      "address": "ถนนพุทธมณฑลสาย 7 ตำบลขุนแก้ว อำเภอนครชัยศรี",
-      "rates": "฿200 - ฿280 / ชม.",
-      "priceHourly": 200,
-      "features": [
-        "ห้องซ้อมวง",
-        "ที่จอดรถกว้าง",
-        "บรรยากาศสงบ",
-        "อุปกรณ์ครบ"
-      ],
-      "equipment": "Ludwig Drums, Marshall, Hartke, Fender Champion",
-      "phone": "081-555-6677",
-      "sourceUrl": "https://harmoniqstudio.com",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MN+Music+Nakhon+Chaisi+Nakhon+Pathom",
-      "description": "จุดนัดซ้อมของวงดนตรีย่านนครชัยศรีและพุทธมณฑลสาย 7 บรรยากาศเงียบสงบเป็นส่วนตัว ที่จอดรถสะดวกสบาย"
     },
     {
       "id": "studio-35-เมืองสมุทรสาคร",
@@ -796,6 +716,39 @@
       "imageUrl": "",
       "imageCredit": "TRES Music Studio",
       "description": "สตูดิโอสอนดนตรีและให้เช่าห้องซ้อมส่วนตัวรายชั่วโมง มีห้องซ้อมเปียโนพร้อม Yamaha Upright Piano และห้องสตูดิโอให้เช่าใกล้มหาวิทยาลัยมหิดล ศาลายา"
+    },
+    {
+      "id": "studio-zad-music-nakhon-pathom",
+      "name": "Zad Music ห้องซ้อมดนตรี",
+      "province": "นครปฐม",
+      "district": "เมืองนครปฐม",
+      "address": "97/1 ถนนราชดำเนิน ตำบลพระปฐมเจดีย์ อำเภอเมืองนครปฐม",
+      "rates": "สอบถามสถานที่",
+      "features": [
+        "ห้องซ้อมวง",
+        "รับจองซ้อมดนตรี"
+      ],
+      "phone": "082-288-4459",
+      "sourceUrl": "https://www.facebook.com/478962575520694",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zad+Music+97%2F1+Nakhon+Pathom",
+      "description": "ห้องซ้อมดนตรีในตัวเมืองนครปฐม มีภาพห้องซ้อมและชุดกลองจากหน้าเพจของสถานที่ โปรดติดต่อสอบถามคิวและราคาโดยตรง"
+    },
+    {
+      "id": "studio-music-2p-salaya",
+      "name": "Music 2P ห้องซ้อมดนตรี ศาลายา",
+      "province": "นครปฐม",
+      "district": "พุทธมณฑล",
+      "address": "65/31 หมู่ 5 ตำบลศาลายา อำเภอพุทธมณฑล",
+      "rates": "สอบถามสถานที่",
+      "features": [
+        "ห้องซ้อมดนตรีหลายขนาด",
+        "ห้องซ้อมเต้น",
+        "เปิดทุกวัน"
+      ],
+      "phone": "089-547-7776",
+      "sourceUrl": "https://www.thaithurkic.com/ห้องซ้อมดนตรี-music-p-089-547-7776",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Music+2P+65%2F31+Salaya+Nakhon+Pathom",
+      "description": "พื้นที่ซ้อมดนตรีและซ้อมเต้นในย่านศาลายา มีภาพห้องและอุปกรณ์จากหน้าเพจของสถานที่ กรุณาโทรยืนยันคิวก่อนเดินทาง"
     }
   ]
 }

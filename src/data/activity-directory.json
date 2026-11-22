@@ -14506,17 +14506,6 @@
       "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
     },
     {
-      "name": "วัดทัพพระ",
-      "province": "นครปฐม",
-      "district": "ดอนตูม",
-      "categories": [
-        "temple",
-        "nakhon-pathom"
-      ],
-      "sourceUrl": "https://api.tat.or.th/upload/live/multimedia/9068/T_Nakhonpathom.pdf",
-      "accessNote": "ตรวจสอบวันเปิดและการเข้าชมกับสถานที่ก่อนเดินทาง"
-    },
-    {
       "name": "ศาลพระแม่กวนอิมมหาโพธิสัตว์ บ้านทุ่งพิชัย",
       "province": "นครปฐม",
       "district": "ดอนตูม",
@@ -15543,6 +15532,50 @@
         "nakhon-pathom"
       ],
       "sourceUrl": "https://www.chaipat.or.th/news-all/project-progress-reports/item/11615-1-2566-2.html"
+    },
+    {
+      "name": "ศูนย์เรียนรู้เกษตรอินทรีย์ ไผ่ตอง",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "farm",
+        "activities",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/place/detail/27"
+    },
+    {
+      "name": "Hearty Fresh บุษราคัมอินทผลัม",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "farm",
+        "activities",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/place/detail/28"
+    },
+    {
+      "name": "สวนอินทผลัม F28 ณ บ้านเกาะแรต",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "farm",
+        "activities",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.xn--72cga3cbo8cg9b4c4etb0g3ef.com/place/detail/64"
+    },
+    {
+      "name": "สนามกีฬาพระราชวังสนามจันทร์",
+      "province": "นครปฐม",
+      "categories": [
+        "sports",
+        "fitness",
+        "activities",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=kf6Q5MHXezE"
     }
   ]
 }
