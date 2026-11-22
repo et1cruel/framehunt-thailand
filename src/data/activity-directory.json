@@ -1,6 +1,6 @@
 {
   "source": "ไดเรกทอรีสาธารณะ เว็บไซต์ผู้ให้บริการ และแผนที่ค้นหาสถานที่",
-  "updated": "2026-11-23",
+  "updated": "2026-11-22",
   "places": [
     {
       "name": "กองหินม่วง,แดง · หมู่เกาะลันตา",
@@ -15323,6 +15323,124 @@
       "lat": 13.998368,
       "lon": 100.1815057,
       "sourceUrl": "https://www.tripniceday.com/place/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B1%E0%B8%A1%E0%B8%99%E0%B8%B2%E0%B8%88"
+    },
+    {
+      "name": "วัดใหม่สุปดิษฐาราม",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://dmc.tv/temple/1952"
+    },
+    {
+      "name": "วัดธรรมปัญญารามบางม่วง",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Attraction/วัดธรรมปัญญารามบางม่วง-เฮงเส็งยี่"
+    },
+    {
+      "name": "สวนส้มโอไทยทวี",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Attraction/สวนส้มโอไทยทวี"
+    },
+    {
+      "name": "โบราณสถานเนินพระ (ดอนยายหอม)",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://culturalenvi.onep.go.th/site/detail/2985"
+    },
+    {
+      "name": "เนินวัดพระงาม",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.thailandtourismdirectory.go.th/attraction/3397"
+    },
+    {
+      "name": "แหล่งเรียนรู้ธรรมชาติและสัตว์ เทศบาลนครนครปฐม (สวนสัตว์เทศบาลนครนครปฐม)",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nakhonpathomcity.go.th/public/list/data/detail/id/1258/menu/1173/page/public/"
+    },
+    {
+      "name": "วัดดอนขนาก",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9615.html"
+    },
+    {
+      "name": "พิพิธภัณฑ์หุ่นขี้ผึ้งไทย",
+      "province": "นครปฐม",
+      "categories": [
+        "art",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.thaiwaxmuseum.com/"
+    },
+    {
+      "name": "วัดไร่ขิง",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Attraction/วัดไร่ขิง"
+    },
+    {
+      "name": "พุทธมณฑล",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.onab.go.th/th/content/category/detail/id/73/iid/3397"
+    },
+    {
+      "name": "อุทยานธรรมชาติวิทยาสิรีรุกขชาติ",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://sireepark.mahidol.ac.th/"
+    },
+    {
+      "name": "วัดสามพราน",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.thairath.co.th/lifestyle/travel/thaitravel/1929083"
+    },
+    {
+      "name": "วัดศีรษะทอง",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Attraction/วัดศีรษะทอง"
     }
   ]
 }
