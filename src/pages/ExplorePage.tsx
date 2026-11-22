@@ -174,6 +174,7 @@ export default function ExplorePage() {
 
   const activeCount =
     filters.categories.length + filters.moods.length + (filters.province ? 1 : 0) + (filters.permission ? 1 : 0);
+  const totalVisibleCount = results.length + nakhonDirectoryPlaces.length;
 
   const provinceLabel = provinces.find((p) => p.slug === filters.province)?.name_th;
 
@@ -182,7 +183,7 @@ export default function ExplorePage() {
       <div className="glass-panel flex flex-col gap-5 p-5 sm:p-7 lg:p-8">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <p className="label-mono text-acid">LOCATION INDEX · {results.length} RESULTS</p>
+            <p className="label-mono text-acid">LOCATION INDEX · {totalVisibleCount} RESULTS</p>
             <h1 className="mt-2 display text-4xl md:text-6xl">
               EXPLORE<span className="text-burnt">.</span>
             </h1>
@@ -289,7 +290,7 @@ export default function ExplorePage() {
             <div className="flex flex-wrap items-center gap-2">
               <MobileFilterButton count={activeCount} onClick={() => setSheet(true)} />
               <span className="font-mono text-xs tracking-normal text-concrete">
-                {results.length} LOCATIONS
+                {nakhonDirectoryPlaces.length > 0 ? `${totalVisibleCount} LOCATIONS · ${results.length} VERIFIED + ${nakhonDirectoryPlaces.length} DIRECTORY` : `${results.length} LOCATIONS`}
                 {origin && <span className="text-acid"> · DISTANCE SORTED</span>}
               </span>
             </div>
@@ -318,6 +319,18 @@ export default function ExplorePage() {
           </div>
 
           <ActiveFilterChips filters={filters} onChange={patch} onReset={reset} />
+
+          {nakhonDirectoryPlaces.length > 0 && (
+            <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/80 bg-white/70 p-4 shadow-sm">
+              <div>
+                <p className="font-bold text-[#253248]">นครปฐมมีสถานที่ในไดเรกทอรีอีก {nakhonDirectoryPlaces.length} แห่ง</p>
+                <p className="mt-1 text-xs text-concrete">รวม {totalVisibleCount} แห่ง · {results.length} โลเคชันที่เผยแพร่ และ {nakhonDirectoryPlaces.length} จุดจากไดเรกทอรีท้องถิ่น</p>
+              </div>
+              <a className="clay-control inline-flex items-center gap-2 border border-white bg-white px-3 py-2 text-xs font-semibold text-[#315b50]" href="#nakhon-directory-list">
+                ไปยังรายการนครปฐม <ArrowUpRight className="h-3.5 w-3.5" />
+              </a>
+            </div>
+          )}
 
           <div className="mt-5">
             {view === "map" ? (
@@ -388,7 +401,7 @@ export default function ExplorePage() {
           </div>
 
           {nakhonDirectoryPlaces.length > 0 && (
-            <section className="mt-10 border-t border-line pt-8" aria-labelledby="nakhon-directory-heading">
+            <section id="nakhon-directory-list" className="mt-10 border-t border-line pt-8" aria-labelledby="nakhon-directory-heading">
               <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
                 <div>
                   <p className="label-mono text-acid">NAKHON PATHOM · LOCAL DIRECTORY</p>
