@@ -9,16 +9,16 @@ import studiosDirectory from "@/data/studios-directory.json";
 import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
 import { sceneVenues } from "@/data/live-programs";
 
-type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night" | "temple" | "nakhon-pathom" | "studio";
-type ActivityPlace = { name: string; province: string; district?: string; categories: ActivityCategory[]; sourceUrl?: string; lat?: number; lon?: number; accessNote?: string };
+type ActivityCategory = "climbing" | "shooting" | "karaoke" | "golf" | "football" | "fitness" | "sports" | "bowling" | "ice" | "park" | "nature" | "forest" | "mountain" | "cave" | "art" | "night" | "temple" | "nakhon-pathom" | "studio" | "community" | "farm";
+type ActivityPlace = { name: string; province: string; district?: string; categories: ActivityCategory[]; sourceUrl?: string; lat?: number; lon?: number; accessNote?: string; description?: string; address?: string; openingHours?: string; phone?: string; visitNote?: string };
 const places: ActivityPlace[] = [
   ...(activityDirectory.places as ActivityPlace[]).map((p) => p.name.includes("ถ้ำ") && p.categories.includes("nature") ? { ...p, categories: [...p.categories, "cave" as const] } : p),
   ...sceneVenues.map((venue) => ({ name: venue.name, province: "กรุงเทพมหานคร", district: venue.area, categories: ["night" as const], sourceUrl: venue.source })),
   ...studiosDirectory.studios.map((studio) => ({ name: studio.name, province: studio.province, district: studio.district, categories: ["studio" as const], sourceUrl: studio.sourceUrl })),
 ];
-const categories: Array<"all" | ActivityCategory> = ["all", "studio", "temple", "nakhon-pathom", "cave", "art", "night", "park", "nature", "forest", "mountain", "climbing", "shooting", "karaoke", "golf", "football", "fitness", "sports", "bowling", "ice"];
+const categories: Array<"all" | ActivityCategory> = ["all", "studio", "temple", "community", "farm", "nakhon-pathom", "cave", "art", "night", "park", "nature", "forest", "mountain", "climbing", "shooting", "karaoke", "golf", "football", "fitness", "sports", "bowling", "ice"];
 const categoryNames: Record<(typeof categories)[number], string> = {
-  all: "กิจกรรมทั้งหมด", studio: "ห้องซ้อมดนตรี", temple: "วัด", "nakhon-pathom": "เที่ยวนครปฐม", cave: "ถ้ำ", art: "พื้นที่ศิลปะ", night: "พื้นที่ดนตรีกลางคืน", park: "สวนสาธารณะ / สวนออกกำลังกาย", nature: "อุทยาน / ธรรมชาติ", forest: "ป่า / วนอุทยาน", mountain: "ภูเขา / ดอย", climbing: "ปีนผา", shooting: "สนามยิงปืน", karaoke: "คาราโอเกะ", golf: "กอล์ฟ", football: "ฟุตบอล / ฟุตซอล", fitness: "ยิม / ฟิตเนส", sports: "สนามกีฬา / กีฬาอื่น ๆ", bowling: "โบว์ลิ่ง", ice: "สเก็ตน้ำแข็ง",
+  all: "กิจกรรมทั้งหมด", studio: "ห้องซ้อมดนตรี", temple: "วัด", community: "เที่ยวชุมชน / ตลาด", farm: "ฟาร์ม / สวนเกษตร", "nakhon-pathom": "เที่ยวนครปฐม", cave: "ถ้ำ", art: "พื้นที่ศิลปะ", night: "พื้นที่ดนตรีกลางคืน", park: "สวนสาธารณะ / สวนออกกำลังกาย", nature: "อุทยาน / ธรรมชาติ", forest: "ป่า / วนอุทยาน", mountain: "ภูเขา / ดอย", climbing: "ปีนผา", shooting: "สนามยิงปืน", karaoke: "คาราโอเกะ", golf: "กอล์ฟ", football: "ฟุตบอล / ฟุตซอล", fitness: "ยิม / ฟิตเนส", sports: "สนามกีฬา / กีฬาอื่น ๆ", bowling: "โบว์ลิ่ง", ice: "สเก็ตน้ำแข็ง",
 };
 
 export default function ActivitiesPage() {
@@ -37,7 +37,7 @@ export default function ActivitiesPage() {
   const filtered = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("th");
     return places.filter((place) => {
-      const matchesText = !needle || `${place.name} ${place.province} ${place.categories.map((item) => categoryNames[item]).join(" ")}`.toLocaleLowerCase("th").includes(needle);
+      const matchesText = !needle || `${place.name} ${place.province} ${place.district ?? ""} ${place.description ?? ""} ${place.address ?? ""} ${place.categories.map((item) => categoryNames[item]).join(" ")}`.toLocaleLowerCase("th").includes(needle);
       return matchesText && (category === "all" || place.categories.includes(category)) && (!province || place.province === province);
     }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province, b.sourceUrl)) - Number(hasDirectoryCover(a.name, a.province, a.sourceUrl)));
   }, [category, province, query]);
@@ -68,7 +68,7 @@ export default function ActivitiesPage() {
             <li key={`${place.name}-${place.province}-${index}`}>
               <article className="clay-panel flex h-full min-h-44 flex-col justify-between gap-5 p-5 transition-transform hover:-translate-y-0.5">
                 <DirectoryCover name={place.name} province={place.province} />
-                <div><div className="mb-3 flex flex-wrap gap-1.5">{place.categories.map((item) => <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-[#315b50]">{categoryNames[item]}</span>)}</div><h3 className="font-bold leading-snug">{place.name}</h3><p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{place.district ? `${place.district} · ` : ""}{place.province}</p>{place.accessNote && <p className="mt-2 text-xs font-medium text-burnt">{place.accessNote}</p>}</div>
+                <div><div className="mb-3 flex flex-wrap gap-1.5">{place.categories.map((item) => <span key={item} className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-[#315b50]">{categoryNames[item]}</span>)}</div><h3 className="font-bold leading-snug">{place.name}</h3><p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{place.district ? `${place.district} · ` : ""}{place.province}</p>{place.description && <p className="mt-3 text-sm leading-relaxed text-concrete">{place.description}</p>}{place.accessNote && <p className="mt-2 text-xs font-medium text-burnt">{place.accessNote}</p>}{(place.address || place.openingHours || place.phone || place.visitNote) && <details className="mt-3 rounded-xl border border-white/90 bg-white/45 px-3 py-2 text-xs leading-relaxed text-concrete"><summary className="cursor-pointer font-semibold text-[#315b50]">ข้อมูลก่อนเดินทาง</summary><div className="mt-2 space-y-1.5">{place.address && <p><strong>ที่อยู่:</strong> {place.address}</p>}{place.openingHours && <p><strong>เวลา:</strong> {place.openingHours}</p>}{place.phone && <p><strong>โทร:</strong> <a className="underline decoration-sage underline-offset-2" href={`tel:${place.phone.replace(/[^\d+]/g, "")}`}>{place.phone}</a></p>}{place.visitNote && <p>{place.visitNote}</p>}</div></details>}</div>
                 <div className="flex flex-wrap gap-2"><a className="clay-control inline-flex w-fit items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white" href={place.lat && place.lon ? `https://www.google.com/maps/search/?api=1&query=${place.lat},${place.lon}` : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.province} Thailand`)}`} target="_blank" rel="noreferrer"> <Localized text="แผนที่" /> <ArrowUpRight className="h-3.5 w-3.5" aria-hidden /></a>{place.sourceUrl && <a className="clay-control inline-flex w-fit items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white" href={place.sourceUrl} target="_blank" rel="noreferrer"> <Localized text="ข้อมูลต้นทาง" /> <ArrowUpRight className="h-3.5 w-3.5" aria-hidden /></a>}</div>
               </article>
             </li>

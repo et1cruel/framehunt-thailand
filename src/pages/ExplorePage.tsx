@@ -91,7 +91,7 @@ export default function ExplorePage() {
       if (place.province !== "นครปฐม" || !place.categories.includes("nakhon-pathom")) return false;
       if (knownPlaces.has(`${normalizePlaceName(place.name.split(" · ")[0])}|${normalizePlaceName(place.province)}`)) return false;
       if (!placeQuery) return true;
-      return `${place.name} ${place.province} ${place.district ?? ""}`.toLocaleLowerCase("th").includes(placeQuery);
+      return `${place.name} ${place.province} ${place.district ?? ""} ${place.description ?? ""} ${place.address ?? ""}`.toLocaleLowerCase("th").includes(placeQuery);
     });
   }, [filters.province, filters.q, publishedLocations]);
 
@@ -424,6 +424,8 @@ export default function ExplorePage() {
                       <div>
                         <h3 className="font-bold leading-snug">{place.name}</h3>
                         <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" />{place.district ? `${place.district} · ` : ""}{place.province}</p>
+                        {place.description && <p className="mt-3 text-sm leading-relaxed text-concrete">{place.description}</p>}
+                        {(place.address || place.openingHours || place.phone || place.visitNote) && <details className="mt-3 rounded-xl border border-white/90 bg-white/45 px-3 py-2 text-xs leading-relaxed text-concrete"><summary className="cursor-pointer font-semibold text-[#315b50]">ข้อมูลก่อนเดินทาง</summary><div className="mt-2 space-y-1.5">{place.address && <p><strong>ที่อยู่:</strong> {place.address}</p>}{place.openingHours && <p><strong>เวลา:</strong> {place.openingHours}</p>}{place.phone && <p><strong>โทร:</strong> <a className="underline decoration-sage underline-offset-2" href={`tel:${place.phone.replace(/[^\d+]/g, "")}`}>{place.phone}</a></p>}{place.visitNote && <p>{place.visitNote}</p>}</div></details>}
                       </div>
                       <div className="mt-auto flex flex-wrap gap-2">
                         <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.province} Thailand`)}`} target="_blank" rel="noreferrer">
