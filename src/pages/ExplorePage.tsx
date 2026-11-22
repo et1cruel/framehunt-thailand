@@ -2,12 +2,14 @@ import { useLanguage } from "@/i18n/Language";
 import { Localized } from "@/i18n/Language";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { ArrowUpRight, Bookmark, Grid2X2, List, LocateFixed, Map as MapIcon, X } from "lucide-react";
+import { ArrowUpRight, Bookmark, Grid2X2, List, LocateFixed, Map as MapIcon, MapPin, X } from "lucide-react";
 import type { SearchFilters } from "@/data/types";
 import { emptyFilters, radiusFromParam } from "@/data/types";
 import { provinces } from "@/data/taxonomy";
+import activityDirectory from "@/data/activity-directory.json";
 import { useLocationCatalog } from "@/services/catalogContext";
 import { LocationCard } from "@/components/location/LocationCard";
+import { DirectoryCover } from "@/components/DirectoryCover";
 import { MapCanvas } from "@/components/map/MapCanvas";
 import { SearchBar } from "@/components/search/SearchBar";
 import { ActiveFilterChips, FilterSheet, FilterSidebar, MobileFilterButton } from "@/components/search/FilterPanel";
@@ -19,6 +21,7 @@ import { useSeo } from "@/lib/useSeo";
 type View = "grid" | "list" | "map";
 const PAGE = 12;
 const SAVED_KEY = "framehunt:saved-searches";
+const DIRECTORY_PAGE = 12;
 
 function filtersFromParams(sp: URLSearchParams): SearchFilters {
   return {
@@ -46,6 +49,7 @@ export default function ExplorePage() {
   const [origin, setOrigin] = useState<{ lat: number; lng: number } | null>(null);
   const [geoError, setGeoError] = useState(false);
   const [visible, setVisible] = useState(PAGE);
+  const [directoryVisible, setDirectoryVisible] = useState(DIRECTORY_PAGE);
   const [bounds, setBounds] = useState<{ west: number; south: number; east: number; north: number } | null>(null);
   const [inArea, setInArea] = useState(false);
   const [saved, setSaved] = useState<{ name: string; query: string }[]>(() => {
@@ -74,7 +78,22 @@ export default function ExplorePage() {
     );
   }, [allResults, inArea, bounds]);
 
-  useEffect(() => setVisible(PAGE), [sp, inArea, bounds]);
+  const nakhonDirectoryPlaces = useMemo(() => {
+    const searchText = filters.q.trim().toLocaleLowerCase("th");
+    const isNakhonPathomSearch = filters.province === "nakhon-pathom" || /นครปฐม|nakhon\s*pathom/i.test(searchText);
+    if (!isNakhonPathomSearch) return [];
+    const placeQuery = /นครปฐม|nakhon\s*pathom/i.test(searchText) ? "" : searchText;
+    return activityDirectory.places.filter((place) => {
+      if (place.province !== "นครปฐม" || !place.categories.includes("nakhon-pathom")) return false;
+      if (!placeQuery) return true;
+      return `${place.name} ${place.province} ${place.district ?? ""}`.toLocaleLowerCase("th").includes(placeQuery);
+    });
+  }, [filters.province, filters.q]);
+
+  useEffect(() => {
+    setVisible(PAGE);
+    setDirectoryVisible(DIRECTORY_PAGE);
+  }, [sp, inArea, bounds]);
 
   useEffect(() => {
     const el = sentinel.current;
@@ -362,6 +381,51 @@ export default function ExplorePage() {
               </div>
             )}
           </div>
+
+          {nakhonDirectoryPlaces.length > 0 && (
+            <section className="mt-10 border-t border-line pt-8" aria-labelledby="nakhon-directory-heading">
+              <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
+                <div>
+                  <p className="label-mono text-acid">NAKHON PATHOM · LOCAL DIRECTORY</p>
+                  <h2 id="nakhon-directory-heading" className="mt-2 font-display text-2xl font-bold">
+                    สถานที่เที่ยวและจุดค้นพบในนครปฐม
+                  </h2>
+                  <p className="mt-1 text-sm text-concrete">
+                    เพิ่มอีก {nakhonDirectoryPlaces.length} แห่งจากแหล่งข้อมูลท้องถิ่นและสาธารณะ · ตรวจสอบเวลาเปิดและเงื่อนไขก่อนเดินทาง
+                  </p>
+                </div>
+                <Link className="clay-control inline-flex items-center gap-2 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" to="/collections/nakhon-pathom">
+                  ดูรายการนครปฐมทั้งหมด <ArrowUpRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+              <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                {nakhonDirectoryPlaces.slice(0, directoryVisible).map((place, index) => (
+                  <li key={`${place.name}-${place.province}-${index}`}>
+                    <article className="clay-panel flex h-full flex-col gap-4 p-5">
+                      <DirectoryCover name={place.name} province={place.province} />
+                      <div>
+                        <h3 className="font-bold leading-snug">{place.name}</h3>
+                        <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" />{place.district ? `${place.district} · ` : ""}{place.province}</p>
+                      </div>
+                      <div className="mt-auto flex flex-wrap gap-2">
+                        <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.province} Thailand`)}`} target="_blank" rel="noreferrer">
+                          แผนที่ <MapPin className="h-3.5 w-3.5" />
+                        </a>
+                        {place.sourceUrl && <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" href={place.sourceUrl} target="_blank" rel="noreferrer">ข้อมูลต้นทาง <ArrowUpRight className="h-3.5 w-3.5" /></a>}
+                      </div>
+                    </article>
+                  </li>
+                ))}
+              </ul>
+              {directoryVisible < nakhonDirectoryPlaces.length && (
+                <div className="mt-6 flex justify-center">
+                  <Button variant="outline" onClick={() => setDirectoryVisible((count) => count + DIRECTORY_PAGE)}>
+                    โหลดสถานที่เพิ่ม ({nakhonDirectoryPlaces.length - directoryVisible})
+                  </Button>
+                </div>
+              )}
+            </section>
+          )}
 
           <div className="mt-12 border-t border-line pt-5">
             <p className="font-sans text-xs leading-relaxed text-concrete"> <Localized text="ผลลัพธ์ทั้งหมดอ้างอิงจากฐานข้อมูลที่เผยแพร่จริง · พิกัดจาก Wikidata · ภาพจาก Wikimedia Commons พร้อมเครดิตและใบอนุญาต ·\n              สถานะการอนุญาตถ่ายทำที่ระบุ “ยังไม่ยืนยัน” หมายความว่าต้องตรวจสอบกับหน่วยงานก่อนทุกครั้ง" /> </p>

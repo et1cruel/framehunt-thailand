@@ -15441,6 +15441,59 @@
         "nakhon-pathom"
       ],
       "sourceUrl": "https://thai.tourismthailand.org/Attraction/วัดศีรษะทอง"
+    },
+    {
+      "name": "วัดกลางบางแก้ว",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9649.html"
+    },
+    {
+      "name": "ศูนย์วัฒนธรรมไทดำ บ้านสะแกราย",
+      "province": "นครปฐม",
+      "categories": [
+        "art",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://db.sac.or.th/museum/museum-detail/1584"
+    },
+    {
+      "name": "ตลาดน้ำดอนหวาย",
+      "province": "นครปฐม",
+      "categories": [
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.nkppao.go.th/content-18-9617.html"
+    },
+    {
+      "name": "สนามแข่งรถไทยแลนด์เซอร์กิต",
+      "province": "นครปฐม",
+      "categories": [
+        "sports",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://www.lovethailand.org/travel/en/22-Nakhon-Pathom/1759-Thailand-Circuit-Car-Racing.html"
+    },
+    {
+      "name": "ชุมชนท่องเที่ยวบ้านดอนแฉลบ",
+      "province": "นครปฐม",
+      "categories": [
+        "nature",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://sdgs.npru.ac.th/details.php?news=251"
+    },
+    {
+      "name": "วัดทรงธรรมกัลยาณี",
+      "province": "นครปฐม",
+      "categories": [
+        "temple",
+        "nakhon-pathom"
+      ],
+      "sourceUrl": "https://thai.tourismthailand.org/Attraction/วัดทรงธรรมกัลยาณี"
     }
   ]
 }
