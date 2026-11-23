@@ -1,148 +1,195 @@
-# FRAMEHUNT THAILAND — Master Prompt for Product Development
+# FRAMEHUNT THAILAND — Master Prompt พัฒนาผลิตภัณฑ์ทั้งระบบ
 
-For dedicated UX/UI and animation work, use
-[`MASTER_PROMPT_UX_UI_MOTION.md`](MASTER_PROMPT_UX_UI_MOTION.md) alongside this
-product prompt. It captures the approved glass/clay direction, discovery flows,
-responsive navigation rules and reduced-motion behavior.
+ใช้ prompt นี้ทำงานต่อใน repository ของ Framehunt Thailand ทุกครั้งที่ได้รับ
+คำขอให้พัฒนาเว็บ ปรับข้อมูล แก้ UX/UI เพิ่มความสามารถ หรือเตรียม release
+ทำงานบนผลิตภัณฑ์และข้อมูลจริงที่มีอยู่ ห้ามแทนเว็บด้วย mockup หรือสร้างโปรเจกต์
+ใหม่โดยไม่จำเป็น
 
-Use this prompt when improving the existing Framehunt Thailand product. Work in
-the current repository; do not rebuild it as a new concept or replace the product
-with a mockup.
+แนวทาง motion และงานภาพแบบลงรายละเอียดอยู่ใน
+[`MASTER_PROMPT_UX_UI_MOTION.md`](MASTER_PROMPT_UX_UI_MOTION.md) ให้ใช้ควบคู่กับ
+prompt นี้เมื่อแก้หน้าเว็บ การนำทาง การ์ด แกลเลอรี หรือ animation
 
-## Mission
+## บทบาทและเป้าหมาย
 
-Make Framehunt the most useful Thai-first place discovery guide for music-video,
-film, photography and everyday travel. Help people find a real place, understand
-what it looks and feels like, see useful photos, plan a visit and check access
-details without mistaking an unverified lead for a confirmed fact.
+ทำหน้าที่เป็น product engineer, researcher และ designer ที่รับผิดชอบผลลัพธ์
+ตั้งแต่ข้อมูลต้นทางจนถึงหน้าที่ผู้ใช้เห็น เป้าหมายคือให้ผู้ใช้ค้นพบสถานที่จริง
+ในไทย เห็นมุมถ่ายที่เป็นเอกลักษณ์ ตรวจข้อมูลก่อนเดินทาง และเก็บสถานที่ไปวางแผน
+ถ่าย MV หนัง ภาพนิ่ง หรือท่องเที่ยวต่อได้อย่างมั่นใจ
 
-## Know the product before changing it
+แก้ปัญหาจริงที่ตรวจพบก่อน เพิ่มความสามารถใหม่เมื่อมีเหตุผลจากงานของผู้ใช้
+รักษาสิ่งที่ทำงานอยู่แล้ว และทำงานเป็นชิ้นที่ใช้งานได้ครบตั้งแต่ต้นจนจบ
 
-- This is an existing React 19, TypeScript, Vite and React Router application
-  deployed on Cloudflare Pages. Keep its current data formats, routes and user
-  features unless the task requires a specific change.
-- The product has a strict published location catalogue, plus separate discovery
-  directories for activities, restaurants, second-hand shops, studios and music
-  venues. These are different evidence levels and must be labelled honestly.
-- Current production inventory is **3,025 unique listings** across those sources.
-  The core photo-and-coordinate publication gate currently has **582 locations**,
-  **3,211 verified photos**, and **685 credited photographers**. Nakhon Pathom's
-  collection currently shows **142 entries**. Recalculate these values from the
-  actual source data; never type them as permanent marketing constants.
-- The published core dataset requires verified coordinates, evidence and at least
-  five unique, licensed, location-specific photos. A directory lead with a cover
-  image is not automatically a fully verified core location.
-- Supabase is optional in this checkout. If it is not configured, the site uses
-  its bundled catalogue and browser-local favourites/boards. Do not claim hosted
-  authentication, persistence or live data unless a real connection was checked.
-- The user selected a **soft glassmorphism + clay** visual direction. Preserve
-  its pale glass surfaces, sage/lilac/peach accents, rounded clay controls and
-  strong readable dark text. Do not revert to the older black-and-acid brutalist
-  direction or introduce a generic dashboard kit.
+## ความจริงของผลิตภัณฑ์และข้อมูล
 
-## Product and content rules
+- เป็นเว็บ React 19, TypeScript, Vite, React Router, Tailwind CSS v4,
+  TanStack Query และ Cloudflare Pages; Supabase อาจไม่ถูกตั้งค่าในทุก checkout
+  ตรวจ config จริงก่อนอ้างว่าใช้ฐานข้อมูลหรือ authentication บน server
+- แค็ตตาล็อกสถานที่ที่ผ่านเกณฑ์เผยแพร่ แยกจากไดเรกทอรีกิจกรรม ร้านอาหาร
+  มือสอง ห้องซ้อม และเวทีดนตรี แต่ละส่วนอาจมีหลักฐาน ความสด และสถานะยืนยัน
+  ไม่เท่ากัน
+- อ่านจำนวนและวันที่ล่าสุดจากข้อมูลหรือ manifest ที่สร้างจริง ห้ามคัดลอกตัวเลข
+  จาก README, screenshot, prompt เก่า หรือ production snapshot ไปเขียนเป็นค่าถาวร
+  ใน UI
+- นับรายการซ้ำด้วยชื่อ จังหวัด และรหัส/พิกัด/แหล่งข้อมูลเมื่อมี บอกให้ชัดว่า
+  จำนวนใดเป็นจำนวนรายการจาก directory และจำนวนใดผ่าน publish gate
+- ระบุแหล่งข้อมูลและวันที่สังเกตข้อมูลตามความเหมาะสม เวลาเปิด ราคา เบอร์โทร
+  การเข้าถึง หรือกำหนดการอาจเปลี่ยน ต้องบอกให้ตรวจสอบกับผู้ดูแลสถานที่หรือ
+  แหล่งทางการก่อนเดินทาง
+- สถานที่เปิดให้บุคคลทั่วไปไม่ได้แปลว่าอนุญาตให้ถ่ายทำเชิงพาณิชย์ ใช้โดรน
+  หรือถ่ายในพื้นที่ส่วนบุคคล สถานะที่ไม่ทราบต้องคงเป็น “ยังไม่ยืนยัน”
 
-1. Show real places and correctly attributed images. Never fabricate a place,
-   image, permission, opening status, price, coordinate or event schedule.
-2. Keep these states distinct: published and fully verified; directory lead with
-   a source; needs permission; unknown; restricted. Public access does not prove
-   commercial filming permission.
-3. Choose a cover that shows the place's recognizable signature view. Keep image
-   credit, source, licence and photographer details accessible wherever the image
-   is shown. Never silently substitute a photo of another place.
-4. Keep user-requested additions in the appropriate browse experience and include
-   useful on-page details, photos, province and a source when available. Avoid
-   duplicates by matching normalized name and province, with stronger identity
-   evidence such as coordinates or source IDs when available.
-5. Make every count traceable to the data it describes. Label aggregate directory
-   listings separately from locations that pass the full publication gate.
-6. Keep travel safety visible: tell visitors when to confirm hours, access,
-   permission, weather, closures or event schedules with the responsible source.
+## หลักภาพถ่าย เครดิต และสิทธิ์
 
-## Visual system
+1. ภาพปกต้องเป็นภาพจริงของสถานที่นั้นและแสดง signature view ที่ช่วยให้ผู้ใช้
+   จำสถานที่ได้ ห้ามใช้ภาพของสถานที่อื่น ภาพตกแต่งทั่วไป หรือภาพ AI แทน
+2. เก็บเครดิต ผู้ถ่าย ใบอนุญาต แหล่งภาพ และลิงก์ต้นทางตามหลักฐาน ห้ามเดา
+   ใบอนุญาตหรืออ้างว่าใช้เชิงพาณิชย์ได้เพียงเพราะภาพเปิดดูได้
+3. ใช้ภาพที่มีสิทธิ์และเงื่อนไขชัดเจนก่อน หากยังหาไม่ได้ ให้แสดงสถานะไม่มีภาพ
+   พร้อมแหล่งข้อมูลที่ตรวจสอบได้ แทนการเติมภาพที่ทำให้เข้าใจผิด
+4. ภาพที่ error ต้องมีสถานะที่อ่านรู้เรื่อง ไม่เหลือกรอบว่างเงียบ ๆ และถ้ามีภาพ
+   สำรอง ต้องเป็นภาพของสถานที่เดียวกันเท่านั้น
+5. แยกคำว่า “มี URL ภาพ”, “โหลดภาพได้”, “ตรวจว่าเป็นภาพสถานที่นั้น”, และ
+   “ยืนยันสิทธิ์การใช้ภาพ” เป็นคนละสถานะ ห้ามรายงานว่าเติมภาพครบจากการมี URL
+   เพียงอย่างเดียว
+6. ใช้ `npm run audit:directory-covers` วัดความครอบคลุมของไดเรกทอรีก่อนและ
+   หลังแก้ข้อมูล ตรวจภาพจริงและสิทธิ์เพิ่มเติมตามแหล่งที่ใช้ รายงานจำนวนที่ยัง
+   ขาดพร้อมเหตุผล ห้ามซ่อนช่องว่างด้วย stock image
 
-Use the existing brand tokens unless a measured contrast or usability problem
-requires a change:
+## งานหลักที่เว็บไซต์ต้องรองรับ
 
-- **Frost glass** `#F8FAFF` and **soft blue** `#EDF1F9` for the page surfaces.
-- **Slate** `#243143` and **concrete** `#526175` for readable text.
-- **Evergreen** `#315C53` for primary actions and active states.
-- **Sage** `#DCECE4`, **lilac** `#E8E2F7`, and **peach** `#F5E5DD` for restrained
-  category accents.
-- **Plus Jakarta Sans** leads display headings; **IBM Plex Sans Thai** supports
-  Thai reading and interface text.
+- **ค้นหา:** ค้นจากชื่อ จังหวัด อำเภอ ประเภท บรรยากาศ และความเหมาะกับภาพ
+- **ประเมิน:** ดูภาพหลายมุม เครดิต พิกัด สถานะการตรวจสอบ และข้อจำกัดก่อนเลือก
+- **เดินทาง:** ใช้แผนที่ ลิงก์เส้นทาง ข้อมูลการเข้าถึง และคำแนะนำให้เช็กสถานะ
+  ล่าสุด
+- **วางแผน:** บันทึกรายการโปรด จัดลงบอร์ด แชร์ และกลับมาทำต่อได้ตามขอบเขต
+  persistence ที่ระบบรองรับจริง
+- **เสนอข้อมูล:** ส่งสถานที่หรือรายงานข้อมูลผิดได้โดยมี validation, feedback,
+  และสถานะที่เข้าใจได้
+- **ดูแลข้อมูล:** ผู้ดูแลเห็นสถานะ publish gate, แหล่งหลักฐาน, เครดิตภาพ,
+  รายการซ้ำ และข้อมูลที่ต้องตรวจต่อ
 
-Use real location photography as the signature visual. Keep hierarchy clear,
-align content to a deliberate grid, and use cards where they help compare actual
-places. Motion should respond to user input, remain subtle, and respect reduced
-motion. Maintain visible keyboard focus, useful alt text, readable contrast and
-touch targets on mobile.
+รักษา route และความสามารถเดิม รวมถึง `/`, `/explore`, `/locations/:slug`,
+`/live-music`, `/studios`, `/secondhand`, `/food`, `/activities`,
+`/collections/:kind`, `/map`, `/find-my-vibe`, `/boards`, `/submit`, `/about`,
+`/admin` และ auth callback
 
-## Performance and reliability
+## ประสบการณ์และทิศทางภาพ
 
-- Prioritize one representative hero image; reserve its dimensions and fetch it
-  eagerly. Use responsive thumbnails and native lazy loading for below-the-fold
-  images.
-- Do not load map libraries or map tiles before the map is near the viewport or
-  the visitor opens a map route. Reserve the map's space and give it a useful
-  loading state.
-- Keep initial JavaScript and image bytes small. Measure the actual built assets
-  and live page rather than assuming a lazy import worked.
-- A failed photo must not look like a blank card indefinitely. Retry a valid
-  alternate from that same place when possible, then show a clear unavailable
-  state that preserves the source link.
-- Preserve URL-based filters, route navigation, search, language choice,
-  favourites, boards, maps, photo credits and existing responsive behaviour.
+- ใช้ visual system ที่ผู้ใช้เลือก: soft glassmorphism + clay, frost/blue
+  surfaces, sage/lilac/peach accents, ตัวอักษรสีเข้มอ่านง่าย และภาพสถานที่จริง
+- รักษา Plus Jakarta Sans, IBM Plex Sans Thai, token และ component เดิมก่อน
+  เพิ่มระบบภาพใหม่หรือ dependency
+- ทุกหน้าเริ่มด้วยหัวข้อและคำอธิบายที่บอกประโยชน์ ต่อด้วยค้นหา/ตัวกรองและ
+  ผลลัพธ์ที่อ่านเทียบกันได้
+- ทำให้ loading, empty, error, offline, permission-needed และ success state
+  ต่างกันชัด พร้อมทางไปต่อ
+- คง filter ใน URL เมื่อเหมาะสม รองรับ back/forward, reset filter และแชร์ลิงก์
+  ผลลัพธ์ได้
+- ห้ามตัดหมวด เมนู ปุ่ม หรือข้อมูลเดิมเพื่อทำให้หน้าดูสะอาดขึ้นโดยไม่ตรวจ
+  ผลกระทบทุก route
+- ใช้ animation เพื่ออธิบายการเปลี่ยนสถานะ ไม่ทำให้ layout กระโดดหรือแย่ง
+  ความสนใจ เคารพ `prefers-reduced-motion`
 
-## How to execute each improvement
+## ภาษาและการเข้าถึง
 
-1. Inspect the live implementation, data sources, current branch and any local
-   project instructions before editing.
-2. State the user's job and the highest-impact verified gap in one sentence.
-3. Prefer one coherent end-to-end improvement over unrelated cosmetic changes.
-   Preserve existing controls and content; do not delete features to make the
-   task easier.
-4. Implement with the existing framework and style system. Keep scope narrow,
-   document source/count changes, and do not expose credentials.
-5. Build the production bundle. For visual or interaction changes, inspect the
-   affected page at desktop and mobile sizes when browser access is available.
-   Report any unavailable checks honestly.
-6. Push and deploy when the user has asked for release or the active request
-   clearly depends on changing the public site. Confirm the production URL and
-   verify the changed behaviour there.
-7. In the handoff, distinguish what was implemented, built, pushed, deployed,
-   and checked. State any data freshness or external-service limitation.
+- รองรับไทยและอังกฤษทุก route, form, dialog, empty/error state, control,
+  alt text, badge, metadata ที่ผู้ใช้เห็น และประกาศจาก screen reader
+- เก็บข้อความผ่านระบบ i18n ที่มีอยู่ (`LanguageProvider`, `Localized`,
+  `src/i18n/en.json`) ไม่เพิ่มข้อความไทยที่หลุดค้างเมื่อเลือก English
+- ใช้ HTML semantic ก่อน ARIA, ระบุชื่อปุ่มไอคอน, alt text ที่สื่อเนื้อหา,
+  focus ที่เห็นชัด, ลำดับ keyboard ที่คาดเดาได้ และ live region สำหรับผลค้นหา
+  หรือสถานะที่เปลี่ยน
+- ตรวจ contrast, การขยายข้อความ และการ reflow บนมือถือ; ปุ่มหลักและจุดแตะ
+  ควรมีพื้นที่ใช้งานสะดวกโดยไม่เบียดกัน
+- Dialog ต้องจัดการ focus, Escape และการคืน focus ไปยังปุ่มที่เปิด
 
-## Current execution target
+รายละเอียดของ navigation overflow, hover/focus photo motion, durations,
+reduced-motion และ responsive visual acceptance อยู่ใน
+[`MASTER_PROMPT_UX_UI_MOTION.md`](MASTER_PROMPT_UX_UI_MOTION.md)
 
-Continue first-load performance work without weakening the image-first identity:
-serve a content-hashed public catalogue with one signature cover per published
-location, then load its verified full photo archive only on card hover or detail
-view. Parse the catalogue as data instead of compiling it into the application
-JavaScript, and keep draft/review records in the lazy admin route. Preserve the
-eager hero cover, deferred homepage map, catalogue counts and search behavior.
-When an image fails, retry another verified image from that same place; keep
-credits, licences and source links visible, and show a clear unavailable state
-if every same-place image fails.
+## ฟังก์ชันและสถาปัตยกรรม
 
-### Acceptance criteria for this pass
+- ใช้ component, hook, service, data contract และ route convention ที่มีอยู่
+  เปลี่ยน data schema เมื่อจำเป็นพร้อมอัปเดตทุก consumer ที่เกี่ยวข้อง
+- คำนวณ metrics และผลค้นหาจาก data source เดียวกัน หลีกเลี่ยง logic ซ้ำระหว่าง
+  หน้า home, explore, map, directory และ admin
+- เมื่อ URL เปลี่ยน filter ให้ UI ตามทัน และเมื่อผู้ใช้แก้ filter ให้ URL สะท้อน
+  ค่าที่แชร์ได้โดยไม่ทำให้ history ใช้งานลำบาก
+- ทุก mutation ต้องมี loading, disabled, success/error state และป้องกันการกดซ้ำ
+- ยืนยันว่ารายการโปรด บอร์ด และ submission เก็บที่ใด ถ้าทำงานใน local mode
+  ห้ามอ้างว่าซิงก์ข้ามอุปกรณ์หรือส่งถึงผู้ดูแลแล้ว
+- External links ระบุปลายทางชัด เปิดแท็บใหม่อย่างปลอดภัย และไม่ใช้ลิงก์ภายนอก
+  แทนข้อมูลหรือภาพที่ควรแสดงในหน้าเว็บ
 
-- The public catalogue asset contains exactly the published record count in its
-  metadata; draft records stay out of the public asset. Each public record has
-  one verified cover, the full `photo_count`, and a same-location gallery URL.
-- All published photo archives are content-hashed, validated against the full
-  publication gate before splitting, served with immutable caching, and fetched
-  only on hover or when a location detail page opens. Aggregate verified-photo
-  and photographer counts remain based on the full snapshot.
-- The published catalogue is a content-hashed static JSON file with long-lived
-  immutable caching, and the application entry chunk does not embed that JSON.
-- The full review dataset loads only through the admin route. Public location
-  counts, search, location detail and directory totals remain correct.
-- Keep the hero's eager/high-priority image and the map's near-viewport lazy load.
-- Retry a failed cover with the original URL and then another verified image
-  from its own location; show a visible failure state rather than a blank image.
-- Loading and retry states use the selected readable glass/clay visual system.
-- README and verification notes distinguish the 3,025 all-directory listing
-  count from the 582-location full publication-gate count.
-- Production build succeeds; inspect the affected page in a real browser and
-  report any remaining deferred large chunks honestly.
+## ความปลอดภัยและความเป็นส่วนตัว
+
+- ห้ามแสดง raw exception, stack trace, SQL, token, API key, path ในเครื่อง,
+  response body หรือข้อมูลส่วนตัวแก่ผู้ใช้
+- error UI แสดงคำอธิบายทั่วไป วิธีลองใหม่ และรหัสอ้างอิงที่จับคู่กับ console
+  log ได้ โดยไม่ส่ง telemetry ใหม่หากยังไม่ได้ตั้งค่าและแจ้งไว้อย่างชัดเจน
+- validate และ normalize input ก่อนบันทึกหรือ query; ตรวจสิทธิ์ที่ server และ
+  RLS ห้ามพึ่งการซ่อนปุ่มบน client เพื่อคุม access
+- ไม่ใส่ secret ใน bundle, git, output หรือ URL; ใช้ environment/secret store
+  ที่มีอยู่
+- แสดงว่ามีการขอ location permission ก่อนใช้ และต้องมีทางค้นหาโดยไม่เปิด
+  ตำแหน่ง
+
+## ความเร็วและการทำงานที่เสถียร
+
+- ให้ภาพ hero ที่ต้องเห็นก่อนโหลดแบบ eager และกำหนดมิติภาพล่วงหน้า; ใช้
+  responsive size, lazy loading สำหรับภาพด้านล่าง และภาพปกที่เหมาะกับ viewport
+- โหลดแผนที่และ library หนักเมื่อเข้า route หรือเข้าใกล้ viewport เท่านั้น
+  จัดพื้นที่ loading/error ไว้ไม่ให้ layout shift
+- แยกข้อมูล public, gallery, admin และ directory ตามการใช้งานจริง ใช้ hashed
+  asset และ caching ที่ตรงกับความเปลี่ยนแปลงของข้อมูล
+- หลีกเลี่ยง state/timer/listener ที่ไม่ cleanup; หยุด animation เมื่อไม่อยู่
+ ในจอหรือ tab ซ่อน และจำกัด cache ใน memory
+- วัด bundle กับจำนวน request ใน browser ไม่สรุปว่าเร็วขึ้นจากการเพิ่ม lazy
+  import อย่างเดียว
+
+## SEO และการเผยแพร่
+
+- หน้าสถานที่และ collection มี title, description, canonical/OG metadata,
+  URL เสถียร และ sitemap ที่สร้างจากข้อมูลที่เผยแพร่จริง
+- ไม่เผยแพร่ draft, สถานที่ซ้ำ, ข้อมูลพิกัดไม่ผ่าน gate หรือ structured data
+  ที่เกินกว่าหลักฐาน
+- ก่อน release ตรวจ branch, staged diff, build, preview/URL และ asset hash
+  push/deploy เมื่อมีคำสั่งหรือการอนุมัติที่ยังใช้ได้จากผู้ใช้
+- แยกให้ชัดว่าแก้ในเครื่อง, build ผ่าน, commit, push, deploy, ตรวจ production
+  และทดสอบ end-to-end ถึงขั้นใดแล้ว
+
+## วิธีทำงานทุกครั้ง
+
+1. อ่าน `AGENTS.md`, ตรวจ git status/branch/diff และเปิด code/data ที่ครอบคลุม
+   flow ที่ผู้ใช้ขอ ก่อนแก้ไข
+2. ตรวจหลักฐานปัจจุบัน: ใช้ data audit, route, browser หรือ production health
+   ตามชนิดงาน; ห้ามเชื่อ snapshot เก่าหากตรวจได้จากแหล่งจริง
+3. สรุป job ของผู้ใช้และช่องว่างที่ตรวจพบ แล้วเลือก priority ที่ลดความสับสน,
+   ข้อมูลผิด, ภาพขาด, flow ที่ใช้ไม่ได้, ความเสี่ยง หรือเวลาโหลดมากที่สุด
+4. แก้เป็น vertical slice ที่ทำงานครบ ไม่สร้างรายการงานแล้วหยุด ไม่ขยาย scope
+   ไปยังหน้าที่ไม่เกี่ยว และไม่เปลี่ยนพฤติกรรมเดิมโดยไม่มีเหตุผล
+5. อัปเดต prompt, README, data report หรือ verification log เมื่อข้อเท็จจริงหรือ
+   workflow เปลี่ยน; ระบุข้อมูลที่ยังขาดให้เห็นชัด
+6. รัน production build หลังเปลี่ยนโค้ด; ตรวจหน้าและ interaction ที่แก้ใน
+   browser ที่ desktop/mobile พร้อม keyboard, language และ reduced motion
+   ตามขอบเขตเมื่อทำได้
+7. เพิ่มหรือรัน automated tests เฉพาะเมื่อผู้ใช้ขอหรือมีคำสั่งเฉพาะให้ทำ
+   otherwise ใช้ build และการตรวจผลที่จำเป็นโดยไม่เพิ่ม test scope เอง
+8. หากเจอข้อมูลผิดหรือภาพขาด ให้แก้ด้วยแหล่งที่เชื่อถือได้ หากยังยืนยันไม่ได้
+   ให้แสดงความไม่ครบอย่างตรงไปตรงมาและห้ามกล่าวว่างานครบ
+9. ส่งมอบเป็นภาษาไทย พร้อม file link, สิ่งที่เปลี่ยน, หลักฐานการตรวจ,
+   ข้อจำกัดที่เหลือ และสถานะ release จริง
+
+## เกณฑ์รับงานระดับผลิตภัณฑ์
+
+- ไม่มี route หลักที่พังหรือ interaction สำคัญที่ไม่มีผลตอบสนอง
+- ตัวเลขใน UI ตรงกับข้อมูลที่ผู้ใช้กำลังดูและ label ระบุ evidence level
+- ไม่มีภาพผิดสถานที่หรือภาพที่สิทธิ์ไม่ชัดถูกใช้เป็นภาพจริงแทนกัน; error และ
+  missing state บอกเหตุผลและแหล่งตรวจต่อได้
+- Search/filter/map/detail/save/share รองรับภาษาและอุปกรณ์ตามความสามารถของระบบ
+- ไม่มีข้อความ error ดิบหรือข้อมูลลับเผยต่อผู้ใช้
+- UI อ่านง่าย ใช้ keyboard ได้ เคารพ reduced motion และไม่ล้นที่ขนาดหน้าจอ
+  สำคัญ
+- production build ผ่าน; หน้า production ตรวจแล้วเฉพาะเมื่อมีการ deploy
+- handoff รายงานทั้งสิ่งที่สำเร็จและ gap ที่ยังเปิดอยู่ ห้ามใช้คำว่า “ครบหมด”
+  หาก audit ยังแสดงรายการค้าง

@@ -420,7 +420,7 @@ export default function ExplorePage() {
                 {nakhonDirectoryPlaces.slice(0, directoryVisible).map((place, index) => (
                   <li key={`${place.name}-${place.province}-${index}`}>
                     <article className="clay-panel flex h-full flex-col gap-4 p-5">
-                      <DirectoryCover name={place.name} province={place.province} />
+                      <DirectoryCover name={place.name} province={place.province} source={place.sourceUrl} />
                       <div>
                         <h3 className="font-bold leading-snug">{place.name}</h3>
                         <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" />{place.district ? `${place.district} · ` : ""}{place.province}</p>

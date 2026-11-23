@@ -29,6 +29,7 @@
     "gen:assets": "node scripts/render-assets.mjs",
     "gen:sitemap": "node scripts/gen-sitemap.mjs",
     "gen:taxonomy": "node scripts/gen-taxonomy-seed.mjs",
+    "audit:directory-covers": "node scripts/audit-directory-covers.mjs",
     "db:seed": "node scripts/seed-locations.mjs"
   },
   "dependencies": {

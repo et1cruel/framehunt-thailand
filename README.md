@@ -4,6 +4,10 @@
 
 Soft glass and clay surfaces frame real location photography. Thai-first UI with English content.
 
+For product-wide implementation standards and evidence-led delivery, see
+[`docs/MASTER_PROMPT.md`](docs/MASTER_PROMPT.md). For focused UX/UI and motion
+work, use [`docs/MASTER_PROMPT_UX_UI_MOTION.md`](docs/MASTER_PROMPT_UX_UI_MOTION.md).
+
 ---
 
 ## Current production inventory (2026-11-23)
@@ -120,6 +124,7 @@ npm run test          # vitest run (43 tests)
 npm run test:e2e      # playwright test (13 tests, needs `npx playwright install chromium`)
 npm run build         # prebuild sitemap + tsc + vite build
 npm run verify:preview  # loads the built bundle on 7 routes, fails on JS errors
+npm run audit:directory-covers  # reports embedded cover coverage by directory
 ```
 
 ---

@@ -91,5 +91,15 @@
   "โซน": "Zone",
   "หมวดหมู่": "Categories",
   "อารมณ์": "Mood",
-  "ไม่พบสถานที่": "Place not found"
+  "ไม่พบสถานที่": "Place not found",
+  "มีบางอย่างผิดพลาด": "Something went wrong",
+  "หน้านี้แสดงผลไม่สำเร็จ ลองโหลดใหม่หรือกลับไปหน้าแรก หากยังพบปัญหาให้แจ้งรหัสอ้างอิงนี้": "This page could not be displayed. Reload it or return to the home page. If the problem continues, share this reference code with support.",
+  "โหลดหน้าใหม่": "Reload page",
+  "กลับหน้าแรก": "Go to homepage",
+  "รหัสอ้างอิง": "Reference",
+  "รูปภาพเปิดไม่ขึ้น": "This image could not be loaded",
+  "เปิดแหล่งข้อมูล": "Open source",
+  "โกดัง / ร้านสินค้าญี่ปุ่นมือสอง": "Japanese secondhand warehouses and shops",
+  "เสื้อผ้ามือสอง / วินเทจ": "Secondhand clothing and vintage",
+  "วินเทจและของสะสม": "Vintage and collectibles"
 }

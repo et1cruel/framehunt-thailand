@@ -103,7 +103,7 @@ export default function SecondhandPage() {
             <li key={`${shop.name}-${shop.province}-${index}`}>
               <article className="clay-panel flex h-full min-h-44 flex-col justify-between gap-5 p-5 transition-transform hover:-translate-y-0.5">
                 <div>
-                  <DirectoryCover name={shop.name} province={shop.province} />
+                  <DirectoryCover name={shop.name} province={shop.province} source={shop.source} />
                   <div className="mb-3 flex items-center justify-between gap-3">
                     <span className="rounded-full border border-white bg-lilac/60 px-2.5 py-1 text-[0.68rem] font-semibold text-acid">{<Localized text={kindLabels[shop.kind]} />}</span>
                     <Store className="h-4 w-4 shrink-0 text-acid" aria-hidden />

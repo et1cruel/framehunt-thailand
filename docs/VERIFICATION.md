@@ -407,3 +407,34 @@ header overlap and all routes in the secondary menu; inspection at **390×844**
 showed the home page within the viewport and the mobile menu exposed all routes.
 The Impeccable detector returned no findings for the changed UI files. Reduced
 motion and the animated keyboard photo preview were not manually exercised.
+
+## Product-wide prompt and recovery pass (2026-11-23)
+
+Replaced the old feature-specific master prompt with a reusable product-wide
+standard covering data truth, image rights, all browse and planning flows,
+localization, accessibility, security, resilience, performance, SEO and release
+verification. Added links from the README and an npm command for the existing
+directory-cover audit. The image audit measures directory records with an
+embedded non-stock cover URL; it does not prove that an image currently loads,
+depicts the named place, or has reuse permission.
+
+Last audit output from `npm run audit:directory-covers`:
+
+| Directory | Entries with cover URL | Entries | Missing/stock |
+| --- | ---: | ---: | ---: |
+| Core location catalogue | 582 | 582 | 0 |
+| Second-hand | 56 | 224 | 168 |
+| Food | 518 | 595 | 77 |
+| Activities | 1,112 | 1,657 | 545 |
+| Studios | 12 | 37 | 25 |
+| Live music posters | 19 | 39 | 20 |
+| Cave collection leads | 99 | 159 | 60 |
+| Art collection leads | 22 | 29 | 7 |
+| Temple collection leads | 71 | 71 | 0 |
+| Nakhon Pathom collection leads | 133 | 133 | 0 |
+
+Directory cards now retain each record's own source link in their image-unavailable
+state, so visitors can inspect the source when a cover is absent or fails to
+load. The application crash screen no longer exposes raw exception text or
+claims that local data is intact; it provides translated recovery actions and
+a reference ID that is logged with the diagnostic in the browser console.
