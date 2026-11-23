@@ -1,6 +1,7 @@
 // Production-bundle smoke test: builds are assumed present (`npm run build`).
 // Starts `vite preview`, loads key routes in Chromium, and fails on JS errors.
 // Usage: node scripts/verify-preview.mjs
+/* global document */
 import { execFileSync, spawn } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

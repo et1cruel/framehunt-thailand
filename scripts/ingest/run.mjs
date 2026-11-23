@@ -341,7 +341,6 @@ async function main() {
     .filter(Boolean);
   const selectedWaves = ["bangkok-frames", "wild-places", "hidden-thailand", "more-wild-places", "more-wild-places-2", "more-wild-places-3", "more-wild-places-4", "more-wild-places-5", "low-key", "night-music"];
   const activeWaves = selectedWaves.filter((name) => process.argv.includes("--" + name));
-  const wave = activeWaves.length === 1 ? activeWaves[0] : null;
   const seedsToUse = (expanding ? expansionSeeds : seeds).filter((seed) => {
     if (activeWaves.length && !activeWaves.includes(seed.wave)) return false;
     const prior = records[positionsBySlug.get(slugify(seed.name_en))];

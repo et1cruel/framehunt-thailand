@@ -1,7 +1,7 @@
 import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, ArrowUpRight, Check, Copy, Crosshair, Music2, Sparkles, X } from "lucide-react";
 import { moods } from "@/data/taxonomy";
 import { useLocationCatalog } from "@/services/catalogContext";
@@ -27,6 +27,7 @@ function pickCover(loc: LocationRecord) {
 
 export default function FindMyVibePage() {
   const { language, t } = useLanguage();
+  const reduceMotion = useReducedMotion() ?? false;
   const { findMyVibe } = useLocationCatalog();
   const [sp, setSp] = useSearchParams();
   const initial = (sp.get("moods") ?? "dark,cinematic").split(",").filter(Boolean);
@@ -151,8 +152,8 @@ export default function FindMyVibePage() {
                           key={s}
                           className="flex items-center gap-1 border border-acid/30 bg-acid/5 px-2 py-1 font-sans text-xs text-acid"
                         >
-                          {m?.name_th ?? s}
-                          <button type="button" onClick={() => toggle(s)} aria-label={`ลบ ${m?.name_en ?? s}`}>
+                          {language === "en" ? m?.name_en ?? s : m?.name_th ?? s}
+                          <button type="button" onClick={() => toggle(s)} aria-label={language === "en" ? `Remove ${m?.name_en ?? s}` : `ลบ ${m?.name_th ?? s}`}>
                             <X className="h-2.5 w-2.5" />
                           </button>
                         </span>
@@ -239,9 +240,9 @@ export default function FindMyVibePage() {
                 return (
                   <motion.article
                     key={match.location.id}
-                    initial={{ opacity: 0, y: 12 }}
+                    initial={reduceMotion ? false : { opacity: 0, y: 12 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.35, delay: Math.min(i * 0.04, 0.3) }}
+                    transition={{ duration: reduceMotion ? 0 : 0.35, delay: reduceMotion ? 0 : Math.min(i * 0.04, 0.3) }}
                     className="group grid gap-0 border border-line sm:grid-cols-[220px_1fr]"
                   >
                     <Link

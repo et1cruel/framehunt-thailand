@@ -584,3 +584,37 @@ confirmed the localized permission status, unknown-data labels, dates, distance
 units, and footer copy. This verifies those rendered fields only; it does not
 claim every supplemental directory record is translated or every image gap is
 closed.
+
+## 2026-11-23 site quality master prompt run
+
+Added `docs/MASTER_PROMPT_SITE_QUALITY.md` as an executable, evidence-based
+prompt for future whole-site improvement. It links the existing master prompts
+and sets acceptance criteria for image identity and licensing, dynamic English
+labels, keyboard/accessibility, reduced motion, responsive behavior, payload,
+and production verification. `docs/MASTER_PROMPT.md` now points to it.
+
+The current coverage-only report is `data/reports/current-cover-audit.json`.
+URL probing is explicitly disabled in this report, so the figures below measure
+catalog coverage and metadata only, not availability, image identity or rights.
+It currently records 877 missing image URLs across secondhand (168), food (77),
+activities (520), studios (25), live posters (20), cave leads (60), and art
+leads (7). Existing URLs also lack explicit license metadata in 1,826 records
+across these sets. These are open work items; no generic or unverified image was
+inserted to make the cards appear complete.
+
+This pass localized English image loading/error states and favourite controls,
+gallery thumbnails, zoom and source actions, plus the selected mood chips and
+remove buttons. It also honors `prefers-reduced-motion` for the Framer Motion
+gallery and mood-result animations. A few tracked maintenance-script lint
+errors found by the audit were fixed. Pre-existing untracked user scripts were
+left untouched.
+
+`npm run audit:i18n -- --strict` passed. Scoped ESLint on `src` and the changed
+tracked scripts reported zero errors and five existing warnings. Full
+`npm run lint` still fails on three unused catch variables in the pre-existing
+untracked `scripts/add-nakhon-pathom-v2.mjs`; it also reports those five
+warnings. `npm run build` passed, and `npm run verify:preview` passed all nine
+routes, including the MapLibre canvas. The build still warns that the MapLibre
+chunk is 1.05 MB and the dataset chunk is 10.82 MB (raw). This pass does not
+claim the image gaps above are resolved or that all supplemental directory
+prose has English translations.

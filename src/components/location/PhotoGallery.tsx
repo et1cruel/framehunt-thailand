@@ -2,7 +2,7 @@ import { Localized, useLanguage } from "@/i18n/Language";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Expand, X, ZoomIn, ZoomOut, ExternalLink, ImageOff, LoaderCircle } from "lucide-react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import type { LocationPhoto } from "@/data/types";
 import { cn } from "@/lib/utils";
 import { loadPhotoGallery } from "@/services/photoGalleries";
@@ -16,7 +16,8 @@ interface Props {
 }
 
 export function PhotoGallery({ photos: initialPhotos, locationName, galleryAssetUrl, expectedPhotoCount, className }: Props) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const reduceMotion = useReducedMotion() ?? false;
   const [photos, setPhotos] = useState(initialPhotos);
   const [active, setActive] = useState(0);
   const [open, setOpen] = useState(false);
@@ -83,7 +84,7 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
     return (
       <div className={cn("clay-panel flex min-h-48 flex-col items-center justify-center gap-3 p-6 text-center", className)}>
         {loadingArchive ? <LoaderCircle className="h-6 w-6 animate-spin text-acid" /> : <ImageOff className="h-6 w-6 text-concrete" />}
-        <p className="text-sm text-concrete">{loadingArchive ? "กำลังโหลดภาพทั้งหมดของสถานที่นี้…" : "ยังโหลดภาพสถานที่ไม่ได้"}</p>
+        <p className="text-sm text-concrete">{loadingArchive ? t("กำลังโหลดภาพทั้งหมดของสถานที่นี้…") : t("ยังโหลดภาพสถานที่ไม่ได้")}</p>
         {archiveError && <button type="button" onClick={loadArchive} className="rounded-full border border-line px-4 py-2 text-xs hover:border-acid hover:text-acid"><Localized text={"ลองโหลดอีกครั้ง"} /></button>}
       </div>
     );
@@ -109,7 +110,7 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
       <div className="media-inverse relative aspect-[16/10] overflow-hidden rounded-2xl bg-ink-2 md:aspect-[16/9]">
         <AnimatePresence mode="wait">
           {unavailable ? (
-            <motion.div key={`unavailable-${current.id}`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-ink-2 p-5 text-center text-concrete">
+            <motion.div key={`unavailable-${current.id}`} initial={reduceMotion ? false : { opacity: 0 }} animate={{ opacity: 1 }} exit={reduceMotion ? undefined : { opacity: 0 }} transition={{ duration: reduceMotion ? 0 : 0.2 }} className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-ink-2 p-5 text-center text-concrete">
               <ImageOff className="h-7 w-7" />
               <p className="text-sm"><Localized text={"ภาพนี้เปิดไม่ได้ · ข้ามไปภาพอื่นได้"} /></p>
               <a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline underline-offset-2 hover:text-acid"><Localized text={"ตรวจสอบภาพต้นทาง"} /></a>
@@ -126,10 +127,10 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
               loading="eager"
               decoding="async"
               onError={() => handlePhotoError(current.id)}
-              initial={{ opacity: 0 }}
+              initial={reduceMotion ? false : { opacity: 0 }}
               animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.25 }}
+              exit={reduceMotion ? undefined : { opacity: 0 }}
+              transition={{ duration: reduceMotion ? 0 : 0.25 }}
               className="h-full w-full object-cover"
             />
           )}
@@ -152,7 +153,7 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
 
       <div className="mt-2 flex gap-2 overflow-x-auto pb-1 snap-x-mandatory" role="tablist" aria-label={t("แกลเลอรีภาพ")}>
         {photos.map((photo, index) => (
-          <button key={photo.id} type="button" role="tab" aria-selected={index === active} aria-label={`ภาพที่ ${index + 1}: ${photo.title}`} onClick={() => { setActive(index); setZoom(false); }} className={cn("relative h-16 w-24 shrink-0 overflow-hidden border transition-all snap-start md:h-20 md:w-28", index === active ? "border-acid opacity-100" : "border-transparent opacity-55 hover:opacity-90")}>
+          <button key={photo.id} type="button" role="tab" aria-selected={index === active} aria-label={language === "en" ? `${locationName} photo ${index + 1}` : `ภาพที่ ${index + 1}: ${photo.title}`} onClick={() => { setActive(index); setZoom(false); }} className={cn("relative h-16 w-24 shrink-0 overflow-hidden border transition-all snap-start md:h-20 md:w-28", index === active ? "border-acid opacity-100" : "border-transparent opacity-55 hover:opacity-90")}>
             {failedThumbIds.has(photo.id) ? <span className="flex h-full items-center justify-center bg-ink-2 text-concrete"><ImageOff className="h-4 w-4" /></span> : <img src={photo.thumb_url} alt="" loading="lazy" decoding="async" onError={() => setFailedThumbIds((previous) => new Set(previous).add(photo.id))} className="h-full w-full object-cover" />}
           </button>
         ))}
@@ -169,16 +170,16 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
             touchX.current = null;
           }}>
             <DialogPrimitive.Title className="sr-only">{locationName} <Localized text={"— แกลเลอรีภาพ"} /></DialogPrimitive.Title>
-            <div className="flex items-center justify-between border-b border-line px-4 py-3">
-              <div className="flex items-baseline gap-3"><span className="font-mono text-xs text-acid">{String(active + 1).padStart(2, "0")}</span><span className="font-mono text-xs tracking-normal text-concrete">/ {String(displayCount).padStart(2, "0")}</span><span className="hidden max-w-[40vw] truncate font-sans text-xs text-concrete sm:block">{current.title}</span></div>
+              <div className="flex items-center justify-between border-b border-line px-4 py-3">
+              <div className="flex items-baseline gap-3"><span className="font-mono text-xs text-acid">{String(active + 1).padStart(2, "0")}</span><span className="font-mono text-xs tracking-normal text-concrete">/ {String(displayCount).padStart(2, "0")}</span><span className="hidden max-w-[40vw] truncate font-sans text-xs text-concrete sm:block">{language === "en" ? `${locationName} · photo ${active + 1}` : current.title}</span></div>
               <div className="flex items-center gap-1">
-                <button type="button" onClick={() => setZoom((value) => !value)} className="flex h-10 w-10 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid" aria-label={zoom ? "ย่อภาพ" : "ขยายภาพ"}>{zoom ? <ZoomOut className="h-4 w-4" /> : <ZoomIn className="h-4 w-4" />}</button>
+                <button type="button" onClick={() => setZoom((value) => !value)} className="flex h-10 w-10 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid" aria-label={t(zoom ? "ย่อภาพ" : "ขยายภาพ")}>{zoom ? <ZoomOut className="h-4 w-4" /> : <ZoomIn className="h-4 w-4" />}</button>
                 <a href={current.source_page_url} target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid" aria-label={t("เปิดหน้าต้นทางภาพ")}><ExternalLink className="h-4 w-4" /></a>
                 <DialogPrimitive.Close className="flex h-10 w-10 items-center justify-center border border-line text-paper hover:border-acid hover:text-acid" aria-label={t("ปิดแกลเลอรี")}><X className="h-4 w-4" /></DialogPrimitive.Close>
               </div>
             </div>
             <div className={cn("relative flex flex-1 items-center justify-center overflow-auto p-2 md:p-6", zoom && "items-start")}>
-              {unavailable ? <div className="flex flex-col items-center gap-3 text-concrete"><ImageOff className="h-8 w-8" /><span><Localized text={"ภาพนี้เปิดไม่ได้"} /></span><a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline hover:text-acid"><Localized text={"ภาพต้นทาง"} /></a></div> : <img src={current.image_url} alt={`${locationName} — ${current.title}`} onError={() => handlePhotoError(current.id)} onClick={() => setZoom((value) => !value)} className={cn("max-h-full max-w-full object-contain transition-transform duration-300", zoom ? "max-h-none max-w-none scale-150 cursor-zoom-out" : "cursor-zoom-in")} />}
+              {unavailable ? <div className="flex flex-col items-center gap-3 text-concrete"><ImageOff className="h-8 w-8" /><span><Localized text={"ภาพนี้เปิดไม่ได้"} /></span><a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline hover:text-acid"><Localized text={"ภาพต้นทาง"} /></a></div> : <img src={current.image_url} alt={language === "en" ? `${locationName} photo ${active + 1}` : `${locationName} — ${current.title}`} onError={() => handlePhotoError(current.id)} onClick={() => setZoom((value) => !value)} className={cn("max-h-full max-w-full object-contain transition-transform duration-300", zoom ? "max-h-none max-w-none scale-150 cursor-zoom-out" : "cursor-zoom-in")} />}
               <button type="button" onClick={() => go(-1)} aria-label={t("ภาพก่อนหน้า")} className="fixed left-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-paper/20 bg-ink/70 text-paper hover:border-acid hover:text-acid md:left-6"><ChevronLeft className="h-6 w-6" /></button>
               <button type="button" onClick={() => go(1)} aria-label={t("ภาพถัดไป")} className="fixed right-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-paper/20 bg-ink/70 text-paper hover:border-acid hover:text-acid md:right-6"><ChevronRight className="h-6 w-6" /></button>
             </div>
@@ -188,7 +189,7 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
                 <p className="font-mono text-xs tracking-normal text-concrete">{current.verification_status} · {current.subject_evidence}</p>
               </div>
               <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
-                {photos.map((photo, index) => <button key={photo.id} type="button" onClick={() => { setActive(index); setZoom(false); }} aria-label={`ไปยังภาพที่ ${index + 1}`} aria-current={index === active} className={cn("h-12 w-16 shrink-0 overflow-hidden border", index === active ? "border-acid" : "border-transparent opacity-45 hover:opacity-80")}>{failedThumbIds.has(photo.id) ? <span className="flex h-full items-center justify-center bg-ink-2 text-concrete"><ImageOff className="h-4 w-4" /></span> : <img src={photo.thumb_url} alt="" loading="lazy" onError={() => setFailedThumbIds((previous) => new Set(previous).add(photo.id))} className="h-full w-full object-cover" />}</button>)}
+                {photos.map((photo, index) => <button key={photo.id} type="button" onClick={() => { setActive(index); setZoom(false); }} aria-label={language === "en" ? `Go to photo ${index + 1}` : `ไปยังภาพที่ ${index + 1}`} aria-current={index === active} className={cn("h-12 w-16 shrink-0 overflow-hidden border", index === active ? "border-acid" : "border-transparent opacity-45 hover:opacity-80")}>{failedThumbIds.has(photo.id) ? <span className="flex h-full items-center justify-center bg-ink-2 text-concrete"><ImageOff className="h-4 w-4" /></span> : <img src={photo.thumb_url} alt="" loading="lazy" onError={() => setFailedThumbIds((previous) => new Set(previous).add(photo.id))} className="h-full w-full object-cover" />}</button>)}
               </div>
             </div>
           </DialogPrimitive.Content>

@@ -37,6 +37,7 @@ export function PhotoImage({
   galleryAssetUrl?: string;
   expectedPhotoCount?: number;
 }) {
+  const { t } = useLanguage();
   const [candidateIndex, setCandidateIndex] = useState(0);
   const [useOriginal, setUseOriginal] = useState(false);
   const [recoveryPhotos, setRecoveryPhotos] = useState<LocationPhoto[]>([]);
@@ -90,10 +91,15 @@ export function PhotoImage({
   };
 
   if (!current || failed) {
+    const message = loadingGallery
+      ? t("กำลังค้นหารูปสำรอง…")
+      : photo
+        ? t("ภาพนี้โหลดไม่สำเร็จ")
+        : t("ยังไม่มีภาพสถานที่");
     return (
-      <div role="img" aria-label={photo ? "ภาพสถานที่โหลดไม่สำเร็จ" : "ยังไม่มีภาพสถานที่"} className={cn("flex items-center justify-center gap-2 bg-ink-2 px-3 text-center text-xs text-concrete", className)}>
+      <div role="img" aria-label={photo ? t("ภาพสถานที่โหลดไม่สำเร็จ") : t("ยังไม่มีภาพสถานที่")} className={cn("flex items-center justify-center gap-2 bg-ink-2 px-3 text-center text-xs text-concrete", className)}>
         <ImageOff className="h-4 w-4 shrink-0" aria-hidden="true" />
-        <span>{loadingGallery ? "กำลังค้นหารูปสำรอง…" : photo ? "ภาพนี้โหลดไม่สำเร็จ" : "ยังไม่มีภาพสถานที่"}</span>
+        <span>{message}</span>
       </div>
     );
   }
@@ -256,7 +262,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         <button
           type="button"
           onClick={() => toggle(location.id)}
-          aria-label={saved ? "นำออกจากรายการโปรด" : "บันทึกเป็นรายการโปรด"}
+          aria-label={t(saved ? "นำออกจากรายการโปรด" : "บันทึกเป็นรายการโปรด")}
           aria-pressed={saved}
           className={cn(
             "clay-control absolute right-5 top-5 flex h-11 w-11 items-center justify-center border bg-ink/95 transition-[color,background-color,transform] active:scale-95",
@@ -284,7 +290,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         <button
           type="button"
           onClick={() => toggle(location.id)}
-          aria-label={saved ? "นำออกจากรายการโปรด" : "บันทึกเป็นรายการโปรด"}
+          aria-label={t(saved ? "นำออกจากรายการโปรด" : "บันทึกเป็นรายการโปรด")}
           aria-pressed={saved}
           className={cn(
             "clay-control absolute right-2.5 top-2.5 flex h-11 w-11 items-center justify-center border border-white/75 backdrop-blur-md transition-colors",

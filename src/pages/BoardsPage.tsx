@@ -356,7 +356,7 @@ export default function BoardsPage() {
                     onChange={(e) => updateNote(item, e.target.value)}
                     placeholder={t("โน้ตสำหรับทีม เช่น ต้องการแสงเช้า / ต้องขออนุญาตล่วงหน้า…")}
                     className="h-9 w-full border border-line bg-transparent px-2 font-sans text-xs text-concrete placeholder:text-concrete focus:border-acid focus:outline-none"
-                    aria-label={`โน้ตสำหรับ ${loc.name_th}`}
+                    aria-label={language === "en" ? `Notes for ${loc.name_en || loc.name_th}` : `โน้ตสำหรับ ${loc.name_th}`}
                   />
 
                   <div className="flex flex-wrap items-center gap-1.5">
@@ -499,7 +499,7 @@ export default function BoardsPage() {
                     type="button"
                     onClick={() => toggle(loc.id)}
                     className="absolute -top-2 right-0 z-30 flex h-7 items-center gap-1 border border-line bg-ink px-2 font-mono text-xs tracking-normal text-concrete hover:text-burnt"
-                    aria-label={`นำ ${loc.name_th} ออกจากรายการโปรด`}
+                    aria-label={language === "en" ? `Remove ${loc.name_en || loc.name_th} from favourites` : `นำ ${loc.name_th} ออกจากรายการโปรด`}
                   >
                     <X className="h-3 w-3" /> REMOVE
                   </button>

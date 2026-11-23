@@ -197,3 +197,6 @@ reduced-motion และ responsive visual acceptance อยู่ใน
 - production build ผ่าน; หน้า production ตรวจแล้วเฉพาะเมื่อมีการ deploy
 - handoff รายงานทั้งสิ่งที่สำเร็จและ gap ที่ยังเปิดอยู่ ห้ามใช้คำว่า “ครบหมด”
   หาก audit ยังแสดงรายการค้าง
+
+สำหรับ audit และพัฒนาคุณภาพทั้งเว็บ ให้ใช้
+[`MASTER_PROMPT_SITE_QUALITY.md`](./MASTER_PROMPT_SITE_QUALITY.md) เพิ่มเติม

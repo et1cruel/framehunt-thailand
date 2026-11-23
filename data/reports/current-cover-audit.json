@@ -1,0 +1,5389 @@
+{
+  "generatedAt": "2026-11-23T11:50:24.984Z",
+  "urlCheck": {
+    "enabled": false
+  },
+  "report": {
+    "Locations": {
+      "total": 582,
+      "withPhotoUrl": 582,
+      "matchedByName": 582,
+      "matchedBySource": 0,
+      "missing": 0,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 0
+    },
+    "Secondhand": {
+      "total": 224,
+      "withPhotoUrl": 56,
+      "matchedByName": 56,
+      "matchedBySource": 0,
+      "missing": 168,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 56
+    },
+    "Food": {
+      "total": 595,
+      "withPhotoUrl": 518,
+      "matchedByName": 11,
+      "matchedBySource": 507,
+      "missing": 77,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 518
+    },
+    "Activities": {
+      "total": 1620,
+      "withPhotoUrl": 1100,
+      "matchedByName": 1100,
+      "matchedBySource": 0,
+      "missing": 520,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 1100
+    },
+    "Studios": {
+      "total": 37,
+      "withPhotoUrl": 12,
+      "matchedByName": 12,
+      "matchedBySource": 0,
+      "missing": 25,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 12
+    },
+    "Live posters": {
+      "total": 39,
+      "withPhotoUrl": 19,
+      "matchedByName": 0,
+      "matchedBySource": 19,
+      "missing": 20,
+      "missingSource": 0,
+      "missingCredit": 19,
+      "missingLicense": 19
+    },
+    "Collection leads: cave": {
+      "total": 159,
+      "withPhotoUrl": 99,
+      "matchedByName": 99,
+      "matchedBySource": 0,
+      "missing": 60,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 99
+    },
+    "Collection leads: art": {
+      "total": 29,
+      "withPhotoUrl": 22,
+      "matchedByName": 22,
+      "matchedBySource": 0,
+      "missing": 7,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 22
+    },
+    "Collection leads: temple": {
+      "total": 71,
+      "withPhotoUrl": 71,
+      "matchedByName": 71,
+      "matchedBySource": 0,
+      "missing": 0,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 71
+    },
+    "Collection leads: nakhon-pathom": {
+      "total": 133,
+      "withPhotoUrl": 133,
+      "matchedByName": 133,
+      "matchedBySource": 0,
+      "missing": 0,
+      "missingSource": 0,
+      "missingCredit": 0,
+      "missingLicense": 133
+    }
+  },
+  "missing": {
+    "Locations": [],
+    "Secondhand": [
+      {
+        "name": "Second Hand Shoes Banglumpoo",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://thriftspots.com/thailand/bangkok/bangkok/second-hand-shoes-banglumpoo",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Thrift Mood",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://thriftspots.com/thailand/bangkok/bangkok/thrift-mood",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Momoko Japan สินค้านำเข้าญี่ปุ่นมือสอง",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/momokojapann/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านลุงเคนจิ (ใกล้โรงไฟฟ้าบางแค)",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/kenjiunclefanclub",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สองเกลอ มือสองของญี่ปุ่น",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/songgaer/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจแปนทาวน์ โกดังสินค้ามือสองนำเข้าจากญี่ปุ่น (บางแค)",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/JapanTownSecondHandTrading",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจแปนรียูส สินค้ามือสองนำเข้าจากญี่ปุ่น",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/japanreuse/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่น ปังปัง บางบอน 5",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/pangpangjapanwarehouse/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังสินค้าญี่ปุ่น โกนจา ประชาอุทิศ 19/1",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/profile.php?id=100086092205671",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังสินค้ามือ 2 โพธิ์แก้ว (ลาดพร้าว 122)",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/gigkanyaphat21",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เอะโคะโละ ชอป (Ecolo Shop) นครชัยศรี",
+        "province": "นครปฐม",
+        "source": "https://www.facebook.com/ecolocity/posts/pfbid0g8KRE3Rcmz52iAb7B38w9ciqJERVdXujsbspuyWn14EdrPVdqxYpNePAZwJVgzVMl",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่านครปฐม by ตาต้าคุง",
+        "province": "นครปฐม",
+        "source": "https://www.facebook.com/profile.php?id=61573523706250",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไฮ ฟูจิโกะ Japan โกดังสินค้าญี่ปุ่นมือสอง นครปฐม",
+        "province": "นครปฐม",
+        "source": "https://www.facebook.com/profile.php?id=100093904107142",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "F โกดังสินค้าญี่ปุ่นมือสอง (สาขาเดิม แยกสปีดไทม์)",
+        "province": "นนทบุรี",
+        "source": "https://www.facebook.com/FJPAN2/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แม่เจี๊ยบโกดังญี่ปุ่นมือสอง",
+        "province": "นนทบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100063957663962",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นมือ 2 บางใหญ่ เจ้นานา",
+        "province": "นนทบุรี",
+        "source": "https://www.facebook.com/profile.php?id=61553658855782",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านเจ๊ปอง สินค้าญี่ปุ่นมือสอง สามโคก",
+        "province": "ปทุมธานี",
+        "source": "https://www.facebook.com/profile.php?id=100063545591304",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โยเนะ โกดังสินค้าญี่ปุ่นมือสอง (ลำลูกกา)",
+        "province": "ปทุมธานี",
+        "source": "https://www.facebook.com/yonejapanstore/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jantra โกดังสินค้าญี่ปุ่นมือสอง พระรามสอง",
+        "province": "สมุทรสาคร",
+        "source": "https://www.facebook.com/jantra2handfromjapan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sakura โกดังสินค้ามือ 2 จากญี่ปุ่น กระทุ่มแบน",
+        "province": "สมุทรสาคร",
+        "source": "https://www.facebook.com/sakura2ndhand/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าสมุทรสาคร by ตาต้าคุง",
+        "province": "สมุทรสาคร",
+        "source": "https://www.facebook.com/profile.php?id=100063452988465",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "C Mall Chainat สินค้าญี่ปุ่นมือสอง",
+        "province": "ชัยนาท",
+        "source": "https://www.facebook.com/profile.php?id=100063470127013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ของญี่ปุ่น มือ2 นครสวรรค์",
+        "province": "นครสวรรค์",
+        "source": "https://www.facebook.com/profile.php?id=100039310941342",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จิปาถะญี่ปุ่นมือสอง สาขานครสวรรค์",
+        "province": "นครสวรรค์",
+        "source": "https://www.facebook.com/profile.php?id=100063632753000",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จิปาถะญี่ปุ่นมือสอง สาขาอยุธยา",
+        "province": "พระนครศรีอยุธยา",
+        "source": "https://www.facebook.com/profile.php?id=61578140961104",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ยูกิโตะ โกดังสินค้าญี่ปุ่นมือสอง",
+        "province": "พระนครศรีอยุธยา",
+        "source": "https://www.facebook.com/profile.php?id=61560292642298",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าวังน้อย by ตาต้าคุง",
+        "province": "พระนครศรีอยุธยา",
+        "source": "https://www.facebook.com/profile.php?id=100084614113140",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "มาคราฟเจแปน สินค้าญี่ปุ่นลพบุรี",
+        "province": "ลพบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100065408116079",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ยูทากะ โกดังญี่ปุ่นมือสอง วังเพลิง โคกสำโรง",
+        "province": "ลพบุรี",
+        "source": "https://www.facebook.com/Yutaka2handfromjapan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลพบุรีเจแปน",
+        "province": "ลพบุรี",
+        "source": "https://www.facebook.com/profile.php?id=61577806170525",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สินค้ามือสองญี่ปุ่นลพบุรี (พระพุทธบาท)",
+        "province": "ลพบุรี",
+        "source": "https://www.facebook.com/bchjapan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Heng Heng Japan โกดังสินค้าญี่ปุ่น ปลีก/ส่ง",
+        "province": "สระบุรี",
+        "source": "https://www.facebook.com/HengHengJapan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ยูทากะ สินค้าญี่ปุ่นมือสอง สิงห์บุรี",
+        "province": "สิงห์บุรี",
+        "source": "https://www.facebook.com/profile.php?id=100094395742198",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "UYA Life อูย่า ไลฟ์ โกดังสินค้าญี่ปุ่นมือสอง",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100090862166008",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ขวัญใจ โกดังสินค้าญี่ปุ่นมือสอง ราคาถูก",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100086922074066",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เคียวได โกดังสินค้าญี่ปุ่นมือสอง อู่ทอง",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100088356016131",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แบมบู โกดังสินค้านำเข้าญี่ปุ่น (ศรีประจันต์)",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100070697175758",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Japan-X โกดังสินค้าญี่ปุ่นมือสอง กาญจนบุรี",
+        "province": "กาญจนบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100088251037078",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านของแปลก โกดังญี่ปุ่น กาญจนบุรี",
+        "province": "กาญจนบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100059114433036",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นหนองเสือ กาญจนบุรี",
+        "province": "กาญจนบุรี",
+        "source": "https://www.facebook.com/profile.php?id=61556519107618",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านน้องแอ้ม ศูนย์รวมสินค้ามือสองจากญี่ปุ่น ปราณบุรี",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://www.facebook.com/profile.php?id=100057364695430",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โคจิ โอกาเนะ หัวหิน ร้านสินค้ามือสองนำเข้าญี่ปุ่น",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://www.facebook.com/profile.php?id=100084278743529",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลุงดำ โกดังญี่ปุ่นมือสอง ราชบุรี",
+        "province": "ราชบุรี",
+        "source": "https://www.facebook.com/Baanadirec/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจด้าเจแปน วังมะนาว",
+        "province": "ราชบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100088298553813",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่น มังกรทอง เฟอร์นิเจอร์ญี่ปุ่น ราชบุรี",
+        "province": "ราชบุรี",
+        "source": "https://www.facebook.com/mangkornthong.Ratchaburi/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นสามใบเถา ราชบุรี (บ้านโป่ง)",
+        "province": "ราชบุรี",
+        "source": "https://www.facebook.com/3baiwarehouse/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไฮ จันจิ โกดังสินค้าญี่ปุ่นมือสอง ราชบุรี",
+        "province": "ราชบุรี",
+        "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0bVfKXUn2zAnJcQZaebc8dfLJ2R6zxgQd36UQU4EHqUW4itp63yVjmghDByZQaksml&id=100075638116184",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Hi J-pan ไฮเจปัง โกดังญี่ปุ่นมือสอง เพชรบุรี",
+        "province": "เพชรบุรี",
+        "source": "https://www.facebook.com/Louizabelou/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ซูโม่ซัง โกดังญี่ปุ่น เพชรบุรี",
+        "province": "เพชรบุรี",
+        "source": "https://www.facebook.com/sumosung.jp/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจได สินค้าญี่ปุ่นมือสอง จันทบุรี",
+        "province": "จันทบุรี",
+        "source": "https://www.facebook.com/profile.php?id=61550736347800",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจ้ภา สินค้าญี่ปุ่นมือสองจันทบุรี",
+        "province": "จันทบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100094283977807",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เฮียหมู โกดังญี่ปุ่นมือสองแปดริ้ว",
+        "province": "ฉะเชิงเทรา",
+        "source": "https://www.facebook.com/profile.php?id=100090634586038",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดัง32 สินค้าญี่ปุ่นมือสอง",
+        "province": "ฉะเชิงเทรา",
+        "source": "https://www.facebook.com/32japan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Japan Home โกดังสินค้าญี่ปุ่นมือสอง ชลบุรี",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/61575215263828",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Yoi Mise สินค้ามือสองจากญี่ปุ่น (ศรีราชา)",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/YoiMiseshop",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สินค้าญี่ปุ่นมือสองพัทยา",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/100057634143488",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แฮปปี้รียูส พัทยา (Happy Reuse Pattaya)",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/100063564821294",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าชลบุรี by ตาต้าคุง",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/61581340796552",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "คะเนะโมชิ สินค้าญี่ปุ่นมือ 2 นครนายก",
+        "province": "นครนายก",
+        "source": "https://www.facebook.com/Kanemoshi.NakhonNayok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ป้าป้า โกดังมือ2ญี่ปุ่น (ระยอง)",
+        "province": "ระยอง",
+        "source": "https://www.facebook.com/61560389686981",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "มือสองญี่ปุ่น ระยอง โกดังเขียว",
+        "province": "ระยอง",
+        "source": "https://www.facebook.com/JapanRayong",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ยูยะ โกดังสินค้าญี่ปุ่นมือสอง สามย่าน ระยอง",
+        "province": "ระยอง",
+        "source": "https://www.facebook.com/61578702086640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นมือสอง นิพนธ์ระยองรีไซเคิล",
+        "province": "ระยอง",
+        "source": "https://www.facebook.com/nipon.rayongrecycle",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไมย่าระยอง สินค้าญี่ปุ่นมือสอง",
+        "province": "ระยอง",
+        "source": "https://www.facebook.com/miyashop99",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "A11 shop สินค้าญี่ปุ่นมือสองกำแพงเพชร",
+        "province": "กำแพงเพชร",
+        "source": "https://www.facebook.com/profile.php?id=100063572739119",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จิปาถะญี่ปุ่นกำแพงเพชร",
+        "province": "กำแพงเพชร",
+        "source": "https://www.facebook.com/profile.php?id=100075473845284",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่น FC เจแปน กำแพงเพชร",
+        "province": "กำแพงเพชร",
+        "source": "https://www.facebook.com/61559932431456",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นก๊อตจิ อ.วชิรบารมี",
+        "province": "พิจิตร",
+        "source": "https://www.facebook.com/profile.php?id=61565644340167",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สินค้าญี่ปุ่นมือสอง ร้านพันธุ์เทพ",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://www.facebook.com/japanphanthep/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นท่าทอง",
+        "province": "พิษณุโลก",
+        "source": "https://www.facebook.com/thathong.japan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "A11shop โกดังสินค้าญี่ปุ่นมือสอง สาขาลำปาง",
+        "province": "ลำปาง",
+        "source": "https://www.facebook.com/profile.php?id=61584098421659",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Okura Meko Japan shop โอกุระ เมโกะ ลำปาง",
+        "province": "ลำปาง",
+        "source": "https://www.facebook.com/okurameko2japan/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วินเทจญี่ปุ่นมือ 2 ลำปาง",
+        "province": "ลำปาง",
+        "source": "https://www.facebook.com/vintagejpbynipa/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นมือสอง ลำพูน",
+        "province": "ลำพูน",
+        "source": "https://www.facebook.com/profile.php?id=61579766664776",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่น ศุโขไทย จ.สุโขทัย",
+        "province": "สุโขทัย",
+        "source": "https://www.facebook.com/profile.php?id=61555955392905",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังสินค้าญี่ปุ่นสุโขทัย ปลีก-ส่ง",
+        "province": "สุโขทัย",
+        "source": "https://www.facebook.com/profile.php?id=100093179989307",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "P.N. มือสองญี่ปุ่น อุตรดิตถ์",
+        "province": "อุตรดิตถ์",
+        "source": "https://www.facebook.com/P.N.Recycleshoputt/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "KOJI Chiang Rai โกดังไลฟ์สดสินค้ามือสองจากญี่ปุ่น",
+        "province": "เชียงราย",
+        "source": "https://www.facebook.com/kojijapan888/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านซูโม่ / ฟูจิ เชียงราย สินค้าญี่ปุ่นมือสอง",
+        "province": "เชียงราย",
+        "source": "https://www.facebook.com/Sumosumo2017/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อิมอิน อันนา สินค้าญี่ปุ่นมือสอง อ.พาน",
+        "province": "เชียงราย",
+        "source": "https://www.facebook.com/LayAofAimainAnna/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจแปน เชียงราย",
+        "province": "เชียงราย",
+        "source": "https://www.facebook.com/profile.php?id=61557662104954",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fukufuku สาขารวมโชค",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/fukufuku.ruamchokbranch/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fukufuku สาขาสันกำแพงสายใหม่",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/fukufuku.sankampheangbranch/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Japan plaza โกดังสินค้าญี่ปุ่นมือสอง เชียงใหม่",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/profile.php?id=61572588698987",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านฮักจัง โกดังสินค้านำเข้าจากญี่ปุ่น",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/HugJangJapanShop/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังขุมทรัพย์ มือ2ญี่ปุ่น สาขาหน้า มช.",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/profile.php?id=100063621398345",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังขุมทรัพย์ มือสองญี่ปุ่น สาขาท่ารั้ว",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/khumsup2hand/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังมาดามมุก เจแปนเชียงใหม่",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/profile.php?id=61565468232867",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โทมิซัง โกดังญี่ปุ่น เชียงใหม่",
+        "province": "เชียงใหม่",
+        "source": "https://www.facebook.com/profile.php?id=61587651083957",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นมือ2เพชรบูรณ์ (NT Outlet)",
+        "province": "เพชรบูรณ์",
+        "source": "https://www.facebook.com/NTOutlet888/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โมโดรุ สินค้าญี่ปุ่น-ยุโรป มือ1-2 กาฬสินธุ์",
+        "province": "กาฬสินธุ์",
+        "source": "https://www.facebook.com/profile.php?id=100076405741448",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังจัง โกดังสินค้าญี่ปุ่น ขอนแก่น",
+        "province": "ขอนแก่น",
+        "source": "https://www.facebook.com/KODUNKJANGKKN/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังยินดี มือสองญี่ปุ่น ขอนแก่น (Yindee Japanshop)",
+        "province": "ขอนแก่น",
+        "source": "https://www.facebook.com/asdsadsfdfxvxdf/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าขอนแก่น by ตาต้าคุง",
+        "province": "ขอนแก่น",
+        "source": "https://www.facebook.com/profile.php?id=100057530375546",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โยชิซัง สินค้าญี่ปุ่น ขอนแก่น",
+        "province": "ขอนแก่น",
+        "source": "https://www.facebook.com/profile.php?id=61550813338307",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อินาริ สินค้ามือสองนำเข้าจากญี่ปุ่น นครพนม",
+        "province": "นครพนม",
+        "source": "https://www.facebook.com/profile.php?id=61578030604551",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไดฟุกุ สินค้าญี่ปุ่นมือสอง นครพนม",
+        "province": "นครพนม",
+        "source": "https://www.facebook.com/profile.php?id=100063588093507",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Nakayama โคราช",
+        "province": "นครราชสีมา",
+        "source": "https://www.facebook.com/profile.php?id=100063545613937",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าโคราช by ตาต้าคุง",
+        "province": "นครราชสีมา",
+        "source": "https://www.facebook.com/profile.php?id=100057660879385",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ปันปันเจแปน มือสองญี่ปุ่น บุรีรัมย์",
+        "province": "บุรีรัมย์",
+        "source": "https://www.facebook.com/PunpunJapan2021/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าบุรีรัมย์",
+        "province": "บุรีรัมย์",
+        "source": "https://www.facebook.com/TokyoplazaBRR/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สินค้ามือสองจากญี่ปุ่น มหาสารคาม",
+        "province": "มหาสารคาม",
+        "source": "https://www.facebook.com/japan.by.neung/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แม่เตอร์ 4 สารคาม By Olan",
+        "province": "มหาสารคาม",
+        "source": "https://www.facebook.com/Gunnoi23/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไดฟุกุ 3 มุกดาหาร",
+        "province": "มุกดาหาร",
+        "source": "https://www.facebook.com/profile.php?id=100069322713421",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไดฟุกุ 2 สาขาสกลนคร",
+        "province": "สกลนคร",
+        "source": "https://www.facebook.com/difuku2/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร้านแป้งโกะ โกดังสินค้าญี่ปุ่นมือสอง สุรินทร์",
+        "province": "สุรินทร์",
+        "source": "https://www.facebook.com/profile.php?id=100091084777840",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียวพลาซ่าสุรินทร์",
+        "province": "สุรินทร์",
+        "source": "https://www.facebook.com/profile.php?id=100067895873383",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Japantwohand by เจ๊นิต อำนาจเจริญ",
+        "province": "อำนาจเจริญ",
+        "source": "https://www.facebook.com/japantwohandamnatcharoen/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้องมีนาสินค้ามือสองญี่ปุ่นอุดรธานี",
+        "province": "อุดรธานี",
+        "source": "https://www.facebook.com/profile.php?id=100075929799281",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สินค้าญี่ปุ่นมือ 2 กม.9 อุดร",
+        "province": "อุดรธานี",
+        "source": "https://www.facebook.com/profile.php?id=100064212721333",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แม่เตอร์สาขา 3 Jp - Ubon",
+        "province": "อุบลราชธานี",
+        "source": "https://www.facebook.com/profile.php?id=61552585635978",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่น โคโนมิ (Konomi Ubon)",
+        "province": "อุบลราชธานี",
+        "source": "https://www.facebook.com/profile.php?id=100063778951773",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เคเจ เจแปน สินค้าญี่ปุ่นมือสอง เลย",
+        "province": "เลย",
+        "source": "https://www.facebook.com/profile.php?id=100090779540761",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "นาริตะ กระบี่",
+        "province": "กระบี่",
+        "source": "https://www.facebook.com/profile.php?id=61557535265153",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โอ๊ะโอ โกดังสินค้าญี่ปุ่น กระบี่",
+        "province": "กระบี่",
+        "source": "https://www.facebook.com/OHOjuree/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "กาญจน์ ซุปเปอร์ สโตร์ สาขาชุมพร (เขาปีบ ทุ่งตะโก)",
+        "province": "ชุมพร",
+        "source": "https://www.facebook.com/KanStoreKhaopipChumphon/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วาโนะเจแปน สินค้าญี่ปุ่นมือสอง ตรัง",
+        "province": "ตรัง",
+        "source": "https://www.facebook.com/wanojapantrang/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สินค้าญี่ปุ่นมือสอง ร้านโยอิ (ตรัง?)",
+        "province": "ตรัง",
+        "source": "https://www.facebook.com/yoijung2018/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "กาญจน์ ซุปเปอร์ สโตร์ สาขานครศรีธรรมราช",
+        "province": "นครศรีธรรมราช",
+        "source": "https://www.facebook.com/KanstoreNakhonSrithammarat/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อันโกะ สินค้าญี่ปุ่นมือสอง นครศรีธรรมราช",
+        "province": "นครศรีธรรมราช",
+        "source": "https://www.facebook.com/Anko2018/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โตเกียว สินค้าญี่ปุ่นมือสอง นครศรีธรรมราช",
+        "province": "นครศรีธรรมราช",
+        "source": "https://www.facebook.com/profile.php?id=61559071692428",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังสินค้ามือสอง ปัตตานี",
+        "province": "ปัตตานี",
+        "source": "https://www.facebook.com/profile.php?id=61559675187971",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Nagoya โกดังญี่ปุ่นพัทลุง",
+        "province": "พัทลุง",
+        "source": "https://www.facebook.com/profile.php?id=100083196916983",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โมกะตะ สินค้ามือสองนำเข้าจากญี่ปุ่น พัทลุง",
+        "province": "พัทลุง",
+        "source": "https://www.facebook.com/profile.php?id=100063807949610",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Japan Life Center สาขา 4 ภูเก็ต",
+        "province": "ภูเก็ต",
+        "source": "https://www.facebook.com/japanlifecenter4/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจียเหอ สินค้ามือสองญี่ปุ่น ภูเก็ต",
+        "province": "ภูเก็ต",
+        "source": "https://www.facebook.com/jieheshop/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไจแอนท์ สินค้าญี่ปุ่นมือสอง ภูเก็ต",
+        "province": "ภูเก็ต",
+        "source": "https://www.facebook.com/profile.php?id=100063441987256",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sakura โกดังสินค้ามือสองนำเข้าจากญี่ปุ่น หาดใหญ่",
+        "province": "สงขลา",
+        "source": "https://www.facebook.com/sakura2ndhatyai/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "นานะซัง สินค้าญี่ปุ่น-ยุโรปมือสอง หาดใหญ่",
+        "province": "สงขลา",
+        "source": "https://www.facebook.com/Nana2handhouse/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ปาปาแมน สินค้าญี่ปุ่นมือสองหาดใหญ่",
+        "province": "สงขลา",
+        "source": "https://www.facebook.com/papaman.jp/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เจ๊แมวโกดังญี่ปุ่น / ยากูซ่าเจแปน สงขลา",
+        "province": "สงขลา",
+        "source": "https://www.facebook.com/ce.m.w.kodang.yipun",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่นสินค้ามือสองท่าสะอ้าน",
+        "province": "สงขลา",
+        "source": "https://www.facebook.com/profile.php?id=100077469881759",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kan Shoppu ปตท.ประดู่ สุราษฎร์ธานี",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://www.facebook.com/kanshoppu/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kan Shoppu สาขา 2 ท่าทองใหม่ (กาญจนดิษฐ์)",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://www.facebook.com/kanshoppu2/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "กาญจน์ สโตร์ อาณาจักรสินค้าญี่ปุ่นมือสอง สุราษฎร์ธานี",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://www.facebook.com/KanstoreSuratthani/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เนโกะ สินค้าญี่ปุ่นมือสอง (สี่แยกบางกุ้ง)",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://www.facebook.com/NekoSurat/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังโอชิน สินค้าญี่ปุ่นมือสอง",
+        "province": "เพชรบูรณ์",
+        "source": "https://www.facebook.com/profile.php?id=100088717297497",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "มุสลิม เจแปน โกดังจำหน่ายสินค้าญี่ปุ่นมือสอง",
+        "province": "สตูล",
+        "source": "https://www.facebook.com/profile.php?id=100063776896687",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "มุซาชิ โกดังสินค้าญี่ปุ่นมือสอง",
+        "province": "นครนายก",
+        "source": "https://www.facebook.com/profile.php?id=61558104166177",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Tamaya (ทามะยะ) โกดังสินค้ามือสองญี่ปุ่น ลำลูกกา & หทัยราษฎร์",
+        "province": "ปทุมธานี",
+        "source": "https://www.facebook.com/permalink.php?story_fbid=pfbid0sSfst5P8H87K3nGM11K6VuyAWGQgcA8xaV7GZRCgkxaLvACBqmUSxHMcJVVgtHzVl&id=61557871972741",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังสินค้านำเข้าจากญี่ปุ่น By มาดามปิ่น",
+        "province": "นครปฐม",
+        "source": "https://www.facebook.com/profile.php?id=100063611797294",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกดังญี่ปุ่น นินจา พิษณุโลก",
+        "province": "พิษณุโลก",
+        "source": "https://www.facebook.com/profile.php?id=61586848530653",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "J-Store premium (ศรีราชา)",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/J.store.premium",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Hi Japan 2 โกดังนำเข้าญี่ปุ่น นครปฐม",
+        "province": "นครปฐม",
+        "source": "https://www.facebook.com/HiJapan2",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Hi Japan สาขา 3 (วัดทัพหลวง) นครปฐม",
+        "province": "นครปฐม",
+        "source": "https://www.facebook.com/HijapanByNumthip",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Honey Japan Shop (บางละมุง) ชลบุรี",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/profile.php?id=100092990575949",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kanpai Reuse Pattaya (นาเกลือ) ชลบุรี",
+        "province": "ชลบุรี",
+        "source": "https://www.facebook.com/kanpaireuse.pattaya",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Woot Woot",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/shopping/the-best-vintage-shops-in-bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Komehyo Thailand",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://thailandinsiderguide.com/en/live-stay/shopping/second-hand-shopping-bangkok/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Bedlam Store",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Toro Secondhand Market",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kaber Vintage Clothes Shop",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Night Ground Society",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "All in store.cnx",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "CHIANGMAI HARDCORE",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Madam Muk Second Hand Warehouse",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Hugjang Japan Premium Outlet",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Daruma Japan Chiangmai Airport",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "DARUMA JAPAN CHIANGMAI Saraphi",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Ai Teng Jeans",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jing Jai Market Chiang Mai — vintage zone",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaipicks.com/guides/chiang-mai-vintage-guide/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Melon Second-hand",
+        "province": "เชียงใหม่",
+        "source": "https://chiangmaiwiki.com/clothes-and-fashion/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ตลาดยรรยงค์ (Yanyong Market)",
+        "province": "สงขลา",
+        "source": "https://www.youtube.com/watch?v=JvlSIlHFugQ",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chillva Market — vintage market",
+        "province": "ภูเก็ต",
+        "source": "https://www.morriscope.com/blog/Best-thrift-store-vintage-shop-thailand",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Naka Weekend Market",
+        "province": "ภูเก็ต",
+        "source": "https://thairanked.com/en/rankings/best-places-buy-vintage-clothes-thailand/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Phuket Vintage",
+        "province": "ภูเก็ต",
+        "source": "https://www.morriscope.com/blog/Best-thrift-store-vintage-shop-thailand",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Soi Buakhao Second-hand Clothing Market",
+        "province": "ชลบุรี",
+        "source": "https://www.morriscope.com/blog/Best-thrift-store-vintage-shop-thailand",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ตลาดโรงเกลือ อรัญประเทศ",
+        "province": "สระแก้ว",
+        "source": "https://www.wongnai.com/restaurants/334122Ll",
+        "reason": "missing image URL"
+      }
+    ],
+    "Food": [
+      {
+        "name": "Colonel Kanit's BBQ",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.youtube.com/watch?v=xaFxTDCuTaQ",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Heng Heng Heng",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khun Ple Mookata",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Nak-La Mookata · MBK",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Oishi Eaterium · Samyan Mitrtown",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://feedmii.com/buffet/bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Rim Nam Mookata · Phra Pinklao",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://feedmii.com/buffet/bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Shabushi · One Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://feedmii.com/buffet/bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sukishi Korean Charcoal Grill · Central Ladprao",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://feedmii.com/buffet/bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Suki Teenoi · MBK",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Taweechok Mookata · Banthat Thong",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Thai Moo Kata Premium Thai BBQ",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mae Aoi Spicy Crab Papaya Salad",
+        "province": "ขอนแก่น",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Nai Tong BBQ",
+        "province": "ขอนแก่น",
+        "source": "https://www.youtube.com/watch?v=xaFxTDCuTaQ",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "AA Mookata · Pattaya",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "International Buffet · OZO North Pattaya",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jimmy BBQ & Grill · Grand Palazzo Hotel",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Ninja Mookata & Talay Phao · North Pattaya",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Seafood Buffet · Holiday Inn Pattaya",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Seafood Buffet · Mövenpick Siam Na Jomtien",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sut Khet Talay Phao · Jomtien",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Umami Chill Buffet · Khao Talo",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Waves & Wind Buffet · Grand Centre Point Pattaya",
+        "province": "ชลบุรี",
+        "source": "https://www.thailandaddict.com/en/pattaya-buffet-restaurants",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Ban Phuk Pouk",
+        "province": "ชุมพร",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Grandma's Rice Noodles",
+        "province": "ชุมพร",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kua Luang Pod",
+        "province": "ชุมพร",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Thamsing Cafe",
+        "province": "ชุมพร",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Yai Puad",
+        "province": "ชุมพร",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Air-Con Mookata by Seichi",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chang Phueak BBQ",
+        "province": "เชียงใหม่",
+        "source": "https://www.youtube.com/watch?v=xaFxTDCuTaQ",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chang Phueak Mookata · San Sai",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fa Ham Mookata Buffet",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Joolong Mookata Buffet · Wat Ket",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kat Jang Mookata",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khun Moo Mookata by Moo Song Chan · Nimman",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Moo Ood Mookata · Khu Mueang",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Nai Hoi Barbecue",
+        "province": "เชียงใหม่",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sukhontha Mookata · Huay Kaew",
+        "province": "เชียงใหม่",
+        "source": "https://thailandaddict.com/en/chiang-mai-mookata-buffet",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chaluay Phochana",
+        "province": "นครนายก",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Hydro Kitchen",
+        "province": "นครนายก",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Krua Look Pla Restaurant",
+        "province": "นครนายก",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mai Na Aroi Restaurant",
+        "province": "นครนายก",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pla Doo Kru Lord",
+        "province": "นครนายก",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khanom Jeen Pisamai",
+        "province": "นครพนม",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kuay Teow Moo Pla Pho Luk Song",
+        "province": "นครพนม",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mae Pranom Vietnamese Crepes",
+        "province": "นครพนม",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sri Thep Vietnamese Dumplings",
+        "province": "นครพนม",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Vietnamese Kitchen",
+        "province": "นครพนม",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Yat Larb Ped",
+        "province": "นครพนม",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pak Nam Pho Boat Noodles",
+        "province": "นครสวรรค์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Nai Phran Moo Kata",
+        "province": "นนทบุรี",
+        "source": "https://www.rentthaifriend.com/blog/mookata",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Prik Kee Noo BBQ",
+        "province": "สงขลา",
+        "source": "https://www.youtube.com/watch?v=xaFxTDCuTaQ",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Bara Roti",
+        "province": "สตูล",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Madee Satun",
+        "province": "สตูล",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mameng Herbal Rice",
+        "province": "สตูล",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Salad Fish Curry Shop (Tom Mae Curry House No. 35)",
+        "province": "สตูล",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sam Phi Nong",
+        "province": "สตูล",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jay Pao Restaurant",
+        "province": "สุโขทัย",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Je Hae Sukhothai Noodles",
+        "province": "สุโขทัย",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khanom Wong Mae Prapai",
+        "province": "สุโขทัย",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mai Klang Krung Restaurant",
+        "province": "สุโขทัย",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mee Khao Pan Pak",
+        "province": "สุโขทัย",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khua Rim Klong Song Phi Nong",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mae Bouy",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Phai Khwang",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Rice Field Restaurant",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Ruean Phae Khua Suphan",
+        "province": "สุพรรณบุรี",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mae Pranom Crab Curry Rice Noodles",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Baan Na Garden Restaurant",
+        "province": "สุรินทร์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kalamae Sikhoraphum",
+        "province": "สุรินทร์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pak Mor Je Nang Surin",
+        "province": "สุรินทร์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Rian Niang Nit Ang Kaeb Bob",
+        "province": "สุรินทร์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Som-Tam Jay-Took Restaurant",
+        "province": "สุรินทร์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khanom Thian Sawoey Chidduang Kanokmanee",
+        "province": "อุตรดิตถ์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Khaw Phan Phak Indy",
+        "province": "อุตรดิตถ์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Monlablae",
+        "province": "อุตรดิตถ์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pa Wang Mee Phan Laplae",
+        "province": "อุตรดิตถ์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pom Khaw Pan Pak",
+        "province": "อุตรดิตถ์",
+        "source": "https://www.tourismthailand.org/Articles/explore-thai-taste-thai-foodie-map-2-0-en",
+        "reason": "missing image URL"
+      }
+    ],
+    "Activities": [
+      {
+        "name": "ไทย-ญี่ปุ่น ดินแดง",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศูนย์กีฬาเฉลิมพระเกียรติ 72 พรรษา",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศูนย์กีฬาเฉลิมพระเกียรติ บางมด",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศูนย์กีฬาแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศูนย์ฝึกฟุตบอลแห่งชาติ หนองจอก",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬาหัวหมาก การกีฬาแห่งประเทศไทย",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามแบดมินตันที-ไทยแลนด์",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามแบดมินตันบ้านทองหยอด",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามฟุตบอล Thephasadin",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามยิงปืนแห่งชาติ การกีฬาแห่งประเทศไทย",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนจากภูผาสู่มหานที",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://greener.bangkok.go.th/park/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนสิริภิรมย์ (บึงลำไผ่)",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://greener.bangkok.go.th/park/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Bangkok Shooting Range",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "BASE Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl: Esplanade Ratchada",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl: Major Cineplex Pinklao",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl: Major Cineplex Sukhumvit-Ekkamai",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl Major Ratchayothin",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl Siam Paragon",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Climb Central Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fitness 24 Seven (สาขาทั่วประเทศ)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fitness First Platinum CentralWorld",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fitness First Platinum Sathorn Square",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Fitness First Platinum Siam Paragon",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Gravity Lab Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Sena Fest",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Siam Square One",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Stadium One",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: The PARQ",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Karaoke City",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Karaoke Manekineko Thailand",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kung Jeon KTV Korean Town",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Let's Climb Sport Club",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Muscle Factory Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "R&B Karaoke (สาทร)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "R&B Karaoke (สีลม)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "R&B Karaoke (อารีย์)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Rock Domain Climbing Gym",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Royal Thai Army Sports Center (สนามกอล์ฟรามอินทรา)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Stonegoat Climbing Gym",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sub-Zero Ice Skate Club (เอสพลานาด รัชดา)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sukhumvit 69 Climbing Gym (S69)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Thailand International Ice Hockey Arena",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "The Lab Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "The Racquet Club",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Urban Playground Climbing",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "VERTEX Climbing Club",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Virgin Active Fitness Club Empire Tower",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Virgin Active Fitness Club EmQuartier",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "WE Fitness Society (สาขาทั่วประเทศ)",
+        "province": "กรุงเทพมหานคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวเนินกูดดอย-ช้างเผือก · ทองผาภูมิ",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1008",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำทิพุเชะ · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธารลอดใหญ่ · เฉลิมรัตนโกสินทร์",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1006",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำน้ำตก · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเสาหิน · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกคลิตี้ล่าง · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกผาเขียว · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกผาม่าน · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกีฬา ป่าในเมือง · วนอุทยานพระแท่นดงรัง",
+        "province": "กาญจนบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวผาสวย · วนอุทยานภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวพระพุทธอนันตชินคีรี · วนอุทยานภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระภูพระ · วนอุทยานภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเสียบสับ · วนอุทยานภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดสูง",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดสูง · วนอุทยานน้ำตกตาดสูง",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูแฝก",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "รอยเท้าไดโนเสาร์ · วนอุทยานภูแฝก",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เกิ้งจ้อง · วนอุทยานภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เกิ้งย่ามา · วนอุทยานภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวลานหินล้านปีภูหัน · วนอุทยานภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกบ๋าหลวง",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกบ๋าหลวง · วนอุทยานน้ำตกบ๋าหลวง",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อน้ำศักดิ์สิทธิ์ภูหัน · วนอุทยานภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภาพเขียนสีโบราญเกิ้งขาม · วนอุทยานภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภาพเขียนสีโบราณเกิ้งตะขาบ · วนอุทยานภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูหัน-ภูระงำ",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟสิงห์ปาร์ค ขอนแก่น",
+        "province": "ขอนแก่น",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดขอนแก่น",
+        "province": "ขอนแก่น",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างนางลอย · วนอุทยานน้ำตกบ๋าหลวง",
+        "province": "ขอนแก่น",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Central Khonkaen Campus",
+        "province": "ขอนแก่น",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เกาะจุฬา · วนอุทยานเขาแหลมสิงห์",
+        "province": "จันทบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เกาะนมสาว · วนอุทยานเขาแหลมสิงห์",
+        "province": "จันทบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขาแหลมสิงห์",
+        "province": "จันทบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ป่าเขาแหลมสิงห์ · วนอุทยานเขาแหลมสิงห์",
+        "province": "จันทบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดจันทบุรี",
+        "province": "จันทบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่าวกระทิง · วนอุทยานเขาแหลมสิงห์",
+        "province": "จันทบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Central Chanthaburi",
+        "province": "จันทบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Thai Country Club",
+        "province": "ฉะเชิงเทรา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกเขาเจ้าบ่อทอง",
+        "province": "ชลบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกร่มไทรทอง · วนอุทยานน้ำตกเขาเจ้าบ่อทอง",
+        "province": "ชลบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟบางพระ",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟราชนาวีพลูตาหลวง",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟแหลมฉบัง",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามชลบุรี สเตเดียม",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามยิงปืนราชนาวี สัตหีบ",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Amata Spring Country Club",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Central Si Racha",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Little Walk Pattaya",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Laem Chabang International Country Club",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pattana Sports Resort",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pattaya Shooting Park",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Siam Country Club Old Course",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Siam Country Club Plantation",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Siam Country Club Waterside",
+        "province": "ชลบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกกะเปาะ",
+        "province": "ชุมพร",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกกะเปาะ · วนอุทยานน้ำตกกะเปาะ",
+        "province": "ชุมพร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดชุมพร",
+        "province": "ชุมพร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวดอยหัวแม่คำ · วนอุทยานดอยหัวแม่คำ",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวบนภูเขาหมู่บ้านพญาไพร · วนอุทยานสันผาพญาไพร",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิว · วนอุทยานพญาพิภักดิ์",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวห้วยทรายมาน · วนอุทยานห้วยทรายมาน",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวอ่างเก็บน้ำห้วยน้ำช้าง · วนอุทยานห้วยน้ำช้าง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยหัวแม่คำ",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาแล",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาแล · วนอุทยานถ้ำผาแล",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกขุนน้ำยาบ",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกขุนน้ำยาบ · วนอุทยานน้ำตกขุนน้ำยาบ",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดควัน",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดควัน · วนอุทยานน้ำตกตาดควัน",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดสวรรค์",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดสายรุ้ง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดสายรุ้ง · วนอุทยานน้ำตกตาดสายรุ้ง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่สลอง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่สลอง · วนอุทยานน้ำตกแม่สลอง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกวังธารทอง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกวังธารทอง · วนอุทยานน้ำตกวังธารทอง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกศรีชมภู",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกศรีชมภู · วนอุทยานน้ำตกศรีชมภู",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยตาดทอง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยตาดทอง · วนอุทยานน้ำตกห้วยตาดทอง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยแม่สัก",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยแม่สัก · วนอุทยานน้ำตกห้วยแม่สัก",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "พญาพิภักดิ์",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดเชียงราย",
+        "province": "เชียงราย",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สันผาพญาไพร",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ห้วยทรายมาน",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ห้วยน้ำช้าง",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำห้วยบ้าน · วนอุทยานน้ำตกตาดสวรรค์",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยลาง (ลานกางเต็นท์ดอยลาง) · ดอยผ้าห่มปก",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=908",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยอ่างขาง (ลานกางเต็นท์ม่อนสน) · ดอยผ้าห่มปก",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=908",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อน้ำอุ่นธรรมชาติ (ที่ทำการ) · ขุนขาน",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=907",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูผา Rock Climbing",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬาเทศบาลนครเชียงใหม่",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติขุนขาน",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=907",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติดอยเวียงผา (เตรียมการ)",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=912",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติแม่โถ (เตรียมการ)",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=918",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติออบขาน (เตรียมการ)",
+        "province": "เชียงใหม่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=923",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Alpine Golf Resort Chiang Mai",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Alpine Outpost Chiang Mai",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chiang Mai Highlands Golf and Spa Resort",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "CrossFit Chiang Mai",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Index Living Mall Chiang Mai",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: One Nimman",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Lanna Golf Course",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mae Jo Golf Club",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Royal Chiang Mai Golf Resort",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Stardome Golf Club",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Summit Green Valley Chiang Mai",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Woodball Nimman",
+        "province": "เชียงใหม่",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกพ่าน",
+        "province": "ตรัง",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกพ่าน · วนอุทยานน้ำตกพ่าน",
+        "province": "ตรัง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อน้ำพุร้อน · วนอุทยานบ่อน้ำร้อนกันตัง",
+        "province": "ตรัง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อน้ำร้อนกันตัง",
+        "province": "ตรัง",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ปีนหน้าผาโรงเรียนกีฬาจังหวัดตรัง",
+        "province": "ตรัง",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดตรัง",
+        "province": "ตรัง",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สะพานเส้นทางศึกษาธรรมชาติ · วนอุทยานบ่อน้ำร้อนกันตัง",
+        "province": "ตรัง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำตะโคะบิ๊",
+        "province": "ตาก",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกปะหละทะ",
+        "province": "ตาก",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกปะหละทะ · วนอุทยานน้ำตกปะหละทะ",
+        "province": "ตาก",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "พระธาตุ · วนอุทยานพระธาตุห้วยลึก",
+        "province": "ตาก",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "พระธาตุห้วยลึก",
+        "province": "ตาก",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติขุนพะวอ",
+        "province": "ตาก",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=928",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติดอยสอยมาลัย - ไม้กลายเป็นหิน (เตรียมการ)",
+        "province": "ตาก",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=2521",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติน้ำตกพาเจริญ (เตรียมการ)",
+        "province": "ตาก",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=931",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวผาเดียวดาย · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬาเฉลิมพระเกียรติ 80 พรรษา",
+        "province": "นครราชสีมา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติ 200 ปี แห่งมิตรภาพ ไทย-สหรัฐอเมริกา · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติ กม.33 - หอดูสัตว์หนองผักชี · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติดงติ้ว - มอสิงโต · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติดงติ้ว - หนองผักชี · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติศูนย์บริการนักท่องเที่ยว - น้ำตกกองแก้ว · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หอดูสัตว์คลองปลากั้ง (ขญ4) · เขาใหญ่",
+        "province": "นครราชสีมา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=640",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Kirimaya Golf Resort",
+        "province": "นครราชสีมา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดนครศรีธรรมราช",
+        "province": "นครศรีธรรมราช",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติหาดขนอม - หมู่เกาะทะเลใต้ (เตรียมการ)",
+        "province": "นครศรีธรรมราช",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=970",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขาหลวง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธารทิพย์ · วนอุทยานเขาหลวง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำบ่อยา · วนอุทยานเขาหลวง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำประกายเพชร · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำประดับเพชร · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเพชรคิงคอง · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำมรกต · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำวังไข่มุก · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำวิมานลอย · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ยอดเขาหลวง · วนอุทยานเขาหลวง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดนนทบุรี",
+        "province": "นนทบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl: Esplanade Ngamwongwan-Khae Rai",
+        "province": "นนทบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดนราธิวาส",
+        "province": "นราธิวาส",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติน้ำตกซีโป (เตรียมการ)",
+        "province": "นราธิวาส",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=975",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติอ่าวมะนาว - เขาตันหยง (เตรียมการ)",
+        "province": "นราธิวาส",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=980",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิว · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำขอน · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเจดีย์แก้ว · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำบ่อน้ำทิพย์ · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระ · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเหี้ย · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หนองน่าน · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาตินันทบุรี (เตรียมการ)",
+        "province": "น่าน",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=942",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดบุรีรัมย์",
+        "province": "บุรีรัมย์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศูนย์กีฬาแห่งมหาวิทยาลัยธรรมศาสตร์ รังสิต",
+        "province": "ปทุมธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามทรู บีจี สเตเดียม",
+        "province": "ปทุมธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามฟุตบอล BG Stadium",
+        "province": "ปทุมธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Alpine Golf Club",
+        "province": "ปทุมธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl: Major Cineplex Rangsit",
+        "province": "ปทุมธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขาตาม่องล่าย",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวเขากะโหลก · วนอุทยานท้าวโกษา",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวป่าชายเลน · วนอุทยานปราณบุรี",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิว · วนอุทยานเขาตาม่องล่าย",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ท้าวโกษา",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ปราณบุรี",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ · วนอุทยานเขาตาม่องล่าย",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานปอคาว · วนอุทยานห้วยน้ำซับ",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สะพานทางเดินศึกษาธรรมชาติป่าชายเลน · วนอุทยานปราณบุรี",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ห้วยน้ำซับ",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หาดเขากะโหลก · วนอุทยานท้าวโกษา",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หาดปราณคีรี · วนอุทยานปราณบุรี",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติอ่าวสยาม (เตรียมการ)",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=2603",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Banyan Golf Club Hua Hin",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Black Mountain Golf Club",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Hua Hin Fitness Club",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Pineapple Valley Golf Club Hua Hin",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Royal Hua Hin Golf Course",
+        "province": "ประจวบคีรีขันธ์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หาดชมตะวัน (ลำปลายมาศ) · ทับลาน",
+        "province": "ปราจีนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=986",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกกระแดะ · น้ำตกทรายขาว",
+        "province": "ปัตตานี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=984",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดปัตตานี",
+        "province": "ปัตตานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟวังน้อย เพรสทีจ",
+        "province": "พระนครศรีอยุธยา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกน้ำมิน",
+        "province": "พะเยา",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกน้ำมิน · วนอุทยานน้ำตกน้ำมิน",
+        "province": "พะเยา",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ร่องคำหลวง",
+        "province": "พะเยา",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ · วนอุทยานร่องคำหลวง",
+        "province": "พะเยา",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกรามัญ",
+        "province": "พังงา",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกรามัญ · วนอุทยานน้ำตกรามัญ",
+        "province": "พังงา",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกสระนางมโนราห์ · วนอุทยานสระนางมโนราห์",
+        "province": "พังงา",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดพังงา",
+        "province": "พังงา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สระนางมโนราห์",
+        "province": "พังงา",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่าวบอน · หมู่เกาะสุรินทร์",
+        "province": "พังงา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=996",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่าวผักกาด · หมู่เกาะสุรินทร์",
+        "province": "พังงา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=996",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำน้ำ · วนอุทยานเมืองเก่าชัยบุรี",
+        "province": "พัทลุง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระนอน · วนอุทยานเมืองเก่าชัยบุรี",
+        "province": "พัทลุง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เมืองเก่าชัยบุรี",
+        "province": "พัทลุง",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดพัทลุง",
+        "province": "พัทลุง",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "นครไชยบวร",
+        "province": "พิจิตร",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ป่ายางนาธรรมชาติ · วนอุทยานนครไชยบวร",
+        "province": "พิจิตร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดพิษณุโลก",
+        "province": "พิษณุโลก",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติแควน้อย (เตรียมการ)",
+        "province": "พิษณุโลก",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=792",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "กระจกนางพันธุรัต · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวคอกช้าง · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวทุ่งเศรษฐี · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ชะอำ",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อชุบตัวพระสังข์ · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เมรุนางพันธุรัต · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ · วนอุทยานชะอำ",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานเกือกเเก้ว · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศาลนางพันธุรัต · วนอุทยานเขานางพันธุรัต",
+        "province": "เพชรบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำแก่งกระจาน (ที่ทำการ) · แก่งกระจาน",
+        "province": "เพชรบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=642",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Springfield Royal Country Club",
+        "province": "เพชรบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขารัง",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดงเจริญ",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บึงสามพัน",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ · วนอุทยานเขารัง",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วนอุทยานดงเจริญ · วนอุทยานดงเจริญ",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วนอุทยานบึงสามพัน · วนอุทยานบึงสามพัน",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วนอุทยานวังท่าดี · วนอุทยานวังท่าดี",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วังท่าดี",
+        "province": "เพชรบูรณ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดเพชรบูรณ์",
+        "province": "เพชรบูรณ์",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยม่อนแก้ว-ม่อนเด็ง",
+        "province": "แพร่",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยม่อนแก้ว · วนอุทยานดอยม่อนแก้ว-ม่อนเด็ง",
+        "province": "แพร่",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยม่อนเด็ง · วนอุทยานดอยม่อนแก้ว-ม่อนเด็ง",
+        "province": "แพร่",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาหลักหมื่น · วนอุทยานผาหลักหมื่น",
+        "province": "แพร่",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกปันเจน · เวียงโกศัย",
+        "province": "แพร่",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=967",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาหลักหมื่น",
+        "province": "แพร่",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดภูเก็ต",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามยิงปืนภูเก็ต",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blue Canyon Country Club",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Central Phuket",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jetts Fitness: Robinson Lifestyle Thalang",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Laguna Golf Phuket",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Phuket Country Club",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "PhuketFit",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Red Mountain Golf Club",
+        "province": "ภูเก็ต",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แก่งตาด · วนอุทยานโกสัมพี",
+        "province": "มหาสารคาม",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โกสัมพี",
+        "province": "มหาสารคาม",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ชีหลง",
+        "province": "มหาสารคาม",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ชีหลง · วนอุทยานชีหลง",
+        "province": "มหาสารคาม",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดมหาสารคาม",
+        "province": "มหาสารคาม",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หนองบุ่ง · วนอุทยานโกสัมพี",
+        "province": "มหาสารคาม",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "กลุ่มหินมหัศจรรย์ · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกดงบังอี่ · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกถ้ำไทร · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผากิ่ว · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาชะโงก · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาหินรู · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "รอยพระพุทธบาทจำลอง · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สระสวรรค์ · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แก้วโกมล",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวทุ่งบัวตอง · วนอุทยานทุ่งบัวตอง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ต้นสักใหญ่ · วนอุทยานไม้สักใหญ่",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแก้วโกมล · วนอุทยานแก้วโกมล",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธาราลอด",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธาราลอด · วนอุทยานถ้ำธาราลอด",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งบัวตอง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งบัวตองดอยแม่อูคอ · วนอุทยานทุ่งบัวตอง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกกลอโค๊ะ",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกกลอโค๊ะ · วนอุทยานน้ำตกกลอโค๊ะ",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่ยวมหลวง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่ยวมหลวง · วนอุทยานน้ำตกแม่ยวมหลวง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่สวรรค์น้อย",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่สวรรค์น้อย · วนอุทยานน้ำตกแม่สวรรค์น้อย",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกไม้ซางหนาม",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกไม้ซางหนาม · วนอุทยานน้ำตกไม้ซางหนาม",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยแม่แสด",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยแม่แสด · วนอุทยานน้ำตกห้วยแม่แสด",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาหินตั้ง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาหินตั้ง · วนอุทยานผาหินตั้ง",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ไม้สักใหญ่",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติแม่เงา (เตรียมการ)",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=972",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติแม่สะเรียง (เตรียมการ)",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=7349",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดยะลา",
+        "province": "ยะลา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดร้อยเอ็ด",
+        "province": "ร้อยเอ็ด",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เกาะขวาง (ถ้ำญี่ปุ่น) · ลำน้ำกระบุรี",
+        "province": "ระนอง",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1001",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แหลมเส็ตกวด · ลำน้ำกระบุรี",
+        "province": "ระนอง",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1001",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดระยอง",
+        "province": "ระยอง",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำดิน · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำปากกว้าง · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแม่ธรณี · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนหิน · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดลำปาง",
+        "province": "ลำปาง",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติเขลางค์บรรพต (เตรียมการ)",
+        "province": "ลำปาง",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=7347",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติถ้ำผาไท (เตรียมการ)",
+        "province": "ลำปาง",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=977",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดอยเวียงแก้ว",
+        "province": "ลำพูน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำหลวงเวียงแก้ว · วนอุทยานดอยเวียงแก้ว",
+        "province": "ลำพูน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกสายรุ้ง · วนอุทยานดอยเวียงแก้ว",
+        "province": "ลำพูน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวผาบ่อง · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวยอดภูบ่อบิด · วนอุทยานภูบ่อบิด",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแก้ว · วนอุทยานน้ำตกห้วยเลา",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแก้ว · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแขวน · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแจ้ง · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาจันได · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาล้อม · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระ (ภูบ่อบิด) · วนอุทยานภูบ่อบิด",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำโพธิสัตว์ · วนอุทยานผางาม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำลอด · วนอุทยานภูบ่อบิด",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแสงธรรม · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำห้วยนา · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเหี้ยะ · วนอุทยานน้ำตกห้วยเลา",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกเพียงดิน · วนอุทยานผางาม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยเลา",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกห้วยเลา · วนอุทยานน้ำตกห้วยเลา",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อน้ำผุด · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผางาม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูบ่อบิด",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ปางอุ๋งเมืองเลย · วนอุทยานหริรักษ์",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดเลย",
+        "province": "เลย",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนสวรรค์ · วนอุทยานผางาม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนหินผางาม · วนอุทยานผางาม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หริรักษ์",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขื่อนห้วยขนุน · เขาพระวิหาร",
+        "province": "ศรีสะเกษ",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=950",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแก่งโพธิ์ · ภูผายล",
+        "province": "สกลนคร",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=951",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูผาแด่น",
+        "province": "สกลนคร",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานอุษาสรรค์ · ภูผาเหล็ก",
+        "province": "สกลนคร",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=953",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดสกลนคร",
+        "province": "สกลนคร",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำห้วยด่านบ่วง · วนอุทยานภูผาแด่น",
+        "province": "สกลนคร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ควนเขาวัง",
+        "province": "สงขลา",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกโตนดาดฟ้า · เขาน้ำค้าง",
+        "province": "สงขลา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1007",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อน้ำเหนือธรณี · วนอุทยานควนเขาวัง",
+        "province": "สงขลา",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดสงขลา",
+        "province": "สงขลา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬาเทศบาลนครหาดใหญ่",
+        "province": "สงขลา",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติ · วนอุทยานควนเขาวัง",
+        "province": "สงขลา",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติสันกาลาคีรี (เตรียมการ)",
+        "province": "สงขลา",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1009",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกธาราสวรรค์",
+        "province": "สตูล",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกธาราสวรรค์ · วนอุทยานน้ำตกธาราสวรรค์",
+        "province": "สตูล",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดสตูล",
+        "province": "สตูล",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟเมืองแก้ว",
+        "province": "สมุทรปราการ",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blu-O Rhythm & Bowl: Mega Bangna",
+        "province": "สมุทรปราการ",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sub-Zero Ice Skate Club (เมกา บางนา)",
+        "province": "สมุทรปราการ",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Summit Windmill Golf Club",
+        "province": "สมุทรปราการ",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดสระแก้ว",
+        "province": "สระแก้ว",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติเจ็ดคด - โป่งก้อนเส้า (เตรียมการ)",
+        "province": "สระบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=32645",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำลม-ถ้ำวัง",
+        "province": "สุโขทัย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำลม - ถ้ำวัง · วนอุทยานถ้ำลม-ถ้ำวัง",
+        "province": "สุโขทัย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกพุม่วง · วนอุทยานพุม่วง",
+        "province": "สุพรรณบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "พุม่วง",
+        "province": "สุพรรณบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดสุพรรณบุรี",
+        "province": "สุพรรณบุรี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนหินพุหางนาค · วนอุทยานพุม่วง",
+        "province": "สุพรรณบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกตาดฟ้า · ใต้ร่มเย็น",
+        "province": "สุราษฎร์ธานี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1023",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดสุราษฎร์ธานี",
+        "province": "สุราษฎร์ธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Koh Samui CrossFit",
+        "province": "สุราษฎร์ธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกโตงใหญ่ · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ่อขมิ้น · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ป่าสนหนองคู",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาชมวิว · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาดอกบัว · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "พระพุทธสุรินทรมงคล · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ระบบนิเวศป่าสนสองใบ · วนอุทยานป่าสนหนองคู",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานกางเต็นท์ · วนอุทยานป่าสนหนองคู",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานหินล้านปี · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ศาลาอัฐมุข · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สถูปบรรจุอัฐิหลวงปู่ดูลย์ อตุโล · วนอุทยานพนมสวาย",
+        "province": "สุรินทร์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดหนองคาย",
+        "province": "หนองคาย",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บัวบาน",
+        "province": "หนองบัวลำภู",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาชมเมือง · วนอุทยานบัวบาน",
+        "province": "หนองบัวลำภู",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวผาชื่นวาริน · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวภูสิงห์จุดสูงสุดจังหวัดอำนาจเจริญ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำยาว · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำหินสอ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งดอกหญ้าป่าลานตาดไฮ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งดอกหญ้าป่าลานถ้ำฉลาม · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งดอกหญ้าป่าลานหินแยก · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกธิดาเทพ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ปากแข้ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "พระเทพรัตนโกสินทร์ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานควายตู้ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานหินปุ่ม · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เส้นทางศึกษาธรรมชาติ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำห้วยสีโท · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกคอยนาง",
+        "province": "อุดรธานี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ภูเขาสวนกวาง",
+        "province": "อุดรธานี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "วังสามหมอ",
+        "province": "อุดรธานี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟกองบิน 23",
+        "province": "อุดรธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สะพานหินธรรมชาติ · วนอุทยานภูเขาสวนกวาง",
+        "province": "อุดรธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำลำพันชาติ · วนอุทยานวังสามหมอ",
+        "province": "อุดรธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำลำห้วยทราย · วนอุทยานภูเขาสวนกวาง",
+        "province": "อุดรธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาตินายูง - น้ำโสม (เตรียมการ)",
+        "province": "อุดรธานี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=955",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกคลองตรอน/ห้วยโป่ง · ต้นสักใหญ่",
+        "province": "อุตรดิตถ์",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=987",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แก่งวังวัว · วนอุทยานห้วยน้ำลี",
+        "province": "อุตรดิสถ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เขาพลึง-บ้านด่าน",
+        "province": "อุตรดิสถ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกแม่เฉย",
+        "province": "อุตรดิสถ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ห้วยน้ำลี",
+        "province": "อุตรดิสถ์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพุหวาย · วนอุทยานถ้ำเขาวง",
+        "province": "อุทัยธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ห้วยคต",
+        "province": "อุทัยธานี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อ่างเก็บน้ำคลองไก่เถื่อน · วนอุทยานห้วยคต",
+        "province": "อุทัยธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวน้ำตกผาหลวง · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวปล่องช้างลอด · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิวหม้อหินผาหลวง · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งดอกหญ้านามพระราชทาน · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกผาหลวง · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกรากไทร · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกลงปล่อง · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โบกนกยูง · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ผาผึ้งภูหลวง (ภาพเขียนสีโบราณ) · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานจระเข้หิน · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ลานเต่าหิน · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกอล์ฟกองบิน 21",
+        "province": "อุบลราชธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สนามกีฬากลางจังหวัดอุบลราชธานี",
+        "province": "อุบลราชธานี",
+        "source": "",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนหินงามผาจุ่น · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เสาเฉลียงเก้านางดอนบาก · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เสาเฉลียงผาขาม · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หยดน้ำทิพย์ · วนอุทยานน้ำตกผาหลวง",
+        "province": "อุบลราชธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Rare Art Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chin's Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Faculty of Fine and Applied Arts Gallery, Khon Kaen University",
+        "province": "ขอนแก่น",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Matique Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "116 Art Gallery",
+        "province": "เชียงใหม่",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Tentacles",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sriphiphat Art Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Brownstone",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/nightlife-awards-2026/best-nightlife-complex",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Melt Livehouse · พระราม 4",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/nightlife/best-livehouse-venue",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Melt Livehouse · Cloud 11",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/nightlife/best-livehouse-venue",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Marshall Livehouse",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/nightlife/best-livehouse-venue",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Blueprint Livehouse",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/nightlife/best-livehouse-venue",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Volume Livehouse",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/nightlife/best-livehouse-venue",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mr.FOX Live House",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Speakerbox",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Bangkok Island",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "The Street Hall",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Centerpoint Entertainment",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "What's Happened?",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Urban District",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "The Basement",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Dope & Dirty",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "MUIN",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Mustache Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/things-to-do/where-to-actually-hear-house-music-in-bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Elsewhere",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/things-to-do/where-to-actually-hear-house-music-in-bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Bar Temp",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://djmag.com/news/bangkok-has-new-underground-focused-club-space-bar-temp",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "12 x 12",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/things-to-do/where-to-actually-hear-house-music-in-bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "More Rice Record Store",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.timeout.com/bangkok/things-to-do/where-to-actually-hear-house-music-in-bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "De Commune",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.thenoxclubs.com/thailand/bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Lido Connect",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Samyan Mitrtown Hall",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "MGI Hall · Bravo BKK",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Cloud 11 Hall",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.runbkk.com/venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Horn",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Dual",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Subwerk Club",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Amnesia",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Siwilai Radical Club",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Æther BKK",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Otaqlab Bangkok",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Culture Cafe",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "The Warehouse Talat Noi",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://soundcheck.club/bangkok/scene/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Smalls",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://livein.city/bkk/guides/first-timers-concerts-and-live-music",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Saxophone Pub",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.bangkokeventcalendar.com/blog/bangkok-live-music-venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Brown Sugar",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.bangkokeventcalendar.com/blog/bangkok-live-music-venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Foojohn Jazz Club",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.bangkokeventcalendar.com/blog/bangkok-live-music-venues",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Black Cabin Bar",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://livein.city/bkk/guides/first-timers-concerts-and-live-music",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Immortal Bar",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://livein.city/bkk/guides/first-timers-concerts-and-live-music",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Artspace@Bantadthong",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://livein.city/bkk/guides/first-timers-concerts-and-live-music",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Bamboo Bar",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.bangkokeventcalendar.com/blog/bangkok-live-music-venues",
+        "reason": "missing image URL"
+      }
+    ],
+    "Studios": [
+      {
+        "name": "Horizon Studio (ฮอไรซอน สตูดิโอ ราชเทวี)",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/horizonstudiobkk",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "The Silver House Music Studio & Cafe",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/thesilverhousemusicstudio",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Soundspace Studio ช่างชุ่ย",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/soundspacestudiobkk",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "JKM Studio ลาดกระบัง",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.facebook.com/jkmstudiolatkrabang",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jam Session Studio ลาดพร้าว",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Beat Factory Studio พญาไท",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Melody House ดินแดง",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Monster Music Studio สวนหลวง",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "รักมิวสิค ห้องซ้อมดนตรี บางมด",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chaichana Sound Studio (ชัยชนะ ซาวด์)",
+        "province": "นนทบุรี",
+        "source": "https://www.facebook.com/chaichanasound",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Acoustic Room Nonthaburi",
+        "province": "นนทบุรี",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ห้องซ้อมดนตรีสหรัฐ ตลาดขวัญ",
+        "province": "นนทบุรี",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Good Day Musicroom บางบัวทอง",
+        "province": "นนทบุรี",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Yuki Freedom Studio รังสิต",
+        "province": "ปทุมธานี",
+        "source": "https://www.facebook.com/yukifreedomstudio",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "TIGER STUDIO RANGSIT",
+        "province": "ปทุมธานี",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Band Practice Zone ธัญบุรี",
+        "province": "ปทุมธานี",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "B Studio รังสิต",
+        "province": "ปทุมธานี",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "JOYSPACE Music Rehearsal Studio (จอยสเปซ)",
+        "province": "สมุทรปราการ",
+        "source": "https://www.facebook.com/joyspacestudio",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "CHEER MUSIC ปากน้ำ",
+        "province": "สมุทรปราการ",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sound Me Hang Studio แพรกษา",
+        "province": "สมุทรปราการ",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Holls Studio ประชาอุทิศ 90",
+        "province": "สมุทรปราการ",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sp Music Studio มหาชัย",
+        "province": "สมุทรสาคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "DADDY'S HOME STUDIO มหาชัย",
+        "province": "สมุทรสาคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Earthwalk Studio กระทุ่มแบน",
+        "province": "สมุทรสาคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "บ้านเพื่อนมิวสิค สมุทรสาคร",
+        "province": "สมุทรสาคร",
+        "source": "https://harmoniqstudio.com",
+        "reason": "missing image URL"
+      }
+    ],
+    "Live posters": [
+      {
+        "name": "Klongtoeycompton",
+        "province": "bangkok",
+        "source": "https://megatix.in.th/events/klongtoeycompton",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Offset: Live in Bangkok",
+        "province": "bangkok",
+        "source": "https://megatix.in.th/events/offset-live-in-bangkok",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "NOTORIOUS / ELEVATION",
+        "province": "phuket",
+        "source": "https://www.illuzionphuket.com/venue/illuzion/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โปรแกรมฮิปฮอปของ The Empire",
+        "province": "phuket",
+        "source": "https://www.illuzionphuket.com/empire/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Game of Entropy by BEATFLIP",
+        "province": "bangkok",
+        "source": "https://ra.co/events/2517387",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Lham Somphol ร้องไปกับคนรักกัน",
+        "province": "bangkok",
+        "source": "https://www.muzikmove.co.th/OurBusiness/OKDShowBiz/1/1?lang=en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "SILLY FOOLS 30 ปี",
+        "province": "nonthaburi",
+        "source": "https://www.muzikmove.co.th/OurBusiness/OKDShowBiz/1/1?lang=en",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "DISCONTENT Live in Bangkok",
+        "province": "bangkok",
+        "source": "https://www.ticketmelon.com/holdingonrecords/discontentbkk",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Playground Open Mic Cypher",
+        "province": "bangkok",
+        "source": "https://megatix.in.th/events/playground-open-mic-cypher",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Jesse Gold – Live in Bangkok",
+        "province": "bangkok",
+        "source": "https://megatix.in.th/events/jessegoldbkk",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Live from Marshall Livehouse",
+        "province": "bangkok",
+        "source": "https://www.ticketmelon.com/MarshallLivehouse/LiveFromMarshallLivehouse15",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โปรแกรมศิลปินอิสระ",
+        "province": "bangkok",
+        "source": "https://speakerboxlive.com/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "คอนเสิร์ตและศิลปินเพลงต้นฉบับ",
+        "province": "bangkok",
+        "source": "https://blueprintlivehouse.com/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "โปรแกรมสดและกิจกรรมชุมชนดนตรี",
+        "province": "bangkok",
+        "source": "https://linktr.ee/MarshallLivehouse",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "งานสดและดีเจใต้ดิน",
+        "province": "chiang-mai",
+        "source": "https://redcnx.com/red-cnx",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "แจมและดนตรีแจ๊สสด",
+        "province": "chiang-mai",
+        "source": "https://www.northgatejazz.com/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ดนตรีโฟล์กและบลูส์โดยศิลปินเชียงใหม่",
+        "province": "chiang-mai",
+        "source": "https://troubadourcnx.com/",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "คอนเสิร์ต No U Turn ในกรุงเทพฯ",
+        "province": "bangkok",
+        "source": "https://linktr.ee/nouturnband",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "คอนเสิร์ต No U Turn ในเชียงใหม่",
+        "province": "chiang-mai",
+        "source": "https://linktr.ee/nouturnband",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "คอนเสิร์ต No U Turn ในกรุงเทพฯ",
+        "province": "bangkok",
+        "source": "https://linktr.ee/nouturnband",
+        "reason": "missing image URL"
+      }
+    ],
+    "Collection leads: cave": [
+      {
+        "name": "ถ้ำทิพุเชะ · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธารลอดใหญ่ · เฉลิมรัตนโกสินทร์",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1006",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำน้ำตก · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเสาหิน · ลำคลองงู",
+        "province": "กาญจนบุรี",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1013",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระภูพระ · วนอุทยานภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเสียบสับ · วนอุทยานภูพระ",
+        "province": "กาฬสินธุ์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาแล",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาแล · วนอุทยานถ้ำผาแล",
+        "province": "เชียงราย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำตะโคะบิ๊",
+        "province": "ตาก",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธารทิพย์ · วนอุทยานเขาหลวง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำบ่อยา · วนอุทยานเขาหลวง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำประกายเพชร · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำประดับเพชร · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเพชรคิงคอง · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำมรกต · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำวังไข่มุก · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำวิมานลอย · วนอุทยานถ้ำเพชร-ถ้ำทอง",
+        "province": "นครสวรรค์",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "จุดชมวิว · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำขอน · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเจดีย์แก้ว · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำบ่อน้ำทิพย์ · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระ · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเหี้ย · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "หนองน่าน · วนอุทยานถ้ำผาตูบ",
+        "province": "น่าน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำน้ำ · วนอุทยานเมืองเก่าชัยบุรี",
+        "province": "พัทลุง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระนอน · วนอุทยานเมืองเก่าชัยบุรี",
+        "province": "พัทลุง",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาหลักหมื่น · วนอุทยานผาหลักหมื่น",
+        "province": "แพร่",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "น้ำตกถ้ำไทร · วนอุทยานดงบังอี่",
+        "province": "มุกดาหาร",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแก้วโกมล · วนอุทยานแก้วโกมล",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธาราลอด",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำธาราลอด · วนอุทยานถ้ำธาราลอด",
+        "province": "แม่ฮ่องสอน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "เกาะขวาง (ถ้ำญี่ปุ่น) · ลำน้ำกระบุรี",
+        "province": "ระนอง",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=1001",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำดิน · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำปากกว้าง · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแม่ธรณี · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "สวนหิน · วนอุทยานถ้ำเขาน้อย",
+        "province": "ราชบุรี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "อุทยานแห่งชาติถ้ำผาไท (เตรียมการ)",
+        "province": "ลำปาง",
+        "source": "https://portal.dnp.go.th/Content/nationalpark?contentId=977",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำหลวงเวียงแก้ว · วนอุทยานดอยเวียงแก้ว",
+        "province": "ลำพูน",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแก้ว · วนอุทยานน้ำตกห้วยเลา",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแก้ว · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแขวน · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแจ้ง · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาจันได · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำผาล้อม · วนอุทยานภูผาล้อม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพระ (ภูบ่อบิด) · วนอุทยานภูบ่อบิด",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำโพธิสัตว์ · วนอุทยานผางาม",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำลอด · วนอุทยานภูบ่อบิด",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำแสงธรรม · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำห้วยนา · วนอุทยานถ้ำแสงธรรมพรหมมาวาส",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำเหี้ยะ · วนอุทยานน้ำตกห้วยเลา",
+        "province": "เลย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำลม-ถ้ำวัง",
+        "province": "สุโขทัย",
+        "source": "https://data.go.th/dataset/gdpublish-nationalparksname",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำลม - ถ้ำวัง · วนอุทยานถ้ำลม-ถ้ำวัง",
+        "province": "สุโขทัย",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำยาว · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำหินสอ · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ทุ่งดอกหญ้าป่าลานถ้ำฉลาม · วนอุทยานภูสิงห์-ภูผาผึ้ง",
+        "province": "อำนาจเจริญ",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "ถ้ำพุหวาย · วนอุทยานถ้ำเขาวง",
+        "province": "อุทัยธานี",
+        "source": "https://data.go.th/dataset/gdpublish-typesattractionsinpark",
+        "reason": "missing image URL"
+      }
+    ],
+    "Collection leads: art": [
+      {
+        "name": "Rare Art Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Chin's Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Faculty of Fine and Applied Arts Gallery, Khon Kaen University",
+        "province": "ขอนแก่น",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Matique Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "116 Art Gallery",
+        "province": "เชียงใหม่",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Tentacles",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      },
+      {
+        "name": "Sriphiphat Art Gallery",
+        "province": "กรุงเทพมหานคร",
+        "source": "https://www.rama9art.org/galleries?list_name_group=gallery",
+        "reason": "missing image URL"
+      }
+    ],
+    "Collection leads: temple": [],
+    "Collection leads: nakhon-pathom": []
+  }
+}

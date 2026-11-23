@@ -93,7 +93,7 @@ const attractionCsv = attractionPackage.result.resources.find((resource) => reso
 const attractionBytes = await fetch(attractionCsv.url).then((response) => response.arrayBuffer());
 const attractionRows = parseCsv(new TextDecoder("windows-874").decode(attractionBytes));
 const parkProvince = new Map(nationalRows.slice(1).map(([province, name]) => [normalize(name), province.trim()]));
-const nationalSourceByName = new Map(nationalRows.slice(1).map(([province, name, sourceUrl]) => [normalize(name), sourceUrl?.trim()]));
+const nationalSourceByName = new Map(nationalRows.slice(1).map(([, name, sourceUrl]) => [normalize(name), sourceUrl?.trim()]));
 for (const [, parkName, type, attractionName, rawLat, rawLon] of attractionRows.slice(1)) {
   const name = attractionName?.trim();
   const province = parkProvince.get(normalize(parkName?.trim()));

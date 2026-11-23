@@ -442,7 +442,7 @@ for (const place of places) {
   const duplicate = activity.places.some((item) => item.province === province && item.name.normalize("NFC") === place.name.normalize("NFC"));
   if (duplicate) continue;
   await saveCover(place);
-  const { image, imageSource, credit, ...record } = place;
+  const { image: _image, imageSource: _imageSource, credit: _credit, ...record } = place;
   activity.places.push({ ...record, province });
   added++;
 }
