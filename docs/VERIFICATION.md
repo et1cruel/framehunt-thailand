@@ -574,3 +574,13 @@ favourites control also has an English accessible name. Strict i18n audit,
 production build, preview smoke across nine routes, and `git diff --check` passed
 after the follow-up. Some original proper names and supplemental directory data
 remain in their source language; this does not change the open photo gaps above.
+
+The follow-up was pushed through `af24d5f`, `54856fc`, and `f4feae2`. The
+latest production deployment is
+[`404d7c03.framehunt-thailand.pages.dev`](https://404d7c03.framehunt-thailand.pages.dev),
+source `f4feae2` on `main`. Both the deployment URL and stable project domain
+returned HTTP 200. A live English-mode check on the Wat Arun detail page
+confirmed the localized permission status, unknown-data labels, dates, distance
+units, and footer copy. This verifies those rendered fields only; it does not
+claim every supplemental directory record is translated or every image gap is
+closed.
