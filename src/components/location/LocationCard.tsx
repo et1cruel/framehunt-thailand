@@ -20,6 +20,7 @@ interface Props {
 
 export function PhotoImage({
   photo,
+  location,
   sizes,
   className,
   priority,
@@ -29,6 +30,7 @@ export function PhotoImage({
   expectedPhotoCount = 0,
 }: {
   photo: LocationPhoto | undefined;
+  location?: Pick<LocationRecord, "name_th" | "name_en">;
   sizes: string;
   className?: string;
   priority?: boolean;
@@ -37,7 +39,7 @@ export function PhotoImage({
   galleryAssetUrl?: string;
   expectedPhotoCount?: number;
 }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [candidateIndex, setCandidateIndex] = useState(0);
   const [useOriginal, setUseOriginal] = useState(false);
   const [recoveryPhotos, setRecoveryPhotos] = useState<LocationPhoto[]>([]);
@@ -111,7 +113,7 @@ export function PhotoImage({
       sizes={sizes}
       width={current.width}
       height={current.height}
-      alt={current.title}
+      alt={language === "en" ? location?.name_en || location?.name_th || t("ภาพสถานที่") : location ? `${location.name_th} — ${current.title}` : current.title}
       loading={priority ? "eager" : "lazy"}
       fetchPriority={fetchPriority ?? (priority ? "high" : "auto")}
       decoding="async"
@@ -167,11 +169,11 @@ function HoverPhotos({ location, cover, sizes, focusActive = false }: { location
   }, [active]);
   const stop = () => { setHovered(false); setIndex(0); };
   return <div ref={previewRef} className="relative h-full w-full" onMouseEnter={() => setHovered(true)} onMouseLeave={stop}>
-    <PhotoImage photo={cover} sizes={sizes} fallbackPhotos={galleryPhotos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === 0 ? "opacity-100" : "opacity-0")} />
+    <PhotoImage photo={cover} location={location} sizes={sizes} fallbackPhotos={galleryPhotos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === 0 ? "opacity-100" : "opacity-0")} />
     {active && available.slice(1).map((photo, offset) => {
       const position = offset + 1;
       if (position !== index && position !== (index + 1) % available.length && position !== (index - 1 + available.length) % available.length) return null;
-      return <PhotoImage key={photo.id} photo={photo} sizes={sizes} fallbackPhotos={available.filter((candidate) => candidate.id !== photo.id)} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === position ? "opacity-100" : "opacity-0")} />;
+      return <PhotoImage key={photo.id} photo={photo} location={location} sizes={sizes} fallbackPhotos={available.filter((candidate) => candidate.id !== photo.id)} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === position ? "opacity-100" : "opacity-0")} />;
     })}
     {active && available.length > 1 && <span aria-hidden="true" className="photo-preview-count absolute left-2 top-2 rounded-full border border-white/70 bg-ink/90 px-2.5 py-1 font-mono text-[10px] tracking-normal text-paper shadow-sm">{String(index + 1).padStart(2, "0")} / {available.length} {language === "en" ? "photos" : "ภาพ"}</span>}
     {active && available[index] && <span className="absolute bottom-2 left-2 max-w-[85%] rounded bg-black/75 px-2 py-1 text-[10px] text-white">{available[index].attribution_text}</span>}
@@ -194,7 +196,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         className="group flex items-center gap-4 rounded-xl border-b border-line px-2 py-3 hover:bg-ink/85"
       >
         <div className="relative h-20 w-24 shrink-0 overflow-hidden rounded-xl bg-ink-2">
-          <PhotoImage photo={cover} sizes="96px" fallbackPhotos={location.photos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className="h-full w-full object-cover frame-img" />
+          <PhotoImage photo={cover} location={location} sizes="96px" fallbackPhotos={location.photos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className="h-full w-full object-cover frame-img" />
         </div>
         <div className="min-w-0 flex-1">
           <p className="label-mono text-concrete">{language === "en" ? location.province : location.province_th}</p>

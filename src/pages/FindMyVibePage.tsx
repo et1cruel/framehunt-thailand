@@ -90,7 +90,7 @@ export default function FindMyVibePage() {
       <section className="glass-panel relative mx-4 mt-5 overflow-hidden sm:mx-8 lg:mx-12">
         <div className="absolute inset-y-0 right-0 w-3/4 opacity-35 lg:w-3/5">
           {matches[0] && (
-            <PhotoImage photo={pickCover(matches[0].location)} fallbackPhotos={matches[0].location.photos} galleryAssetUrl={matches[0].location.gallery_asset_url} expectedPhotoCount={matches[0].location.photo_count} sizes="100vw" className="h-full w-full object-cover" />
+            <PhotoImage photo={pickCover(matches[0].location)} location={matches[0].location} fallbackPhotos={matches[0].location.photos} galleryAssetUrl={matches[0].location.gallery_asset_url} expectedPhotoCount={matches[0].location.photo_count} sizes="100vw" className="h-full w-full object-cover" />
           )}
           <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/70 to-ink/20" />
         </div>
@@ -251,6 +251,7 @@ export default function FindMyVibePage() {
                     >
                       <PhotoImage
                         photo={cover}
+                        location={match.location}
                         fallbackPhotos={match.location.photos}
                         galleryAssetUrl={match.location.gallery_asset_url}
                         expectedPhotoCount={match.location.photo_count}

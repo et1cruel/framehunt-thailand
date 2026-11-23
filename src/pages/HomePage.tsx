@@ -132,6 +132,7 @@ export default function HomePage() {
             {heroPhoto && (
               <PhotoImage
                 photo={heroPhoto}
+                location={hero}
                 fallbackPhotos={hero.photos}
                 galleryAssetUrl={hero.gallery_asset_url}
                 expectedPhotoCount={hero.photo_count}
@@ -234,6 +235,7 @@ export default function HomePage() {
                 <div className="relative aspect-[5/3] overflow-hidden rounded-[1rem] bg-ink-2">
                   <PhotoImage
                     photo={pickImage(match)}
+                    location={match}
                     fallbackPhotos={match?.photos}
                     galleryAssetUrl={match?.gallery_asset_url}
                     expectedPhotoCount={match?.photo_count}
@@ -304,6 +306,7 @@ export default function HomePage() {
                     <>
                       <PhotoImage
                         photo={photo}
+                        location={sample}
                         fallbackPhotos={sample?.photos}
                         galleryAssetUrl={sample?.gallery_asset_url}
                         expectedPhotoCount={sample?.photo_count}
@@ -377,6 +380,7 @@ export default function HomePage() {
               >
                 <PhotoImage
                   photo={pickImage(match.location)}
+                  location={match.location}
                   fallbackPhotos={match.location.photos}
                   galleryAssetUrl={match.location.gallery_asset_url}
                   expectedPhotoCount={match.location.photo_count}

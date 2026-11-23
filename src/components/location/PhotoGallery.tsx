@@ -121,7 +121,7 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
               src={current.image_url}
               srcSet={`${current.thumb_url} 500w, ${current.image_url} 1920w`}
               sizes="(max-width: 1024px) 100vw, 70vw"
-              alt={`${locationName} — ${current.title}`}
+              alt={language === "en" ? `${locationName} photo ${active + 1}` : `${locationName} — ${current.title}`}
               width={current.width}
               height={current.height}
               loading="eager"

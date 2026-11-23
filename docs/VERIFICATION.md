@@ -603,11 +603,11 @@ across these sets. These are open work items; no generic or unverified image was
 inserted to make the cards appear complete.
 
 This pass localized English image loading/error states and favourite controls,
-gallery thumbnails, zoom and source actions, plus the selected mood chips and
-remove buttons. It also honors `prefers-reduced-motion` for the Framer Motion
-gallery and mood-result animations. A few tracked maintenance-script lint
-errors found by the audit were fixed. Pre-existing untracked user scripts were
-left untouched.
+gallery thumbnails, cover-photo alt text, zoom and source actions, plus the
+selected mood chips and remove buttons. It also honors `prefers-reduced-motion`
+for the Framer Motion gallery and mood-result animations. A few tracked
+maintenance-script lint errors found by the audit were fixed. Pre-existing
+untracked user scripts were left untouched.
 
 `npm run audit:i18n -- --strict` passed. Scoped ESLint on `src` and the changed
 tracked scripts reported zero errors and five existing warnings. Full

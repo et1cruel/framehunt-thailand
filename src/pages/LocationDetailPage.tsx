@@ -248,6 +248,7 @@ export default function LocationDetailPage() {
           {cover && (
             <PhotoImage
               photo={cover}
+              location={location}
               fallbackPhotos={galleryPhotos}
               galleryAssetUrl={location.gallery_asset_url}
               expectedPhotoCount={location.photo_count}
