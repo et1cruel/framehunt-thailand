@@ -88,7 +88,11 @@ try {
     for (let attempt = 0; attempt < 2 && !text; attempt += 1) {
       await page.goto(`${BASE}${check.path}`, { waitUntil: "load" });
       try {
-        await page.waitForSelector("h1", { state: "attached", timeout: 15_000 });
+        await page.waitForFunction(
+          (pattern) => new RegExp(pattern, "i").test(document.querySelector("h1")?.textContent ?? ""),
+          check.heading.source,
+          { timeout: 15_000 },
+        );
       } catch {
         /* retry once — the preview server may still be warming up */
       }

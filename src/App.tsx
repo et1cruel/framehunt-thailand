@@ -28,8 +28,8 @@ function RouteFallback() {
   return (
     <div className="flex min-h-[60vh] items-center justify-center" role="status" aria-live="polite">
       <div className="text-center">
-        <span className="mx-auto block h-6 w-6 animate-spin rounded-full border-2 border-paper/15 border-t-acid" />
-        <p className="label-mono mt-4 text-concrete">LOADING FRAME</p>
+        <span className="mx-auto block h-6 w-6 animate-spin rounded-full border-2 border-line border-t-acid" aria-hidden />
+        <p className="mt-4 text-sm font-semibold text-concrete"><Localized text="กำลังโหลดหน้า" /></p>
       </div>
     </div>
   );

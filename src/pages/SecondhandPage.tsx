@@ -1,10 +1,14 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { ArrowUpRight, MapPin, Search, Shirt, Store } from "lucide-react";
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import directory from "@/data/secondhand-shops.json";
-import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
+import { DirectoryCover } from "@/components/DirectoryCover";
+import { hasDirectoryCover, useDirectoryCovers } from "@/services/directoryCovers";
+import { useVisibleItems } from "@/lib/useVisibleItems";
+import { LoadMoreButton } from "@/components/LoadMoreButton";
+import { provinceLabel } from "@/lib/provinceLabel";
 
 type ShopKind = "japan" | "clothing" | "vintage";
 type Shop = {
@@ -25,13 +29,15 @@ const kindLabels: Record<ShopKind, string> = {
   clothing: "เสื้อผ้ามือสอง / วินเทจ",
   vintage: "วินเทจและของสะสม",
 };
-const dateFormatter = new Intl.DateTimeFormat("th-TH", { dateStyle: "medium", timeZone: "Asia/Bangkok" });
-function observedDate(value: string) {
+function observedDate(value: string, language: "th" | "en") {
   const parsed = new Date(`${value}T12:00:00+07:00`);
-  return Number.isNaN(parsed.getTime()) ? value : dateFormatter.format(parsed);
+  const formatter = new Intl.DateTimeFormat(language === "en" ? "en-GB" : "th-TH", { dateStyle: "medium", timeZone: "Asia/Bangkok" });
+  return Number.isNaN(parsed.getTime()) ? value : formatter.format(parsed);
 }
 
 export default function SecondhandPage() {
+  const { data: coverIndex } = useDirectoryCovers();
+  const { t, language } = useLanguage();
   const bangkok = "กรุงเทพมหานคร";
   const [query, setQuery] = useState("");
   const bangkokClothing = new URLSearchParams(window.location.search).get("focus") === "bangkok-clothing";
@@ -48,8 +54,9 @@ export default function SecondhandPage() {
     return shops.filter((shop) => {
       const textMatches = !needle || `${shop.name} ${shop.province} ${shop.district ?? ""} ${shop.sourceName}`.toLocaleLowerCase("th").includes(needle);
       return textMatches && (kind === "all" || shop.kind === kind) && (!province || shop.province === province);
-    }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province)) - Number(hasDirectoryCover(a.name, a.province)));
-  }, [kind, province, query]);
+    }).sort((a, b) => Number(hasDirectoryCover(coverIndex, b.name, b.province, b.source)) - Number(hasDirectoryCover(coverIndex, a.name, a.province, a.source)));
+  }, [coverIndex, kind, province, query]);
+  const { visibleItems, remaining, showMore } = useVisibleItems(filtered, 48, `${query}|${kind}|${province}`);
 
   return (
     <div className="container-x py-10 md:py-16">
@@ -67,11 +74,11 @@ export default function SecondhandPage() {
         </div>
       </section>
 
-      <section className="clay-panel my-6 grid gap-3 p-4 md:grid-cols-[1fr_14rem_14rem]" aria-label="ตัวกรองร้านมือสอง">
+      <section className="clay-panel my-6 grid gap-3 p-4 md:grid-cols-[1fr_14rem_14rem]" aria-label={t("ตัวกรองร้านมือสอง")}>
         <label className="relative">
           <span className="sr-only"> <Localized text="ค้นหาชื่อร้านหรือจังหวัด" /> </span>
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-concrete" aria-hidden />
-          <Input type="search" className="pl-9" placeholder="ค้นหาชื่อร้านหรือจังหวัด" value={query} onChange={(event) => setQuery(event.target.value)} />
+          <Input type="search" className="pl-9" placeholder={t("ค้นหาชื่อร้านหรือจังหวัด")} value={query} onChange={(event) => setQuery(event.target.value)} />
         </label>
         <label>
           <span className="sr-only"> <Localized text="ประเภทสถานที่" /> </span>
@@ -86,7 +93,7 @@ export default function SecondhandPage() {
           <span className="sr-only"> <Localized text="จังหวัด" /> </span>
           <select className="clay-control h-11 w-full border border-white bg-white/80 px-3 text-sm" value={province} onChange={(event) => setProvince(event.target.value)}>
             <option value=""> <Localized text="ทุกจังหวัด" /> </option>
-            {provinces.map((item) => <option key={item} value={item}>{item}</option>)}
+            {provinces.map((item) => <option key={item} value={item}>{provinceLabel(item, language)}</option>)}
           </select>
         </label>
       </section>
@@ -99,7 +106,7 @@ export default function SecondhandPage() {
         <div className="clay-panel p-8 text-center text-concrete"> <Localized text="ไม่พบร้าน ลองเปลี่ยนคำค้นหาหรือตัวกรอง" /> </div>
       ) : (
         <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-          {filtered.map((shop, index) => (
+          {visibleItems.map((shop, index) => (
             <li key={`${shop.name}-${shop.province}-${index}`}>
               <article className="clay-panel flex h-full min-h-44 flex-col justify-between gap-5 p-5 transition-transform hover:-translate-y-0.5">
                 <div>
@@ -109,8 +116,8 @@ export default function SecondhandPage() {
                     <Store className="h-4 w-4 shrink-0 text-acid" aria-hidden />
                   </div>
                   <h3 className="font-bold leading-snug">{shop.name}</h3>
-                  <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.district ? `${shop.district} · ` : ""}{shop.province}</p>
-                  {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete"> <Localized text="บันทึกในแหล่งข้อมูล:" /> {observedDate(shop.lastObservedAt)}</p>}
+                  <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" aria-hidden />{shop.district ? `${shop.district} · ` : ""}{provinceLabel(shop.province, language)}</p>
+                  {shop.lastObservedAt && <p className="mt-2 text-xs text-concrete"> <Localized text="บันทึกในแหล่งข้อมูล:" /> {observedDate(shop.lastObservedAt, language)}</p>}
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-acid hover:bg-sage" href={shop.mapsUrl} target="_blank" rel="noreferrer"> <Localized text="แผนที่" /> <MapPin className="h-3.5 w-3.5" aria-hidden />
@@ -124,8 +131,9 @@ export default function SecondhandPage() {
           ))}
         </ul>
       )}
+      <LoadMoreButton remaining={remaining} onClick={showMore} />
       <p className="mt-8 rounded-2xl border border-white/80 bg-white/55 p-4 text-xs leading-relaxed text-concrete">
-        รายชื่อโกดังญี่ปุ่นมาจากฐานข้อมูลสาธารณะที่ระบุวันที่รวบรวมไว้ 28 กรกฎาคม 2569 ส่วนร้านเสื้อผ้า/วินเทจเพิ่มเติมมาจากไกด์ร้านในกรุงเทพฯ และเชียงใหม่ รายชื่อเป็นจุดเริ่มต้นสำหรับค้นหา ไม่รับรองสถานะกิจการหรือเวลาเปิดปัจจุบัน โปรดตรวจสอบกับร้านก่อนออกเดินทาง
+        <Localized text="รายชื่อโกดังญี่ปุ่นมาจากฐานข้อมูลสาธารณะที่ระบุวันที่รวบรวมไว้ 28 กรกฎาคม 2569 ส่วนร้านเสื้อผ้า/วินเทจเพิ่มเติมมาจากไกด์ร้านในกรุงเทพฯ และเชียงใหม่ รายชื่อเป็นจุดเริ่มต้นสำหรับค้นหา ไม่รับรองสถานะกิจการหรือเวลาเปิดปัจจุบัน โปรดตรวจสอบกับร้านก่อนออกเดินทาง" />
       </p>
     </div>
   );

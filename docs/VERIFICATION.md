@@ -438,3 +438,57 @@ state, so visitors can inspect the source when a cover is absent or fails to
 load. The application crash screen no longer exposes raw exception text or
 claims that local data is intact; it provides translated recovery actions and
 a reference ID that is logged with the diagnostic in the browser console.
+
+## Directory resilience, loading and localization pass (2026-11-23)
+
+Moved the 666.06 KB directory-cover index out of the route JavaScript and into a
+separate content-hashed JSON asset. The browser now fetches and caches it with
+TanStack Query; cards show a localized loading, unavailable or retry state and
+keep the original source link when a cover is missing or fails. Matching and
+cover-first ordering now use the same name/province and source-URL fallback.
+This removes JavaScript parse/compile work for the image index, but does not
+reduce the JSON asset's 82.80 KB gzip transfer when it is requested.
+
+Activity, food, secondhand and collection directories now initially render up
+to 48 cards at a time, with a localized load-more control. English labels and
+province names are used on the activity, food, secondhand and live-music pages.
+The collection page also paginates both published locations and public-source
+leads. Live-music events without a poster, or with a poster that fails to load,
+show an explicit poster state instead of a blank slot. Loading and crash
+recovery screens now follow the selected language.
+
+`npm run audit:directory-covers` now matches by exact name/province or source
+URL, checks local asset paths, and separates absent cover URLs from missing
+source, credit and explicit license metadata. The latest directory counts are:
+
+| Directory | With cover URL | Entries | Missing URLs | Missing explicit license metadata |
+| --- | ---: | ---: | ---: | ---: |
+| Core published locations | 582 | 582 | 0 | 0 |
+| Secondhand | 56 | 224 | 168 | 56 |
+| Food | 518 | 595 | 77 | 518 |
+| Activities | 1,100 | 1,620 | 520 | 1,100 |
+| Studios | 12 | 37 | 25 | 12 |
+| Live music posters | 19 | 39 | 20 | 19 |
+| Cave collection leads | 99 | 159 | 60 | 99 |
+| Art collection leads | 22 | 29 | 7 | 22 |
+| Temple collection leads | 71 | 71 | 0 | 71 |
+| Nakhon Pathom collection leads | 133 | 133 | 0 | 133 |
+
+These figures are URL/data-field coverage only. They do not prove that each
+remote image loads for every visitor, depicts the named venue, or has permission
+for reuse. Local Nakhon Pathom cover paths were checked for file existence. The
+remote URL health check is optional and sample-based; no exhaustive external
+image check was completed in this environment. The cover gaps and missing
+license metadata remain visible work, not completed image coverage.
+
+Validation: production `npm run build` passed. Manual Chromium preview showed 48
+initial cards on the food, activities and secondhand pages; the secondhand load
+button increased the visible count to 96 and updated the remaining count. The
+English province selector included Bangkok and Nakhon Pathom in English. The
+cave collection rendered with a load-more control. No console errors appeared
+on these routes. `git diff --check` and a duplicate-key check for `en.json`
+passed. Build still warns about the separate MapLibre (~1.05 MB raw) and
+admin-only data (~10.82 MB raw) chunks; this pass did not reduce their sizes.
+The production preview smoke now waits for each route's expected heading rather
+than sampling the temporary catalogue-loading heading. `npm run verify:preview`
+passed all eight page routes and confirmed the MapLibre canvas mounted.

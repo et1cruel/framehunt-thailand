@@ -125,6 +125,7 @@ npm run test:e2e      # playwright test (13 tests, needs `npx playwright install
 npm run build         # prebuild sitemap + tsc + vite build
 npm run verify:preview  # loads the built bundle on 7 routes, fails on JS errors
 npm run audit:directory-covers  # reports embedded cover coverage by directory
+npm run audit:directory-covers -- --check-urls --limit-urls=120  # spot-checks remote image responses
 ```
 
 ---
@@ -274,7 +275,7 @@ npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name framehunt
 
 **Working and verified locally**
 
-- 506 published locations, 2,847 photos, publish gate enforced in code and tests.
+- 582 published locations, 3,211 verified photos, with the publication gate enforced.
 - Search, filters, distance sort, vibe matching, map, local boards, submission validation and the local admin dashboard.
 - 43 unit tests and 13 Playwright E2E tests cover the local app, mobile radius
   filtering and the Supabase catalog response contract.

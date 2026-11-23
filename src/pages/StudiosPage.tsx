@@ -15,7 +15,8 @@ import {
 import { Input } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import studiosDirectory from "@/data/studios-directory.json";
-import { DirectoryCover, hasDirectoryCover } from "@/components/DirectoryCover";
+import { DirectoryCover } from "@/components/DirectoryCover";
+import { hasDirectoryCover, useDirectoryCovers } from "@/services/directoryCovers";
 
 export type Studio = {
   id: string;
@@ -57,6 +58,7 @@ const FEATURE_TAGS = [
 ];
 
 export default function StudiosPage() {
+  const { data: coverIndex } = useDirectoryCovers();
   const [query, setQuery] = useState("");
   const [selectedProvince, setSelectedProvince] = useState("all");
   const [selectedFeature, setSelectedFeature] = useState("ทั้งหมด");
@@ -98,8 +100,8 @@ export default function StudiosPage() {
       const matchPrice = !maxPrice || studio.priceHourly <= maxPrice;
 
       return matchText && matchProvince && matchFeature && matchPrice;
-    }).sort((a, b) => Number(hasDirectoryCover(b.name, b.province)) - Number(hasDirectoryCover(a.name, a.province)));
-  }, [query, selectedProvince, selectedFeature, maxPrice]);
+    }).sort((a, b) => Number(hasDirectoryCover(coverIndex, b.name, b.province, b.sourceUrl)) - Number(hasDirectoryCover(coverIndex, a.name, a.province, a.sourceUrl)));
+  }, [coverIndex, query, selectedProvince, selectedFeature, maxPrice]);
 
   return (
     <div className="container-x py-10 md:py-16">

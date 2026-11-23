@@ -26,9 +26,9 @@ createRoot(root).render(
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <AuthProvider>
-          <CatalogProvider>
-            <LanguageProvider><App /></LanguageProvider>
-          </CatalogProvider>
+          <LanguageProvider>
+            <CatalogProvider><App /></CatalogProvider>
+          </LanguageProvider>
         </AuthProvider>
       </BrowserRouter>
     </QueryClientProvider>
