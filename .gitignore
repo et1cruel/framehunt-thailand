@@ -1,6 +1,8 @@
 node_modules
 dist
 dist-ssr
+src/data/generated
+public/data/locations.published.*.json
 *.local
 .env
 .env.*

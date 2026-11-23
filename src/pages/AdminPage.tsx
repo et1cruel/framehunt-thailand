@@ -22,12 +22,11 @@ import reportJson from "../../data/reports/ingest-report.json";
 import { Badge, Button, Dialog, DialogContent, DialogTitle, Input, Label, Select } from "@/components/ui";
 import {
   allRecords,
-  datasetMeta,
   draftLocations,
   locationStats,
-  photoGate,
   publishedLocations,
-} from "@/services/locations";
+} from "@/services/adminLocations";
+import { datasetMeta, photoGate } from "@/services/locations";
 import { admin as adminStore, auth, submissions as submissionStore, useStore } from "@/services/localStore";
 import { useAuth } from "@/services/auth";
 import { allowLocalAuth } from "@/lib/supabase";

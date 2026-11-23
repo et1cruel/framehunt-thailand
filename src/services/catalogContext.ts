@@ -1,8 +1,8 @@
 import { createContext, useContext } from "react";
-import { bundledCatalog } from "@/services/locations";
+import { emptyCatalog } from "@/services/locations";
 
 export const publicCatalogKey = ["catalog", "public"] as const;
-export const CatalogContext = createContext(bundledCatalog);
+export const CatalogContext = createContext(emptyCatalog);
 
 export function useLocationCatalog() {
   return useContext(CatalogContext);

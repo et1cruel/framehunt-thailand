@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { ArrowUpRight, Camera, Database, FileWarning, MapPin, ShieldCheck, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { Badge, Button } from "@/components/ui";
-import { datasetMeta, locationStats } from "@/services/locations";
+import { useLocationCatalog } from "@/services/catalogContext";
+import { datasetMeta } from "@/services/locations";
 import { useSeo } from "@/lib/useSeo";
 
 const LICENSE_ORDER = [
@@ -49,7 +50,7 @@ const NOT_CLAIMED = [
 ];
 
 export default function AboutPage() {
-  const stats = locationStats();
+  const stats = useLocationCatalog().locationStats();
   const licenses = Object.entries(datasetMeta.license_breakdown).sort(
     (a, b) => LICENSE_ORDER.indexOf(a[0]) - LICENSE_ORDER.indexOf(b[0]) || b[1] - a[1],
   );

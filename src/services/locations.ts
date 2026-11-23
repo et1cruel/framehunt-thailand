@@ -1,13 +1,12 @@
-import datasetJson from "@/data/locations.generated.json";
-import type { Dataset, LocationRecord, SearchFilters } from "@/data/types";
+import catalogManifestJson from "@/data/generated/catalogManifest.json";
+import type { DatasetMeta, LocationRecord, SearchFilters } from "@/data/types";
 import { categoryBySlug, moodBySlug } from "@/data/taxonomy";
 import { haversineKm } from "@/lib/utils";
 
-const dataset = datasetJson as unknown as Dataset;
-
 export const MIN_VERIFIED_PHOTOS = 5;
 
-export const datasetMeta = dataset.meta;
+export const datasetMeta = catalogManifestJson.meta as DatasetMeta;
+export const bundledCatalogAssetUrl = catalogManifestJson.publishedAssetUrl as string;
 
 function verifiedPhotos(loc: LocationRecord) {
   const checksums = new Set<string>();
@@ -139,7 +138,11 @@ function groupOfLocation(loc: LocationRecord): string {
   return "urban";
 }
 
-export function createLocationCatalog(records: LocationRecord[], generatedAt: string | null) {
+export function createLocationCatalog(
+  records: LocationRecord[],
+  generatedAt: string | null,
+  bundledStats?: { total: number; draft: number },
+) {
   const published = records.filter(isPublishable);
 
   function allRecords(): LocationRecord[] {
@@ -327,9 +330,9 @@ export function createLocationCatalog(records: LocationRecord[], generatedAt: st
     const verifiedPhotos = published.reduce((n, l) => n + l.photos.filter((p) => p.is_verified).length, 0);
     const provincesCovered = new Set(published.map((l) => l.province_id)).size;
     return {
-      total: all.length,
+      total: bundledStats?.total ?? all.length,
       published: published.length,
-      draft: drafts.length,
+      draft: bundledStats?.draft ?? drafts.length,
       verifiedPhotos,
       provincesCovered,
       photographers: new Set(published.flatMap((l) => l.photos.map((p) => p.photographer))).size,
@@ -351,18 +354,7 @@ export function createLocationCatalog(records: LocationRecord[], generatedAt: st
   };
 }
 
-export const bundledCatalog = createLocationCatalog(dataset.locations, dataset.meta.generated_at);
-
-export const {
-  allRecords,
-  publishedLocations,
-  draftLocations,
-  getLocation,
-  getLocationIncludingDrafts,
-  searchLocations,
-  suggest,
-  nearbyLocations,
-  randomLocation,
-  findMyVibe,
-  locationStats,
-} = bundledCatalog;
+export const emptyCatalog = createLocationCatalog([], datasetMeta.generated_at, {
+  total: datasetMeta.total_locations,
+  draft: datasetMeta.draft,
+});

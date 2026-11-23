@@ -1,10 +1,10 @@
 import { createClient } from "@supabase/supabase-js";
 import { describe, expect, it, vi } from "vitest";
 import { emptyFilters } from "@/data/types";
+import { adminCatalog } from "@/services/adminLocations";
 import { loadRemoteCatalog } from "@/services/catalogRemote";
-import { publishedLocations } from "@/services/locations";
 
-const [published] = publishedLocations();
+const [published] = adminCatalog.publishedLocations();
 
 describe("Supabase catalog", () => {
   it("reads public rows and supplies the same catalog to search and detail", async () => {

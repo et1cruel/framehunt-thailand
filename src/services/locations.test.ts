@@ -1,24 +1,19 @@
 import { describe, expect, it } from "vitest";
 import { emptyFilters, type LocationRecord } from "@/data/types";
+import { adminCatalog } from "@/services/adminLocations";
 import {
   MIN_VERIFIED_PHOTOS,
-  allRecords,
   datasetMeta,
-  draftLocations,
-  findMyVibe,
-  getLocation,
+  createLocationCatalog,
   isPublishable,
-  locationStats,
-  nearbyLocations,
   photoGate,
-  publishedLocations,
-  searchLocations,
-  suggest,
 } from "@/services/locations";
 
-const published = publishedLocations();
-const drafts = draftLocations();
+const publicCatalog = createLocationCatalog(adminCatalog.allRecords(), datasetMeta.generated_at);
+const published = adminCatalog.publishedLocations();
+const drafts = adminCatalog.draftLocations();
 const first = published[0];
+const { findMyVibe, getLocation, locationStats, nearbyLocations, searchLocations, suggest } = publicCatalog;
 
 function filters(patch: Partial<typeof emptyFilters> = {}) {
   return { ...emptyFilters, ...patch };
@@ -90,7 +85,7 @@ describe("publish gate", () => {
 
 describe("dataset integrity", () => {
   it("matches the generated meta counts", () => {
-    expect(allRecords().length).toBe(datasetMeta.total_locations);
+    expect(adminCatalog.allRecords().length).toBe(datasetMeta.total_locations);
     expect(published.length).toBe(datasetMeta.published);
     expect(drafts.length).toBe(datasetMeta.draft);
     const verified = published.reduce((n, l) => n + l.photos.filter((p) => p.is_verified).length, 0);
@@ -98,8 +93,8 @@ describe("dataset integrity", () => {
   });
 
   it("has unique slugs and ids", () => {
-    expect(new Set(allRecords().map((l) => l.slug)).size).toBe(allRecords().length);
-    expect(new Set(allRecords().map((l) => l.id)).size).toBe(allRecords().length);
+    expect(new Set(adminCatalog.allRecords().map((l) => l.slug)).size).toBe(adminCatalog.allRecords().length);
+    expect(new Set(adminCatalog.allRecords().map((l) => l.id)).size).toBe(adminCatalog.allRecords().length);
   });
 
   it("keeps every coordinate inside Thailand", () => {
@@ -136,7 +131,7 @@ describe("dataset integrity", () => {
   });
 
   it("never marks permission as allowed without a source", () => {
-    for (const loc of allRecords()) {
+    for (const loc of adminCatalog.allRecords()) {
       if (loc.permission.permission_status === "allowed") {
         expect(loc.permission.permission_source).toBeTruthy();
         expect(loc.permission.verified_at).toBeTruthy();
@@ -145,7 +140,7 @@ describe("dataset integrity", () => {
   });
 
   it("does not claim drone permission anywhere", () => {
-    for (const loc of allRecords()) {
+    for (const loc of adminCatalog.allRecords()) {
       expect(loc.filming.drone_allowed).not.toBe("yes");
     }
   });

@@ -110,20 +110,24 @@ touch targets on mobile.
 
 ## Current execution target
 
-Improve first-load performance without weakening the image-first identity:
-request the hero cover at high priority, defer the homepage map bundle and map
-tiles until the map section is near the viewport, and keep an intentional
-glass/clay loading surface in the reserved map area. Update repository metrics
-documentation from the same source values shown on the site.
+Continue first-load performance work without weakening the image-first identity:
+serve only published location records as a content-hashed JSON asset, parse the
+catalogue as data instead of compiling it into the application JavaScript, and
+keep draft/review records in the lazy admin route. Preserve the eager hero cover,
+deferred homepage map, catalogue counts and existing search behavior. Keep a
+clear glass/clay loading and retry state while the catalogue arrives.
 
 ### Acceptance criteria for this pass
 
-- The hero cover is requested eagerly with high fetch priority and intrinsic
-  dimensions.
-- The homepage does not request the MapLibre JavaScript chunk or map tiles before
-  the visitor approaches the map preview; scrolling to it loads the real map.
-- The map preview keeps its space while loading and provides a clear state.
+- The public catalogue asset contains exactly the published record count in its
+  metadata; draft records stay out of the public asset.
+- The published catalogue is a content-hashed static JSON file with long-lived
+  immutable caching, and the application entry chunk does not embed that JSON.
+- The full review dataset loads only through the admin route. Public location
+  counts, search, location detail and directory totals remain correct.
+- Keep the hero's eager/high-priority image and the map's near-viewport lazy load.
+- Loading and retry states use the selected readable glass/clay visual system.
 - README and verification notes distinguish the 3,025 all-directory listing
   count from the 582-location full publication-gate count.
-- Production build succeeds; the changed page is inspected in a real browser at
-  desktop and mobile sizes when available.
+- Production build succeeds; inspect the affected page in a real browser and
+  report any remaining deferred large chunks honestly.

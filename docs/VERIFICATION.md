@@ -350,3 +350,21 @@ rendered one map canvas. Desktop and mobile homepage screenshots were inspected.
 The generated MapLibre chunk remains about 1.05 MB raw and the catalogue data
 chunk remains large; deferring the map removes those map assets from the initial
 request path but does not reduce their eventual download size.
+
+## Catalogue payload split (2026-11-23)
+
+The public browser catalogue is now generated as a content-hashed static JSON
+file containing only the **582 published** records. The small generated
+manifest carries the current catalogue metadata and hashed asset path. Cloudflare
+Pages applies one-year immutable caching to that hashed JSON URL. The full
+833-record working set is imported only by the lazy admin route.
+
+Validation for this pass: `npm run build` passed. The built app entry is
+1,275.98 KB raw / 216.80 KB gzip; the public JSON is 9,282,418 bytes raw /
+1,032,902 bytes gzip. The full admin-only JSON chunk remains separate at
+10,822,548 bytes raw / 1,237,920 bytes gzip. In the local production preview,
+the homepage rendered its hero, collection cards and current counts: 3,025
+all-directory listings, 582 core locations, 3,211 photos and 142 Nakhon Pathom
+directory entries. The home page showed the map's reserved loading state before
+scrolling to the map. These are bundle sizes, not a network timing benchmark;
+the public JSON still downloads on the first data load.

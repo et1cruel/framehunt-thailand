@@ -41,6 +41,22 @@ Every published location has **≥ 5 unique verified photos**, each with photogr
 
 ---
 
+## Catalogue loading
+
+The prebuild step generates a content-hashed JSON asset containing only the
+582 published locations. The browser fetches and parses that data separately;
+draft and review records remain in the lazy-loaded admin route. The JSON asset
+uses immutable caching because its URL changes whenever its contents change.
+
+In the 2026-11-23 production build, the app entry chunk is **216.8 KB gzip**;
+the published catalogue JSON is **9.28 MB raw / 1.03 MB gzip**. The full
+admin-only data chunk is **10.82 MB raw / 1.24 MB gzip** and the MapLibre bundle
+is still deferred until the map is approached. These are built-asset sizes, not
+measured connection timings. The catalogue bytes still need to be downloaded on
+first use, but they are no longer compiled as application JavaScript.
+
+---
+
 ## Stack
 
 - **React 19 + TypeScript (strict) + Vite 7**
