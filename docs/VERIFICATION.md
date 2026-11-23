@@ -492,3 +492,12 @@ admin-only data (~10.82 MB raw) chunks; this pass did not reduce their sizes.
 The production preview smoke now waits for each route's expected heading rather
 than sampling the temporary catalogue-loading heading. `npm run verify:preview`
 passed all eight page routes and confirmed the MapLibre canvas mounted.
+
+Release: pushed `a4e08e7` to `origin/main` and deployed with Wrangler to
+Cloudflare Pages. The deployment URL was
+[`e9de83c4.framehunt-thailand.pages.dev`](https://e9de83c4.framehunt-thailand.pages.dev).
+The stable production homepage, `/secondhand`, and the `/activities` SPA route
+returned HTTP 200. The hashed app bundle and directory-cover JSON both returned
+HTTP 200 with `Cache-Control: public, max-age=31536000, immutable`. This checks
+the deployed shell and assets; it is not an authenticated Supabase or complete
+visitor-flow test.

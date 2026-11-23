@@ -288,7 +288,9 @@ npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name framehunt
 - Live login, public catalog and admin mutations still need a hosted integration test.
 - Pages Functions require server bindings. The health endpoint reports whether
   a database and the optional rate-limit binding are configured.
-- Cloudflare deployment — configuration is present; no deployment was performed.
+- Cloudflare Pages was deployed during the 23 November 2026 release. The stable
+  production domain and hashed app/image-index assets returned HTTP 200; this
+  does not replace hosted Supabase/auth integration checks.
 
 **Known limitations**
 
