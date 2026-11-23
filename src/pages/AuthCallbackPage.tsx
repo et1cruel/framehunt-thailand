@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { CheckCircle2, XCircle } from "lucide-react";
@@ -24,13 +25,13 @@ export default function AuthCallbackPage() {
         {loading ? (
           <>
             <span className="mx-auto block h-6 w-6 animate-spin rounded-full border-2 border-paper/15 border-t-acid" />
-            <h1 className="display mt-6 text-3xl">กำลังตรวจสอบเซสชัน</h1>
-            <p className="mt-3 font-sans text-sm text-concrete">รอสักครู่ ระบบกำลังยืนยันลิงก์เข้าสู่ระบบ</p>
+            <h1 className="display mt-6 text-3xl"><Localized text={"กำลังตรวจสอบเซสชัน"} /></h1>
+            <p className="mt-3 font-sans text-sm text-concrete"><Localized text={"รอสักครู่ ระบบกำลังยืนยันลิงก์เข้าสู่ระบบ"} /></p>
           </>
         ) : user ? (
           <>
             <CheckCircle2 className="mx-auto h-10 w-10 text-acid" />
-            <h1 className="display mt-6 text-3xl">เข้าสู่ระบบแล้ว</h1>
+            <h1 className="display mt-6 text-3xl"><Localized text={"เข้าสู่ระบบแล้ว"} /></h1>
             <p className="mt-3 font-sans text-sm text-concrete">
               {user.email} · {destination === "/admin" ? "กำลังเปิดหน้าแอดมิน" : "กำลังเปิดบอร์ดโปรเจกต์"}
             </p>
@@ -38,17 +39,16 @@ export default function AuthCallbackPage() {
         ) : (
           <>
             <XCircle className="mx-auto h-10 w-10 text-burnt" />
-            <h1 className="display mt-6 text-3xl">ลิงก์หมดอายุหรือไม่ถูกต้อง</h1>
+            <h1 className="display mt-6 text-3xl"><Localized text={"ลิงก์หมดอายุหรือไม่ถูกต้อง"} /></h1>
             <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">
               {mode === "local"
                 ? "โหมดเครื่องนี้ไม่ใช้ลิงก์อีเมล — เข้าสู่ระบบจากหน้า Admin หรือใช้โหมดเครื่องนี้ต่อได้ทันที"
                 : "ขออีเมลใหม่จากหน้าเข้าสู่ระบบ แล้วเปิดลิงก์ล่าสุดจากกล่องจดหมายของคุณ"}
             </p>
             <div className="mt-6 flex justify-center gap-3">
-              <Button onClick={() => navigate("/boards")}>ไปที่บอร์ด</Button>
+              <Button onClick={() => navigate("/boards")}><Localized text={"ไปที่บอร์ด"} /></Button>
               <Button variant="outline" onClick={() => navigate("/admin")}>
-                หน้า Admin
-              </Button>
+                <Localized text={"หน้า Admin"} /></Button>
             </div>
           </>
         )}

@@ -30,6 +30,7 @@
     "gen:sitemap": "node scripts/gen-sitemap.mjs",
     "gen:taxonomy": "node scripts/gen-taxonomy-seed.mjs",
     "audit:directory-covers": "node scripts/audit-directory-covers.mjs",
+    "audit:i18n": "node scripts/audit-i18n.mjs",
     "db:seed": "node scripts/seed-locations.mjs"
   },
   "dependencies": {

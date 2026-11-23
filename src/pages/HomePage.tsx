@@ -1,4 +1,4 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, ArrowUpRight, Dices, MapPin, Camera, ShieldCheck, Compass } from "lucide-react";
@@ -13,12 +13,14 @@ import { countCatalogPlaces } from "@/services/catalogMetrics";
 import { useLocationCatalog } from "@/services/catalogContext";
 import type { LocationRecord } from "@/data/types";
 import { useSeo } from "@/lib/useSeo";
+import { localizeVibeReason } from "@/i18n/locationText";
 
 function pickImage(loc: LocationRecord | undefined) {
   return loc?.photos.find((p) => p.is_cover) ?? loc?.photos[0];
 }
 
 export default function HomePage() {
+  const { t, language } = useLanguage();
   const { findMyVibe, locationStats, publishedLocations, randomLocation } = useLocationCatalog();
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
@@ -78,10 +80,9 @@ export default function HomePage() {
       <div className="container-x flex min-h-[60vh] flex-col items-center justify-center text-center">
         <h1 className="display text-5xl">NO VERIFIED LOCATIONS YET</h1>
         <p className="mt-4 max-w-md font-sans text-sm text-concrete">
-          ยังไม่มีสถานที่ที่ผ่านเกณฑ์ภาพถ่ายจริง 5 ภาพ — ตรวจสอบรายงานการนำเข้าข้อมูลหรือเพิ่มสถานที่ผ่านหน้า Admin
-        </p>
+          <Localized text={"ยังไม่มีสถานที่ที่ผ่านเกณฑ์ภาพถ่ายจริง 5 ภาพ — ตรวจสอบรายงานการนำเข้าข้อมูลหรือเพิ่มสถานที่ผ่านหน้า Admin"} /></p>
         <Link to="/admin" className="mt-6">
-          <Button>เปิด Admin</Button>
+          <Button><Localized text={"เปิด Admin"} /></Button>
         </Link>
       </div>
     );
@@ -142,12 +143,12 @@ export default function HomePage() {
             )}
             <figcaption className="home-hero-caption absolute inset-x-3 bottom-3 flex items-center justify-between gap-3 rounded-2xl px-4 py-3 sm:inset-x-5 sm:bottom-5 sm:px-5">
               <div className="min-w-0">
-                <p className="text-sm font-medium text-acid">{hero.province_th}</p>
+                <p className="text-sm font-medium text-acid">{language === "en" ? hero.province : hero.province_th}</p>
                 <Link
                   to={"/locations/" + hero.slug}
                   className="block text-base font-bold leading-snug text-paper hover:text-acid sm:text-lg"
                 >
-                  {hero.name_th}
+                  {language === "en" ? hero.name_en || hero.name_th : hero.name_th}
                 </Link>
                 {heroPhoto && (
                   <a
@@ -162,7 +163,7 @@ export default function HomePage() {
               </div>
               <Link
                 to={"/locations/" + hero.slug}
-                aria-label={"เปิดหน้า " + hero.name_th}
+                aria-label={language === "en" ? `Open ${hero.name_en || hero.name_th}` : "เปิดหน้า " + hero.name_th}
                 className="clay-control grid h-11 w-11 shrink-0 place-items-center bg-white text-acid hover:bg-sage"
               >
                 <ArrowUpRight className="h-5 w-5" />
@@ -190,22 +191,21 @@ export default function HomePage() {
                 <Icon className="h-4 w-4" aria-hidden />
               </div>
               <div>
-                <dt className="text-xs font-medium text-concrete sm:text-sm">{label}</dt>
+                <dt className="text-xs font-medium text-concrete sm:text-sm">{t(label)}</dt>
                 <dd className="font-display text-2xl font-bold leading-tight">{value.toLocaleString("en")}</dd>
               </div>
             </div>
           ))}
         </dl>
         <p className="mt-2 text-center text-[11px] leading-relaxed text-concrete">
-          ยอดรวมคิดจากโลเคชันหลัก กิจกรรม ร้านอาหาร มือสอง ห้องซ้อม และเวทีดนตรี โดยตัดชื่อสถานที่ซ้ำที่ตรวจพบออก
-        </p>
+          <Localized text={"ยอดรวมคิดจากโลเคชันหลัก กิจกรรม ร้านอาหาร มือสอง ห้องซ้อม และเวทีดนตรี โดยตัดชื่อสถานที่ซ้ำที่ตรวจพบออก"} /></p>
       </section>
 
       {/* ── QUICK CATEGORIES ─────────────────────────────────────────────── */}
       <section className="container-x py-12 md:py-16">
         <SectionHeading
-          title="เลือกโลเคชันตามบรรยากาศ"
-          description="รวมสถานที่ตามภาพที่คุณอยากได้ ตั้งแต่เมืองยามค่ำไปจนถึงพื้นที่ศิลปะ"
+          title={t("เลือกโลเคชันตามบรรยากาศ")}
+          description={t("รวมสถานที่ตามภาพที่คุณอยากได้ ตั้งแต่เมืองยามค่ำไปจนถึงพื้นที่ศิลปะ")}
           href="/explore"
         />
         <div className="mt-4 flex flex-wrap gap-2 text-sm font-semibold text-[#315b50]">
@@ -246,7 +246,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center justify-between gap-1 px-2 pb-2 pt-3 sm:px-3">
                   <div className="min-w-0">
-                    <h3 className="text-sm font-bold group-hover:text-acid sm:text-base">{cat.th}</h3>
+                    <h3 className="text-sm font-bold group-hover:text-acid sm:text-base">{language === "en" ? t(cat.th) : cat.th}</h3>
                     <p className="mt-0.5 text-xs text-concrete">{cat.label}</p>
                   </div>
                   <ArrowUpRight className="h-4 w-4 shrink-0 text-acid" />
@@ -266,9 +266,9 @@ export default function HomePage() {
                 FEATURED <span className="text-outline">LOCATIONS.</span>
               </>
             }
-            description="สถานที่ที่ทีมคัดเลือกจากภาพถ่ายที่ตรวจสอบแล้ว — ใช้เป็นจุดเริ่มต้นของทรีตเมนต์ได้ทันที"
+            description={t("สถานที่ที่ทีมคัดเลือกจากภาพถ่ายที่ตรวจสอบแล้ว — ใช้เป็นจุดเริ่มต้นของทรีตเมนต์ได้ทันที")}
             href="/explore"
-            hrefLabel="ดูทั้งหมด"
+            hrefLabel={t("ดูทั้งหมด")}
           />
           <div className="mt-10 grid gap-x-4 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
             {featured.map((loc, i) => (
@@ -283,9 +283,9 @@ export default function HomePage() {
         <div className="container-x">
           <SectionHeading
             title={<> <Localized text="ค้นหาตามภูมิภาค" /> </>}
-            description="จากกรุงเทพฯ สู่ภาคเหนือ ภาคอีสาน ภาคใต้ และชายฝั่งตะวันออก — ค้นตามพื้นที่ถ่ายทำจริง"
+            description={t("จากกรุงเทพฯ สู่ภาคเหนือ ภาคอีสาน ภาคใต้ และชายฝั่งตะวันออก — ค้นตามพื้นที่ถ่ายทำจริง")}
             href="/map"
-            hrefLabel="เปิดแผนที่"
+            hrefLabel={t("เปิดแผนที่")}
           />
 
           <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -338,7 +338,7 @@ export default function HomePage() {
                 FIND BY <span className="text-outline">MOOD.</span>
               </>
             }
-            description="เลือกบรรยากาศของเพลง แล้วให้ระบบจัดอันดับโลเคชันจาก Mood Tags, สภาพแวดล้อม และข้อมูลที่ตรวจสอบแล้ว"
+            description={t("เลือกบรรยากาศของเพลง แล้วให้ระบบจัดอันดับโลเคชันจาก Mood Tags, สภาพแวดล้อม และข้อมูลที่ตรวจสอบแล้ว")}
             href="/find-my-vibe"
             hrefLabel="Find My Vibe"
           />
@@ -391,10 +391,10 @@ export default function HomePage() {
                     </span>
                     <span className="font-mono text-xs text-concrete">{Math.round(match.score * 100)} PTS</span>
                   </div>
-                  <h3 className="mt-2 font-display text-2xl font-extrabold tracking-tight">{match.location.name_th}</h3>
-                  <p className="mt-1 font-sans text-xs text-concrete">{match.reasons[0]}</p>
+                  <h3 className="mt-2 font-display text-2xl font-extrabold tracking-tight">{language === "en" ? match.location.name_en || match.location.name_th : match.location.name_th}</h3>
+                  <p className="mt-1 font-sans text-xs text-concrete">{localizeVibeReason(match.reasons[0], language)}</p>
                   <p className="mt-1 font-mono text-xs tracking-normal text-concrete">
-                    {match.location.province_th} · {match.location.photo_count} PHOTOS
+                    {language === "en" ? match.location.province : match.location.province_th} · {match.location.photo_count} PHOTOS
                   </p>
                 </div>
               </Link>
@@ -412,9 +412,9 @@ export default function HomePage() {
                 MAP <span className="text-outline">EXPLORER.</span>
               </>
             }
-            description="เปิดแผนที่จริง คลัสเตอร์หมุดตามพื้นที่ กรองตามหมวดและจังหวัด แล้วเปิดเส้นทางไปยังสถานที่ได้ทันที"
+            description={t("เปิดแผนที่จริง คลัสเตอร์หมุดตามพื้นที่ กรองตามหมวดและจังหวัด แล้วเปิดเส้นทางไปยังสถานที่ได้ทันที")}
             href="/map"
-            hrefLabel="เปิดแผนที่เต็ม"
+            hrefLabel={t("เปิดแผนที่เต็ม")}
           />
           <div className="relative mt-10">
             <DeferredMapPreview locations={published} />
@@ -422,8 +422,7 @@ export default function HomePage() {
               <div>
                 <p className="label-mono text-acid">THAILAND · {stats.published} PUBLISHED</p>
                 <p className="mt-1 font-sans text-xs text-concrete">
-                  หมุดสี: อุตสาหกรรม/เมือง = ส้ม · ศิลปะ = ม่วง · ธรรมชาติ = เขียว · โบราณสถาน = ทอง
-                </p>
+                  <Localized text={"หมุดสี: อุตสาหกรรม/เมือง = ส้ม · ศิลปะ = ม่วง · ธรรมชาติ = เขียว · โบราณสถาน = ทอง"} /></p>
               </div>
               <Link to="/map" className="pointer-events-auto hidden sm:block">
                 <Button variant="paper" size="sm"> <Localized text="เปิดแผนที่" /> <ArrowUpRight className="h-3.5 w-3.5" />
@@ -461,12 +460,10 @@ export default function HomePage() {
                   <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-acid" /> <Localized text="ภาพสถานที่มีเครดิตและข้อมูลใบอนุญาตประกอบ" /> </li>
                 <li className="flex gap-3">
                   <Camera className="mt-0.5 h-4 w-4 shrink-0 text-acid" />
-                  ทุกภาพมีเครดิต ผู้ถ่าย ใบอนุญาต และลิงก์ต้นทาง — ไม่ใช้ภาพ AI แทนสถานที่จริง
-                </li>
+                  <Localized text={"ทุกภาพมีเครดิต ผู้ถ่าย ใบอนุญาต และลิงก์ต้นทาง — ไม่ใช้ภาพ AI แทนสถานที่จริง"} /></li>
                 <li className="flex gap-3">
                   <Compass className="mt-0.5 h-4 w-4 shrink-0 text-acid" />
-                  เราไม่สรุปว่าถ่ายเชิงพาณิชย์ได้ เพราะสถานที่เปิดให้ท่องเที่ยว — ต้องตรวจสอบกับหน่วยงานทุกครั้ง
-                </li>
+                  <Localized text={"เราไม่สรุปว่าถ่ายเชิงพาณิชย์ได้ เพราะสถานที่เปิดให้ท่องเที่ยว — ต้องตรวจสอบกับหน่วยงานทุกครั้ง"} /></li>
               </ul>
               <div className="mt-7 flex flex-wrap gap-2 border-t border-line pt-5">
                 <Link to="/about">
@@ -481,8 +478,7 @@ export default function HomePage() {
             <div className="clay-panel mt-4 p-6">
               <p className="label-mono text-concrete">BUILD A BOARD</p>
               <p className="mt-2 font-sans text-sm text-concrete">
-                รวมโลเคชันที่ชอบไว้ในโปรเจกต์ MV เดียวกัน จัดลำดับ เพิ่มโน้ต แล้วส่งลิงก์ให้ทีมได้ทันที
-              </p>
+                <Localized text={"รวมโลเคชันที่ชอบไว้ในโปรเจกต์ MV เดียวกัน จัดลำดับ เพิ่มโน้ต แล้วส่งลิงก์ให้ทีมได้ทันที"} /></p>
               <Link to="/boards" className="mt-4 inline-block">
                 <Button variant="primary" size="sm"> <Localized text="สร้างบอร์ดแรก" /> <ArrowRight className="h-3.5 w-3.5" />
                 </Button>

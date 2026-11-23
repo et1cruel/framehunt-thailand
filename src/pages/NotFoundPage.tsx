@@ -17,15 +17,13 @@ export default function NotFoundPage() {
       <div className="container-x relative py-20">
         <p className="label-mono text-burnt">FRAME NOT FOUND</p>
         <h1 className="mt-4 max-w-3xl font-display text-4xl font-bold leading-tight tracking-tight md:text-7xl">
-          หน้านี้
-          <br />
-          <span className="text-outline">หลุดเฟรม</span>
+          <Localized text={"หน้านี้"} /><br />
+          <span className="text-outline"><Localized text={"หลุดเฟรม"} /></span>
         </h1>
         <p className="mt-6 max-w-lg font-sans text-sm leading-relaxed text-concrete">
-          ไม่พบเส้นทาง{" "}
+          <Localized text={"ไม่พบเส้นทาง"} />{" "}
           <code className="border border-line px-1.5 py-0.5 font-mono text-xs text-concrete">{location.pathname}</code>{" "}
-          ในระบบ อาจเป็นลิงก์เก่า ลิงก์ที่พิมพ์ผิด หรือโลเคชันที่ถูกเปลี่ยนสถานะเป็นฉบับร่าง
-        </p>
+          <Localized text={"ในระบบ อาจเป็นลิงก์เก่า ลิงก์ที่พิมพ์ผิด หรือโลเคชันที่ถูกเปลี่ยนสถานะเป็นฉบับร่าง"} /></p>
 
         <div className="mt-8 flex flex-wrap gap-3">
           <Link to="/explore">
@@ -38,8 +36,7 @@ export default function NotFoundPage() {
           </Link>
           <Link to="/">
             <Button variant="ghost">
-              <ArrowLeft className="h-3.5 w-3.5" /> กลับหน้าแรก
-            </Button>
+              <ArrowLeft className="h-3.5 w-3.5" /> <Localized text={"กลับหน้าแรก"} /></Button>
           </Link>
         </div>
 

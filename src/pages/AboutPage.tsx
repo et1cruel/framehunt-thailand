@@ -1,4 +1,4 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, Camera, Database, FileWarning, MapPin, ShieldCheck, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/layout/SectionHeading";
@@ -22,12 +22,12 @@ const PRINCIPLES = [
   {
     icon: Camera,
     title: "ภาพจริงเท่านั้น",
-    body: "ทุกภาพมาจาก Wikimedia Commons หรือคลังภาพสาธารณะที่ระบุใบอนุญาตชัดเจน เราไม่ใช้ภาพ AI ภาพสต็อก หรือภาพจากโซเชียลมีเดียที่ไม่มีสิทธิ์ยืนยัน",
+    body: "ภาพในแค็ตตาล็อกโลเคชันหลักมีแหล่งที่มา เครดิต และใบอนุญาตต่อภาพ ส่วนภาพในไดเรกทอรีบางหมวดยังต้องตรวจสิทธิ์ก่อนนำไปใช้ซ้ำ เราไม่ใช้ภาพ AI หรือภาพสต็อกแทนสถานที่จริง",
   },
   {
     icon: ShieldCheck,
-    title: "ภาพจริงพร้อมเครดิต",
-    body: "สถานที่เผยแพร่มีภาพถ่ายจริงพร้อมเครดิต พิกัด และแหล่งอ้างอิง โดยสถานที่ที่คัดเลือกบางแห่งมีภาพน้อยกว่าห้าภาพ",
+    title: "ภาพจริงพร้อมแหล่งที่มา",
+    body: "รายการโลเคชันหลักแสดงเครดิตภาพ พิกัด และแหล่งอ้างอิง ไดเรกทอรีร้านและกิจกรรมมีสถานะภาพแยกต่างหาก และยังมีรายการที่ต้องตรวจสิทธิ์หรือเติมภาพ",
   },
   {
     icon: FileWarning,
@@ -50,6 +50,7 @@ const NOT_CLAIMED = [
 ];
 
 export default function AboutPage() {
+  const { t } = useLanguage();
   const stats = useLocationCatalog().locationStats();
   const licenses = Object.entries(datasetMeta.license_breakdown).sort(
     (a, b) => LICENSE_ORDER.indexOf(a[0]) - LICENSE_ORDER.indexOf(b[0]) || b[1] - a[1],
@@ -76,10 +77,7 @@ export default function AboutPage() {
                 <span className="text-outline">FRAMES.</span>
               </h1>
               <p className="mt-6 max-w-2xl font-sans text-base leading-relaxed text-concrete">
-                FRAMEHUNT THAILAND คือคลังโลเคชันสำหรับมิวสิกวิดีโอ ภาพยนตร์ และงานภาพเชิงพาณิชย์
-                ที่สร้างจากข้อมูลเปิดและภาพถ่ายที่มีใบอนุญาตชัดเจน เป้าหมายของเราคือทำให้ทีมโปรดักชัน ตรวจสอบสถานที่ได้จริงก่อนออกกอง
-                ไม่ใช่ดูภาพสวยแล้วไปเจอของจริงไม่ตรง
-              </p>
+                <Localized text={"FRAMEHUNT THAILAND คือคลังโลเคชันสำหรับมิวสิกวิดีโอ ภาพยนตร์ และงานภาพเชิงพาณิชย์ ที่สร้างจากข้อมูลเปิดและภาพถ่ายที่มีใบอนุญาตชัดเจน เป้าหมายของเราคือทำให้ทีมโปรดักชัน ตรวจสอบสถานที่ได้จริงก่อนออกกอง ไม่ใช่ดูภาพสวยแล้วไปเจอของจริงไม่ตรง"} /></p>
               <div className="mt-8 flex flex-wrap gap-2">
                 <Badge variant="acid">REAL COORDINATES</Badge>
                 <Badge variant="acid">LICENSED PHOTOS</Badge>
@@ -123,19 +121,17 @@ export default function AboutPage() {
         <SectionHeading
           title={
             <>
-              หลักที่เรา
-              <br />
-              ไม่ยอมข้าม
-            </>
+              <Localized text={"หลักที่เรา"} /><br />
+              <Localized text={"ไม่ยอมข้าม"} /></>
           }
-          description="ทุกข้อด้านล่างถูกบังคับใช้ใน pipeline นำเข้าและตัวแอป ไม่ใช่แค่คำโฆษณา"
+          description={t("ทุกข้อด้านล่างถูกบังคับใช้ใน pipeline นำเข้าและตัวแอป ไม่ใช่แค่คำโฆษณา")}
         />
         <div className="mt-10 grid gap-px bg-line md:grid-cols-2">
           {PRINCIPLES.map((p) => (
             <div key={p.title} className="bg-ink p-6 md:p-8">
               <p.icon className="h-5 w-5 text-acid" aria-hidden />
-              <h3 className="mt-5 font-display text-xl font-extrabold tracking-tight">{p.title}</h3>
-              <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">{p.body}</p>
+              <h3 className="mt-5 font-display text-xl font-extrabold tracking-tight">{t(p.title)}</h3>
+              <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">{t(p.body)}</p>
             </div>
           ))}
         </div>
@@ -148,19 +144,16 @@ export default function AboutPage() {
             <div className="md:col-span-4">
               <p className="label-mono text-acid">02 / PIPELINE</p>
               <h2 className="mt-4 font-display text-4xl font-extrabold leading-tight tracking-[-0.04em] md:text-5xl">
-                จาก Wikidata
-                <br />
-                สู่หน้าเว็บ
-              </h2>
+                <Localized text={"จาก Wikidata"} /><br />
+                <Localized text={"สู่หน้าเว็บ"} /></h2>
               <p className="mt-4 font-sans text-sm leading-relaxed text-concrete">
-                กระบวนการทำงานซ้ำได้ด้วยสคริปต์เดียว และเก็บรายงานทุกครั้งที่รัน
-              </p>
+                <Localized text={"กระบวนการทำงานซ้ำได้ด้วยสคริปต์เดียว และเก็บรายงานทุกครั้งที่รัน"} /></p>
               <Button
                 variant="outline"
                 className="mt-6"
                 onClick={() => window.open("https://www.wikidata.org", "_blank", "noopener")}
               >
-                ดูแหล่งข้อมูลต้นทาง <ArrowUpRight className="h-3.5 w-3.5" />
+                <Localized text={"ดูแหล่งข้อมูลต้นทาง"} /> <ArrowUpRight className="h-3.5 w-3.5" />
               </Button>
             </div>
             <div className="md:col-span-8">
@@ -195,10 +188,8 @@ export default function AboutPage() {
         <SectionHeading
           title={
             <>
-              ภาพทุกภาพ
-              <br />
-              มีเจ้าของ
-            </>
+              <Localized text={"ภาพทุกภาพ"} /><br />
+              <Localized text={"มีเจ้าของ"} /></>
           }
           description={`${totalPhotos} ภาพในชุดข้อมูลนี้มาจาก ${stats.photographers} ช่างภาพ แต่ละภาพแสดงเครดิตและใบอนุญาตบนหน้ารายละเอียดสถานที่`}
         />
@@ -207,12 +198,10 @@ export default function AboutPage() {
             <thead>
               <tr className="border-b border-line bg-ink-2">
                 <th scope="col" className="label-mono px-4 py-3 text-concrete">
-                  ใบอนุญาต
-                </th>
+                  <Localized text={"ใบอนุญาต"} /></th>
                 <th scope="col" className="label-mono px-4 py-3 text-right text-concrete"> <Localized text="จำนวนภาพ" /> </th>
                 <th scope="col" className="label-mono px-4 py-3 text-right text-concrete">
-                  สัดส่วน
-                </th>
+                  <Localized text={"สัดส่วน"} /></th>
               </tr>
             </thead>
             <tbody>
@@ -229,9 +218,7 @@ export default function AboutPage() {
           </table>
         </div>
         <p className="mt-4 max-w-3xl font-sans text-xs leading-relaxed text-concrete">
-          ภาพถูกแสดงแบบ hotlink จาก Wikimedia Commons ตามแนวทางของต้นทาง เราไม่คัดลอกหรืออ้างสิทธิ์ในภาพ
-          หากต้องการใช้งานนอกเหนือจากใบอนุญาต โปรดติดต่อช่างภาพหรือตรวจเงื่อนไขของใบอนุญาตนั้นโดยตรง
-        </p>
+          <Localized text={"ภาพถูกแสดงแบบ hotlink จาก Wikimedia Commons ตามแนวทางของต้นทาง เราไม่คัดลอกหรืออ้างสิทธิ์ในภาพ หากต้องการใช้งานนอกเหนือจากใบอนุญาต โปรดติดต่อช่างภาพหรือตรวจเงื่อนไขของใบอนุญาตนั้นโดยตรง"} /></p>
       </section>
 
       {/* Not claimed */}
@@ -241,9 +228,8 @@ export default function AboutPage() {
             <div className="md:col-span-5">
               <p className="label-mono text-ink/90">04 / LIMITS</p>
               <h2 className="mt-4 font-display text-4xl font-extrabold leading-tight tracking-[-0.04em] text-ink md:text-6xl">
-                สิ่งที่เรา
-                <br />
-                <span className="text-burnt">ไม่รับประกัน</span>
+                <Localized text={"สิ่งที่เรา"} /><br />
+                <span className="text-burnt"><Localized text={"ไม่รับประกัน"} /></span>
               </h2>
             </div>
             <div className="md:col-span-7">
@@ -251,16 +237,14 @@ export default function AboutPage() {
                 {NOT_CLAIMED.map((item) => (
                   <li key={item} className="flex gap-3 border-b border-ink/15 pb-4">
                     <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-burnt" />
-                    <p className="font-sans text-sm leading-relaxed text-ink/90">{item}</p>
+                    <p className="font-sans text-sm leading-relaxed text-ink/90">{t(item)}</p>
                   </li>
                 ))}
               </ul>
               <div className="mt-8 border border-ink/20 p-5">
-                <p className="font-display text-lg font-extrabold ">ก่อนออกกองทุกครั้ง</p>
+                <p className="font-display text-lg font-extrabold "><Localized text={"ก่อนออกกองทุกครั้ง"} /></p>
                 <p className="mt-2 font-sans text-sm leading-relaxed text-ink/90">
-                  โทรหรืออีเมลหาหน่วยงานเจ้าของพื้นที่โดยตรง ตรวจข้อกำหนดเรื่องไฟ โดรน จำนวนcrew และค่าธรรมเนียม
-                  แล้วเก็บหลักฐานการอนุญาตเป็นลายลักษณ์อักษร
-                </p>
+                  <Localized text={"โทรหรืออีเมลหาหน่วยงานเจ้าของพื้นที่โดยตรง ตรวจข้อกำหนดเรื่องไฟ โดรน จำนวนcrew และค่าธรรมเนียม แล้วเก็บหลักฐานการอนุญาตเป็นลายลักษณ์อักษร"} /></p>
               </div>
             </div>
           </div>
@@ -272,38 +256,34 @@ export default function AboutPage() {
         <div className="grid gap-10 md:grid-cols-3">
           <div className="border border-line p-6">
             <Database className="h-5 w-5 text-acid" aria-hidden />
-            <h3 className="mt-4 font-display text-lg font-extrabold ">สถานะข้อมูล</h3>
+            <h3 className="mt-4 font-display text-lg font-extrabold "><Localized text={"สถานะข้อมูล"} /></h3>
             <p className="mt-2 font-sans text-sm leading-relaxed text-concrete">
-              {stats.total} รายการในรายงานนำเข้า · {stats.published} เผยแพร่ · {stats.draft} ฉบับร่าง ·{" "}
-              {datasetMeta.rejected} ถูกปฏิเสธเพราะไม่มีข้อมูลพอ
-            </p>
+              {stats.total} <Localized text={"รายการในรายงานนำเข้า ·"} /> {stats.published} <Localized text={"เผยแพร่ ·"} /> {stats.draft} <Localized text={"ฉบับร่าง ·"} />{" "}
+              {datasetMeta.rejected} <Localized text={"ถูกปฏิเสธเพราะไม่มีข้อมูลพอ"} /></p>
             <Link
               to="/admin"
               className="mt-4 inline-flex items-center gap-1 font-mono text-xs tracking-normal text-acid hover:underline"
             >
-              ดูรายงานคุณภาพข้อมูล <ArrowUpRight className="h-3 w-3" />
+              <Localized text={"ดูรายงานคุณภาพข้อมูล"} /> <ArrowUpRight className="h-3 w-3" />
             </Link>
           </div>
           <div className="border border-line p-6">
             <Sparkles className="h-5 w-5 text-acid" aria-hidden />
-            <h3 className="mt-4 font-display text-lg font-extrabold ">แก้ไขข้อมูล</h3>
+            <h3 className="mt-4 font-display text-lg font-extrabold "><Localized text={"แก้ไขข้อมูล"} /></h3>
             <p className="mt-2 font-sans text-sm leading-relaxed text-concrete">
-              พบพิกัดผิด ภาพไม่ตรงสถานที่ หรือมีเอกสารอนุญาตที่ควรเผยแพร่ แจ้งเราได้ผ่านฟอร์มเสนอสถานที่ โดยเลือกประเภท “แก้ไขข้อมูล”
-            </p>
+              <Localized text={"พบพิกัดผิด ภาพไม่ตรงสถานที่ หรือมีเอกสารอนุญาตที่ควรเผยแพร่ แจ้งเราได้ผ่านฟอร์มเสนอสถานที่ โดยเลือกประเภท “แก้ไขข้อมูล”"} /></p>
             <Link
               to="/submit"
               className="mt-4 inline-flex items-center gap-1 font-mono text-xs tracking-normal text-acid hover:underline"
             >
-              ส่งข้อมูลแก้ไข <ArrowUpRight className="h-3 w-3" />
+              <Localized text={"ส่งข้อมูลแก้ไข"} /> <ArrowUpRight className="h-3 w-3" />
             </Link>
           </div>
           <div className="border border-line p-6">
             <FileWarning className="h-5 w-5 text-burnt" aria-hidden />
-            <h3 className="mt-4 font-display text-lg font-extrabold ">ข้อจำกัดปัจจุบัน</h3>
+            <h3 className="mt-4 font-display text-lg font-extrabold "><Localized text={"ข้อจำกัดปัจจุบัน"} /></h3>
             <p className="mt-2 font-sans text-sm leading-relaxed text-concrete">
-              ชุดข้อมูลนี้ยังไม่ครอบคลุมทั้ง 77 จังหวัด และยังไม่มีข้อมูลการขออนุญาตถ่ายทำที่ยืนยันแล้ว เราจะแสดงเฉพาะสิ่งที่ตรวจสอบได้
-              และปล่อยช่องว่างไว้แทนการเดา
-            </p>
+              <Localized text={"ชุดข้อมูลนี้ยังไม่ครอบคลุมทั้ง 77 จังหวัด และยังไม่มีข้อมูลการขออนุญาตถ่ายทำที่ยืนยันแล้ว เราจะแสดงเฉพาะสิ่งที่ตรวจสอบได้ และปล่อยช่องว่างไว้แทนการเดา"} /></p>
             <p className="mt-4 font-mono text-xs tracking-normal text-concrete">
               LAST INGEST {new Date(datasetMeta.generated_at).toISOString().slice(0, 10)}
             </p>
@@ -312,11 +292,10 @@ export default function AboutPage() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-6 border-t border-line pt-8 md:flex-row md:items-center">
           <p className="max-w-xl font-sans text-sm leading-relaxed text-concrete">
-            หน้านี้อธิบายนโยบายข้อมูลของเวอร์ชันปัจจุบัน ไม่ใช่ข้อตกลงทางกฎหมาย การใช้งานภาพแต่ละภาพเป็นไปตามใบอนุญาตของภาพนั้น
-          </p>
+            <Localized text={"หน้านี้อธิบายนโยบายข้อมูลของเวอร์ชันปัจจุบัน ไม่ใช่ข้อตกลงทางกฎหมาย การใช้งานภาพแต่ละภาพเป็นไปตามใบอนุญาตของภาพนั้น"} /></p>
           <div className="flex gap-3">
             <Link to="/explore">
-              <Button variant="primary">เริ่มค้นหาโลเคชัน</Button>
+              <Button variant="primary"><Localized text={"เริ่มค้นหาโลเคชัน"} /></Button>
             </Link>
             <Link to="/map">
               <Button variant="outline"> <Localized text="เปิดแผนที่" /> </Button>

@@ -1,5 +1,4 @@
-import { useLanguage } from "@/i18n/Language";
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowUpRight, Bookmark, Grid2X2, List, LocateFixed, Map as MapIcon, MapPin, X } from "lucide-react";
@@ -274,7 +273,7 @@ export default function ExplorePage() {
                 localStorage.removeItem(SAVED_KEY);
               }}
               className="text-concrete hover:text-burnt"
-              aria-label="ล้างการค้นหาที่บันทึก"
+              aria-label={t("ล้างการค้นหาที่บันทึก")}
             >
               <X className="h-3 w-3" />
             </button>
@@ -307,7 +306,7 @@ export default function ExplorePage() {
               <select
                 value={filters.sort}
                 onChange={(e) => patch({ sort: e.target.value as SearchFilters["sort"] })}
-                aria-label="เรียงลำดับ"
+                aria-label={t("เรียงลำดับ")}
                 className="h-9 border border-paper/20 bg-ink px-2 font-mono text-xs tracking-normal text-concrete focus:border-acid focus:outline-none"
               >
                 <option value="relevance">RELEVANCE</option>
@@ -323,11 +322,11 @@ export default function ExplorePage() {
           {nakhonDirectoryPlaces.length > 0 && (
             <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/80 bg-white/70 p-4 shadow-sm">
               <div>
-                <p className="font-bold text-[#253248]">นครปฐมมีสถานที่ในไดเรกทอรีอีก {nakhonDirectoryPlaces.length} แห่ง</p>
-                <p className="mt-1 text-xs text-concrete">รวม {totalVisibleCount} แห่ง · {results.length} โลเคชันที่เผยแพร่ และ {nakhonDirectoryPlaces.length} จุดจากไดเรกทอรีท้องถิ่น</p>
+                <p className="font-bold text-[#253248]"><Localized text={"นครปฐมมีสถานที่ในไดเรกทอรีอีก"} /> {nakhonDirectoryPlaces.length} <Localized text={"แห่ง"} /></p>
+                <p className="mt-1 text-xs text-concrete"><Localized text={"รวม"} /> {totalVisibleCount} <Localized text={"แห่ง ·"} /> {results.length} <Localized text={"โลเคชันที่เผยแพร่ และ"} /> {nakhonDirectoryPlaces.length} <Localized text={"จุดจากไดเรกทอรีท้องถิ่น"} /></p>
               </div>
               <a className="clay-control inline-flex items-center gap-2 border border-white bg-white px-3 py-2 text-xs font-semibold text-[#315b50]" href="#nakhon-directory-list">
-                ไปยังรายการนครปฐม <ArrowUpRight className="h-3.5 w-3.5" />
+                <Localized text={"ไปยังรายการนครปฐม"} /> <ArrowUpRight className="h-3.5 w-3.5" />
               </a>
             </div>
           )}
@@ -346,7 +345,7 @@ export default function ExplorePage() {
                       <div className="min-w-0">
                         <p className="truncate font-display text-base font-bold">{language === "en" ? r.location.name_en : r.location.name_th}</p>
                         <p className="font-mono text-xs tracking-normal text-concrete">
-                          {r.location.province_th} · {r.location.photo_count} PHOTOS
+                          {language === "en" ? r.location.province : r.location.province_th} · {r.location.photo_count} PHOTOS
                         </p>
                       </div>
                       <ArrowUpRight className="h-4 w-4 shrink-0 text-concrete group-hover:text-acid" />
@@ -406,14 +405,12 @@ export default function ExplorePage() {
                 <div>
                   <p className="label-mono text-acid">NAKHON PATHOM · LOCAL DIRECTORY</p>
                   <h2 id="nakhon-directory-heading" className="mt-2 font-display text-2xl font-bold">
-                    สถานที่เที่ยวและจุดค้นพบในนครปฐม
-                  </h2>
+                    <Localized text={"สถานที่เที่ยวและจุดค้นพบในนครปฐม"} /></h2>
                   <p className="mt-1 text-sm text-concrete">
-                    เพิ่มอีก {nakhonDirectoryPlaces.length} แห่งจากแหล่งข้อมูลท้องถิ่นและสาธารณะ · ตรวจสอบเวลาเปิดและเงื่อนไขก่อนเดินทาง
-                  </p>
+                    <Localized text={"เพิ่มอีก"} /> {nakhonDirectoryPlaces.length} <Localized text={"แห่งจากแหล่งข้อมูลท้องถิ่นและสาธารณะ · ตรวจสอบเวลาเปิดและเงื่อนไขก่อนเดินทาง"} /></p>
                 </div>
                 <Link className="clay-control inline-flex items-center gap-2 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" to="/collections/nakhon-pathom">
-                  ดูรายการนครปฐมทั้งหมด <ArrowUpRight className="h-3.5 w-3.5" />
+                  <Localized text={"ดูรายการนครปฐมทั้งหมด"} /> <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
               <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -425,13 +422,13 @@ export default function ExplorePage() {
                         <h3 className="font-bold leading-snug">{place.name}</h3>
                         <p className="mt-2 flex items-center gap-1.5 text-sm text-concrete"><MapPin className="h-3.5 w-3.5" />{place.district ? `${place.district} · ` : ""}{place.province}</p>
                         {place.description && <p className="mt-3 text-sm leading-relaxed text-concrete">{place.description}</p>}
-                        {(place.address || place.openingHours || place.phone || place.visitNote) && <details className="mt-3 rounded-xl border border-white/90 bg-white/45 px-3 py-2 text-xs leading-relaxed text-concrete"><summary className="cursor-pointer font-semibold text-[#315b50]">ข้อมูลก่อนเดินทาง</summary><div className="mt-2 space-y-1.5">{place.address && <p><strong>ที่อยู่:</strong> {place.address}</p>}{place.openingHours && <p><strong>เวลา:</strong> {place.openingHours}</p>}{place.phone && <p><strong>โทร:</strong> <a className="underline decoration-sage underline-offset-2" href={`tel:${place.phone.replace(/[^\d+]/g, "")}`}>{place.phone}</a></p>}{place.visitNote && <p>{place.visitNote}</p>}</div></details>}
+                        {(place.address || place.openingHours || place.phone || place.visitNote) && <details className="mt-3 rounded-xl border border-white/90 bg-white/45 px-3 py-2 text-xs leading-relaxed text-concrete"><summary className="cursor-pointer font-semibold text-[#315b50]"><Localized text={"ข้อมูลก่อนเดินทาง"} /></summary><div className="mt-2 space-y-1.5">{place.address && <p><strong><Localized text={"ที่อยู่:"} /></strong> {place.address}</p>}{place.openingHours && <p><strong><Localized text={"เวลา:"} /></strong> {place.openingHours}</p>}{place.phone && <p><strong><Localized text={"โทร:"} /></strong> <a className="underline decoration-sage underline-offset-2" href={`tel:${place.phone.replace(/[^\d+]/g, "")}`}>{place.phone}</a></p>}{place.visitNote && <p>{place.visitNote}</p>}</div></details>}
                       </div>
                       <div className="mt-auto flex flex-wrap gap-2">
                         <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.province} Thailand`)}`} target="_blank" rel="noreferrer">
-                          แผนที่ <MapPin className="h-3.5 w-3.5" />
+                          <Localized text={"แผนที่"} /> <MapPin className="h-3.5 w-3.5" />
                         </a>
-                        {place.sourceUrl && <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" href={place.sourceUrl} target="_blank" rel="noreferrer">ข้อมูลต้นทาง <ArrowUpRight className="h-3.5 w-3.5" /></a>}
+                        {place.sourceUrl && <a className="clay-control inline-flex items-center gap-1.5 border border-white bg-white/80 px-3 py-2 text-xs font-semibold text-[#315b50]" href={place.sourceUrl} target="_blank" rel="noreferrer"><Localized text={"ข้อมูลต้นทาง"} /> <ArrowUpRight className="h-3.5 w-3.5" /></a>}
                       </div>
                     </article>
                   </li>
@@ -440,7 +437,7 @@ export default function ExplorePage() {
               {directoryVisible < nakhonDirectoryPlaces.length && (
                 <div className="mt-6 flex justify-center">
                   <Button variant="outline" onClick={() => setDirectoryVisible((count) => count + DIRECTORY_PAGE)}>
-                    โหลดสถานที่เพิ่ม ({nakhonDirectoryPlaces.length - directoryVisible})
+                    <Localized text={"โหลดสถานที่เพิ่ม ("} />{nakhonDirectoryPlaces.length - directoryVisible})
                   </Button>
                 </div>
               )}
@@ -464,7 +461,7 @@ export default function ExplorePage() {
 
       {origin && (
         <div className="fixed bottom-5 left-1/2 z-30 -translate-x-1/2 border border-acid/40 bg-ink px-4 py-2 font-mono text-xs tracking-normal text-acid shadow-xl">
-          ใช้ตำแหน่งของคุณ · {origin.lat.toFixed(3)}, {origin.lng.toFixed(3)}
+          <Localized text={"ใช้ตำแหน่งของคุณ ·"} /> {origin.lat.toFixed(3)}, {origin.lng.toFixed(3)}
           <button type="button" onClick={() => setOrigin(null)} className="ml-3 text-concrete hover:text-paper"> <Localized text="ปิด" /> </button>
         </div>
       )}

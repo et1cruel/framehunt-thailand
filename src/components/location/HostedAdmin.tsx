@@ -1,3 +1,4 @@
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Button, Input, Label } from "@/components/ui";
@@ -17,6 +18,7 @@ const statuses: Record<LocationStatus, string> = {
 };
 
 export function HostedAdmin() {
+  const { t } = useLanguage();
   const { user, signOut } = useAuth();
   const queryClient = useQueryClient();
   const [filter, setFilter] = useState("");
@@ -64,31 +66,27 @@ export function HostedAdmin() {
           <p className="mt-2 text-sm text-concrete">{user?.email}</p>
         </div>
         <Button variant="outline" onClick={() => void signOut()}>
-          ออกจากระบบ
-        </Button>
+          <Localized text={"ออกจากระบบ"} /></Button>
       </div>
-      <nav aria-label="งานแอดมิน" className="mt-5 flex flex-wrap gap-2">
+      <nav aria-label={t("งานแอดมิน")} className="mt-5 flex flex-wrap gap-2">
         <Button
           variant={tab === "locations" ? "primary" : "outline"}
           aria-pressed={tab === "locations"}
           onClick={() => setTab("locations")}
         >
-          โลเคชัน
-        </Button>
+          <Localized text={"โลเคชัน"} /></Button>
         <Button
           variant={tab === "submissions" ? "primary" : "outline"}
           aria-pressed={tab === "submissions"}
           onClick={() => setTab("submissions")}
         >
-          ข้อเสนอ
-        </Button>
+          <Localized text={"ข้อเสนอ"} /></Button>
         <Button
           variant={tab === "reports" ? "primary" : "outline"}
           aria-pressed={tab === "reports"}
           onClick={() => setTab("reports")}
         >
-          รายงาน
-        </Button>
+          <Localized text={"รายงาน"} /></Button>
       </nav>
       {tab !== "locations" ? (
         <ModerationQueue key={tab} kind={tab} />
@@ -96,36 +94,32 @@ export function HostedAdmin() {
         <>
           {catalog.isPending && (
             <p className="mt-6" role="status">
-              กำลังโหลดรายการ…
-            </p>
+              <Localized text={"กำลังโหลดรายการ…"} /></p>
           )}
           {catalog.isError && (
             <div className="mt-6 flex items-center gap-4">
-              <p role="alert">โหลดรายการจากฐานข้อมูลไม่สำเร็จ</p>
+              <p role="alert"><Localized text={"โหลดรายการจากฐานข้อมูลไม่สำเร็จ"} /></p>
               <Button variant="outline" onClick={() => void catalog.refetch()}>
-                ลองอีกครั้ง
-              </Button>
+                <Localized text={"ลองอีกครั้ง"} /></Button>
             </div>
           )}
           {catalog.data && (
             <>
               <p className="my-5 text-concrete">
-                {catalog.data.publishedLocations().length} เผยแพร่ ·{" "}
-                {records.filter((loc) => loc.status === "draft").length} ฉบับร่าง · {waitingForPhotos} รอภาพเพิ่ม
-              </p>
+                {catalog.data.publishedLocations().length} <Localized text={"เผยแพร่ ·"} />{" "}
+                {records.filter((loc) => loc.status === "draft").length} <Localized text={"ฉบับร่าง ·"} /> {waitingForPhotos} <Localized text={"รอภาพเพิ่ม"} /></p>
               <div className="mb-5 max-w-md">
-                <Label htmlFor="catalog-filter">ค้นหาชื่อสถานที่หรือจังหวัด</Label>
+                <Label htmlFor="catalog-filter"><Localized text={"ค้นหาชื่อสถานที่หรือจังหวัด"} /></Label>
                 <Input id="catalog-filter" value={filter} onChange={(event) => setFilter(event.target.value)} />
               </div>
               <div className="mb-3 min-h-6" aria-live="polite">
-                {changeStatus.isSuccess && <p className="text-acid">บันทึกสถานะแล้ว</p>}
+                {changeStatus.isSuccess && <p className="text-acid"><Localized text={"บันทึกสถานะแล้ว"} /></p>}
                 {changeStatus.isError && (
                   <p role="alert" className="text-burnt">
-                    บันทึกสถานะไม่สำเร็จ โปรดตรวจสิทธิ์และข้อมูลล่าสุด
-                  </p>
+                    <Localized text={"บันทึกสถานะไม่สำเร็จ โปรดตรวจสิทธิ์และข้อมูลล่าสุด"} /></p>
                 )}
               </div>
-              {visible.length === 0 && <p className="text-concrete">ไม่พบโลเคชัน</p>}
+              {visible.length === 0 && <p className="text-concrete"><Localized text={"ไม่พบโลเคชัน"} /></p>}
               <ul className="divide-y divide-line border-y border-line">
                 {visible.map((location) => {
                   const { verified, required } = photoGate(location);
@@ -135,10 +129,9 @@ export function HostedAdmin() {
                       <div>
                         <h2 className="font-bold">{location.name_th}</h2>
                         <p className="text-sm text-concrete">
-                          {location.province_th} · {statuses[location.status]} · {verified}/{required} ภาพที่ผ่านเกณฑ์
-                        </p>
+                          {location.province_th} · {statuses[location.status]} · {verified}/{required} <Localized text={"ภาพที่ผ่านเกณฑ์"} /></p>
                         {location.status !== "published" && !canPublish && (
-                          <p className="text-sm text-burnt">ตรวจภาพที่ยืนยันแล้ว พิกัด และแหล่งอ้างอิงก่อนเผยแพร่</p>
+                          <p className="text-sm text-burnt"><Localized text={"ตรวจภาพที่ยืนยันแล้ว พิกัด และแหล่งอ้างอิงก่อนเผยแพร่"} /></p>
                         )}
                       </div>
                       <div className="flex flex-wrap gap-2">

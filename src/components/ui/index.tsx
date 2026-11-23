@@ -1,3 +1,4 @@
+import { useLanguage } from "@/i18n/Language";
 import * as React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import * as TabsPrimitive from "@radix-ui/react-tabs";
@@ -152,6 +153,7 @@ export function DialogContent({
   hideClose = false,
   ...props
 }: React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> & { hideClose?: boolean }) {
+  const { t } = useLanguage();
   return (
     <DialogPrimitive.Portal>
       <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-paper/25 backdrop-blur-md data-[state=open]:animate-in data-[state=open]:fade-in" />
@@ -166,7 +168,7 @@ export function DialogContent({
         {!hideClose && (
           <DialogPrimitive.Close
             className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-xl border border-paper/20 bg-ink text-concrete hover:border-acid hover:text-acid"
-            aria-label="ปิด"
+            aria-label={t("ปิด")}
           >
             <X className="h-4 w-4" />
           </DialogPrimitive.Close>

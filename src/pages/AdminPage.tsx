@@ -1,4 +1,4 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -141,12 +141,11 @@ function LoginGate() {
               <div className="flex items-start gap-2 border border-burnt/40 bg-burnt/5 p-3">
                 <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-burnt" aria-hidden />
                 <p className="font-sans text-xs leading-relaxed text-concrete">
-                  <strong className="text-paper/80">DEMO AUTH:</strong> ใครก็ตามที่เข้าถึงเบราว์เซอร์นี้สามารถเปิดหน้าแอดมินได้
-                  ห้ามใช้ใน production จนกว่าจะตั้งค่า Supabase Auth และ role <code className="font-mono">admin</code>
+                  <strong className="text-paper/80">DEMO AUTH:</strong> <Localized text={"ใครก็ตามที่เข้าถึงเบราว์เซอร์นี้สามารถเปิดหน้าแอดมินได้ ห้ามใช้ใน production จนกว่าจะตั้งค่า Supabase Auth และ role"} /><code className="font-mono">admin</code>
                 </p>
               </div>
               <div>
-                <Label htmlFor="admin-name">ชื่อที่แสดง</Label>
+                <Label htmlFor="admin-name"><Localized text={"ชื่อที่แสดง"} /></Label>
                 <Input
                   id="admin-name"
                   value={name}
@@ -155,7 +154,7 @@ function LoginGate() {
                 />
               </div>
               <div>
-                <Label htmlFor="admin-email">อีเมล</Label>
+                <Label htmlFor="admin-email"><Localized text={"อีเมล"} /></Label>
                 <Input
                   id="admin-email"
                   type="email"
@@ -168,13 +167,12 @@ function LoginGate() {
                 className="w-full"
                 onClick={() => auth.signInLocal(email || "admin@local.test", name || "Local Admin", "admin")}
               >
-                เข้าสู่โหมดเครื่องนี้
-              </Button>
+                <Localized text={"เข้าสู่โหมดเครื่องนี้"} /></Button>
             </>
           ) : (
             <>
               <div>
-                <Label htmlFor="admin-email">อีเมล</Label>
+                <Label htmlFor="admin-email"><Localized text={"อีเมล"} /></Label>
                 <Input
                   id="admin-email"
                   type="email"
@@ -202,17 +200,16 @@ export default function AdminPage() {
   if (loading)
     return (
       <p role="status" className="container-x py-20">
-        กำลังตรวจสอบสิทธิ์…
-      </p>
+        <Localized text={"กำลังตรวจสอบสิทธิ์…"} /></p>
     );
   if (mode === "local" && !allowLocalAuth) {
-    return <p className="container-x py-20">ต้องเชื่อมต่อ Supabase เพื่อใช้งานระบบแอดมิน</p>;
+    return <p className="container-x py-20"><Localized text={"ต้องเชื่อมต่อ Supabase เพื่อใช้งานระบบแอดมิน"} /></p>;
   }
   if (user && user.role !== "admin") {
     return (
       <div className="container-x space-y-4 py-20">
-        <p role="alert">บัญชีนี้ไม่มีสิทธิ์แอดมิน</p>
-        <Button onClick={() => void signOut()}>ออกจากระบบ</Button>
+        <p role="alert"><Localized text={"บัญชีนี้ไม่มีสิทธิ์แอดมิน"} /></p>
+        <Button onClick={() => void signOut()}><Localized text={"ออกจากระบบ"} /></Button>
       </div>
     );
   }
@@ -227,6 +224,7 @@ function LocalAdmin({
   user: NonNullable<ReturnType<typeof useAuth>["user"]>;
   signOut: () => Promise<void>;
 }) {
+  const { t } = useLanguage();
   const mode = "local" as const;
   const store = useStore();
   const stats = locationStats();
@@ -310,8 +308,7 @@ function LocalAdmin({
               </p>
             </div>
             <Button variant="outline" size="sm" onClick={() => void signOut()}>
-              ออกจากระบบ
-            </Button>
+              <Localized text={"ออกจากระบบ"} /></Button>
           </div>
         </div>
         {user.mode === "local" && (
@@ -319,9 +316,7 @@ function LocalAdmin({
             <div className="container-x flex items-start gap-2 py-2.5">
               <AlertTriangle className="mt-0.5 h-3.5 w-3.5 shrink-0 text-burnt" aria-hidden />
               <p className="font-sans text-xs leading-relaxed text-concrete">
-                <strong className="text-burnt">LOCAL DEMO SESSION</strong> — ไม่มีการยืนยันตัวตนจริง
-                การเปลี่ยนแปลงทั้งหมดเก็บในเบราว์เซอร์นี้ และไม่ถูกส่งขึ้นเซิร์ฟเวอร์
-              </p>
+                <strong className="text-burnt">LOCAL DEMO SESSION</strong> <Localized text={"— ไม่มีการยืนยันตัวตนจริง การเปลี่ยนแปลงทั้งหมดเก็บในเบราว์เซอร์นี้ และไม่ถูกส่งขึ้นเซิร์ฟเวอร์"} /></p>
             </div>
           </div>
         )}
@@ -366,12 +361,12 @@ function LocalAdmin({
         {tab === "overview" && (
           <div className="space-y-8">
             <div className="grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-6">
-              <Stat label="PUBLISHED" value={stats.published} sub="ผ่านเกณฑ์ทุกข้อ" tone="acid" />
-              <Stat label="DRAFT" value={stats.draft} sub="ยังไม่ครบ 5 ภาพ" tone="burnt" />
+              <Stat label="PUBLISHED" value={stats.published} sub={t("ผ่านเกณฑ์ทุกข้อ")} tone="acid" />
+              <Stat label="DRAFT" value={stats.draft} sub={t("ยังไม่ครบ 5 ภาพ")} tone="burnt" />
               <Stat label="VERIFIED PHOTOS" value={stats.verifiedPhotos} sub={`จาก ${stats.photographers} ช่างภาพ`} />
-              <Stat label="PROVINCES" value={stats.provincesCovered} sub="จาก 77 จังหวัด" />
-              <Stat label="REJECTED SEEDS" value={reportJson.counts.rejected} sub="ไม่มีข้อมูลพอ" />
-              <Stat label="TOTAL RECORDS" value={stats.total} sub="รวม draft" />
+              <Stat label="PROVINCES" value={stats.provincesCovered} sub={t("จาก 77 จังหวัด")} />
+              <Stat label="REJECTED SEEDS" value={reportJson.counts.rejected} sub={t("ไม่มีข้อมูลพอ")} />
+              <Stat label="TOTAL RECORDS" value={stats.total} sub={t("รวม draft")} />
             </div>
 
             <div className="grid gap-6 lg:grid-cols-12">
@@ -456,9 +451,9 @@ function LocalAdmin({
                           <p className="mt-0.5 font-mono text-xs tracking-[0.1em] text-concrete">{item.value}</p>
                         </div>
                         {item.ok ? (
-                          <CheckCircle2 className="h-4 w-4 shrink-0 text-acid" aria-label="พร้อมใช้งาน" />
+                          <CheckCircle2 className="h-4 w-4 shrink-0 text-acid" aria-label={t("พร้อมใช้งาน")} />
                         ) : (
-                          <XCircle className="h-4 w-4 shrink-0 text-burnt" aria-label="ยังไม่พร้อม" />
+                          <XCircle className="h-4 w-4 shrink-0 text-burnt" aria-label={t("ยังไม่พร้อม")} />
                         )}
                       </li>
                     ))}
@@ -508,8 +503,7 @@ function LocalAdmin({
                   ))}
                 </ul>
                 <p className="mt-4 font-sans text-xs leading-relaxed text-concrete">
-                  เราไม่เติมข้อมูลแทนสถานที่ที่หาไม่พบ — เก็บเป็นรายการปฏิเสธพร้อมเหตุผลเพื่อให้ตรวจซ้ำด้วยมือได้
-                </p>
+                  <Localized text={"เราไม่เติมข้อมูลแทนสถานที่ที่หาไม่พบ — เก็บเป็นรายการปฏิเสธพร้อมเหตุผลเพื่อให้ตรวจซ้ำด้วยมือได้"} /></p>
               </section>
             </div>
 
@@ -546,8 +540,8 @@ function LocalAdmin({
                 <input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="ค้นหาชื่อ จังหวัด หรือ slug…"
-                  aria-label="ค้นหาโลเคชันในตารางแอดมิน"
+                  placeholder={t("ค้นหาชื่อ จังหวัด หรือ slug…")}
+                  aria-label={t("ค้นหาโลเคชันในตารางแอดมิน")}
                   className="h-10 w-full bg-transparent font-sans text-sm text-paper placeholder:text-concrete focus:outline-none"
                 />
               </div>
@@ -557,9 +551,9 @@ function LocalAdmin({
                   onChange={(e) => setStatusFilter(e.target.value)}
                   className="w-auto min-w-40"
                 >
-                  <option value="all">ทุกสถานะ</option>
-                  <option value="published">เผยแพร่แล้ว</option>
-                  <option value="draft">ฉบับร่าง</option>
+                  <option value="all"><Localized text={"ทุกสถานะ"} /></option>
+                  <option value="published"><Localized text={"เผยแพร่แล้ว"} /></option>
+                  <option value="draft"><Localized text={"ฉบับร่าง"} /></option>
                 </Select>
                 <span className="font-mono text-xs text-concrete">{filteredLocations.length} ROWS</span>
               </div>
@@ -625,15 +619,13 @@ function LocalAdmin({
               </table>
               {!filteredLocations.length && (
                 <div className="p-10 text-center">
-                  <p className="font-sans text-sm text-concrete">ไม่พบรายการที่ตรงกับตัวกรอง</p>
+                  <p className="font-sans text-sm text-concrete"><Localized text={"ไม่พบรายการที่ตรงกับตัวกรอง"} /></p>
                 </div>
               )}
             </div>
 
             <p className="font-sans text-xs leading-relaxed text-concrete">
-              ตารางนี้แสดงสถานะจริงจากชุดข้อมูล — “OVERRIDE” คือการเปลี่ยนสถานะในเครื่องนี้เพื่อทดสอบ workflow ไม่มีผลต่อการเผยแพร่จริง
-              และไม่สามารถข้ามเกณฑ์ภาพ 5 ภาพได้
-            </p>
+              <Localized text={"ตารางนี้แสดงสถานะจริงจากชุดข้อมูล — “OVERRIDE” คือการเปลี่ยนสถานะในเครื่องนี้เพื่อทดสอบ workflow ไม่มีผลต่อการเผยแพร่จริง และไม่สามารถข้ามเกณฑ์ภาพ 5 ภาพได้"} /></p>
           </div>
         )}
 
@@ -644,19 +636,18 @@ function LocalAdmin({
               <div>
                 <p className="label-mono text-concrete">COMMUNITY SUBMISSIONS</p>
                 <p className="mt-1 font-sans text-xs text-concrete">
-                  {store.submissions.length} รายการ · เก็บในเครื่องนี้เท่านั้นเมื่อไม่ได้เชื่อมต่อ Supabase
-                </p>
+                  {store.submissions.length} <Localized text={"รายการ · เก็บในเครื่องนี้เท่านั้นเมื่อไม่ได้เชื่อมต่อ Supabase"} /></p>
               </div>
               <Select
                 value={subFilter}
                 onChange={(e) => setSubFilter(e.target.value as typeof subFilter)}
                 className="w-auto min-w-40"
               >
-                <option value="all">ทุกสถานะ</option>
-                <option value="pending">รอตรวจ</option>
-                <option value="reviewing">กำลังตรวจ</option>
-                <option value="accepted">รับเข้าคิว</option>
-                <option value="rejected">ปฏิเสธ</option>
+                <option value="all"><Localized text={"ทุกสถานะ"} /></option>
+                <option value="pending"><Localized text={"รอตรวจ"} /></option>
+                <option value="reviewing"><Localized text={"กำลังตรวจ"} /></option>
+                <option value="accepted"><Localized text={"รับเข้าคิว"} /></option>
+                <option value="rejected"><Localized text={"ปฏิเสธ"} /></option>
               </Select>
             </div>
 
@@ -664,12 +655,12 @@ function LocalAdmin({
               <div className="border border-line p-12 text-center">
                 <Inbox className="mx-auto h-8 w-8 text-paper/15" />
                 <p className="mt-4 font-display text-xl font-extrabold text-concrete">NO SUBMISSIONS</p>
-                <p className="mt-2 font-sans text-xs text-concrete">ยังไม่มีคำขอในสถานะนี้</p>
+                <p className="mt-2 font-sans text-xs text-concrete"><Localized text={"ยังไม่มีคำขอในสถานะนี้"} /></p>
                 <Link
                   to="/submit"
                   className="mt-5 inline-flex items-center gap-1 font-mono text-xs tracking-normal text-acid hover:underline"
                 >
-                  เปิดฟอร์มเสนอสถานที่ <ArrowUpRight className="h-3 w-3" />
+                  <Localized text={"เปิดฟอร์มเสนอสถานที่"} /> <ArrowUpRight className="h-3 w-3" />
                 </Link>
               </div>
             ) : (
@@ -694,9 +685,8 @@ function LocalAdmin({
               <div>
                 <p className="label-mono text-concrete">CONTENT REPORTS</p>
                 <p className="mt-1 font-sans text-xs text-concrete">
-                  รายงานจากปุ่ม “Report” ในหน้ารายละเอียด — {reports.filter((r) => r.status === "open").length}{" "}
-                  รายการยังเปิดอยู่
-                </p>
+                  <Localized text={"รายงานจากปุ่ม “Report” ในหน้ารายละเอียด —"} /> {reports.filter((r) => r.status === "open").length}{" "}
+                  <Localized text={"รายการยังเปิดอยู่"} /></p>
               </div>
               <div className="flex items-center gap-2">
                 <Select
@@ -705,13 +695,12 @@ function LocalAdmin({
                   className="w-auto min-w-36"
                 >
                   <option value="all"> <Localized text="ทั้งหมด" /> </option>
-                  <option value="open">เปิดอยู่</option>
-                  <option value="resolved">แก้ไขแล้ว</option>
-                  <option value="dismissed">ไม่ใช่ปัญหา</option>
+                  <option value="open"><Localized text={"เปิดอยู่"} /></option>
+                  <option value="resolved"><Localized text={"แก้ไขแล้ว"} /></option>
+                  <option value="dismissed"><Localized text={"ไม่ใช่ปัญหา"} /></option>
                 </Select>
                 <Button variant="outline" size="sm" onClick={() => setReports(readReports())}>
-                  <RefreshCw className="h-3.5 w-3.5" /> รีเฟรช
-                </Button>
+                  <RefreshCw className="h-3.5 w-3.5" /> <Localized text={"รีเฟรช"} /></Button>
               </div>
             </div>
 
@@ -719,7 +708,7 @@ function LocalAdmin({
               <div className="border border-line p-12 text-center">
                 <Flag className="mx-auto h-8 w-8 text-paper/15" />
                 <p className="mt-4 font-display text-xl font-extrabold text-concrete">NO REPORTS</p>
-                <p className="mt-2 font-sans text-xs text-concrete">ยังไม่มีรายงานข้อมูลผิดในเครื่องนี้</p>
+                <p className="mt-2 font-sans text-xs text-concrete"><Localized text={"ยังไม่มีรายงานข้อมูลผิดในเครื่องนี้"} /></p>
               </div>
             ) : (
               <div className="space-y-px bg-line">
@@ -759,8 +748,7 @@ function LocalAdmin({
                               )
                             }
                           >
-                            <CheckCircle2 className="h-3.5 w-3.5" /> แก้ไขแล้ว
-                          </Button>
+                            <CheckCircle2 className="h-3.5 w-3.5" /> <Localized text={"แก้ไขแล้ว"} /></Button>
                         )}
                         {report.status !== "dismissed" && (
                           <Button
@@ -772,13 +760,12 @@ function LocalAdmin({
                               )
                             }
                           >
-                            ไม่ใช่ปัญหา
-                          </Button>
+                            <Localized text={"ไม่ใช่ปัญหา"} /></Button>
                         )}
                         <Button
                           size="sm"
                           variant="ghost"
-                          aria-label="ลบรายงาน"
+                          aria-label={t("ลบรายงาน")}
                           onClick={() => persistReports(reports.filter((r) => r.id !== report.id))}
                         >
                           <Trash2 className="h-3.5 w-3.5 text-burnt" />
@@ -790,9 +777,8 @@ function LocalAdmin({
               </div>
             )}
             <p className="font-sans text-xs leading-relaxed text-concrete">
-              สถานะรายงานถูกเก็บใน localStorage ของเบราว์เซอร์นี้ — ใน production ต้องย้ายไปตาราง{" "}
-              <code className="font-mono">content_reports</code> พร้อม RLS
-            </p>
+              <Localized text={"สถานะรายงานถูกเก็บใน localStorage ของเบราว์เซอร์นี้ — ใน production ต้องย้ายไปตาราง"} />{" "}
+              <code className="font-mono">content_reports</code> <Localized text={"พร้อม RLS"} /></p>
           </div>
         )}
 
@@ -872,18 +858,18 @@ function LocalAdmin({
               <div className="flex items-start gap-3">
                 <FileWarning className="mt-0.5 h-5 w-5 shrink-0 text-burnt" aria-hidden />
                 <div>
-                  <p className="font-display text-lg font-extrabold ">ข้อจำกัดของชุดข้อมูล</p>
+                  <p className="font-display text-lg font-extrabold "><Localized text={"ข้อจำกัดของชุดข้อมูล"} /></p>
                   <ul className="mt-3 space-y-2 font-sans text-xs leading-relaxed text-concrete">
-                    <li>• พิกัดและคำอธิบายมาจาก Wikidata/วิกิพีเดีย ไม่ได้สำรวจภาคสนามทุกจุด</li>
-                    <li>• สถานะการขออนุญาตถ่ายทำยังเป็น “ไม่ยืนยัน” สำหรับทุกรายการ เว้นแต่มีแหล่งชัดเจน</li>
-                    <li>• ภาพเป็น hotlink จาก Wikimedia Commons — ถ้าต้นทางลบภาพ การแสดงผลอาจเสีย</li>
-                    <li>• ยังไม่ครอบคลุม 77 จังหวัด และยังไม่มีข้อมูลค่าธรรมเนียม/crew/parking ที่ยืนยันแล้ว</li>
+                    <li><Localized text={"• พิกัดและคำอธิบายมาจาก Wikidata/วิกิพีเดีย ไม่ได้สำรวจภาคสนามทุกจุด"} /></li>
+                    <li><Localized text={"• สถานะการขออนุญาตถ่ายทำยังเป็น “ไม่ยืนยัน” สำหรับทุกรายการ เว้นแต่มีแหล่งชัดเจน"} /></li>
+                    <li><Localized text={"• ภาพเป็น hotlink จาก Wikimedia Commons — ถ้าต้นทางลบภาพ การแสดงผลอาจเสีย"} /></li>
+                    <li><Localized text={"• ยังไม่ครอบคลุม 77 จังหวัด และยังไม่มีข้อมูลค่าธรรมเนียม/crew/parking ที่ยืนยันแล้ว"} /></li>
                   </ul>
                   <Link
                     to="/about"
                     className="mt-4 inline-flex items-center gap-1 font-mono text-xs tracking-normal text-acid hover:underline"
                   >
-                    อ่านนโยบายข้อมูลฉบับเต็ม <ArrowUpRight className="h-3 w-3" />
+                    <Localized text={"อ่านนโยบายข้อมูลฉบับเต็ม"} /> <ArrowUpRight className="h-3 w-3" />
                   </Link>
                 </div>
               </div>
@@ -955,10 +941,10 @@ function LocalAdmin({
               </div>
 
               <div className="mt-6 border-t border-line pt-5">
-                <p className="label-mono text-burnt">LOCAL OVERRIDE (ไม่บันทึกขึ้นเซิร์ฟเวอร์)</p>
+                <p className="label-mono text-burnt"><Localized text={"LOCAL OVERRIDE (ไม่บันทึกขึ้นเซิร์ฟเวอร์)"} /></p>
                 <div className="mt-3 grid gap-3 sm:grid-cols-2">
                   <div>
-                    <Label htmlFor="override-status">สถานะที่ต้องการ</Label>
+                    <Label htmlFor="override-status"><Localized text={"สถานะที่ต้องการ"} /></Label>
                     <Select
                       id="override-status"
                       value={overrideStatus}
@@ -971,18 +957,17 @@ function LocalAdmin({
                     </Select>
                   </div>
                   <div>
-                    <Label htmlFor="override-note">หมายเหตุภายใน</Label>
+                    <Label htmlFor="override-note"><Localized text={"หมายเหตุภายใน"} /></Label>
                     <Input
                       id="override-note"
                       value={overrideNote}
                       onChange={(e) => setOverrideNote(e.target.value)}
-                      placeholder="เหตุผลในการเปลี่ยนสถานะ"
+                      placeholder={t("เหตุผลในการเปลี่ยนสถานะ")}
                     />
                   </div>
                 </div>
                 <p className="mt-2 font-sans text-xs leading-relaxed text-concrete">
-                  การ override ไม่สามารถข้ามเกณฑ์ภาพ {datasetMeta.min_photos_required} ภาพ หรือพิกัดที่ยืนยันแล้วได้
-                </p>
+                  <Localized text={"การ override ไม่สามารถข้ามเกณฑ์ภาพ"} /> {datasetMeta.min_photos_required} <Localized text={"ภาพ หรือพิกัดที่ยืนยันแล้วได้"} /></p>
                 <div className="mt-4 flex flex-wrap justify-end gap-2">
                   {store.adminOverrides[selected.id] && (
                     <Button
@@ -992,13 +977,11 @@ function LocalAdmin({
                         setSelected(null);
                       }}
                     >
-                      ล้าง override
-                    </Button>
+                      <Localized text={"ล้าง override"} /></Button>
                   )}
                   <Button variant="outline" onClick={() => setSelected(null)}>
-                    ยกเลิก
-                  </Button>
-                  <Button onClick={saveOverride}>บันทึกในเครื่องนี้</Button>
+                    <Localized text={"ยกเลิก"} /></Button>
+                  <Button onClick={saveOverride}><Localized text={"บันทึกในเครื่องนี้"} /></Button>
                 </div>
               </div>
             </>
@@ -1018,6 +1001,7 @@ function SubmissionRow({
   onStatus: (status: SubmissionStatus) => void;
   onDelete: () => void;
 }) {
+  const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   return (
     <div className="bg-ink p-4 md:p-5">
@@ -1043,14 +1027,14 @@ function SubmissionRow({
             value={submission.status}
             onChange={(e) => onStatus(e.target.value as SubmissionStatus)}
             className="h-8 w-auto px-2 text-xs"
-            aria-label="เปลี่ยนสถานะคำขอ"
+            aria-label={t("เปลี่ยนสถานะคำขอ")}
           >
-            <option value="pending">รอตรวจ</option>
-            <option value="reviewing">กำลังตรวจ</option>
-            <option value="accepted">รับเข้าคิว</option>
-            <option value="rejected">ปฏิเสธ</option>
+            <option value="pending"><Localized text={"รอตรวจ"} /></option>
+            <option value="reviewing"><Localized text={"กำลังตรวจ"} /></option>
+            <option value="accepted"><Localized text={"รับเข้าคิว"} /></option>
+            <option value="rejected"><Localized text={"ปฏิเสธ"} /></option>
           </Select>
-          <Button size="sm" variant="ghost" aria-label="ลบคำขอ" onClick={onDelete}>
+          <Button size="sm" variant="ghost" aria-label={t("ลบคำขอ")} onClick={onDelete}>
             <Trash2 className="h-3.5 w-3.5 text-burnt" />
           </Button>
         </div>
@@ -1092,10 +1076,9 @@ function SubmissionRow({
                 </p>
               </>
             )}
-            {submission.contact && <p className="mt-3 font-sans text-xs text-concrete">ติดต่อ: {submission.contact}</p>}
+            {submission.contact && <p className="mt-3 font-sans text-xs text-concrete"><Localized text={"ติดต่อ:"} /> {submission.contact}</p>}
             <p className="mt-4 border border-burnt/30 bg-burnt/5 p-2 font-sans text-xs leading-relaxed text-concrete">
-              “รับเข้าคิว” ไม่ได้เผยแพร่สถานที่อัตโนมัติ — ต้องรัน ingest และผ่านเกณฑ์ภาพ ≥5 ภาพก่อน
-            </p>
+              <Localized text={"“รับเข้าคิว” ไม่ได้เผยแพร่สถานที่อัตโนมัติ — ต้องรัน ingest และผ่านเกณฑ์ภาพ ≥5 ภาพก่อน"} /></p>
           </div>
         </div>
       )}

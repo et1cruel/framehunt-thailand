@@ -1,4 +1,4 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import {
@@ -85,6 +85,7 @@ function BoardCard({ board, onOpen }: { board: Board; onOpen: () => void }) {
 }
 
 export default function BoardsPage() {
+  const { t, language } = useLanguage();
   const { publishedLocations } = useLocationCatalog();
   const [sp, setSp] = useSearchParams();
   const allBoards = useBoards();
@@ -301,10 +302,10 @@ export default function BoardsPage() {
         <div className="mt-8 space-y-3">
           {items.length === 0 && (
             <div className="border border-dashed border-paper/15 p-10 text-center">
-              <p className="font-display text-2xl font-extrabold">บอร์ดยังว่าง</p>
-              <p className="mt-2 font-sans text-sm text-concrete">เปิดโลเคชันที่สนใจ แล้วกด “ADD TO BOARD”</p>
+              <p className="font-display text-2xl font-extrabold"><Localized text={"บอร์ดยังว่าง"} /></p>
+              <p className="mt-2 font-sans text-sm text-concrete"><Localized text={"เปิดโลเคชันที่สนใจ แล้วกด “ADD TO BOARD”"} /></p>
               <Link to="/explore" className="mt-4 inline-block">
-                <Button size="sm">ไปเลือกสถานที่</Button>
+                <Button size="sm"><Localized text={"ไปเลือกสถานที่"} /></Button>
               </Link>
             </div>
           )}
@@ -327,9 +328,9 @@ export default function BoardsPage() {
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-wrap items-start justify-between gap-2">
                     <div>
-                      <p className="label-mono text-concrete">{loc.province_th}</p>
+                      <p className="label-mono text-concrete">{language === "en" ? loc.province : loc.province_th}</p>
                       <Link to={`/locations/${loc.slug}`}>
-                        <h2 className="font-display text-xl font-extrabold hover:text-acid">{loc.name_th}</h2>
+                        <h2 className="font-display text-xl font-extrabold hover:text-acid">{language === "en" ? loc.name_en || loc.name_th : loc.name_th}</h2>
                       </Link>
                       <p className="font-sans text-xs text-concrete">{loc.name_en}</p>
                     </div>
@@ -344,7 +345,7 @@ export default function BoardsPage() {
                             ? "border-paper/30 text-concrete"
                             : "border-paper/15 text-concrete",
                       )}
-                      title="สลับลำดับความสำคัญ"
+                      title={t("สลับลำดับความสำคัญ")}
                     >
                       {PRIORITY_LABEL[item.priority]}
                     </button>
@@ -353,14 +354,14 @@ export default function BoardsPage() {
                   <input
                     value={item.notes}
                     onChange={(e) => updateNote(item, e.target.value)}
-                    placeholder="โน้ตสำหรับทีม เช่น ต้องการแสงเช้า / ต้องขออนุญาตล่วงหน้า…"
+                    placeholder={t("โน้ตสำหรับทีม เช่น ต้องการแสงเช้า / ต้องขออนุญาตล่วงหน้า…")}
                     className="h-9 w-full border border-line bg-transparent px-2 font-sans text-xs text-concrete placeholder:text-concrete focus:border-acid focus:outline-none"
                     aria-label={`โน้ตสำหรับ ${loc.name_th}`}
                   />
 
                   <div className="flex flex-wrap items-center gap-1.5">
                     <span className="font-mono text-xs tracking-normal text-concrete">
-                      {loc.photo_count} PHOTOS · {loc.permission.permission_status.toUpperCase()}
+                      {loc.photo_count} {t("PHOTOS")} · {t(loc.permission.permission_status.toUpperCase())}
                     </span>
                     <div className="no-print ml-auto flex gap-1">
                       <button
@@ -368,7 +369,7 @@ export default function BoardsPage() {
                         onClick={() => move(item, -1)}
                         disabled={index === 0}
                         className="flex h-8 w-8 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid disabled:opacity-25"
-                        aria-label="เลื่อนขึ้น"
+                        aria-label={t("เลื่อนขึ้น")}
                       >
                         <ArrowUp className="h-3.5 w-3.5" />
                       </button>
@@ -377,7 +378,7 @@ export default function BoardsPage() {
                         onClick={() => move(item, 1)}
                         disabled={index === items.length - 1}
                         className="flex h-8 w-8 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid disabled:opacity-25"
-                        aria-label="เลื่อนลง"
+                        aria-label={t("เลื่อนลง")}
                       >
                         <ArrowDown className="h-3.5 w-3.5" />
                       </button>
@@ -385,7 +386,7 @@ export default function BoardsPage() {
                         type="button"
                         onClick={() => removeItem(item)}
                         className="flex h-8 w-8 items-center justify-center border border-line text-concrete hover:border-burnt hover:text-burnt"
-                        aria-label="นำออกจากบอร์ด"
+                        aria-label={t("นำออกจากบอร์ด")}
                       >
                         <X className="h-3.5 w-3.5" />
                       </button>
@@ -398,8 +399,7 @@ export default function BoardsPage() {
         </div>
 
         <p className="mt-8 font-sans text-xs leading-relaxed text-concrete">
-          บอร์ดนี้ถูกเก็บในเบราว์เซอร์เครื่องนี้ (localStorage) — การแชร์จะส่งข้อมูลผ่านลิงก์ ไม่ได้ซิงก์กับเซิร์ฟเวอร์ จนกว่าจะเชื่อมต่อ Supabase
-        </p>
+          <Localized text={"บอร์ดนี้ถูกเก็บในเบราว์เซอร์เครื่องนี้ (localStorage) — การแชร์จะส่งข้อมูลผ่านลิงก์ ไม่ได้ซิงก์กับเซิร์ฟเวอร์ จนกว่าจะเชื่อมต่อ Supabase"} /></p>
 
         {toast && (
           <div className="fixed bottom-6 left-1/2 z-[70] flex -translate-x-1/2 items-center gap-2 border border-acid/50 bg-ink px-4 py-2.5 text-paper shadow-2xl">
@@ -419,8 +419,7 @@ export default function BoardsPage() {
             MV BOARDS<span className="text-burnt">.</span>
           </h1>
           <p className="mt-3 max-w-xl font-sans text-sm leading-relaxed text-concrete">
-            รวมโลเคชันไว้ในโปรเจกต์เดียว จัดลำดับความสำคัญ เพิ่มโน้ต และส่ง shortlist ให้ทีม
-          </p>
+            <Localized text={"รวมโลเคชันไว้ในโปรเจกต์เดียว จัดลำดับความสำคัญ เพิ่มโน้ต และส่ง shortlist ให้ทีม"} /></p>
         </div>
         <Button onClick={() => setCreateOpen(true)}>
           <Plus className="h-4 w-4" /> NEW BOARD
@@ -458,10 +457,9 @@ export default function BoardsPage() {
           {allBoards.length === 0 ? (
             <div className="clay-panel px-5 py-10 text-center md:p-12">
               <FileText className="mx-auto h-8 w-8 text-concrete" />
-              <h2 className="mt-4 font-display text-2xl font-extrabold">ยังไม่มีบอร์ด</h2>
+              <h2 className="mt-4 font-display text-2xl font-extrabold"><Localized text={"ยังไม่มีบอร์ด"} /></h2>
               <p className="mt-2 font-sans text-sm text-concrete">
-                สร้างบอร์ดสำหรับ MV เรื่องต่อไป แล้วเพิ่มสถานที่จากหน้ารายละเอียด
-              </p>
+                <Localized text={"สร้างบอร์ดสำหรับ MV เรื่องต่อไป แล้วเพิ่มสถานที่จากหน้ารายละเอียด"} /></p>
               <Button className="mt-5" onClick={() => setCreateOpen(true)}>
                 <Plus className="h-4 w-4" /> <Localized text="สร้างบอร์ดแรก" /> </Button>
             </div>
@@ -477,8 +475,7 @@ export default function BoardsPage() {
             <div className="glass-panel mt-10 p-4">
               <p className="label-mono text-concrete">IMPORT A SHARED BOARD</p>
               <p className="mt-1 font-sans text-xs text-concrete">
-                เปิดลิงก์ที่ได้รับจากทีม (รูปแบบ /boards?share=…) ระบบจะนำเข้าบอร์ดให้อัตโนมัติ
-              </p>
+                <Localized text={"เปิดลิงก์ที่ได้รับจากทีม (รูปแบบ /boards?share=…) ระบบจะนำเข้าบอร์ดให้อัตโนมัติ"} /></p>
             </div>
           )}
         </div>
@@ -487,10 +484,10 @@ export default function BoardsPage() {
           {savedLocations.length === 0 ? (
             <div className="clay-panel px-5 py-10 text-center md:p-12">
               <Heart className="mx-auto h-8 w-8 text-concrete" />
-              <h2 className="mt-4 font-display text-2xl font-extrabold">ยังไม่มีรายการโปรด</h2>
-              <p className="mt-2 font-sans text-sm text-concrete">กดหัวใจบนการ์ดสถานที่เพื่อบันทึกไว้ที่นี่</p>
+              <h2 className="mt-4 font-display text-2xl font-extrabold"><Localized text={"ยังไม่มีรายการโปรด"} /></h2>
+              <p className="mt-2 font-sans text-sm text-concrete"><Localized text={"กดหัวใจบนการ์ดสถานที่เพื่อบันทึกไว้ที่นี่"} /></p>
               <Link to="/explore" className="mt-5 inline-block">
-                <Button>ไปค้นหา</Button>
+                <Button><Localized text={"ไปค้นหา"} /></Button>
               </Link>
             </div>
           ) : (
@@ -506,7 +503,7 @@ export default function BoardsPage() {
                   >
                     <X className="h-3 w-3" /> REMOVE
                   </button>
-                  {isFavorite(loc.id) && <span className="sr-only">บันทึกแล้ว</span>}
+                  {isFavorite(loc.id) && <span className="sr-only"><Localized text={"บันทึกแล้ว"} /></span>}
                 </div>
               ))}
             </div>
@@ -517,36 +514,34 @@ export default function BoardsPage() {
       <Dialog open={createOpen} onOpenChange={setCreateOpen}>
         <DialogContent>
           <DialogTitle className="display text-3xl">NEW MV BOARD</DialogTitle>
-          <p className="mt-2 font-sans text-sm text-concrete">ตั้งชื่อโปรเจกต์และคำอธิบายสั้น ๆ สำหรับทีม</p>
+          <p className="mt-2 font-sans text-sm text-concrete"><Localized text={"ตั้งชื่อโปรเจกต์และคำอธิบายสั้น ๆ สำหรับทีม"} /></p>
           <div className="mt-6 space-y-4">
             <div>
-              <Label htmlFor="board-title">ชื่อบอร์ด</Label>
+              <Label htmlFor="board-title"><Localized text={"ชื่อบอร์ด"} /></Label>
               <Input
                 id="board-title"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                placeholder="เช่น MV01 — DARK AMBIENT / BANGKOK"
+                placeholder={t("เช่น MV01 — DARK AMBIENT / BANGKOK")}
                 autoFocus
                 onKeyDown={(e) => e.key === "Enter" && create()}
               />
             </div>
             <div>
-              <Label htmlFor="board-desc">คำอธิบาย</Label>
+              <Label htmlFor="board-desc"><Localized text={"คำอธิบาย"} /></Label>
               <Textarea
                 id="board-desc"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                placeholder="แนวเพลง ทรีตเมนต์ วันที่ถ่าย หรือข้อจำกัดของทีม"
+                placeholder={t("แนวเพลง ทรีตเมนต์ วันที่ถ่าย หรือข้อจำกัดของทีม")}
               />
             </div>
           </div>
           <div className="mt-6 flex justify-end gap-2">
             <Button variant="ghost" onClick={() => setCreateOpen(false)}>
-              ยกเลิก
-            </Button>
+              <Localized text={"ยกเลิก"} /></Button>
             <Button onClick={create} disabled={!title.trim()}>
-              <Clipboard className="h-4 w-4" /> สร้างบอร์ด
-            </Button>
+              <Clipboard className="h-4 w-4" /> <Localized text={"สร้างบอร์ด"} /></Button>
           </div>
         </DialogContent>
       </Dialog>

@@ -1,4 +1,5 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import ts from "typescript";
 import { fileURLToPath } from "node:url";
@@ -116,48 +117,96 @@ for (const category of ["cave", "art", "temple", "nakhon-pathom"]) {
 }
 
 const uniqueUrls = [...new Set(uses.filter(({ kind }) => kind === "remote").map(({ url }) => url))];
+const reportTarget = process.argv.find((arg) => arg.startsWith("--write-report="))?.slice("--write-report=".length);
 
-async function inspectImageUrl(url) {
-  const options = {
-    headers: { "user-agent": "Framehunt directory image audit/1.0", accept: "image/avif,image/webp,image/*,*/*;q=0.5" },
-    signal: AbortSignal.timeout(4000),
-  };
-  try {
-    let response = await fetch(url, { ...options, method: "HEAD" });
-    if ([403, 405, 501].includes(response.status)) {
-      response = await fetch(url, { ...options, headers: { ...options.headers, range: "bytes=0-0" } });
+function persistAudit(payload) {
+  if (!reportTarget) return;
+  const target = path.resolve(root, reportTarget);
+  if (!target.startsWith(root + path.sep)) throw new Error("Audit report path must stay inside the repository.");
+  mkdirSync(path.dirname(target), { recursive: true });
+  writeFileSync(target, JSON.stringify(payload, null, 2) + "\n");
+  console.log("Audit report saved: " + path.relative(root, target));
+}
+
+async function inspectImageUrl(url, retries = 1) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const headers = {
+      "user-agent": "Framehunt directory image audit/1.0",
+      accept: "image/avif,image/webp,image/*,*/*;q=0.5",
+    };
+    const options = { headers, signal: AbortSignal.timeout(4000) };
+    try {
+      let response = await fetch(url, { ...options, method: "HEAD" });
+      if ([403, 405, 501].includes(response.status)) {
+        response = await fetch(url, { ...options, headers: { ...headers, range: "bytes=0-0" } });
+      }
+      const type = response.headers.get("content-type")?.split(";")[0].toLowerCase() ?? "";
+      const status = response.status;
+      await response.body?.cancel();
+      if (response.ok && type.startsWith("image/")) return { status: "reachable image", http: status, type, attempts: attempt + 1 };
+      if ([408, 425, 429].includes(status) || status >= 500) {
+        if (attempt < retries) {
+          await new Promise((resolve) => setTimeout(resolve, 250 * (attempt + 1)));
+          continue;
+        }
+        return { status: "blocked or unknown", http: status, type, attempts: attempt + 1 };
+      }
+      if (status === 403) return { status: "blocked or unknown", http: status, type, attempts: attempt + 1 };
+      if (response.ok) return { status: "not an image response", http: status, type, attempts: attempt + 1 };
+      return { status: "unavailable", http: status, type, attempts: attempt + 1 };
+    } catch (error) {
+      if (error instanceof Error && error.name === "TimeoutError") {
+        return { status: "blocked or unknown", error: error.name, attempts: attempt + 1 };
+      }
+      if (attempt < retries) {
+        await new Promise((resolve) => setTimeout(resolve, 250 * (attempt + 1)));
+        continue;
+      }
+      return { status: "blocked or unknown", error: error instanceof Error ? error.name : "request failed", attempts: attempt + 1 };
     }
-    const type = response.headers.get("content-type")?.split(";")[0].toLowerCase() ?? "";
-    await response.body?.cancel();
-    if (response.ok && type.startsWith("image/")) return { status: "reachable image", http: response.status, type };
-    if (response.status === 403 || response.status === 429 || response.status >= 500) {
-      return { status: "blocked or unknown", http: response.status, type };
-    }
-    if (response.ok) return { status: "not an image response", http: response.status, type };
-    return { status: "unavailable", http: response.status, type };
-  } catch (error) {
-    return { status: "blocked or unknown", error: error instanceof Error ? error.name : "request failed" };
   }
+  return { status: "blocked or unknown", attempts: retries + 1 };
 }
 
 if (process.argv.includes("--check-urls")) {
   const results = new Map();
-  const limitArg = process.argv.find((arg) => arg.startsWith("--limit-urls="));
+  const limitArg = process.argv.find((arg) => arg.startsWith("--limit=") || arg.startsWith("--limit-urls="));
   const urlLimit = limitArg ? Math.max(1, Number(limitArg.split("=")[1]) || 1) : uniqueUrls.length;
   const selectedUrls = urlLimit >= uniqueUrls.length
     ? uniqueUrls
     : Array.from({ length: urlLimit }, (_, index) => uniqueUrls[Math.floor(index * uniqueUrls.length / urlLimit)]);
+  const checkpointPath = path.join(root, "data", "reports", ".directory-cover-audit-checkpoint.json");
+  mkdirSync(path.dirname(checkpointPath), { recursive: true });
+  const urlSignature = createHash("sha256").update(selectedUrls.join("\n")).digest("hex");
+  if (existsSync(checkpointPath)) {
+    try {
+      const checkpoint = JSON.parse(readFileSync(checkpointPath, "utf8"));
+      if (checkpoint.urlSignature === urlSignature) {
+        for (const [url, result] of Object.entries(checkpoint.imageUrls ?? {})) results.set(url, result);
+        console.log(`Resuming image URL audit at ${results.size}/${selectedUrls.length}.`);
+      }
+    } catch {
+      // A partial checkpoint is ignored and rebuilt.
+    }
+  }
+  const retryArg = process.argv.find((arg) => arg.startsWith("--retries="));
+  const retries = retryArg ? Math.max(0, Math.min(3, Number(retryArg.split("=")[1]) || 0)) : 1;
   let next = 0;
-  let completed = 0;
-  const workers = Array.from({ length: Math.min(32, selectedUrls.length) }, async () => {
+  let completed = results.size;
+  const workers = Array.from({ length: Math.min(16, selectedUrls.length) }, async () => {
     while (next < selectedUrls.length) {
       const url = selectedUrls[next++];
-      results.set(url, await inspectImageUrl(url));
+      if (results.has(url)) continue;
+      results.set(url, await inspectImageUrl(url, retries));
       completed++;
-      if (completed % 50 === 0 && !process.argv.includes("--json")) console.log(`Checked ${completed}/${selectedUrls.length} remote image URLs.`);
+      if (completed % 50 === 0) {
+        writeFileSync(checkpointPath, JSON.stringify({ urlSignature, imageUrls: Object.fromEntries(results) }));
+        if (!process.argv.includes("--json")) console.log(`Checked ${completed}/${selectedUrls.length} remote image URLs.`);
+      }
     }
   });
   await Promise.all(workers);
+  if (existsSync(checkpointPath)) unlinkSync(checkpointPath);
 
   for (const [section, summary] of Object.entries(report)) {
     const sectionUses = uses.filter((item) => item.section === section);
@@ -171,8 +220,25 @@ if (process.argv.includes("--check-urls")) {
     summary.notCheckedImageUrls = summary.uniqueImageUrls - summary.checkedImageUrls;
     summary.imageHealth = health;
   }
+  const auditPayload = {
+    generatedAt: new Date().toISOString(),
+    urlCheck: {
+      enabled: true,
+      selected: selectedUrls.length,
+      available: uniqueUrls.length,
+      complete: selectedUrls.length === uniqueUrls.length,
+      retries,
+      concurrency: Math.min(16, selectedUrls.length),
+      checkpointed: true,
+      note: "A reachable image response confirms URL health only, not place identity or reuse rights.",
+    },
+    report,
+    missing,
+    imageUrls: Object.fromEntries(results),
+  };
+  persistAudit(auditPayload);
   if (process.argv.includes("--json")) {
-    console.log(JSON.stringify({ report, missing, imageUrls: Object.fromEntries(results) }, null, 2));
+    console.log(JSON.stringify(auditPayload, null, 2));
   } else {
     console.table(Object.fromEntries(Object.entries(report).map(([section, summary]) => [section, {
       total: summary.total,
@@ -191,8 +257,10 @@ if (process.argv.includes("--check-urls")) {
     }])));
     console.log("URL checks confirm an image response only; they do not verify place identity or reuse rights.");
   }
-} else if (process.argv.includes("--json")) {
-  console.log(JSON.stringify({ report, missing }, null, 2));
+} else if (process.argv.includes("--json") || reportTarget) {
+  const auditPayload = { generatedAt: new Date().toISOString(), urlCheck: { enabled: false }, report, missing };
+  persistAudit(auditPayload);
+  if (process.argv.includes("--json")) console.log(JSON.stringify(auditPayload, null, 2));
 } else {
   console.table(report);
 }

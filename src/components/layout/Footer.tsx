@@ -1,9 +1,10 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 import { useLocationCatalog } from "@/services/catalogContext";
 
 export function Footer() {
+  const { t } = useLanguage();
   const stats = useLocationCatalog().locationStats();
   return (
     <footer className="border-t border-white bg-lilac/45">
@@ -96,10 +97,10 @@ export function Footer() {
         <div className="mt-14 flex flex-col gap-4 border-t border-line pt-6 md:flex-row md:items-center md:justify-between">
           <p className="label-mono text-concrete">© {new Date().getFullYear()} FRAMEHUNT THAILAND — BANGKOK</p>
           <p className="label-mono text-concrete">
-            {stats.published} LOCATIONS · {stats.provincesCovered} PROVINCES · {stats.verifiedPhotos} PHOTOS
+            {stats.published} {t("LOCATIONS")} · {stats.provincesCovered} {t("PROVINCES")} · {stats.verifiedPhotos} {t("PHOTOS")}
           </p>
           <p className="label-mono text-concrete">
-            {stats.generatedAt && `CORE DATA UPDATED ${new Date(stats.generatedAt).toISOString().slice(0, 10)}`}
+            {stats.generatedAt && `${t("CORE DATA UPDATED")} ${new Date(stats.generatedAt).toISOString().slice(0, 10)}`}
           </p>
         </div>
         <p className="mt-6 max-w-4xl font-sans text-xs leading-relaxed text-concrete"> <Localized text="ภาพถ่ายทุกภาพแสดงพร้อมเครดิต ผู้ถ่าย และใบอนุญาตจากต้นทาง เราไม่ใช้ภาพ AI แทนสถานที่จริง\n          และไม่รับประกันว่าสถานที่ทุกแห่งอนุญาตให้ถ่ายทำเชิงพาณิชย์ — โปรดติดต่อหน่วยงานหรือเจ้าของพื้นที่ก่อนทุกครั้ง" /> </p>

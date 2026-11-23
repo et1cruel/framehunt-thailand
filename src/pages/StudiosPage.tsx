@@ -1,4 +1,4 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -17,6 +17,8 @@ import { useSeo } from "@/lib/useSeo";
 import studiosDirectory from "@/data/studios-directory.json";
 import { DirectoryCover } from "@/components/DirectoryCover";
 import { hasDirectoryCover, useDirectoryCovers } from "@/services/directoryCovers";
+import studioEnglish from "@/i18n/studios.en.json";
+import { provinceLabel } from "@/lib/provinceLabel";
 
 export type Studio = {
   id: string;
@@ -37,6 +39,21 @@ export type Studio = {
 };
 
 const studios = studiosDirectory.studios as Studio[];
+const localizedStudioData = studioEnglish as {
+  studios: Record<string, { name: string; description: string }>;
+  features: Record<string, string>;
+  districts: Record<string, string>;
+};
+
+function formatRate(rate: string, language: "th" | "en") {
+  if (language === "th") return rate;
+  return rate
+    .replaceAll(" / ชม.", " / hour")
+    .replaceAll(" / ชั่วโมง", " / hour")
+    .replaceAll("เริ่มต้น", "From")
+    .replaceAll("สอบถามสถานที่", "Contact venue")
+    .replaceAll("ห้องซ้อมเปียโน", "piano practice room");
+}
 
 const PROVINCE_OPTIONS = [
   { id: "all", label: "ทุกจังหวัด" },
@@ -48,6 +65,18 @@ const PROVINCE_OPTIONS = [
   { id: "สมุทรสาคร", label: "สมุทรสาคร (มหาชัย)" },
 ];
 
+const PROVINCE_SUFFIX_EN: Record<string, string> = {
+  รังสิต: "Rangsit",
+  ศาลายา: "Salaya",
+  มหาชัย: "Mahachai",
+};
+
+function getProvinceOptionLabel(item: (typeof PROVINCE_OPTIONS)[number], language: "th" | "en", t: (text: string) => string) {
+  if (item.id === "all") return t(item.label);
+  const suffix = item.label.match(/\(([^)]+)\)/u)?.[1];
+  return `${provinceLabel(item.id, language)}${suffix ? ` (${language === "en" ? PROVINCE_SUFFIX_EN[suffix] ?? suffix : suffix})` : ""}`;
+}
+
 const FEATURE_TAGS = [
   "ทั้งหมด",
   "ห้องอัดเสียง",
@@ -58,6 +87,7 @@ const FEATURE_TAGS = [
 ];
 
 export default function StudiosPage() {
+  const { t, language } = useLanguage();
   const { data: coverIndex } = useDirectoryCovers();
   const [query, setQuery] = useState("");
   const [selectedProvince, setSelectedProvince] = useState("all");
@@ -83,7 +113,7 @@ export default function StudiosPage() {
     return studios.filter((studio) => {
       const matchText =
         !q ||
-        `${studio.name} ${studio.district} ${studio.province} ${studio.equipment} ${studio.features.join(" ")} ${studio.description}`
+        `${studio.name} ${localizedStudioData.studios[studio.id]?.name ?? ""} ${studio.district} ${studio.province} ${studio.equipment} ${studio.features.join(" ")} ${studio.description} ${localizedStudioData.studios[studio.id]?.description ?? ""}`
           .toLowerCase()
           .includes(q);
 
@@ -114,29 +144,21 @@ export default function StudiosPage() {
         <h1 className="display mt-3 text-4xl md:text-6xl"> <Localized text="ห้องซ้อมดนตรี" /> <span className="text-burnt">.</span>
         </h1>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-concrete sm:text-base">
-          รวมห้องซ้อมดนตรี สตูดิโอบันทึกเสียง และห้องซ้อมวงในกรุงเทพฯ และปริมณฑล 
-          (นนทบุรี, ปทุมธานี, สมุทรปราการ, นครปฐม, สมุทรสาคร) 
-          คัดสรรสตูดิโอที่มีอุปกรณ์ได้มาตรฐาน ทั้งแอมป์หลอด ชุดกลอง คีย์บอร์ด ระบบมอนิเตอร์ 
-          พร้อมภาพถ่ายสถานที่จริง พิกัดแผนที่ และอัตราค่าบริการรายชั่วโมง
-        </p>
+          <Localized text={"รวมห้องซ้อมดนตรี สตูดิโอบันทึกเสียง และห้องซ้อมวงในกรุงเทพฯ และปริมณฑล (นนทบุรี, ปทุมธานี, สมุทรปราการ, นครปฐม, สมุทรสาคร) คัดสรรสตูดิโอที่มีอุปกรณ์ได้มาตรฐาน ทั้งแอมป์หลอด ชุดกลอง คีย์บอร์ด ระบบมอนิเตอร์ พร้อมภาพถ่ายสถานที่จริง พิกัดแผนที่ และอัตราค่าบริการรายชั่วโมง"} /></p>
 
         {/* Quick Highlights */}
         <div className="mt-5 flex flex-wrap gap-2 text-xs text-concrete">
           <span className="clay-control border border-white bg-white/70 px-3 py-2 font-semibold text-acid">
-            {studios.length} ห้องซ้อมในระบบ
-          </span>
+            {studios.length} <Localized text={"ห้องซ้อมในระบบ"} /></span>
           <span className="clay-control border border-white bg-white/70 px-3 py-2">
-            ครอบคลุม 6 จังหวัด (กทม. และ 5 จังหวัดปริมณฑล)
-          </span>
+            <Localized text={"ครอบคลุม 6 จังหวัด (กทม. และ 5 จังหวัดปริมณฑล)"} /></span>
           <span className="clay-control border border-white bg-white/70 px-3 py-2">
-            ราคาเริ่มต้น ฿150 - ฿400 / ชม.
-          </span>
+            <Localized text={"ราคาเริ่มต้น ฿150 - ฿400 / ชม."} /></span>
           <Link
             to="/live-music"
             className="clay-control border border-white bg-white/90 px-3 py-2 font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white"
           >
-            ดูงานดนตรีสดและไลฟ์เฮาส์ →
-          </Link>
+            <Localized text={"ดูงานดนตรีสดและไลฟ์เฮาส์ →"} /></Link>
         </div>
       </section>
 
@@ -155,7 +177,7 @@ export default function StudiosPage() {
                   : "border-white bg-white/75 text-concrete hover:bg-white hover:text-acid"
               }`}
             >
-              <span>{item.label}</span>
+              <span>{getProvinceOptionLabel(item, language, t)}</span>
               <span
                 className={`rounded-full px-1.5 py-0.5 text-[10px] ${
                   active ? "bg-white/20 text-white" : "bg-lilac/70 text-ink"
@@ -171,7 +193,7 @@ export default function StudiosPage() {
       {/* ── SEARCH & FILTER CONTROLS ─────────────────────────────────── */}
       <section
         className="clay-panel my-5 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-[1fr_auto_auto]"
-        aria-label="ตัวกรองห้องซ้อมดนตรี"
+        aria-label={t("ตัวกรองห้องซ้อมดนตรี")}
       >
         <div className="relative">
           <Search
@@ -181,7 +203,7 @@ export default function StudiosPage() {
           <Input
             type="search"
             className="pl-9"
-            placeholder="ค้นหาชื่อห้องซ้อม, ย่าน (เช่น ลาดพร้าว, รังสิต, ศาลายา), ตู้แอมป์, กลอง..."
+            placeholder={t("ค้นหาชื่อห้องซ้อม, ย่าน (เช่น ลาดพร้าว, รังสิต, ศาลายา), ตู้แอมป์, กลอง...")}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
@@ -190,8 +212,7 @@ export default function StudiosPage() {
         {/* Feature quick filter */}
         <div className="flex flex-wrap items-center gap-1.5">
           <span className="flex items-center gap-1 text-xs font-medium text-concrete">
-            <Sliders className="h-3.5 w-3.5" /> ฟีเจอร์:
-          </span>
+            <Sliders className="h-3.5 w-3.5" /> <Localized text={"ฟีเจอร์:"} /></span>
           {FEATURE_TAGS.map((tag) => (
             <button
               key={tag}
@@ -203,24 +224,24 @@ export default function StudiosPage() {
                   : "bg-white/80 text-concrete hover:bg-white hover:text-ink"
               }`}
             >
-              {tag}
+              {language === "en" ? localizedStudioData.features[tag] ?? t(tag) : tag}
             </button>
           ))}
         </div>
 
         {/* Price filter */}
         <div className="flex items-center gap-1.5">
-          <span className="text-xs font-medium text-concrete">งบ:</span>
+          <span className="text-xs font-medium text-concrete"><Localized text={"งบ:"} /></span>
           <select
             className="clay-control h-10 border border-white bg-white/80 px-3 text-xs font-semibold text-ink"
             value={maxPrice ?? ""}
             onChange={(e) => setMaxPrice(e.target.value ? Number(e.target.value) : null)}
           >
-            <option value="">ทุกช่วงราคา</option>
-            <option value="200">ไม่เกิน ฿200 / ชม.</option>
-            <option value="250">ไม่เกิน ฿250 / ชม.</option>
-            <option value="300">ไม่เกิน ฿300 / ชม.</option>
-            <option value="400">ไม่เกิน ฿400 / ชม.</option>
+            <option value=""><Localized text={"ทุกช่วงราคา"} /></option>
+            <option value="200"><Localized text={"ไม่เกิน ฿200 / ชม."} /></option>
+            <option value="250"><Localized text={"ไม่เกิน ฿250 / ชม."} /></option>
+            <option value="300"><Localized text={"ไม่เกิน ฿300 / ชม."} /></option>
+            <option value="400"><Localized text={"ไม่เกิน ฿400 / ชม."} /></option>
           </select>
         </div>
       </section>
@@ -229,23 +250,21 @@ export default function StudiosPage() {
       <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
         <h2 className="text-lg font-bold flex items-center gap-2">
           <Volume2 className="h-5 w-5 text-burnt" />
-          รายชื่อห้องซ้อมดนตรี
-          {selectedProvince !== "all" && (
+          <Localized text={"รายชื่อห้องซ้อมดนตรี"} />{selectedProvince !== "all" && (
             <span className="text-sm font-normal text-concrete">
-              ({selectedProvince})
+              ({provinceLabel(selectedProvince, language)})
             </span>
           )}
         </h2>
-        <p className="text-xs text-concrete"> <Localized text="แสดง" /> {filtered.length} จากทั้งหมด {studios.length} แห่ง
-        </p>
+        <p className="text-xs text-concrete"> <Localized text="แสดง" /> {filtered.length} <Localized text={"จากทั้งหมด"} /> {studios.length} <Localized text={"แห่ง"} /></p>
       </div>
 
       {/* ── STUDIOS GRID ─────────────────────────────────────────────── */}
       {filtered.length === 0 ? (
         <div className="clay-panel p-10 text-center text-concrete">
           <Disc className="mx-auto h-8 w-8 text-concrete opacity-50 animate-pulse" />
-          <p className="mt-3 text-base font-semibold">ไม่พบห้องซ้อมที่ตรงตามเงื่อนไข</p>
-          <p className="mt-1 text-xs">ลองล้างคำค้นหาหรือเปลี่ยนตัวกรองจังหวัด</p>
+          <p className="mt-3 text-base font-semibold"><Localized text={"ไม่พบห้องซ้อมที่ตรงตามเงื่อนไข"} /></p>
+          <p className="mt-1 text-xs"><Localized text={"ลองล้างคำค้นหาหรือเปลี่ยนตัวกรองจังหวัด"} /></p>
           <button
             type="button"
             onClick={() => {
@@ -256,8 +275,7 @@ export default function StudiosPage() {
             }}
             className="clay-control mt-4 inline-block border border-white bg-white px-4 py-2 text-xs font-semibold text-acid"
           >
-            ล้างตัวกรองทั้งหมด
-          </button>
+            <Localized text={"ล้างตัวกรองทั้งหมด"} /></button>
         </div>
       ) : (
         <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -276,21 +294,21 @@ export default function StudiosPage() {
                   <div className="mb-2.5 flex flex-wrap items-center justify-between gap-1.5">
                     <span className="inline-flex items-center gap-1 rounded-full border border-white bg-[#315b50]/10 px-2.5 py-0.5 text-[0.7rem] font-bold text-[#315b50]">
                       <MapPin className="h-3 w-3" />
-                      {studio.district} · {studio.province}
+                      {language === "en" ? localizedStudioData.districts[studio.district] ?? studio.district : studio.district} · {provinceLabel(studio.province, language)}
                     </span>
                     <span className="rounded-full bg-acid/25 px-2.5 py-0.5 text-[0.72rem] font-bold text-ink">
-                      {studio.rates}
+                      {formatRate(studio.rates, language)}
                     </span>
                   </div>
 
                   {/* Studio name */}
                   <h3 className="font-bold text-base leading-snug sm:text-lg">
-                    {studio.name}
+                    {language === "en" ? localizedStudioData.studios[studio.id]?.name ?? studio.name : studio.name}
                   </h3>
 
                   {/* Description */}
                   <p className="mt-2 text-xs leading-relaxed text-concrete">
-                    {studio.description}
+                    {language === "en" ? localizedStudioData.studios[studio.id]?.description ?? studio.description : studio.description}
                   </p>
 
                   {/* Features list */}
@@ -300,7 +318,7 @@ export default function StudiosPage() {
                         key={feature}
                         className="rounded-md border border-white/60 bg-white/70 px-2 py-0.5 text-[0.68rem] font-medium text-concrete"
                       >
-                        {feature}
+                        {language === "en" ? localizedStudioData.features[feature] ?? feature : feature}
                       </span>
                     ))}
                   </div>
@@ -308,15 +326,14 @@ export default function StudiosPage() {
                   {/* Equipment highlight box */}
                   <div className="mt-3 rounded-xl border border-white/80 bg-lilac/30 p-2.5 text-[0.72rem] leading-relaxed text-concrete">
                     <span className="font-semibold text-ink flex items-center gap-1 mb-0.5">
-                      <Volume2 className="h-3 w-3 text-burnt" /> อุปกรณ์เด่น:
-                    </span>
+                      <Volume2 className="h-3 w-3 text-burnt" /> <Localized text={"อุปกรณ์เด่น:"} /></span>
                     {studio.equipment}
                   </div>
 
                   {/* Address */}
                   <p className="mt-2.5 text-[0.7rem] text-concrete/80 flex items-start gap-1">
                     <MapPin className="h-3 w-3 shrink-0 mt-0.5 text-concrete" />
-                    <span>{studio.address}</span>
+                    <span>{language === "en" ? "Address (Thai): " : ""}{studio.address}</span>
                   </p>
                 </div>
 
@@ -338,7 +355,7 @@ export default function StudiosPage() {
                         rel="noreferrer"
                         className="clay-control inline-flex items-center gap-1 border border-white bg-white/85 px-2.5 py-1.5 text-xs font-semibold text-[#315b50] hover:bg-[#315b50] hover:text-white"
                       >
-                        ข้อมูล/ติดต่อ <ArrowUpRight className="h-3 w-3" />
+                        <Localized text={"ข้อมูล/ติดต่อ"} /> <ArrowUpRight className="h-3 w-3" />
                       </a>
                     )}
                   </div>
@@ -362,21 +379,16 @@ export default function StudiosPage() {
       {/* ── FOOTER GUIDE / TIPS ──────────────────────────────────────── */}
       <aside className="mt-10 rounded-2xl border border-white/80 bg-white/60 p-5 text-xs leading-relaxed text-concrete">
         <p className="flex items-center gap-2 font-semibold text-[#315b50] text-sm">
-          <Sparkles className="h-4 w-4" aria-hidden /> เกร็ดแนะนำสำหรับนักดนตรีในการจองห้องซ้อม
-        </p>
+          <Sparkles className="h-4 w-4" aria-hidden /> <Localized text={"เกร็ดแนะนำสำหรับนักดนตรีในการจองห้องซ้อม"} /></p>
         <ul className="mt-2.5 space-y-1.5 list-disc list-inside">
           <li>
-            <strong>ควรโทรหรือทักแชทจองคิวล่วงหน้า:</strong> โดยเฉพาะช่วงวันหยุดสุดสัปดาห์ เสาร์-อาทิตย์ และช่วงเย็นหลังเลิกงานหรือเลิกเรียน คิวจะเต็มเร็วมาก
-          </li>
+            <strong><Localized text={"ควรโทรหรือทักแชทจองคิวล่วงหน้า:"} /></strong> <Localized text={"โดยเฉพาะช่วงวันหยุดสุดสัปดาห์ เสาร์-อาทิตย์ และช่วงเย็นหลังเลิกงานหรือเลิกเรียน คิวจะเต็มเร็วมาก"} /></li>
           <li>
-            <strong>ส่วนลดนักเรียน/นักศึกษา:</strong> ห้องซ้อมใกล้มหาวิทยาลัย (เช่น ม.กรุงเทพ, ม.ศิลปากร, ม.มหิดล, สจล.) มักมีโปรโมชั่นหรือราคาพิเศษเพียงแสดงบัตรนักศึกษา
-          </li>
+            <strong><Localized text={"ส่วนลดนักเรียน/นักศึกษา:"} /></strong> <Localized text={"ห้องซ้อมใกล้มหาวิทยาลัย (เช่น ม.กรุงเทพ, ม.ศิลปากร, ม.มหิดล, สจล.) มักมีโปรโมชั่นหรือราคาพิเศษเพียงแสดงบัตรนักศึกษา"} /></li>
           <li>
-            <strong>การบันทึกเสียงและ Live Session:</strong> หากต้องการอัดเสียงแบบ Multi-track หรือบันทึกภาพ แนะนำสตูดิโอที่มี Control Room เช่น Minerva, Polarbear, Vintage Studio, หรือ The Overlook Salaya
-          </li>
+            <strong><Localized text={"การบันทึกเสียงและ Live Session:"} /></strong> <Localized text={"หากต้องการอัดเสียงแบบ Multi-track หรือบันทึกภาพ แนะนำสตูดิโอที่มี Control Room เช่น Minerva, Polarbear, Vintage Studio, หรือ The Overlook Salaya"} /></li>
           <li>
-            <strong>เตรียมอุปกรณ์ส่วนตัว:</strong> แนะนำให้นำปิ๊กกีตาร์ ไม้กลอง สายสะพาย และสายแจ็คสำรองของตัวเองไปด้วยเพื่อความคุ้นมือและพร้อมลุย
-          </li>
+            <strong><Localized text={"เตรียมอุปกรณ์ส่วนตัว:"} /></strong> <Localized text={"แนะนำให้นำปิ๊กกีตาร์ ไม้กลอง สายสะพาย และสายแจ็คสำรองของตัวเองไปด้วยเพื่อความคุ้นมือและพร้อมลุย"} /></li>
         </ul>
       </aside>
     </div>

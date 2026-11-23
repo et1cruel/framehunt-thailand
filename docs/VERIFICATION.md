@@ -501,3 +501,57 @@ returned HTTP 200. The hashed app bundle and directory-cover JSON both returned
 HTTP 200 with `Cache-Control: public, max-age=31536000, immutable`. This checks
 the deployed shell and assets; it is not an authenticated Supabase or complete
 visitor-flow test.
+
+---
+
+## 2026-11-23 completion-gap audit
+
+This pass added `docs/MASTER_PROMPT_COMPLETION_GAPS.md`, a repeatable audit for
+photo identity, source/licence evidence, external URL health and English
+location data. It keeps missing, unreachable, blocked/unknown, wrong-content,
+licence-unknown and pending-review evidence distinct. It does not treat a
+search-result URL or an HTTP image response as proof of photo identity or reuse
+rights.
+
+`npm run audit:directory-covers -- --check-urls --write-report=data/reports/directory-cover-audit-2026-11-23.json`
+attempted all **2,125 unique remote image URLs**. The result was **333 reachable
+image responses, 1,780 blocked or unknown, 11 unavailable and 1 non-image
+response**. Blocked or unknown means the host or network prevented a reliable
+answer; it is not counted as a broken URL. The generated per-URL report records
+the result and the per-directory missing-record lists.
+
+The audit command now supports a bounded URL sample, up to three retries for
+transient HTTP responses, and resumable checkpoints. A 12-URL sample verified
+the new flags. A second full retry pass was stopped at 150/2,125 because
+blocked hosts made it too slow; the saved complete report remains the initial
+full pass above, with no retry claimed for that report. Timeouts and 403
+responses remain `blocked or unknown`.
+
+The latest cover audit still reports these gaps:
+
+| Directory | Cover URLs present | Entries | Missing URLs | Missing explicit license metadata |
+| --- | ---: | ---: | ---: | ---: |
+| Core published locations | 582 | 582 | 0 | 0 |
+| Secondhand | 56 | 224 | 168 | 56 |
+| Food | 518 | 595 | 77 | 518 |
+| Activities | 1,100 | 1,620 | 520 | 1,100 |
+| Studios | 12 | 37 | 25 | 12 |
+| Live music posters | 19 | 39 | 20 | 19 |
+| Cave collection leads | 99 | 159 | 60 | 99 |
+| Art collection leads | 22 | 29 | 7 | 22 |
+
+These image gaps remain open. No unverified replacement images were published.
+
+`npm run audit:i18n -- --strict` passed with zero untranslated static JSX text
+or attributes, 582/582 published English names and descriptions, 31/31 detailed
+activity descriptions and notes, 37/37 studio names and descriptions, all
+studio districts transliterated, 92/92 studio feature translations, and 30/30
+camera-note titles and directions.
+Proper names may remain in their source script. Supplemental directory-only
+addresses and descriptions are not included in the “complete English” claim and
+still need review.
+
+`npm run build` passed after these changes. The build continues to emit the
+existing large-chunk advisory for MapLibre and the admin-only dataset. The
+English preview was checked on the homepage and rehearsal-studio listing; this
+was not a complete manual pass through every route or mobile breakpoint.

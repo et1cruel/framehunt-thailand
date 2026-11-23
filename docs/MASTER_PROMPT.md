@@ -9,6 +9,10 @@
 [`MASTER_PROMPT_UX_UI_MOTION.md`](MASTER_PROMPT_UX_UI_MOTION.md) ให้ใช้ควบคู่กับ
 prompt นี้เมื่อแก้หน้าเว็บ การนำทาง การ์ด แกลเลอรี หรือ animation
 
+เมื่อทำงานปิดช่องว่างภาพ/ใบอนุญาตและภาษาอังกฤษ ให้ใช้
+[`MASTER_PROMPT_COMPLETION_GAPS.md`](MASTER_PROMPT_COMPLETION_GAPS.md)
+ควบคู่ด้วย
+
 ## บทบาทและเป้าหมาย
 
 ทำหน้าที่เป็น product engineer, researcher และ designer ที่รับผิดชอบผลลัพธ์

@@ -35,6 +35,7 @@ export function SearchBar({
   className,
   showButton = true,
 }: Props) {
+  const { t } = useLanguage();
   const { language } = useLanguage();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
@@ -101,7 +102,7 @@ export function SearchBar({
             }
           }}
           placeholder={language === "en" && placeholder === "ชื่อสถานที่ จังหวัด หรือบรรยากาศ…" ? "Place, province or mood…" : placeholder}
-          aria-label="ค้นหาโลเคชัน"
+          aria-label={t("ค้นหาโลเคชัน")}
           aria-autocomplete="list"
           aria-expanded={open && items.length > 0}
           aria-controls="search-suggestions"
@@ -115,7 +116,7 @@ export function SearchBar({
               setOpen(false);
             }}
             className="mr-1 flex h-8 w-8 items-center justify-center text-concrete hover:text-paper"
-            aria-label="ล้างคำค้นหา"
+            aria-label={t("ล้างคำค้นหา")}
           >
             <X className="h-4 w-4" />
           </button>
@@ -123,7 +124,7 @@ export function SearchBar({
         {showButton && (
           <button
             type="submit"
-            aria-label="ค้นหา"
+            aria-label={t("ค้นหา")}
             className={cn(
               "mr-1.5 flex shrink-0 items-center gap-2 rounded-xl bg-acid text-sm font-semibold text-ink transition-colors hover:bg-paper",
               size === "lg" ? "h-11 px-3 sm:px-4" : "h-9 px-3",

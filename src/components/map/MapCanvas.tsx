@@ -1,3 +1,4 @@
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useEffect, useRef, useState } from "react";
 import maplibregl, { type LngLatBoundsLike, type Map as MapLibreMap } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -37,6 +38,7 @@ export function MapCanvas({
   focus,
   interactive = true,
 }: Props) {
+  const { t } = useLanguage();
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const [ready, setReady] = useState(false);
@@ -295,7 +297,7 @@ export function MapCanvas({
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-ink p-6 text-center">
           <p className="font-display text-xl">MAP TILES UNAVAILABLE</p>
           <p className="max-w-sm font-sans text-xs text-concrete">
-            โหลดแผนที่ไม่ได้ในขณะนี้ — รายการสถานที่ยังใช้งานได้ปกติ ตรวจสอบการเชื่อมต่อหรือตั้งค่า{" "}
+            <Localized text={"โหลดแผนที่ไม่ได้ในขณะนี้ — รายการสถานที่ยังใช้งานได้ปกติ ตรวจสอบการเชื่อมต่อหรือตั้งค่า"} />{" "}
             <code className="text-acid">VITE_MAP_STYLE_URL</code>
           </p>
         </div>
@@ -306,8 +308,8 @@ export function MapCanvas({
           type="button"
           onClick={locateMe}
           className="absolute bottom-6 right-4 z-10 flex rounded-xl shadow-clay h-10 w-10 items-center justify-center border border-line bg-ink/90 text-concrete backdrop-blur transition-colors hover:border-acid hover:text-acid"
-          aria-label="ใช้ตำแหน่งปัจจุบันของฉัน"
-          title="ใช้ตำแหน่งปัจจุบัน"
+          aria-label={t("ใช้ตำแหน่งปัจจุบันของฉัน")}
+          title={t("ใช้ตำแหน่งปัจจุบัน")}
         >
           {locating ? <Loader2 className="h-4 w-4 animate-spin" /> : <Crosshair className="h-4 w-4" />}
         </button>

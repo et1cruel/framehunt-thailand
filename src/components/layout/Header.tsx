@@ -52,7 +52,7 @@ export function Header() {
   return (
     <header className="site-header sticky top-0 z-40 px-3 pt-2 sm:px-5 sm:pt-3">
       <div className="glass-panel mx-auto flex min-h-[4.15rem] max-w-[89rem] items-center justify-between gap-2 px-2.5 sm:px-4">
-        <Link to="/" className="flex min-w-0 items-center gap-2.5" aria-label="FRAMEHUNT THAILAND — หน้าแรก">
+        <Link to="/" className="flex min-w-0 items-center gap-2.5" aria-label={t("FRAMEHUNT THAILAND — หน้าแรก")}>
           <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-acid text-ink shadow-clay">
             <Focus className="h-5 w-5" aria-hidden />
           </span>
@@ -111,7 +111,7 @@ export function Header() {
         </nav>
 
         <div className="flex shrink-0 gap-1.5"><div role="group" aria-label="Language" className="flex items-center rounded-xl bg-white/80 p-1">{(["en", "th"] as const).map((code) => <button key={code} type="button" aria-label={code === "en" ? "English" : "ภาษาไทย"} aria-pressed={language === code} onClick={() => setLanguage(code)} className={cn("rounded-lg px-2 py-2 text-xs font-bold text-acid", language === code && "bg-sage")}>{code.toUpperCase()}</button>)}</div>
-          <Link to="/explore" className={cn(iconClass, "hidden sm:grid")} aria-label="ไปหน้าค้นหา">
+          <Link to="/explore" className={cn(iconClass, "hidden sm:grid")} aria-label={t("ไปหน้าค้นหา")}>
             <Search className="h-4 w-4" />
           </Link>
           <Link to="/boards" className={iconClass} aria-label={"รายการโปรด " + favorites.length + " รายการ"}>
@@ -125,13 +125,13 @@ export function Header() {
 
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
-              <button type="button" className={cn(iconClass, "lg:hidden")} aria-label="เปิดเมนู">
+              <button type="button" className={cn(iconClass, "lg:hidden")} aria-label={t("เปิดเมนู")}>
                 <Menu className="h-5 w-5" />
               </button>
             </DialogTrigger>
             <DialogContent className="max-w-md" aria-describedby={undefined}>
               <DialogTitle className="mb-5 pr-12 font-display text-2xl"> <Localized text="เมนู Framehunt" /> </DialogTitle>
-              <nav className="grid gap-2" aria-label="เมนูมือถือ">
+              <nav className="grid gap-2" aria-label={t("เมนูมือถือ")}>
                 {NAV.map((item) => (
                   <NavLink
                     key={item.to}

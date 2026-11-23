@@ -1,4 +1,4 @@
-import { useLanguage } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import { Heart, MapPin, Camera, ImageOff } from "lucide-react";
@@ -173,7 +173,7 @@ function HoverPhotos({ location, cover, sizes, focusActive = false }: { location
 }
 
 export function LocationCard({ location, variant = "grid", distanceKm, className }: Props) {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const { isFavorite, toggle } = useFavorites();
   const saved = isFavorite(location.id);
   const [cardFocused, setCardFocused] = useState(false);
@@ -307,13 +307,12 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-3 text-xs text-concrete">
           <span className="flex min-w-0 items-center gap-1.5">
             <MapPin className="h-3.5 w-3.5 shrink-0 text-acid" />
-            <span className="truncate">{location.district ?? location.province_th}</span>
+            <span className="truncate">{language === "en" ? t(location.district ?? location.province) : location.district ?? location.province_th}</span>
             {distanceKm != null && <span className="shrink-0">· {formatKm(distanceKm)}</span>}
           </span>
           <span className="flex items-center gap-1.5">
             <Camera className="h-3.5 w-3.5 text-acid" />
-            {location.photo_count} ภาพ
-          </span>
+            {location.photo_count} <Localized text={"ภาพ"} /></span>
         </div>
       </div>
     </article>

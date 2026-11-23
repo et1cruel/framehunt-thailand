@@ -2,7 +2,7 @@
 
 **Find your next frame.** A cinematic location database for music videos, film and photo shoots across Thailand — built around one rule: _no verified photos, no publication._
 
-Soft glass and clay surfaces frame real location photography. Thai-first UI with English content.
+Soft glass and clay surfaces frame real location photography. Thai and English UI with a reviewed English layer for the published location catalogue.
 
 For product-wide implementation standards and evidence-led delivery, see
 [`docs/MASTER_PROMPT.md`](docs/MASTER_PROMPT.md). For focused UX/UI and motion
@@ -55,6 +55,28 @@ from that same place. The archive retains the photo credits, licences and source
 links. Draft and review records remain in the lazy-loaded admin route. Both
 catalogue and gallery assets use immutable caching because their URLs change
 whenever their contents change.
+
+## Image coverage and English data
+
+`npm run audit:directory-covers` reports missing cover URLs separately from
+source, credit and explicit-license metadata. As of 2026-11-23, cover URLs are
+still missing for 168 secondhand shops, 77 restaurants, 520 activities, 25
+studios, 20 event posters, 60 cave leads and 7 art-space leads. A full HTTP
+check attempted all 2,125 unique remote image URLs: 333 returned an image,
+1,780 were blocked or inconclusive, 11 were unavailable and 1 returned a
+non-image response. A successful URL response does not prove that an image
+shows the named place or that its licence permits reuse.
+The URL audit supports resumable checkpoints, a `--limit` sample and bounded
+`--retries=1` for transient HTTP responses; timeout and access-denied results
+remain blocked/unknown.
+
+Run `npm run audit:i18n -- --strict` for the translation inventory. It checks
+static JSX and attributes, names/descriptions for all 582 published places,
+the 31 detailed activity entries, all 37 studio descriptions and 30 camera
+notes. Official names can remain in their original script. Supplemental venue
+addresses and some directory-only descriptions still require English review;
+the strict audit does not claim that every piece of third-party directory data
+has been translated.
 
 In the 2026-11-23 build, the app entry chunk is **217.98 KB gzip**; the new
 cover-only catalogue is **4.55 MB raw / 631 KB gzip / 370 KB Brotli**. That is

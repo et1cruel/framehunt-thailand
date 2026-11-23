@@ -1,6 +1,6 @@
-import { useLanguage } from "@/i18n/Language";
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { frameNotes } from "@/data/frame-notes";
+import frameNotesEnglish from "@/i18n/frame-notes.en.json";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import {
@@ -48,25 +48,27 @@ import { formatCoords, formatKm, formatThaiDate, haversineKm, uid } from "@/lib/
 import { useSeo } from "@/lib/useSeo";
 import { cn } from "@/lib/utils";
 import { isSupabaseConfigured } from "@/lib/supabase";
+import { provinceLabel } from "@/lib/provinceLabel";
 
 const UNKNOWN = "ยังไม่มีข้อมูลยืนยัน";
 
 function TriRow({ label, value, note }: { label: string; value: string; note?: string }) {
+  const { t } = useLanguage();
   const known = value !== "unknown";
   const th = value === "yes" ? "ได้" : value === "no" ? "ไม่ได้" : UNKNOWN;
   return (
     <div className="grid grid-cols-[1fr_auto] gap-4 border-b border-line py-3">
       <div>
-        <p className="font-sans text-sm text-concrete">{label}</p>
-        {note && <p className="mt-0.5 font-sans text-xs leading-relaxed text-concrete">{note}</p>}
+        <p className="font-sans text-sm text-concrete">{t(label)}</p>
+        {note && <p className="mt-0.5 font-sans text-xs leading-relaxed text-concrete">{t(note)}</p>}
       </div>
-      <span className={cn("font-mono text-xs tracking-normal", known ? "text-acid" : "text-concrete")}>{th}</span>
+      <span className={cn("font-mono text-xs tracking-normal", known ? "text-acid" : "text-concrete")}>{t(th)}</span>
     </div>
   );
 }
 
 export default function LocationDetailPage() {
-  const { language } = useLanguage();
+  const { t, language } = useLanguage();
   const { getLocation, nearbyLocations } = useLocationCatalog();
   const { slug = "" } = useParams();
   const navigate = useNavigate();
@@ -103,8 +105,8 @@ export default function LocationDetailPage() {
   const nearby = useMemo(() => (location ? nearbyLocations(location, 4) : []), [location, nearbyLocations]);
 
   useSeo({
-    title: location ? `${language === "en" ? location.name_en || location.name_th : location.name_th} — ${language === "en" ? location.province : location.province_th}` : "ไม่พบสถานที่",
-    description: location?.description_th,
+    title: location ? `${language === "en" ? location.name_en || location.name_th : location.name_th} — ${language === "en" ? location.province : location.province_th}` : language === "en" ? "Place not found" : "ไม่พบสถานที่",
+    description: language === "en" ? location?.description_en || location?.description_th : location?.description_th,
     image: galleryPhotos[0]?.image_url ?? location?.photos[0]?.image_url,
     canonical: location ? `${window.location.origin}/locations/${location.slug}` : undefined,
     noindex: !location,
@@ -134,10 +136,9 @@ export default function LocationDetailPage() {
         <p className="label-mono text-burnt">404 / NOT PUBLISHED</p>
         <h1 className="mt-4 display text-5xl md:text-7xl">FRAME NOT FOUND.</h1>
         <p className="mt-4 max-w-md font-sans text-sm leading-relaxed text-concrete">
-          สถานที่นี้ไม่มีอยู่ในฐานข้อมูลที่เผยแพร่ หรือยังอยู่ระหว่างตรวจสอบข้อมูล
-        </p>
+          <Localized text={"สถานที่นี้ไม่มีอยู่ในฐานข้อมูลที่เผยแพร่ หรือยังอยู่ระหว่างตรวจสอบข้อมูล"} /></p>
         <div className="mt-7 flex gap-2">
-          <Button onClick={() => navigate("/explore")}>กลับไปค้นหา</Button>
+          <Button onClick={() => navigate("/explore")}><Localized text={"กลับไปค้นหา"} /></Button>
           <Button variant="outline" onClick={() => navigate("/map")}> <Localized text="เปิดแผนที่" /> </Button>
         </div>
       </div>
@@ -146,6 +147,9 @@ export default function LocationDetailPage() {
 
   const cover = location.photos.find((p) => p.is_cover) ?? location.photos[0];
   const frame = frameNotes[location.slug];
+  const localizedFrame = language === "en"
+    ? (frameNotesEnglish as Record<string, { title: string; direction: string }>)[location.slug] ?? frame
+    : frame;
   const framePhoto = frame && galleryPhotos.find((photo) => photo.id === frame.photoId && photo.is_verified);
   const saved = isFavorite(location.id);
   const shareUrl = `${window.location.origin}/locations/${location.slug}`;
@@ -279,7 +283,7 @@ export default function LocationDetailPage() {
               <p className="mt-2 font-sans text-sm text-concrete md:text-base">{location.name_en}</p>
               <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-xs tracking-normal text-concrete">
                 <span className="flex items-center gap-1">
-                  <MapPin className="h-3 w-3" /> {location.district ? `${location.district}, ` : ""}
+                  <MapPin className="h-3 w-3" /> {location.district ? `${language === "en" ? t(location.district) : location.district}, ` : ""}
                   {language === "en" ? location.province : location.province_th}
                 </span>
                 <span className="flex items-center gap-1">
@@ -303,7 +307,7 @@ export default function LocationDetailPage() {
               <Button variant="outline" onClick={() => setBoardOpen(true)}>
                 <Plus className="h-4 w-4" /> ADD TO BOARD
               </Button>
-              <Button variant="outline" onClick={share} aria-label="แชร์สถานที่">
+              <Button variant="outline" onClick={share} aria-label={t("แชร์สถานที่")}>
                 <Share2 className="h-4 w-4" />
               </Button>
             </div>
@@ -318,26 +322,24 @@ export default function LocationDetailPage() {
             <div className="mb-4 flex flex-wrap items-end justify-between gap-2 border-b border-line pb-3">
               <div>
                 <p className="label-mono text-acid">FRAME ARCHIVE</p>
-                <h2 className="mt-1 font-display text-2xl font-extrabold">ภาพถ่ายสถานที่จริง</h2>
+                <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"ภาพถ่ายสถานที่จริง"} /></h2>
               </div>
               <p className="font-mono text-xs tracking-normal text-concrete">
-                {location.photo_count} ภาพ · ตรวจสอบเครดิตแล้ว
-              </p>
+                {location.photo_count} <Localized text={"ภาพ · ตรวจสอบเครดิตแล้ว"} /></p>
             </div>
             <PhotoGallery photos={galleryPhotos.length ? galleryPhotos : location.photos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} locationName={language === "en" ? location.name_en || location.name_th : location.name_th} />
             {frame && framePhoto && (
               <div className="clay-panel mt-5 p-5">
-                <h3 className="text-sm font-bold text-acid">มุมกล้องที่คัดไว้</h3>
-                <p className="mt-2 font-semibold">{frame.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-concrete">{frame.direction}</p>
+                <h3 className="text-sm font-bold text-acid"><Localized text={"มุมกล้องที่คัดไว้"} /></h3>
+                <p className="mt-2 font-semibold">{localizedFrame?.title}</p>
+                <p className="mt-2 text-sm leading-relaxed text-concrete">{localizedFrame?.direction}</p>
                 <a
                   className="mt-3 inline-block text-xs text-concrete underline hover:text-acid"
                   href={framePhoto.source_page_url}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  ดูภาพอ้างอิงและเครดิต
-                </a>
+                  <Localized text={"ดูภาพอ้างอิงและเครดิต"} /></a>
               </div>
             )}
           </section>
@@ -345,7 +347,7 @@ export default function LocationDetailPage() {
           <section>
             <div className="border-b border-line pb-3">
               <p className="label-mono text-acid">ABOUT THE PLACE</p>
-              <h2 className="mt-1 font-display text-2xl font-extrabold">เกี่ยวกับสถานที่</h2>
+              <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"เกี่ยวกับสถานที่"} /></h2>
             </div>
             <p className="mt-5 max-w-3xl whitespace-pre-line font-sans text-[15px] leading-[1.9] text-concrete">
               {language === "en" ? location.description_en || location.description_th : location.description_th}
@@ -390,25 +392,24 @@ export default function LocationDetailPage() {
           <section>
             <div className="border-b border-line pb-3">
               <p className="label-mono text-acid">PRODUCTION NOTES</p>
-              <h2 className="mt-1 font-display text-2xl font-extrabold">ข้อมูลสำหรับกองถ่าย</h2>
+              <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"ข้อมูลสำหรับกองถ่าย"} /></h2>
             </div>
             <p className="mt-3 max-w-2xl font-sans text-xs leading-relaxed text-concrete">
-              ข้อมูลต่อไปนี้แยกจาก “สถานที่เปิดให้ท่องเที่ยว” อย่างชัดเจน — ช่องที่ยังไม่มีหลักฐานจะแสดงว่า{" "}
-              <span className="text-concrete">{UNKNOWN}</span> และไม่ถูกใช้เป็นข้อสรุปว่าถ่ายเชิงพาณิชย์ได้
-            </p>
+              <Localized text={"ข้อมูลต่อไปนี้แยกจาก “สถานที่เปิดให้ท่องเที่ยว” อย่างชัดเจน — ช่องที่ยังไม่มีหลักฐานจะแสดงว่า"} />{" "}
+              <span className="text-concrete">{UNKNOWN}</span> <Localized text={"และไม่ถูกใช้เป็นข้อสรุปว่าถ่ายเชิงพาณิชย์ได้"} /></p>
 
             <div className="mt-5 grid gap-x-8 md:grid-cols-2">
               <div>
-                <TriRow label="ใช้ไฟเสริมได้" value={location.filming.artificial_light_allowed} />
-                <TriRow label="อุปกรณ์ขนาดใหญ่" value={location.filming.large_equipment_allowed} />
-                <TriRow label="ใช้โดรน" value={location.filming.drone_allowed} note={location.filming.drone_note} />
-                <TriRow label="ข้อจำกัดด้านเสียง" value={location.filming.sound_restrictions} />
+                <TriRow label={t("ใช้ไฟเสริมได้")} value={location.filming.artificial_light_allowed} />
+                <TriRow label={t("อุปกรณ์ขนาดใหญ่")} value={location.filming.large_equipment_allowed} />
+                <TriRow label={t("ใช้โดรน")} value={location.filming.drone_allowed} note={location.filming.drone_note} />
+                <TriRow label={t("ข้อจำกัดด้านเสียง")} value={location.filming.sound_restrictions} />
               </div>
               <div>
-                <TriRow label="ห้องแต่งตัว" value={location.filming.dressing_room} />
-                <TriRow label="ที่จอดรถ" value={location.filming.parking} />
-                <TriRow label="ขนาดทีมที่เหมาะสม" value={location.filming.crew_size} />
-                <TriRow label="ช่วงแสงที่แนะนำ" value={location.filming.best_light_window ? "yes" : "unknown"} />
+                <TriRow label={t("ห้องแต่งตัว")} value={location.filming.dressing_room} />
+                <TriRow label={t("ที่จอดรถ")} value={location.filming.parking} />
+                <TriRow label={t("ขนาดทีมที่เหมาะสม")} value={location.filming.crew_size} />
+                <TriRow label={t("ช่วงแสงที่แนะนำ")} value={location.filming.best_light_window ? "yes" : "unknown"} />
               </div>
             </div>
 
@@ -426,8 +427,7 @@ export default function LocationDetailPage() {
                 ))}
               </ul>
               <p className="mt-4 font-mono text-xs tracking-normal text-concrete">
-                คำแนะนำจากหมวดหมู่สถานที่ ไม่ใช่การรับประกันสภาพแสงหน้างาน
-              </p>
+                <Localized text={"คำแนะนำจากหมวดหมู่สถานที่ ไม่ใช่การรับประกันสภาพแสงหน้างาน"} /></p>
             </div>
           </section>
 
@@ -435,7 +435,7 @@ export default function LocationDetailPage() {
           <section>
             <div className="border-b border-line pb-3">
               <p className="label-mono text-burnt">ACCESS & PERMISSION</p>
-              <h2 className="mt-1 font-display text-2xl font-extrabold">การเข้าถึงและการขออนุญาต</h2>
+              <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"การเข้าถึงและการขออนุญาต"} /></h2>
             </div>
 
             <div className="mt-5 border border-burnt/30 bg-burnt/[0.04] p-5">
@@ -446,21 +446,19 @@ export default function LocationDetailPage() {
                   CHECKED {formatThaiDate(permission.verified_at)}
                 </span>
               </div>
-              <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">{permission.note}</p>
+              <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">{t(permission.note)}</p>
               <div className="mt-4 grid gap-4 border-t border-burnt/20 pt-4 sm:grid-cols-2">
                 <div>
-                  <p className="label-mono text-concrete">หน่วยงานที่ควรติดต่อ</p>
-                  <p className="mt-1 font-sans text-sm text-concrete">{permission.contact_details ?? UNKNOWN}</p>
+                  <p className="label-mono text-concrete"><Localized text={"หน่วยงานที่ควรติดต่อ"} /></p>
+                  <p className="mt-1 font-sans text-sm text-concrete">{t(permission.contact_details ?? UNKNOWN)}</p>
                 </div>
                 <div>
-                  <p className="label-mono text-concrete">ค่าธรรมเนียม</p>
-                  <p className="mt-1 font-sans text-sm text-concrete">{location.estimated_cost ?? UNKNOWN}</p>
+                  <p className="label-mono text-concrete"><Localized text={"ค่าธรรมเนียม"} /></p>
+                  <p className="mt-1 font-sans text-sm text-concrete">{t(location.estimated_cost ?? UNKNOWN)}</p>
                 </div>
               </div>
               <p className="mt-4 font-sans text-xs leading-relaxed text-concrete">
-                การเปิดให้ประชาชนเข้าชมไม่ได้หมายความว่าอนุญาตให้ถ่ายทำเชิงพาณิชย์ โปรดติดต่อเจ้าของพื้นที่หรือหน่วยงานรัฐที่ดูแล
-                และขอหนังสืออนุญาตเป็นลายลักษณ์อักษรก่อนวันถ่าย
-              </p>
+                <Localized text={"การเปิดให้ประชาชนเข้าชมไม่ได้หมายความว่าอนุญาตให้ถ่ายทำเชิงพาณิชย์ โปรดติดต่อเจ้าของพื้นที่หรือหน่วยงานรัฐที่ดูแล และขอหนังสืออนุญาตเป็นลายลักษณ์อักษรก่อนวันถ่าย"} /></p>
             </div>
           </section>
 
@@ -468,7 +466,7 @@ export default function LocationDetailPage() {
           <section>
             <div className="border-b border-line pb-3">
               <p className="label-mono text-acid">COORDINATES</p>
-              <h2 className="mt-1 font-display text-2xl font-extrabold">แผนที่และเส้นทาง</h2>
+              <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"แผนที่และเส้นทาง"} /></h2>
             </div>
             <div className="mt-5">
               <MapCanvas
@@ -527,11 +525,11 @@ export default function LocationDetailPage() {
           <section>
             <div className="border-b border-line pb-3">
               <p className="label-mono text-acid">CREATIVE DIRECTION</p>
-              <h2 className="mt-1 font-display text-2xl font-extrabold">แนะนำสำหรับ MV</h2>
+              <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"แนะนำสำหรับ MV"} /></h2>
             </div>
             <div className="mt-5 grid gap-6 sm:grid-cols-2">
               <div>
-                <p className="label-mono text-concrete">MOOD ที่ตรงที่สุด</p>
+                <p className="label-mono text-concrete"><Localized text={"MOOD ที่ตรงที่สุด"} /></p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {[...location.moods]
                     .sort((a, b) => b.relevance_score - a.relevance_score)
@@ -569,7 +567,7 @@ export default function LocationDetailPage() {
                   <CloudSun className="h-4 w-4 text-acid" />
                   <p className="label-mono text-concrete">LIGHT WINDOW</p>
                 </div>
-                <p className="mt-2 font-sans text-sm text-concrete">{location.creative.light_window_note}</p>
+                <p className="mt-2 font-sans text-sm text-concrete">{t(location.creative.light_window_note)}</p>
               </div>
               <div className="border border-line p-4">
                 <div className="flex items-center gap-2">
@@ -577,8 +575,7 @@ export default function LocationDetailPage() {
                   <p className="label-mono text-concrete">SOUND & CREW</p>
                 </div>
                 <p className="mt-2 font-sans text-sm text-concrete">
-                  ข้อจำกัดเสียงและขนาดทีม: {UNKNOWN} — ควรแจ้งทีมงานล่วงหน้าและขออนุญาตเป็นลายลักษณ์อักษร
-                </p>
+                  <Localized text={"ข้อจำกัดเสียงและขนาดทีม:"} /> {UNKNOWN} <Localized text={"— ควรแจ้งทีมงานล่วงหน้าและขออนุญาตเป็นลายลักษณ์อักษร"} /></p>
               </div>
             </div>
           </section>
@@ -587,7 +584,7 @@ export default function LocationDetailPage() {
           <section>
             <div className="border-b border-line pb-3">
               <p className="label-mono text-acid">EVIDENCE</p>
-              <h2 className="mt-1 font-display text-2xl font-extrabold">แหล่งข้อมูลและหลักฐาน</h2>
+              <h2 className="mt-1 font-display text-2xl font-extrabold"><Localized text={"แหล่งข้อมูลและหลักฐาน"} /></h2>
             </div>
             <ul className="mt-4 space-y-2">
               {location.sources.map((s) => (
@@ -661,19 +658,19 @@ export default function LocationDetailPage() {
               <p className="label-mono text-concrete">QUICK FACTS</p>
               <dl className="mt-4 space-y-3">
                 {[
-                  { k: "จังหวัด", v: location.province_th },
+                  { k: "จังหวัด", v: provinceLabel(location.province_th, language) },
                   { k: "อำเภอ/เขต", v: location.district ?? UNKNOWN },
                   { k: "พิกัด", v: formatCoords(location.latitude, location.longitude) },
                   { k: "ประเภท", v: location.location_type },
-                  { k: "ภาพที่ยืนยัน", v: `${location.photo_count} ภาพ` },
+                  { k: "ภาพที่ยืนยัน", v: language === "en" ? `${location.photo_count} photos` : `${location.photo_count} ภาพ` },
                   { k: "ตรวจสอบล่าสุด", v: formatThaiDate(location.verified_at) },
                 ].map((row) => (
                   <div
                     key={row.k}
                     className="flex items-start justify-between gap-4 border-b border-line pb-2.5 last:border-0"
                   >
-                    <dt className="font-sans text-xs text-concrete">{row.k}</dt>
-                    <dd className="text-right font-sans text-xs text-paper/75">{row.v}</dd>
+                    <dt className="font-sans text-xs text-concrete">{t(row.k)}</dt>
+                    <dd className="text-right font-sans text-xs text-paper/75">{t(row.v)}</dd>
                   </div>
                 ))}
               </dl>
@@ -694,17 +691,13 @@ export default function LocationDetailPage() {
               </div>
               <ol className="mt-3 space-y-2.5 font-sans text-[12px] leading-relaxed text-concrete">
                 <li>
-                  <span className="text-acid">01</span> ติดต่อเจ้าของพื้นที่/หน่วยงานรัฐ และขออนุญาตเป็นลายลักษณ์อักษร
-                </li>
+                  <span className="text-acid">01</span> <Localized text={"ติดต่อเจ้าของพื้นที่/หน่วยงานรัฐ และขออนุญาตเป็นลายลักษณ์อักษร"} /></li>
                 <li>
-                  <span className="text-acid">02</span> ตรวจสอบกฎโดรนกับ กสทช./กรมการบินพลเรือน
-                </li>
+                  <span className="text-acid">02</span> <Localized text={"ตรวจสอบกฎโดรนกับ กสทช./กรมการบินพลเรือน"} /></li>
                 <li>
-                  <span className="text-acid">03</span> ตรวจสอบข้อห้ามถ่ายในเขตศาสนสถานหรือพื้นที่หวงห้าม
-                </li>
+                  <span className="text-acid">03</span> <Localized text={"ตรวจสอบข้อห้ามถ่ายในเขตศาสนสถานหรือพื้นที่หวงห้าม"} /></li>
                 <li>
-                  <span className="text-acid">04</span> เตรียมแผนสำรองด้านสภาพอากาศและแสง
-                </li>
+                  <span className="text-acid">04</span> <Localized text={"เตรียมแผนสำรองด้านสภาพอากาศและแสง"} /></li>
               </ol>
             </div>
 
@@ -726,8 +719,7 @@ export default function LocationDetailPage() {
             <div className="clay-panel p-5">
               <p className="label-mono text-concrete">TEAM WORKFLOW</p>
               <p className="mt-2 font-sans text-xs leading-relaxed text-concrete">
-                เพิ่มสถานที่นี้ลงบอร์ดโปรเจกต์ ใส่โน้ตลำดับความสำคัญ แล้ว export เป็น shortlist สำหรับทีม
-              </p>
+                <Localized text={"เพิ่มสถานที่นี้ลงบอร์ดโปรเจกต์ ใส่โน้ตลำดับความสำคัญ แล้ว export เป็น shortlist สำหรับทีม"} /></p>
               <Button className="mt-3 w-full" size="sm" onClick={() => setBoardOpen(true)}>
                 <Plus className="h-3.5 w-3.5" /> ADD TO MV BOARD
               </Button>
@@ -740,12 +732,11 @@ export default function LocationDetailPage() {
       <Dialog open={boardOpen} onOpenChange={setBoardOpen}>
         <DialogContent>
           <DialogTitle className="display text-3xl">ADD TO BOARD</DialogTitle>
-          <p className="mt-2 font-sans text-sm text-concrete">เลือกบอร์ดโปรเจกต์ หรือสร้างใหม่สำหรับ MV นี้</p>
+          <p className="mt-2 font-sans text-sm text-concrete"><Localized text={"เลือกบอร์ดโปรเจกต์ หรือสร้างใหม่สำหรับ MV นี้"} /></p>
           <div className="mt-6 space-y-2">
             {allBoards.length === 0 && (
               <p className="border border-dashed border-paper/15 p-4 font-sans text-sm text-concrete">
-                ยังไม่มีบอร์ด — สร้างบอร์ดแรกด้านล่าง
-              </p>
+                <Localized text={"ยังไม่มีบอร์ด — สร้างบอร์ดแรกด้านล่าง"} /></p>
             )}
             {allBoards.map((b) => (
               <button
@@ -763,18 +754,17 @@ export default function LocationDetailPage() {
             ))}
           </div>
           <div className="mt-6 border-t border-line pt-5">
-            <Label htmlFor="new-board">สร้างบอร์ดใหม่</Label>
+            <Label htmlFor="new-board"><Localized text={"สร้างบอร์ดใหม่"} /></Label>
             <div className="flex gap-2">
               <Input
                 id="new-board"
                 value={newBoard}
                 onChange={(e) => setNewBoard(e.target.value)}
-                placeholder="เช่น ET1CRUEL — DARK AMBIENT MV"
+                placeholder={t("เช่น ET1CRUEL — DARK AMBIENT MV")}
                 onKeyDown={(e) => e.key === "Enter" && createAndAdd()}
               />
               <Button onClick={createAndAdd} disabled={!newBoard.trim()}>
-                สร้าง
-              </Button>
+                <Localized text={"สร้าง"} /></Button>
             </div>
           </div>
         </DialogContent>
@@ -790,42 +780,40 @@ export default function LocationDetailPage() {
       >
         <DialogContent>
           <DialogTitle className="display text-3xl">REPORT AN ISSUE</DialogTitle>
-          <p className="mt-2 font-sans text-sm text-concrete">ช่วยให้ฐานข้อมูลแม่นยำขึ้น — รายงานจะถูกส่งเข้าคิวตรวจสอบ</p>
+          <p className="mt-2 font-sans text-sm text-concrete"><Localized text={"ช่วยให้ฐานข้อมูลแม่นยำขึ้น — รายงานจะถูกส่งเข้าคิวตรวจสอบ"} /></p>
           <div className="mt-5 space-y-4">
             <div>
-              <Label htmlFor="report-reason">ประเภทปัญหา</Label>
+              <Label htmlFor="report-reason"><Localized text={"ประเภทปัญหา"} /></Label>
               <select
                 id="report-reason"
                 value={reportReason}
                 onChange={(e) => setReportReason(e.target.value)}
                 className="h-11 w-full border border-paper/25 bg-ink px-3 font-sans text-sm text-paper focus:border-acid focus:outline-none"
               >
-                <option>ข้อมูลไม่ถูกต้อง</option>
-                <option>พิกัดผิด</option>
-                <option>ภาพไม่ตรงกับสถานที่</option>
-                <option>สถานะการอนุญาตเปลี่ยน</option>
-                <option>สถานที่ปิดปรับปรุง/เข้าถึงไม่ได้</option>
-                <option>อื่น ๆ</option>
+                <option><Localized text={"ข้อมูลไม่ถูกต้อง"} /></option>
+                <option><Localized text={"พิกัดผิด"} /></option>
+                <option><Localized text={"ภาพไม่ตรงกับสถานที่"} /></option>
+                <option><Localized text={"สถานะการอนุญาตเปลี่ยน"} /></option>
+                <option><Localized text={"สถานที่ปิดปรับปรุง/เข้าถึงไม่ได้"} /></option>
+                <option><Localized text={"อื่น ๆ"} /></option>
               </select>
             </div>
             <div>
-              <Label htmlFor="report-detail">รายละเอียด</Label>
+              <Label htmlFor="report-detail"><Localized text={"รายละเอียด"} /></Label>
               <Textarea
                 id="report-detail"
                 value={reportText}
                 onChange={(e) => setReportText(e.target.value)}
-                placeholder="อธิบายสิ่งที่พบ พร้อมลิงก์อ้างอิงถ้ามี"
+                placeholder={t("อธิบายสิ่งที่พบ พร้อมลิงก์อ้างอิงถ้ามี")}
               />
             </div>
           </div>
           <div className="mt-6 flex justify-end gap-2">
             <Button variant="ghost" onClick={() => setReportOpen(false)}>
-              ยกเลิก
-            </Button>
+              <Localized text={"ยกเลิก"} /></Button>
             {reportError && (
               <p role="alert" className="text-sm text-burnt">
-                ส่งรายงานไม่สำเร็จ โปรดลองอีกครั้ง
-              </p>
+                <Localized text={"ส่งรายงานไม่สำเร็จ โปรดลองอีกครั้ง"} /></p>
             )}
             <Button onClick={() => void submitReport()} disabled={reportSending}>
               {reportSending ? "กำลังส่ง…" : "ส่งรายงาน"}
@@ -838,7 +826,7 @@ export default function LocationDetailPage() {
         <div className="fixed bottom-6 left-1/2 z-[70] flex -translate-x-1/2 items-center gap-2 border border-acid/50 bg-ink px-4 py-3 text-paper shadow-2xl">
           <Check className="h-4 w-4 text-acid" />
           <span className="font-sans text-sm">{toast}</span>
-          <button type="button" onClick={() => setToast(null)} aria-label="ปิด">
+          <button type="button" onClick={() => setToast(null)} aria-label={t("ปิด")}>
             <X className="h-3.5 w-3.5 text-concrete" />
           </button>
         </div>

@@ -1,3 +1,4 @@
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -9,6 +10,7 @@ import { Button, Badge } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
 import { cn, formatKm, haversineKm } from "@/lib/utils";
 import type { LocationRecord } from "@/data/types";
+import { localizeVibeReason } from "@/i18n/locationText";
 
 const PRESETS: { key: string; label: string; th: string; moods: string[] }[] = [
   { key: "dark-cinema", label: "DARK CINEMA", th: "ดาร์ก · ภาพยนตร์", moods: ["dark", "cinematic", "melancholic"] },
@@ -24,6 +26,7 @@ function pickCover(loc: LocationRecord) {
 }
 
 export default function FindMyVibePage() {
+  const { language, t } = useLanguage();
   const { findMyVibe } = useLocationCatalog();
   const [sp, setSp] = useSearchParams();
   const initial = (sp.get("moods") ?? "dark,cinematic").split(",").filter(Boolean);
@@ -98,9 +101,7 @@ export default function FindMyVibePage() {
             <span className="text-outline">VIBE.</span>
           </h1>
           <p className="mt-5 max-w-xl font-sans text-sm leading-relaxed text-concrete">
-            บอกบรรยากาศของเพลงที่กำลังทำ — ระบบจะจัดอันดับสถานที่จาก Mood Tags, หมวดหมู่สภาพแวดล้อม, จำนวนภาพที่ตรวจสอบแล้ว และระยะทาง
-            (ถ้าเปิดตำแหน่ง) โดยไม่แต่งเรื่องว่าสถานที่ไหนอนุญาตถ่ายทำ
-          </p>
+            <Localized text={"บอกบรรยากาศของเพลงที่กำลังทำ — ระบบจะจัดอันดับสถานที่จาก Mood Tags, หมวดหมู่สภาพแวดล้อม, จำนวนภาพที่ตรวจสอบแล้ว และระยะทาง (ถ้าเปิดตำแหน่ง) โดยไม่แต่งเรื่องว่าสถานที่ไหนอนุญาตถ่ายทำ"} /></p>
         </div>
       </section>
 
@@ -206,9 +207,7 @@ export default function FindMyVibePage() {
                 <p className="label-mono text-concrete">HOW IT WORKS</p>
               </div>
               <p className="mt-2 font-sans text-xs leading-relaxed text-concrete">
-                คะแนนมาจาก mood relevance ที่แก้ไขโดยมนุษย์, ความสอดคล้องของกลุ่มสภาพแวดล้อม, ความสมบูรณ์ของภาพ และระยะทาง —
-                ไม่ใช่การวิเคราะห์เนื้อเพลงอัตโนมัติ
-              </p>
+                <Localized text={"คะแนนมาจาก mood relevance ที่แก้ไขโดยมนุษย์, ความสอดคล้องของกลุ่มสภาพแวดล้อม, ความสมบูรณ์ของภาพ และระยะทาง — ไม่ใช่การวิเคราะห์เนื้อเพลงอัตโนมัติ"} /></p>
             </div>
           </div>
         </aside>
@@ -229,8 +228,8 @@ export default function FindMyVibePage() {
           {selected.length === 0 ? (
             <div className="mt-10 border border-dashed border-paper/15 p-10 text-center">
               <Sparkles className="mx-auto h-7 w-7 text-concrete" />
-              <p className="mt-4 font-display text-2xl font-extrabold">เลือกอารมณ์ก่อน</p>
-              <p className="mt-2 font-sans text-sm text-concrete">เลือกได้สูงสุด 6 mood — หรือเริ่มจาก preset ด้านซ้าย</p>
+              <p className="mt-4 font-display text-2xl font-extrabold"><Localized text={"เลือกอารมณ์ก่อน"} /></p>
+              <p className="mt-2 font-sans text-sm text-concrete"><Localized text={"เลือกได้สูงสุด 6 mood — หรือเริ่มจาก preset ด้านซ้าย"} /></p>
             </div>
           ) : (
             <div className="mt-6 space-y-4">
@@ -266,10 +265,10 @@ export default function FindMyVibePage() {
                       <div>
                         <div className="flex items-start justify-between gap-3">
                           <div>
-                            <p className="label-mono text-concrete">{match.location.province_th}</p>
+                            <p className="label-mono text-concrete">{language === "en" ? match.location.province : match.location.province_th}</p>
                             <Link to={`/locations/${match.location.slug}`}>
                               <h3 className="mt-1 font-display text-2xl font-extrabold leading-none tracking-tight group-hover:text-acid">
-                                {match.location.name_th}
+                                {language === "en" ? match.location.name_en || match.location.name_th : match.location.name_th}
                               </h3>
                             </Link>
                             <p className="mt-1 font-sans text-xs text-concrete">{match.location.name_en}</p>
@@ -293,14 +292,14 @@ export default function FindMyVibePage() {
                           {match.reasons.map((r) => (
                             <li key={r} className="flex gap-2 font-sans text-xs text-concrete">
                               <span className="mt-1.5 h-1 w-1 shrink-0 bg-burnt" />
-                              {r}
+                              {localizeVibeReason(r, language)}
                             </li>
                           ))}
                         </ul>
                       </div>
 
                       <div className="flex flex-wrap items-center gap-1.5">
-                        <Badge variant="acid">{match.location.photo_count} PHOTOS</Badge>
+                        <Badge variant="acid">{match.location.photo_count} {t("PHOTOS")}</Badge>
                         {origin && (
                           <Badge>
                             {formatKm(
@@ -324,11 +323,10 @@ export default function FindMyVibePage() {
 
           <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-line pt-5 sm:flex-row sm:items-center">
             <p className="max-w-lg font-sans text-xs leading-relaxed text-concrete">
-              การจัดอันดับเป็นเครื่องมือเริ่มต้น ไม่ใช่การตัดสินใจแทนทีมครีเอทีฟ — ตรวจสอบภาพ แสง และการอนุญาตหน้างานก่อนทุกครั้ง
-            </p>
+              <Localized text={"การจัดอันดับเป็นเครื่องมือเริ่มต้น ไม่ใช่การตัดสินใจแทนทีมครีเอทีฟ — ตรวจสอบภาพ แสง และการอนุญาตหน้างานก่อนทุกครั้ง"} /></p>
             <Link to="/explore">
               <Button variant="outline" size="sm">
-                เปิดตัวกรองละเอียด <ArrowRight className="h-3.5 w-3.5" />
+                <Localized text={"เปิดตัวกรองละเอียด"} /> <ArrowRight className="h-3.5 w-3.5" />
               </Button>
             </Link>
           </div>

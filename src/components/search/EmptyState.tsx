@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { SearchX, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui";
@@ -27,8 +28,7 @@ export function EmptyState({
       <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
         {onReset && (
           <Button variant="primary" onClick={onReset}>
-            ล้างตัวกรอง
-          </Button>
+            <Localized text={"ล้างตัวกรอง"} /></Button>
         )}
         <Link to={actionHref}>
           <Button variant="outline">{actionLabel}</Button>
@@ -36,7 +36,7 @@ export function EmptyState({
       </div>
       {suggestions.length > 0 && (
         <div className="mt-8 w-full max-w-md border-t border-line pt-5">
-          <p className="label-mono mb-3 text-concrete">ลองสิ่งเหล่านี้</p>
+          <p className="label-mono mb-3 text-concrete"><Localized text={"ลองสิ่งเหล่านี้"} /></p>
           <div className="flex flex-col gap-2">
             {suggestions.map((s) => (
               <Link

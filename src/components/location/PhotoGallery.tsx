@@ -1,3 +1,4 @@
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Expand, X, ZoomIn, ZoomOut, ExternalLink, ImageOff, LoaderCircle } from "lucide-react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export function PhotoGallery({ photos: initialPhotos, locationName, galleryAssetUrl, expectedPhotoCount, className }: Props) {
+  const { t } = useLanguage();
   const [photos, setPhotos] = useState(initialPhotos);
   const [active, setActive] = useState(0);
   const [open, setOpen] = useState(false);
@@ -82,7 +84,7 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
       <div className={cn("clay-panel flex min-h-48 flex-col items-center justify-center gap-3 p-6 text-center", className)}>
         {loadingArchive ? <LoaderCircle className="h-6 w-6 animate-spin text-acid" /> : <ImageOff className="h-6 w-6 text-concrete" />}
         <p className="text-sm text-concrete">{loadingArchive ? "กำลังโหลดภาพทั้งหมดของสถานที่นี้…" : "ยังโหลดภาพสถานที่ไม่ได้"}</p>
-        {archiveError && <button type="button" onClick={loadArchive} className="rounded-full border border-line px-4 py-2 text-xs hover:border-acid hover:text-acid">ลองโหลดอีกครั้ง</button>}
+        {archiveError && <button type="button" onClick={loadArchive} className="rounded-full border border-line px-4 py-2 text-xs hover:border-acid hover:text-acid"><Localized text={"ลองโหลดอีกครั้ง"} /></button>}
       </div>
     );
   }
@@ -100,8 +102,8 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
     <div className={cn("", className)}>
       {archiveError && (
         <div className="mb-2 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-line bg-white/50 px-3 py-2 text-xs text-concrete">
-          <span>โหลดอัลบั้มไม่สำเร็จ · แสดง {count} จาก {displayCount} ภาพ</span>
-          <button type="button" onClick={loadArchive} className="font-semibold text-[#315b50] underline underline-offset-2">ลองใหม่</button>
+          <span><Localized text={"โหลดอัลบั้มไม่สำเร็จ · แสดง"} /> {count} <Localized text={"จาก"} /> {displayCount} <Localized text={"ภาพ"} /></span>
+          <button type="button" onClick={loadArchive} className="font-semibold text-[#315b50] underline underline-offset-2"><Localized text={"ลองใหม่"} /></button>
         </div>
       )}
       <div className="media-inverse relative aspect-[16/10] overflow-hidden rounded-2xl bg-ink-2 md:aspect-[16/9]">
@@ -109,8 +111,8 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
           {unavailable ? (
             <motion.div key={`unavailable-${current.id}`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-ink-2 p-5 text-center text-concrete">
               <ImageOff className="h-7 w-7" />
-              <p className="text-sm">ภาพนี้เปิดไม่ได้ · ข้ามไปภาพอื่นได้</p>
-              <a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline underline-offset-2 hover:text-acid">ตรวจสอบภาพต้นทาง</a>
+              <p className="text-sm"><Localized text={"ภาพนี้เปิดไม่ได้ · ข้ามไปภาพอื่นได้"} /></p>
+              <a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline underline-offset-2 hover:text-acid"><Localized text={"ตรวจสอบภาพต้นทาง"} /></a>
             </motion.div>
           ) : (
             <motion.img
@@ -135,26 +137,26 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
 
         <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-3 bg-gradient-to-b from-ink/70 to-transparent p-3 md:p-4">
           <span className="rounded-full border border-paper/25 bg-ink/90 px-2 py-1 font-mono text-xs tracking-normal text-paper/85 backdrop-blur-sm">{active + 1} / {displayCount}</span>
-          <button type="button" onClick={() => setOpen(true)} className="flex h-9 items-center gap-2 border border-paper/30 bg-ink/90 px-3 font-mono text-xs tracking-normal text-paper backdrop-blur-sm transition-colors hover:border-acid hover:text-acid" aria-label="เปิดภาพเต็มจอ">
+          <button type="button" onClick={() => setOpen(true)} className="flex h-9 items-center gap-2 border border-paper/30 bg-ink/90 px-3 font-mono text-xs tracking-normal text-paper backdrop-blur-sm transition-colors hover:border-acid hover:text-acid" aria-label={t("เปิดภาพเต็มจอ")}>
             <Expand className="h-3.5 w-3.5" /><span className="hidden sm:inline">VIEW FULL</span>
           </button>
         </div>
 
-        <button type="button" onClick={() => go(-1)} aria-label="ภาพก่อนหน้า" className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-paper/25 bg-ink/90 text-paper backdrop-blur-sm transition-colors hover:border-acid hover:text-acid"><ChevronLeft className="h-5 w-5" /></button>
-        <button type="button" onClick={() => go(1)} aria-label="ภาพถัดไป" className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-paper/25 bg-ink/90 text-paper backdrop-blur-sm transition-colors hover:border-acid hover:text-acid"><ChevronRight className="h-5 w-5" /></button>
+        <button type="button" onClick={() => go(-1)} aria-label={t("ภาพก่อนหน้า")} className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-paper/25 bg-ink/90 text-paper backdrop-blur-sm transition-colors hover:border-acid hover:text-acid"><ChevronLeft className="h-5 w-5" /></button>
+        <button type="button" onClick={() => go(1)} aria-label={t("ภาพถัดไป")} className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center border border-paper/25 bg-ink/90 text-paper backdrop-blur-sm transition-colors hover:border-acid hover:text-acid"><ChevronRight className="h-5 w-5" /></button>
 
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/80 to-transparent p-3 md:p-4">
           <p className="truncate font-mono text-xs tracking-normal text-concrete">{attribution}</p>
         </div>
       </div>
 
-      <div className="mt-2 flex gap-2 overflow-x-auto pb-1 snap-x-mandatory" role="tablist" aria-label="แกลเลอรีภาพ">
+      <div className="mt-2 flex gap-2 overflow-x-auto pb-1 snap-x-mandatory" role="tablist" aria-label={t("แกลเลอรีภาพ")}>
         {photos.map((photo, index) => (
           <button key={photo.id} type="button" role="tab" aria-selected={index === active} aria-label={`ภาพที่ ${index + 1}: ${photo.title}`} onClick={() => { setActive(index); setZoom(false); }} className={cn("relative h-16 w-24 shrink-0 overflow-hidden border transition-all snap-start md:h-20 md:w-28", index === active ? "border-acid opacity-100" : "border-transparent opacity-55 hover:opacity-90")}>
             {failedThumbIds.has(photo.id) ? <span className="flex h-full items-center justify-center bg-ink-2 text-concrete"><ImageOff className="h-4 w-4" /></span> : <img src={photo.thumb_url} alt="" loading="lazy" decoding="async" onError={() => setFailedThumbIds((previous) => new Set(previous).add(photo.id))} className="h-full w-full object-cover" />}
           </button>
         ))}
-        {loadingArchive && <span className="flex h-16 shrink-0 items-center gap-2 px-2 text-xs text-concrete"><LoaderCircle className="h-4 w-4 animate-spin" /> โหลดภาพเพิ่มเติม</span>}
+        {loadingArchive && <span className="flex h-16 shrink-0 items-center gap-2 px-2 text-xs text-concrete"><LoaderCircle className="h-4 w-4 animate-spin" /> <Localized text={"โหลดภาพเพิ่มเติม"} /></span>}
       </div>
 
       <DialogPrimitive.Root open={open} onOpenChange={setOpen}>
@@ -166,19 +168,19 @@ export function PhotoGallery({ photos: initialPhotos, locationName, galleryAsset
             if (Math.abs(delta) > 50) go(delta > 0 ? -1 : 1);
             touchX.current = null;
           }}>
-            <DialogPrimitive.Title className="sr-only">{locationName} — แกลเลอรีภาพ</DialogPrimitive.Title>
+            <DialogPrimitive.Title className="sr-only">{locationName} <Localized text={"— แกลเลอรีภาพ"} /></DialogPrimitive.Title>
             <div className="flex items-center justify-between border-b border-line px-4 py-3">
               <div className="flex items-baseline gap-3"><span className="font-mono text-xs text-acid">{String(active + 1).padStart(2, "0")}</span><span className="font-mono text-xs tracking-normal text-concrete">/ {String(displayCount).padStart(2, "0")}</span><span className="hidden max-w-[40vw] truncate font-sans text-xs text-concrete sm:block">{current.title}</span></div>
               <div className="flex items-center gap-1">
                 <button type="button" onClick={() => setZoom((value) => !value)} className="flex h-10 w-10 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid" aria-label={zoom ? "ย่อภาพ" : "ขยายภาพ"}>{zoom ? <ZoomOut className="h-4 w-4" /> : <ZoomIn className="h-4 w-4" />}</button>
-                <a href={current.source_page_url} target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid" aria-label="เปิดหน้าต้นทางภาพ"><ExternalLink className="h-4 w-4" /></a>
-                <DialogPrimitive.Close className="flex h-10 w-10 items-center justify-center border border-line text-paper hover:border-acid hover:text-acid" aria-label="ปิดแกลเลอรี"><X className="h-4 w-4" /></DialogPrimitive.Close>
+                <a href={current.source_page_url} target="_blank" rel="noreferrer" className="flex h-10 w-10 items-center justify-center border border-line text-concrete hover:border-acid hover:text-acid" aria-label={t("เปิดหน้าต้นทางภาพ")}><ExternalLink className="h-4 w-4" /></a>
+                <DialogPrimitive.Close className="flex h-10 w-10 items-center justify-center border border-line text-paper hover:border-acid hover:text-acid" aria-label={t("ปิดแกลเลอรี")}><X className="h-4 w-4" /></DialogPrimitive.Close>
               </div>
             </div>
             <div className={cn("relative flex flex-1 items-center justify-center overflow-auto p-2 md:p-6", zoom && "items-start")}>
-              {unavailable ? <div className="flex flex-col items-center gap-3 text-concrete"><ImageOff className="h-8 w-8" /><span>ภาพนี้เปิดไม่ได้</span><a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline hover:text-acid">ภาพต้นทาง</a></div> : <img src={current.image_url} alt={`${locationName} — ${current.title}`} onError={() => handlePhotoError(current.id)} onClick={() => setZoom((value) => !value)} className={cn("max-h-full max-w-full object-contain transition-transform duration-300", zoom ? "max-h-none max-w-none scale-150 cursor-zoom-out" : "cursor-zoom-in")} />}
-              <button type="button" onClick={() => go(-1)} aria-label="ภาพก่อนหน้า" className="fixed left-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-paper/20 bg-ink/70 text-paper hover:border-acid hover:text-acid md:left-6"><ChevronLeft className="h-6 w-6" /></button>
-              <button type="button" onClick={() => go(1)} aria-label="ภาพถัดไป" className="fixed right-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-paper/20 bg-ink/70 text-paper hover:border-acid hover:text-acid md:right-6"><ChevronRight className="h-6 w-6" /></button>
+              {unavailable ? <div className="flex flex-col items-center gap-3 text-concrete"><ImageOff className="h-8 w-8" /><span><Localized text={"ภาพนี้เปิดไม่ได้"} /></span><a href={current.source_page_url} target="_blank" rel="noreferrer" className="text-xs underline hover:text-acid"><Localized text={"ภาพต้นทาง"} /></a></div> : <img src={current.image_url} alt={`${locationName} — ${current.title}`} onError={() => handlePhotoError(current.id)} onClick={() => setZoom((value) => !value)} className={cn("max-h-full max-w-full object-contain transition-transform duration-300", zoom ? "max-h-none max-w-none scale-150 cursor-zoom-out" : "cursor-zoom-in")} />}
+              <button type="button" onClick={() => go(-1)} aria-label={t("ภาพก่อนหน้า")} className="fixed left-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-paper/20 bg-ink/70 text-paper hover:border-acid hover:text-acid md:left-6"><ChevronLeft className="h-6 w-6" /></button>
+              <button type="button" onClick={() => go(1)} aria-label={t("ภาพถัดไป")} className="fixed right-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center border border-paper/20 bg-ink/70 text-paper hover:border-acid hover:text-acid md:right-6"><ChevronRight className="h-6 w-6" /></button>
             </div>
             <div className="border-t border-line px-4 py-3">
               <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">

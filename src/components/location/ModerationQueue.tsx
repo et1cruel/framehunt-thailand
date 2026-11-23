@@ -1,3 +1,4 @@
+import { Localized } from "@/i18n/Language";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui";
@@ -75,16 +76,14 @@ export function ModerationQueue({ kind }: { kind: keyof typeof queues }) {
   if (queue.isPending)
     return (
       <p className="py-6" role="status">
-        กำลังโหลดคิว…
-      </p>
+        <Localized text={"กำลังโหลดคิว…"} /></p>
     );
   if (queue.isError) {
     return (
       <div className="flex items-center gap-4 py-6">
-        <p role="alert">โหลดคิวตรวจสอบไม่สำเร็จ</p>
+        <p role="alert"><Localized text={"โหลดคิวตรวจสอบไม่สำเร็จ"} /></p>
         <Button variant="outline" onClick={() => void queue.refetch()}>
-          ลองอีกครั้ง
-        </Button>
+          <Localized text={"ลองอีกครั้ง"} /></Button>
       </div>
     );
   }
@@ -92,14 +91,13 @@ export function ModerationQueue({ kind }: { kind: keyof typeof queues }) {
   return (
     <>
       <div className="mt-4 min-h-6" aria-live="polite">
-        {review.isSuccess && <p className="text-acid">บันทึกผลตรวจสอบแล้ว</p>}
+        {review.isSuccess && <p className="text-acid"><Localized text={"บันทึกผลตรวจสอบแล้ว"} /></p>}
         {review.isError && (
           <p role="alert" className="text-burnt">
-            บันทึกผลตรวจสอบไม่สำเร็จ
-          </p>
+            <Localized text={"บันทึกผลตรวจสอบไม่สำเร็จ"} /></p>
         )}
       </div>
-      {queue.data.length === 0 && <p className="py-4 text-concrete">ไม่มีรายการที่รอตรวจสอบ</p>}
+      {queue.data.length === 0 && <p className="py-4 text-concrete"><Localized text={"ไม่มีรายการที่รอตรวจสอบ"} /></p>}
       <ul className="divide-y divide-line border-y border-line">
         {queue.data.map((item) => {
           const source = safeExternalUrl(item.source);
@@ -113,13 +111,11 @@ export function ModerationQueue({ kind }: { kind: keyof typeof queues }) {
                 {item.detail && <p className="mt-2 whitespace-pre-wrap text-sm">{item.detail}</p>}
                 {source && (
                   <a className="text-sm text-acid underline" href={source} target="_blank" rel="noreferrer">
-                    แหล่งอ้างอิง
-                  </a>
+                    <Localized text={"แหล่งอ้างอิง"} /></a>
                 )}
                 {kind === "reports" && (
                   <Link className="text-sm text-acid underline" to={`/locations/${encodeURIComponent(item.context)}`}>
-                    ดูโลเคชัน
-                  </Link>
+                    <Localized text={"ดูโลเคชัน"} /></Link>
                 )}
               </div>
               <div className="flex flex-wrap gap-2">

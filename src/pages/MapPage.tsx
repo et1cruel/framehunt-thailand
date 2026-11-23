@@ -1,4 +1,4 @@
-import { Localized } from "@/i18n/Language";
+import { Localized, useLanguage } from "@/i18n/Language";
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowUpRight, Crosshair, Layers, MapPin, Search, X } from "lucide-react";
@@ -26,6 +26,7 @@ const QUICK = [
 ];
 
 export default function MapPage() {
+  const { t, language } = useLanguage();
   const { locationStats, searchLocations } = useLocationCatalog();
   const [sp, setSp] = useSearchParams();
   const [selected, setSelected] = useState<string | null>(sp.get("selected"));
@@ -127,8 +128,7 @@ export default function MapPage() {
             </h1>
           </div>
           <p className="max-w-md font-sans text-xs leading-relaxed text-concrete">
-            หมุดทุกจุดมาจากพิกัดที่ตรวจสอบแล้ว ไม่ใช่การประมาณจากภาพถ่าย คลิกหมุดเพื่อเปิดการ์ด หรือเลือกจากรายการด้านข้าง
-          </p>
+            <Localized text={"หมุดทุกจุดมาจากพิกัดที่ตรวจสอบแล้ว ไม่ใช่การประมาณจากภาพถ่าย คลิกหมุดเพื่อเปิดการ์ด หรือเลือกจากรายการด้านข้าง"} /></p>
         </div>
       </div>
 
@@ -141,8 +141,8 @@ export default function MapPage() {
                 type="search"
                 value={filters.q}
                 onChange={(e) => patch({ q: e.target.value })}
-                placeholder="ค้นหาชื่อสถานที่…"
-                aria-label="ค้นหาบนแผนที่"
+                placeholder={t("ค้นหาชื่อสถานที่…")}
+                aria-label={t("ค้นหาบนแผนที่")}
                 className="h-11 w-full rounded-xl border border-line bg-ink pl-9 pr-3 font-sans text-sm text-paper placeholder:text-concrete focus:border-acid focus:outline-none"
               />
             </div>
@@ -150,7 +150,7 @@ export default function MapPage() {
             <Select
               value={filters.province}
               onChange={(e) => patch({ province: e.target.value })}
-              aria-label="กรองตามจังหวัด"
+              aria-label={t("กรองตามจังหวัด")}
               className="h-10"
             >
               <option value=""> <Localized text="ทุกจังหวัด" /> </option>
@@ -199,8 +199,7 @@ export default function MapPage() {
                   onChange={(e) => setInView(e.target.checked)}
                   className="h-3 w-3 accent-acid"
                 />
-                ในพื้นที่แผนที่
-              </label>
+                <Localized text={"ในพื้นที่แผนที่"} /></label>
             </div>
             {origin && <RadiusSelect radiusKm={filters.radiusKm} onChange={(radiusKm) => patch({ radiusKm })} />}
             {geoError && (
@@ -225,10 +224,9 @@ export default function MapPage() {
             {visible.length === 0 && (
               <div className="p-6 text-center">
                 <Layers className="mx-auto h-6 w-6 text-concrete" />
-                <p className="mt-3 font-sans text-sm text-concrete">ไม่พบสถานที่ในพื้นที่นี้</p>
+                <p className="mt-3 font-sans text-sm text-concrete"><Localized text={"ไม่พบสถานที่ในพื้นที่นี้"} /></p>
                 <Button variant="outline" size="sm" className="mt-3" onClick={() => setInView(false)}>
-                  แสดงทั้งหมด
-                </Button>
+                  <Localized text={"แสดงทั้งหมด"} /></Button>
               </div>
             )}
             {visible.map((r) => {
@@ -247,13 +245,13 @@ export default function MapPage() {
                   <PhotoImage photo={cover} fallbackPhotos={r.location.photos} galleryAssetUrl={r.location.gallery_asset_url} expectedPhotoCount={r.location.photo_count} sizes="64px" className="h-16 w-16 shrink-0 border border-line object-cover" />
                   <span className="min-w-0 flex-1">
                     <span className="flex items-center gap-1 font-mono text-xs tracking-normal text-acid">
-                      <MapPin className="h-2.5 w-2.5" /> {r.location.province_th}
+                      <MapPin className="h-2.5 w-2.5" /> {language === "en" ? r.location.province : r.location.province_th}
                     </span>
                     <span className="mt-0.5 block truncate font-display text-base font-bold text-paper">
-                      {r.location.name_th}
+                      {language === "en" ? r.location.name_en || r.location.name_th : r.location.name_th}
                     </span>
                     <span className="block font-mono text-xs tracking-normal text-concrete">
-                      {r.location.photo_count} PHOTOS
+                      {r.location.photo_count} {language === "en" ? "PHOTOS" : "ภาพ"}
                       {r.distanceKm != null ? ` · ${Math.round(r.distanceKm)} KM` : ""}
                     </span>
                   </span>
@@ -278,14 +276,14 @@ export default function MapPage() {
               <div className="glass-panel pointer-events-auto p-4">
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <p className="label-mono text-acid">{selectedResult.location.province_th}</p>
-                    <h2 className="mt-1 font-display text-2xl font-extrabold">{selectedResult.location.name_th}</h2>
+                    <p className="label-mono text-acid">{language === "en" ? selectedResult.location.province : selectedResult.location.province_th}</p>
+                    <h2 className="mt-1 font-display text-2xl font-extrabold">{language === "en" ? selectedResult.location.name_en || selectedResult.location.name_th : selectedResult.location.name_th}</h2>
                     <p className="font-sans text-xs text-concrete">{selectedResult.location.name_en}</p>
                   </div>
                   <button
                     type="button"
                     onClick={() => setSelected(null)}
-                    aria-label="ปิดการ์ด"
+                    aria-label={t("ปิดการ์ด")}
                     className="flex h-8 w-8 shrink-0 items-center justify-center border border-line text-concrete hover:text-acid"
                   >
                     <X className="h-3.5 w-3.5" />
@@ -298,7 +296,7 @@ export default function MapPage() {
                 <div className="mt-4 flex gap-2">
                   <Link to={`/locations/${selectedResult.location.slug}`} className="min-w-0 flex-1">
                     <Button size="sm" className="w-full">
-                      เปิดรายละเอียด <ArrowUpRight className="h-3.5 w-3.5" />
+                      <Localized text={"เปิดรายละเอียด"} /> <ArrowUpRight className="h-3.5 w-3.5" />
                     </Button>
                   </Link>
                   <a
@@ -307,8 +305,7 @@ export default function MapPage() {
                     rel="noreferrer"
                   >
                     <Button size="sm" variant="outline">
-                      นำทาง
-                    </Button>
+                      <Localized text={"นำทาง"} /></Button>
                   </a>
                 </div>
               </div>
