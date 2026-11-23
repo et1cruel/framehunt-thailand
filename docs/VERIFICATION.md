@@ -327,3 +327,26 @@ and Neilson Hays covers and showed the camera note.
 - [Neilson Hays Library photography policy](https://www.neilsonhayslibrary.org/photography-policy)
 - [River City Bangkok](https://rivercitybangkok.com/)
 - [Tourism Authority of Thailand on Ban Dam Museum](https://www.tourismthailand.org/Attraction/ban-dam-museum)
+
+## First-load performance and inventory honesty (2026-11-23)
+
+The homepage hero requests its responsive cover eagerly at high priority and
+reserves the image dimensions to reduce layout movement. The homepage map now
+uses an intersection-triggered dynamic import with a glass/clay loading surface;
+the shared MapLibre stylesheet is imported with the map instead of the initial
+application shell. The footer labels its source date as `CORE DATA UPDATED` so
+it cannot be mistaken for the update date of every supplemental directory.
+
+The current inventory documentation distinguishes 3,025 unique listings
+across browse directories from 582 core locations passing the full publication
+gate. The 3,025 figure is the current aggregate of site data sources, not a
+census of every operating place in Thailand; each source has its own update date.
+
+Validation for this pass: `npm run build` passed. In the local production
+preview, the hero image decoded at 763px natural width and retained eager/high
+priority settings. The initial homepage made zero requests for MapLibre bundles
+or map tiles; approaching the map section loaded the deferred JavaScript and
+rendered one map canvas. Desktop and mobile homepage screenshots were inspected.
+The generated MapLibre chunk remains about 1.05 MB raw and the catalogue data
+chunk remains large; deferring the map removes those map assets from the initial
+request path but does not reduce their eventual download size.

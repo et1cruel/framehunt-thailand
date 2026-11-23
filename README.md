@@ -6,24 +6,38 @@ Soft glass and clay surfaces frame real location photography. Thai-first UI with
 
 ---
 
-## Current dataset (real, generated)
+## Current production inventory (2026-11-23)
 
 | Metric                            | Value              |
 | --------------------------------- | ------------------ |
-| Total records                     | **694**            |
-| Published locations               | **506**            |
-| Drafts                            | **188**            |
-| Rejected seeds (no reliable data) | **309**            |
-| Verified photos (published)       | **2,847**          |
-| Unique photographers credited     | **616**            |
-| Provinces covered (published)     | **70 of 77**       |
-| Zone A / B / C published          | **237 / 32 / 237** |
+| Unique location listings across all browse directories | **3,025** |
+| Core locations passing the full publication gate       | **582**   |
+| Drafts in the core location dataset                     | **251**   |
+| Rejected research leads                                 | **408**   |
+| Verified photos in the core published catalogue        | **3,211** |
+| Unique credited photographers                           | **685**   |
+| Provinces covered by the core catalogue                 | **70 of 77** |
+| Nakhon Pathom collection entries                        | **142**   |
 
-Generated from **Wikidata**, **Wikipedia**, and **Wikimedia Commons**, with the **UNESCO World Heritage Centre** as the coordinate source for Ban Chiang. No AI imagery, no stock filler, no invented coordinates.
+The **3,025** aggregate combines the core catalogue, activity directory,
+restaurants, second-hand shops, studios and music-venue directory, removing
+33 detected overlaps. It is a count of listings in the current site data, not a
+census of every operating place in Thailand. The supplemental activity directory
+was updated on 2026-11-22; other sources have their own update dates.
+
+The core catalogue is generated from **Wikidata**, **Wikipedia**, and
+**Wikimedia Commons**, with the **UNESCO World Heritage Centre** as the
+coordinate source for Ban Chiang. Its current snapshot is dated 2026-11-20 UTC
+(2026-11-21 in Thailand). No AI imagery, no stock filler, no invented
+coordinates.
 
 Every published location has **≥ 5 unique verified photos**, each with photographer, license, source page and checksum. Photos are hotlinked from Wikimedia with attribution — they are not copied into another bucket.
 
-> The numbers above are produced by `data/reports/ingest-report.json` and `src/data/locations.generated.json`. They are not marketing copy.
+> Core-catalogue counts come from `src/data/locations.generated.json` and its
+> reconciled ingest report. The all-directory count is computed by
+> `countCatalogPlaces()` from the current browsable source files. These are
+> separate evidence levels; do not present all 3,025 listings as having passed
+> the core publication gate.
 
 ---
 

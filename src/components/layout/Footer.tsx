@@ -99,7 +99,7 @@ export function Footer() {
             {stats.published} LOCATIONS · {stats.provincesCovered} PROVINCES · {stats.verifiedPhotos} PHOTOS
           </p>
           <p className="label-mono text-concrete">
-            {stats.generatedAt && `DATA UPDATED ${new Date(stats.generatedAt).toISOString().slice(0, 10)}`}
+            {stats.generatedAt && `CORE DATA UPDATED ${new Date(stats.generatedAt).toISOString().slice(0, 10)}`}
           </p>
         </div>
         <p className="mt-6 max-w-4xl font-sans text-xs leading-relaxed text-concrete"> <Localized text="ภาพถ่ายทุกภาพแสดงพร้อมเครดิต ผู้ถ่าย และใบอนุญาตจากต้นทาง เราไม่ใช้ภาพ AI แทนสถานที่จริง\n          และไม่รับประกันว่าสถานที่ทุกแห่งอนุญาตให้ถ่ายทำเชิงพาณิชย์ — โปรดติดต่อหน่วยงานหรือเจ้าของพื้นที่ก่อนทุกครั้ง" /> </p>

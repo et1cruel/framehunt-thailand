@@ -7,7 +7,6 @@ import { LanguageProvider } from "@/i18n/Language";
 import { CatalogProvider } from "@/components/system/CatalogProvider";
 import { AuthProvider } from "@/services/auth";
 import "@/styles/index.css";
-import "maplibre-gl/dist/maplibre-gl.css";
 
 const queryClient = new QueryClient({
   defaultOptions: {

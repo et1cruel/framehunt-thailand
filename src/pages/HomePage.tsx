@@ -5,7 +5,7 @@ import { ArrowRight, ArrowUpRight, Dices, MapPin, Camera, ShieldCheck, Compass }
 import { SearchBar } from "@/components/search/SearchBar";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { LocationCard, PhotoImage } from "@/components/location/LocationCard";
-import { MapCanvas } from "@/components/map/MapCanvas";
+import { DeferredMapPreview } from "@/components/map/DeferredMapPreview";
 import { Button } from "@/components/ui";
 import { QUICK_CATEGORIES, REGION_LABELS, categories, moods } from "@/data/taxonomy";
 import { collectionItems } from "@/services/discoveryCollections";
@@ -134,6 +134,10 @@ export default function HomePage() {
                 srcSet={heroPhoto.thumb_url + " 500w, " + heroPhoto.image_url + " 1920w"}
                 sizes="(max-width: 1023px) 94vw, 53vw"
                 alt={hero.name_th + " — " + heroPhoto.title}
+                width={heroPhoto.width}
+                height={heroPhoto.height}
+                loading="eager"
+                decoding="async"
                 className="absolute inset-0 h-full w-full object-cover"
                 fetchPriority="high"
               />
@@ -406,7 +410,7 @@ export default function HomePage() {
             hrefLabel="เปิดแผนที่เต็ม"
           />
           <div className="relative mt-10">
-            <MapCanvas locations={published} height="clamp(360px, 52vh, 560px)" interactive={false} />
+            <DeferredMapPreview locations={published} />
             <div className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 bg-gradient-to-t from-ink to-transparent p-5">
               <div>
                 <p className="label-mono text-acid">THAILAND · {stats.published} PUBLISHED</p>
