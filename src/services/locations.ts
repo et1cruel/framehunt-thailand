@@ -141,9 +141,15 @@ function groupOfLocation(loc: LocationRecord): string {
 export function createLocationCatalog(
   records: LocationRecord[],
   generatedAt: string | null,
-  bundledStats?: { total: number; draft: number },
+  bundledStats?: { total: number; draft: number; verifiedPhotos?: number; photographers?: number },
+  recordsAreVerifiedPublishedSnapshot = false,
 ) {
-  const published = records.filter(isPublishable);
+  // The generated public asset is validated against the full publication gate
+  // before its photo arrays are split into on-demand gallery files.
+  const published = recordsAreVerifiedPublishedSnapshot
+    ? records.filter((record) => record.status === "published")
+    : records.filter(isPublishable);
+  const publishedIds = new Set(published.map((record) => record.id));
 
   function allRecords(): LocationRecord[] {
     return records;
@@ -154,7 +160,7 @@ export function createLocationCatalog(
   }
 
   function draftLocations(): LocationRecord[] {
-    return records.filter((l) => !isPublishable(l));
+    return records.filter((l) => !publishedIds.has(l.id));
   }
 
   function getLocation(slug: string): LocationRecord | undefined {
@@ -327,15 +333,15 @@ export function createLocationCatalog(
     const all = allRecords();
     const published = publishedLocations();
     const drafts = draftLocations();
-    const verifiedPhotos = published.reduce((n, l) => n + l.photos.filter((p) => p.is_verified).length, 0);
+    const verifiedPhotoCount = bundledStats?.verifiedPhotos ?? published.reduce((n, l) => n + l.photos.filter((p) => p.is_verified).length, 0);
     const provincesCovered = new Set(published.map((l) => l.province_id)).size;
     return {
       total: bundledStats?.total ?? all.length,
       published: published.length,
       draft: bundledStats?.draft ?? drafts.length,
-      verifiedPhotos,
+      verifiedPhotos: verifiedPhotoCount,
       provincesCovered,
-      photographers: new Set(published.flatMap((l) => l.photos.map((p) => p.photographer))).size,
+      photographers: bundledStats?.photographers ?? new Set(published.flatMap((l) => l.photos.map((p) => p.photographer))).size,
       generatedAt,
     };
   }
@@ -357,4 +363,6 @@ export function createLocationCatalog(
 export const emptyCatalog = createLocationCatalog([], datasetMeta.generated_at, {
   total: datasetMeta.total_locations,
   draft: datasetMeta.draft,
+  verifiedPhotos: datasetMeta.verified_photos,
+  photographers: datasetMeta.photographers,
 });

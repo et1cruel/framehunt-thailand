@@ -111,21 +111,31 @@ touch targets on mobile.
 ## Current execution target
 
 Continue first-load performance work without weakening the image-first identity:
-serve only published location records as a content-hashed JSON asset, parse the
-catalogue as data instead of compiling it into the application JavaScript, and
-keep draft/review records in the lazy admin route. Preserve the eager hero cover,
-deferred homepage map, catalogue counts and existing search behavior. Keep a
-clear glass/clay loading and retry state while the catalogue arrives.
+serve a content-hashed public catalogue with one signature cover per published
+location, then load its verified full photo archive only on card hover or detail
+view. Parse the catalogue as data instead of compiling it into the application
+JavaScript, and keep draft/review records in the lazy admin route. Preserve the
+eager hero cover, deferred homepage map, catalogue counts and search behavior.
+When an image fails, retry another verified image from that same place; keep
+credits, licences and source links visible, and show a clear unavailable state
+if every same-place image fails.
 
 ### Acceptance criteria for this pass
 
 - The public catalogue asset contains exactly the published record count in its
-  metadata; draft records stay out of the public asset.
+  metadata; draft records stay out of the public asset. Each public record has
+  one verified cover, the full `photo_count`, and a same-location gallery URL.
+- All published photo archives are content-hashed, validated against the full
+  publication gate before splitting, served with immutable caching, and fetched
+  only on hover or when a location detail page opens. Aggregate verified-photo
+  and photographer counts remain based on the full snapshot.
 - The published catalogue is a content-hashed static JSON file with long-lived
   immutable caching, and the application entry chunk does not embed that JSON.
 - The full review dataset loads only through the admin route. Public location
   counts, search, location detail and directory totals remain correct.
 - Keep the hero's eager/high-priority image and the map's near-viewport lazy load.
+- Retry a failed cover with the original URL and then another verified image
+  from its own location; show a visible failure state rather than a blank image.
 - Loading and retry states use the selected readable glass/clay visual system.
 - README and verification notes distinguish the 3,025 all-directory listing
   count from the 582-location full publication-gate count.

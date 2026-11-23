@@ -127,6 +127,8 @@ export interface LocationRecord {
   moods: { slug: string; relevance_score: number }[];
   photos: LocationPhoto[];
   photo_count: number;
+  /** Content-hashed, same-location photo archive loaded only on hover or detail view. */
+  gallery_asset_url?: string;
   curated_photo_minimum?: 1;
   sources: LocationSource[];
   permission: PermissionInfo;

@@ -129,17 +129,15 @@ export default function HomePage() {
 
           <figure className="relative isolate min-h-[18rem] overflow-hidden rounded-[1.65rem] border border-white/85 shadow-glass sm:min-h-[23rem] lg:min-h-[32rem]">
             {heroPhoto && (
-              <img
-                src={heroPhoto.image_url}
-                srcSet={heroPhoto.thumb_url + " 500w, " + heroPhoto.image_url + " 1920w"}
+              <PhotoImage
+                photo={heroPhoto}
+                fallbackPhotos={hero.photos}
+                galleryAssetUrl={hero.gallery_asset_url}
+                expectedPhotoCount={hero.photo_count}
                 sizes="(max-width: 1023px) 94vw, 53vw"
-                alt={hero.name_th + " — " + heroPhoto.title}
-                width={heroPhoto.width}
-                height={heroPhoto.height}
-                loading="eager"
-                decoding="async"
                 className="absolute inset-0 h-full w-full object-cover"
                 fetchPriority="high"
+                priority
               />
             )}
             <figcaption className="home-hero-caption absolute inset-x-3 bottom-3 flex items-center justify-between gap-3 rounded-2xl px-4 py-3 sm:inset-x-5 sm:bottom-5 sm:px-5">
@@ -236,6 +234,9 @@ export default function HomePage() {
                 <div className="relative aspect-[5/3] overflow-hidden rounded-[1rem] bg-ink-2">
                   <PhotoImage
                     photo={pickImage(match)}
+                    fallbackPhotos={match?.photos}
+                    galleryAssetUrl={match?.gallery_asset_url}
+                    expectedPhotoCount={match?.photo_count}
                     sizes="(max-width: 768px) 46vw, 23vw"
                     className="h-full w-full object-cover frame-img"
                   />
@@ -303,6 +304,9 @@ export default function HomePage() {
                     <>
                       <PhotoImage
                         photo={photo}
+                        fallbackPhotos={sample?.photos}
+                        galleryAssetUrl={sample?.gallery_asset_url}
+                        expectedPhotoCount={sample?.photo_count}
                         sizes="(max-width: 640px) 100vw, 50vw"
                         className="absolute inset-0 h-full w-full object-cover frame-img"
                       />
@@ -373,6 +377,9 @@ export default function HomePage() {
               >
                 <PhotoImage
                   photo={pickImage(match.location)}
+                  fallbackPhotos={match.location.photos}
+                  galleryAssetUrl={match.location.gallery_asset_url}
+                  expectedPhotoCount={match.location.photo_count}
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="absolute inset-0 h-full w-full object-cover opacity-65 transition-all duration-700 group-hover:scale-105 group-hover:opacity-85"
                 />

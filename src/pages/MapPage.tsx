@@ -11,6 +11,7 @@ import { useSeo } from "@/lib/useSeo";
 import { cn } from "@/lib/utils";
 import { useLocationCatalog } from "@/services/catalogContext";
 import { RadiusSelect } from "@/components/search/RadiusSelect";
+import { PhotoImage } from "@/components/location/LocationCard";
 
 const QUICK = [
   { key: "hidden", label: "HIDDEN FRAMES", slugs: ["hidden-frames"] },
@@ -243,12 +244,7 @@ export default function MapPage() {
                     active ? "bg-acid/10" : "hover:bg-paper/[0.03]",
                   )}
                 >
-                  <img
-                    src={cover?.thumb_url}
-                    alt=""
-                    loading="lazy"
-                    className="h-16 w-16 shrink-0 border border-line object-cover"
-                  />
+                  <PhotoImage photo={cover} fallbackPhotos={r.location.photos} galleryAssetUrl={r.location.gallery_asset_url} expectedPhotoCount={r.location.photo_count} sizes="64px" className="h-16 w-16 shrink-0 border border-line object-cover" />
                   <span className="min-w-0 flex-1">
                     <span className="flex items-center gap-1 font-mono text-xs tracking-normal text-acid">
                       <MapPin className="h-2.5 w-2.5" /> {r.location.province_th}

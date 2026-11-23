@@ -43,17 +43,22 @@ Every published location has **≥ 5 unique verified photos**, each with photogr
 
 ## Catalogue loading
 
-The prebuild step generates a content-hashed JSON asset containing only the
-582 published locations. The browser fetches and parses that data separately;
-draft and review records remain in the lazy-loaded admin route. The JSON asset
-uses immutable caching because its URL changes whenever its contents change.
+The prebuild step generates a content-hashed JSON asset containing the 582
+published locations and only one signature cover per place. Full photo archives
+are separate content-hashed assets and load when a visitor hovers a location
+card or opens its detail page. Failed covers can retry other verified photos
+from that same place. The archive retains the photo credits, licences and source
+links. Draft and review records remain in the lazy-loaded admin route. Both
+catalogue and gallery assets use immutable caching because their URLs change
+whenever their contents change.
 
-In the 2026-11-23 production build, the app entry chunk is **216.8 KB gzip**;
-the published catalogue JSON is **9.28 MB raw / 1.03 MB gzip**. The full
-admin-only data chunk is **10.82 MB raw / 1.24 MB gzip** and the MapLibre bundle
-is still deferred until the map is approached. These are built-asset sizes, not
-measured connection timings. The catalogue bytes still need to be downloaded on
-first use, but they are no longer compiled as application JavaScript.
+In the 2026-11-23 build, the app entry chunk is **217.98 KB gzip**; the new
+cover-only catalogue is **4.55 MB raw / 631 KB gzip / 370 KB Brotli**. That is
+about **39% less gzip data** than the previous 1.03 MB catalogue. The 582
+on-demand photo archives total **5.82 MB raw**, with the largest individual
+archive at 44.4 KB. The full admin-only data chunk is **10.82 MB raw / 1.24 MB
+gzip**, and the MapLibre bundle stays deferred until its map is approached.
+These are built-asset sizes, not measured connection timings.
 
 ---
 

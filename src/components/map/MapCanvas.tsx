@@ -3,6 +3,7 @@ import maplibregl, { type LngLatBoundsLike, type Map as MapLibreMap } from "mapl
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Crosshair, Loader2 } from "lucide-react";
 import type { LocationRecord } from "@/data/types";
+import { loadPhotoGallery } from "@/services/photoGalleries";
 import { categoryBySlug, GROUP_META } from "@/data/taxonomy";
 import { cn } from "@/lib/utils";
 
@@ -154,6 +155,18 @@ export function MapCanvas({
         img.alt = props.name;
         img.className = "h-32 w-full object-cover";
         img.loading = "lazy";
+        img.onerror = () => {
+          img.onerror = null;
+          const galleryUrl = props.gallery;
+          const expectedCount = Number(props.photoCount);
+          void loadPhotoGallery(galleryUrl, expectedCount)
+            .then((photos) => {
+              const fallback = photos.find((photo) => photo.id !== props.coverId && photo.is_verified);
+              if (fallback) img.src = fallback.thumb_url;
+              else img.alt = `${props.name} — ภาพโหลดไม่สำเร็จ`;
+            })
+            .catch(() => { img.alt = `${props.name} — ภาพโหลดไม่สำเร็จ`; });
+        };
         const body = document.createElement("div");
         body.className = "p-3";
         const province = document.createElement("p");
@@ -225,6 +238,9 @@ export function MapCanvas({
           mood: topMood,
           color: groupColor(loc.categories),
           image: cover?.thumb_url ?? "",
+          coverId: cover?.id ?? "",
+          gallery: loc.gallery_asset_url ?? "",
+          photoCount: loc.photo_count,
         },
       };
     });

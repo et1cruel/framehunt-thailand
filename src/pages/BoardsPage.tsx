@@ -51,6 +51,9 @@ function BoardCard({ board, onOpen }: { board: Board; onOpen: () => void }) {
         {photo || firstWithPhoto ? (
           <PhotoImage
             photo={photo ?? firstWithPhoto?.photos[0]}
+            fallbackPhotos={cover?.photos ?? firstWithPhoto?.photos}
+            galleryAssetUrl={cover?.gallery_asset_url ?? firstWithPhoto?.gallery_asset_url}
+            expectedPhotoCount={cover?.photo_count ?? firstWithPhoto?.photo_count}
             sizes="(max-width: 768px) 100vw, 33vw"
             className="h-full w-full object-cover frame-img"
           />
@@ -315,7 +318,7 @@ export default function BoardsPage() {
                 className="grid gap-4 border border-line p-3 sm:grid-cols-[160px_1fr] md:grid-cols-[200px_1fr]"
               >
                 <Link to={`/locations/${loc.slug}`} className="relative block aspect-[4/3] overflow-hidden bg-ink-2">
-                  <PhotoImage photo={cover} sizes="200px" className="h-full w-full object-cover" />
+                  <PhotoImage photo={cover} fallbackPhotos={loc.photos} galleryAssetUrl={loc.gallery_asset_url} expectedPhotoCount={loc.photo_count} sizes="200px" className="h-full w-full object-cover" />
                   <span className="absolute left-1.5 top-1.5 bg-ink/85 px-1.5 py-0.5 font-mono text-xs tracking-normal text-acid">
                     {String(index + 1).padStart(2, "0")}
                   </span>

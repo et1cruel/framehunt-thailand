@@ -1,7 +1,7 @@
 import { useLanguage } from "@/i18n/Language";
 import { Localized } from "@/i18n/Language";
 import { frameNotes } from "@/data/frame-notes";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import {
   ArrowLeft,
@@ -27,6 +27,9 @@ import {
 import { useLocationCatalog } from "@/services/catalogContext";
 import { useFavorites, boards as boardStore, useBoards } from "@/services/localStore";
 import { PhotoGallery } from "@/components/location/PhotoGallery";
+import { PhotoImage } from "@/components/location/LocationCard";
+import type { LocationPhoto } from "@/data/types";
+import { loadPhotoGallery } from "@/services/photoGalleries";
 import { LocationCard } from "@/components/location/LocationCard";
 import { MapCanvas } from "@/components/map/MapCanvas";
 import {
@@ -80,13 +83,29 @@ export default function LocationDetailPage() {
   const [reportReason, setReportReason] = useState("ข้อมูลไม่ถูกต้อง");
   const [toast, setToast] = useState<string | null>(null);
   const [myDistance, setMyDistance] = useState<number | null>(null);
+  const [galleryPhotos, setGalleryPhotos] = useState<LocationPhoto[]>(location?.photos ?? []);
+
+  useEffect(() => {
+    if (!location) {
+      setGalleryPhotos([]);
+      return;
+    }
+    let active = true;
+    setGalleryPhotos(location.photos);
+    if (location.gallery_asset_url) {
+      void loadPhotoGallery(location.gallery_asset_url, location.photo_count)
+        .then((photos) => { if (active) setGalleryPhotos(photos); })
+        .catch(() => undefined);
+    }
+    return () => { active = false; };
+  }, [location?.id, location?.photos, location?.gallery_asset_url, location?.photo_count]);
 
   const nearby = useMemo(() => (location ? nearbyLocations(location, 4) : []), [location, nearbyLocations]);
 
   useSeo({
     title: location ? `${language === "en" ? location.name_en || location.name_th : location.name_th} — ${language === "en" ? location.province : location.province_th}` : "ไม่พบสถานที่",
     description: location?.description_th,
-    image: location?.photos[0]?.image_url,
+    image: galleryPhotos[0]?.image_url ?? location?.photos[0]?.image_url,
     canonical: location ? `${window.location.origin}/locations/${location.slug}` : undefined,
     noindex: !location,
     jsonLd: location
@@ -96,7 +115,7 @@ export default function LocationDetailPage() {
           name: location.name_th,
           alternateName: location.name_en,
           description: location.description_th,
-          image: location.photos.map((p) => p.image_url),
+          image: galleryPhotos.map((p) => p.image_url),
           geo: { "@type": "GeoCoordinates", latitude: location.latitude, longitude: location.longitude },
           address: {
             "@type": "PostalAddress",
@@ -127,7 +146,7 @@ export default function LocationDetailPage() {
 
   const cover = location.photos.find((p) => p.is_cover) ?? location.photos[0];
   const frame = frameNotes[location.slug];
-  const framePhoto = frame && location.photos.find((photo) => photo.id === frame.photoId && photo.is_verified);
+  const framePhoto = frame && galleryPhotos.find((photo) => photo.id === frame.photoId && photo.is_verified);
   const saved = isFavorite(location.id);
   const shareUrl = `${window.location.origin}/locations/${location.slug}`;
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${location.latitude},${location.longitude}`;
@@ -223,13 +242,15 @@ export default function LocationDetailPage() {
       <section className="container-x pt-5 sm:pt-8">
         <div className="relative h-[min(60vw,25rem)] min-h-[15rem] overflow-hidden rounded-[1.6rem] border border-white bg-ink-2 shadow-glass">
           {cover && (
-            <img
-              src={cover.image_url}
-              srcSet={`${cover.thumb_url} 500w, ${cover.image_url} 1920w`}
+            <PhotoImage
+              photo={cover}
+              fallbackPhotos={galleryPhotos}
+              galleryAssetUrl={location.gallery_asset_url}
+              expectedPhotoCount={location.photo_count}
               sizes="(max-width: 767px) 90vw, 92vw"
-              alt={`${language === "en" ? location.name_en || location.name_th : location.name_th} — ${cover.title}`}
               className="h-full w-full object-cover"
               fetchPriority="high"
+              priority
             />
           )}
         </div>
@@ -303,7 +324,7 @@ export default function LocationDetailPage() {
                 {location.photo_count} ภาพ · ตรวจสอบเครดิตแล้ว
               </p>
             </div>
-            <PhotoGallery photos={location.photos} locationName={language === "en" ? location.name_en || location.name_th : location.name_th} />
+            <PhotoGallery photos={galleryPhotos.length ? galleryPhotos : location.photos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} locationName={language === "en" ? location.name_en || location.name_th : location.name_th} />
             {frame && framePhoto && (
               <div className="clay-panel mt-5 p-5">
                 <h3 className="text-sm font-bold text-acid">มุมกล้องที่คัดไว้</h3>
@@ -592,10 +613,10 @@ export default function LocationDetailPage() {
 
             <details className="mt-6 border border-line">
               <summary className="cursor-pointer px-4 py-3 font-mono text-xs tracking-normal text-concrete">
-                PHOTO CREDITS ({location.photos.length})
+                PHOTO CREDITS ({galleryPhotos.length} / {location.photo_count})
               </summary>
               <ul className="divide-y divide-line border-t border-line">
-                {location.photos.map((p, i) => (
+                {galleryPhotos.map((p, i) => (
                   <li
                     key={p.id}
                     className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"

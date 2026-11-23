@@ -367,4 +367,22 @@ the homepage rendered its hero, collection cards and current counts: 3,025
 all-directory listings, 582 core locations, 3,211 photos and 142 Nakhon Pathom
 directory entries. The home page showed the map's reserved loading state before
 scrolling to the map. These are bundle sizes, not a network timing benchmark;
-the public JSON still downloads on the first data load.
+the public JSON still downloads on the first data load. The following section
+records the later split of each photo archive into separate assets.
+
+## On-demand location photo archives (2026-11-23)
+
+The prebuild validates the full publication gate before producing the public
+catalogue, then stores one signature cover in each of the 582 browse records.
+The other verified photos stay in a separate content-hashed archive for their
+own location. Detail pages load that archive; hovering a card loads the archive
+metadata for its slow image rotation. Failed images retry the direct original
+and then other images from the same location, preserving attribution and source
+links.
+
+`npm run build` passed. The public catalogue is **4,553,408 bytes raw / 631,178
+bytes gzip / 370,082 bytes Brotli**, down from 9,282,418 raw / 1,032,902 gzip
+bytes. All **582** location archives total 5,823,846 bytes raw; the largest is
+44,449 bytes. The generated catalogue still reports **582 locations, 3,211
+verified photos, 685 photographers, and 70 provinces**. Browser-level visual
+verification and live deployment are recorded separately when completed.

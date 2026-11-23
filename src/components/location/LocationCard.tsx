@@ -1,12 +1,14 @@
 import { useLanguage } from "@/i18n/Language";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Heart, MapPin, Camera } from "lucide-react";
-import type { LocationRecord } from "@/data/types";
+import { Heart, MapPin, Camera, ImageOff } from "lucide-react";
+import type { SyntheticEvent } from "react";
+import type { LocationPhoto, LocationRecord } from "@/data/types";
 import { categoryBySlug, moodBySlug } from "@/data/taxonomy";
 import { cn, formatKm } from "@/lib/utils";
 import { PermissionPill } from "@/components/ui";
 import { useFavorites } from "@/services/localStore";
+import { loadPhotoGallery } from "@/services/photoGalleries";
 
 interface Props {
   location: LocationRecord;
@@ -21,32 +23,113 @@ export function PhotoImage({
   sizes,
   className,
   priority,
+  fetchPriority,
+  fallbackPhotos = [],
+  galleryAssetUrl,
+  expectedPhotoCount = 0,
 }: {
-  photo: LocationRecord["photos"][number] | undefined;
+  photo: LocationPhoto | undefined;
   sizes: string;
   className?: string;
   priority?: boolean;
+  fetchPriority?: "high" | "low" | "auto";
+  fallbackPhotos?: LocationPhoto[];
+  galleryAssetUrl?: string;
+  expectedPhotoCount?: number;
 }) {
-  if (!photo) return <div className={cn("bg-paper/10", className)} aria-hidden />;
+  const [candidateIndex, setCandidateIndex] = useState(0);
+  const [useOriginal, setUseOriginal] = useState(false);
+  const [recoveryPhotos, setRecoveryPhotos] = useState<LocationPhoto[]>([]);
+  const [loadingGallery, setLoadingGallery] = useState(false);
+  const [attemptedGallery, setAttemptedGallery] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const primaryId = photo?.id;
+
+  useEffect(() => {
+    setCandidateIndex(0);
+    setUseOriginal(false);
+    setRecoveryPhotos([]);
+    setLoadingGallery(false);
+    setAttemptedGallery(false);
+    setFailed(false);
+  }, [primaryId]);
+
+  const candidates = [photo, ...fallbackPhotos, ...recoveryPhotos].filter(
+    (item, index, all): item is LocationPhoto => Boolean(item?.is_verified) && all.findIndex((candidate) => candidate?.id === item?.id) === index,
+  );
+  const current = candidates[candidateIndex];
+
+  const handleImageError = (event: SyntheticEvent<HTMLImageElement>) => {
+    if (!useOriginal && event.currentTarget.currentSrc !== current?.image_url) {
+      setUseOriginal(true);
+      return;
+    }
+    if (candidateIndex + 1 < candidates.length) {
+      setCandidateIndex((index) => index + 1);
+      setUseOriginal(false);
+      return;
+    }
+    if (galleryAssetUrl && !attemptedGallery && !loadingGallery) {
+      setAttemptedGallery(true);
+      setLoadingGallery(true);
+      void loadPhotoGallery(galleryAssetUrl, expectedPhotoCount)
+        .then((gallery) => {
+          const nextPhotos = gallery.filter((item) => !candidates.some((candidate) => candidate.id === item.id));
+          if (nextPhotos.length) {
+            setRecoveryPhotos(nextPhotos);
+            setCandidateIndex(candidates.length);
+            setUseOriginal(false);
+          }
+          else setFailed(true);
+        })
+        .catch(() => setFailed(true))
+        .finally(() => setLoadingGallery(false));
+      return;
+    }
+    if (attemptedGallery || !galleryAssetUrl) setFailed(true);
+  };
+
+  if (!current || failed) {
+    return (
+      <div role="img" aria-label={photo ? "ภาพสถานที่โหลดไม่สำเร็จ" : "ยังไม่มีภาพสถานที่"} className={cn("flex items-center justify-center gap-2 bg-ink-2 px-3 text-center text-xs text-concrete", className)}>
+        <ImageOff className="h-4 w-4 shrink-0" aria-hidden="true" />
+        <span>{loadingGallery ? "กำลังค้นหารูปสำรอง…" : photo ? "ภาพนี้โหลดไม่สำเร็จ" : "ยังไม่มีภาพสถานที่"}</span>
+      </div>
+    );
+  }
+
   return (
     <img
-      src={photo.thumb_url}
-      srcSet={`${photo.thumb_url} 500w, ${photo.image_url} 1920w`}
+      src={useOriginal ? current.image_url : current.thumb_url}
+      srcSet={useOriginal ? undefined : `${current.thumb_url} 500w, ${current.image_url} 1920w`}
       sizes={sizes}
-      width={photo.width}
-      height={photo.height}
-      alt={photo.title}
+      width={current.width}
+      height={current.height}
+      alt={current.title}
       loading={priority ? "eager" : "lazy"}
+      fetchPriority={fetchPriority ?? (priority ? "high" : "auto")}
       decoding="async"
       className={className}
+      onError={handleImageError}
     />
   );
 }
 
-function HoverPhotos({ photos, cover, sizes }: { photos: LocationRecord["photos"]; cover: LocationRecord["photos"][number] | undefined; sizes: string }) {
+function HoverPhotos({ location, cover, sizes }: { location: LocationRecord; cover: LocationRecord["photos"][number] | undefined; sizes: string }) {
   const [hovered, setHovered] = useState(false);
   const [index, setIndex] = useState(0);
-  const available = cover ? [cover, ...photos.filter((photo) => photo.id !== cover.id && photo.is_verified)] : [];
+  const [galleryPhotos, setGalleryPhotos] = useState(location.photos);
+  const available = cover ? [cover, ...galleryPhotos.filter((photo) => photo.id !== cover.id && photo.is_verified)] : [];
+  useEffect(() => {
+    setGalleryPhotos(location.photos);
+    setIndex(0);
+  }, [location.id, location.photos, cover?.id]);
+  useEffect(() => {
+    if (!hovered || galleryPhotos.length > 1 || !location.gallery_asset_url) return;
+    void loadPhotoGallery(location.gallery_asset_url, location.photo_count)
+      .then(setGalleryPhotos)
+      .catch(() => undefined);
+  }, [hovered, galleryPhotos.length, location.gallery_asset_url, location.photo_count]);
   useEffect(() => {
     if (!hovered || available.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const timer = window.setInterval(() => setIndex((current) => (current + 1) % available.length), 3500);
@@ -54,11 +137,11 @@ function HoverPhotos({ photos, cover, sizes }: { photos: LocationRecord["photos"
   }, [hovered, available.length]);
   const stop = () => { setHovered(false); setIndex(0); };
   return <div className="relative h-full w-full" onMouseEnter={() => setHovered(true)} onMouseLeave={stop}>
-    <PhotoImage photo={cover} sizes={sizes} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === 0 ? "opacity-100" : "opacity-0")} />
+    <PhotoImage photo={cover} sizes={sizes} fallbackPhotos={galleryPhotos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === 0 ? "opacity-100" : "opacity-0")} />
     {hovered && available.slice(1).map((photo, offset) => {
       const position = offset + 1;
       if (position !== index && position !== (index + 1) % available.length && position !== (index - 1 + available.length) % available.length) return null;
-      return <img key={photo.id} src={photo.thumb_url} alt="" aria-hidden="true" loading="lazy" decoding="async" className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === position ? "opacity-100" : "opacity-0")} />;
+      return <PhotoImage key={photo.id} photo={photo} sizes={sizes} fallbackPhotos={available.filter((candidate) => candidate.id !== photo.id)} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === position ? "opacity-100" : "opacity-0")} />;
     })}
     {hovered && index > 0 && available[index] && <span className="absolute bottom-2 left-2 max-w-[85%] rounded bg-black/75 px-2 py-1 text-[10px] text-white">{available[index].attribution_text}</span>}
   </div>;
@@ -79,7 +162,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         className="group flex items-center gap-4 rounded-xl border-b border-line px-2 py-3 hover:bg-ink/85"
       >
         <div className="relative h-20 w-24 shrink-0 overflow-hidden rounded-xl bg-ink-2">
-          <PhotoImage photo={cover} sizes="96px" className="h-full w-full object-cover frame-img" />
+          <PhotoImage photo={cover} sizes="96px" fallbackPhotos={location.photos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className="h-full w-full object-cover frame-img" />
         </div>
         <div className="min-w-0 flex-1">
           <p className="label-mono text-concrete">{language === "en" ? location.province : location.province_th}</p>
@@ -107,7 +190,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           to={`/locations/${location.slug}`}
           className="relative block aspect-[4/3] overflow-hidden rounded-xl bg-ink-2"
         >
-          <HoverPhotos photos={location.photos} cover={cover} sizes="(max-width: 640px) 100vw, 280px" />
+          <HoverPhotos location={location} cover={cover} sizes="(max-width: 640px) 100vw, 280px" />
         </Link>
         <div className="flex flex-col justify-between gap-4 px-2 py-2 pr-12 sm:pr-10">
           <div>
@@ -166,7 +249,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           aria-label={language === "en" ? location.name_en || location.name_th : location.name_th}
           className="absolute inset-0 focus-visible:outline-offset-[-3px]"
         >
-          <HoverPhotos photos={location.photos} cover={cover} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+          <HoverPhotos location={location} cover={cover} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
         </Link>
         <button
           type="button"
