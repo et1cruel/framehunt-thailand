@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 import english from "./en.json";
 
 type Language = "th" | "en";
-const normalizeKey = (text: string) => text.replace(/\s+/gu, " ").trim();
+const normalizeKey = (text: string) => text.replace(/\\n/gu, " ").replace(/\s+/gu, " ").trim();
 const englishByNormalizedKey = new Map(
   Object.entries(english as Record<string, string>).map(([key, value]) => [normalizeKey(key), value]),
 );
