@@ -8,7 +8,7 @@ import { useLocationCatalog } from "@/services/catalogContext";
 import { PhotoImage } from "@/components/location/LocationCard";
 import { Button, Badge } from "@/components/ui";
 import { useSeo } from "@/lib/useSeo";
-import { cn, formatKm, haversineKm } from "@/lib/utils";
+import { cn, formatLocalizedKm, haversineKm } from "@/lib/utils";
 import type { LocationRecord } from "@/data/types";
 import { localizeVibeReason } from "@/i18n/locationText";
 
@@ -302,8 +302,9 @@ export default function FindMyVibePage() {
                         <Badge variant="acid">{match.location.photo_count} {t("PHOTOS")}</Badge>
                         {origin && (
                           <Badge>
-                            {formatKm(
+                            {formatLocalizedKm(
                               haversineKm(origin, { lat: match.location.latitude, lng: match.location.longitude }),
+                              language,
                             )}
                           </Badge>
                         )}

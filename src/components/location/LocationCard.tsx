@@ -5,7 +5,7 @@ import { Heart, MapPin, Camera, ImageOff } from "lucide-react";
 import type { SyntheticEvent } from "react";
 import type { LocationPhoto, LocationRecord } from "@/data/types";
 import { categoryBySlug, moodBySlug } from "@/data/taxonomy";
-import { cn, formatKm } from "@/lib/utils";
+import { cn, formatLocalizedKm } from "@/lib/utils";
 import { PermissionPill } from "@/components/ui";
 import { useFavorites } from "@/services/localStore";
 import { loadPhotoGallery } from "@/services/photoGalleries";
@@ -197,7 +197,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           </h3>
           <p className="mt-1 font-mono text-xs tracking-normal text-concrete">
             {location.photo_count} PHOTOS
-            {distanceKm != null ? ` · ${formatKm(distanceKm)}` : ""}
+            {distanceKm != null ? ` · ${formatLocalizedKm(distanceKm, language)}` : ""}
           </p>
         </div>
       </Link>
@@ -308,7 +308,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           <span className="flex min-w-0 items-center gap-1.5">
             <MapPin className="h-3.5 w-3.5 shrink-0 text-acid" />
             <span className="truncate">{language === "en" ? t(location.district ?? location.province) : location.district ?? location.province_th}</span>
-            {distanceKm != null && <span className="shrink-0">· {formatKm(distanceKm)}</span>}
+            {distanceKm != null && <span className="shrink-0">· {formatLocalizedKm(distanceKm, language)}</span>}
           </span>
           <span className="flex items-center gap-1.5">
             <Camera className="h-3.5 w-3.5 text-acid" />
