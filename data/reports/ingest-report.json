@@ -4,17 +4,17 @@
   "counts": {
     "seeds": 1266,
     "resolved": 833,
-    "published": 574,
-    "draft": 259,
+    "published": 582,
+    "draft": 251,
     "rejected": 408,
-    "verified_photos": 3187,
-    "draft_photos": 188
+    "verified_photos": 3211,
+    "draft_photos": 165
   },
   "by_zone": [
     {
       "zone": "A",
-      "published": 238,
-      "draft": 50
+      "published": 246,
+      "draft": 42
     },
     {
       "zone": "B",
@@ -29,9 +29,9 @@
   ],
   "by_region": [
     {
-      "region": "South",
-      "published": 58,
-      "draft": 44
+      "region": "Bangkok",
+      "published": 246,
+      "draft": 42
     },
     {
       "region": "Central",
@@ -39,19 +39,9 @@
       "draft": 47
     },
     {
-      "region": "Bangkok",
-      "published": 238,
-      "draft": 50
-    },
-    {
       "region": "East",
       "published": 25,
       "draft": 19
-    },
-    {
-      "region": "West",
-      "published": 38,
-      "draft": 27
     },
     {
       "region": "North",
@@ -62,6 +52,16 @@
       "region": "Northeast",
       "published": 50,
       "draft": 41
+    },
+    {
+      "region": "South",
+      "published": 58,
+      "draft": 44
+    },
+    {
+      "region": "West",
+      "published": 38,
+      "draft": 27
     }
   ],
   "license_breakdown": {
@@ -7994,13 +7994,6 @@
       "needed": 5
     },
     {
-      "slug": "don-mueang-railway-station",
-      "name": "Don Mueang railway station",
-      "province": "Bangkok",
-      "verified_photos": 1,
-      "needed": 4
-    },
-    {
       "slug": "dragon-descendants-museum",
       "name": "Dragon Descendants Museum",
       "province": "Suphan Buri",
@@ -8232,13 +8225,6 @@
       "needed": 5
     },
     {
-      "slug": "khlong-lat-mayom-floating-market",
-      "name": "Khlong Lat Mayom Floating Market",
-      "province": "Bangkok",
-      "verified_photos": 2,
-      "needed": 3
-    },
-    {
       "slug": "khlong-phlu-waterfall",
       "name": "Khlong Phlu Waterfall",
       "province": "Trat",
@@ -8372,13 +8358,6 @@
       "needed": 5
     },
     {
-      "slug": "leng-buai-ia-shrine",
-      "name": "Leng Buai Ia Shrine",
-      "province": "Bangkok",
-      "verified_photos": 3,
-      "needed": 2
-    },
-    {
       "slug": "mae-kampong",
       "name": "Mae Kampong",
       "province": "Chiang Mai",
@@ -8491,13 +8470,6 @@
       "needed": 5
     },
     {
-      "slug": "national-gallery-bangkok",
-      "name": "National Gallery, Bangkok",
-      "province": "Bangkok",
-      "verified_photos": 3,
-      "needed": 2
-    },
-    {
       "slug": "national-science-museum-thailand",
       "name": "National Science Museum (Thailand)",
       "province": "Pathum Thani",
@@ -8559,13 +8531,6 @@
       "province": "Pattani",
       "verified_photos": 1,
       "needed": 4
-    },
-    {
-      "slug": "pearl-bangkok",
-      "name": "Pearl Bangkok",
-      "province": "Bangkok",
-      "verified_photos": 4,
-      "needed": 1
     },
     {
       "slug": "pha-chor",
@@ -8762,13 +8727,6 @@
       "province": "Pathum Thani",
       "verified_photos": 0,
       "needed": 5
-    },
-    {
-      "slug": "rama-vii-bridge",
-      "name": "Rama VII Bridge",
-      "province": "Bangkok",
-      "verified_photos": 2,
-      "needed": 3
     },
     {
       "slug": "raman-railway-station",
@@ -9380,13 +9338,6 @@
       "needed": 5
     },
     {
-      "slug": "wat-sriboonreung",
-      "name": "Wat Sriboonreung",
-      "province": "Bangkok",
-      "verified_photos": 4,
-      "needed": 1
-    },
-    {
       "slug": "wat-tha-luang",
       "name": "Wat Tha Luang",
       "province": "Phichit",
@@ -9448,13 +9399,6 @@
       "province": "Kanchanaburi",
       "verified_photos": 0,
       "needed": 5
-    },
-    {
-      "slug": "wat-that-thong",
-      "name": "Wat That Thong",
-      "province": "Bangkok",
-      "verified_photos": 4,
-      "needed": 1
     },
     {
       "slug": "wat-thipsukhontharam",
@@ -10068,6 +10012,13 @@
       "qid": "Q843034"
     },
     {
+      "slug": "don-mueang-railway-station",
+      "name": "Don Mueang railway station",
+      "province": "Bangkok",
+      "photos": 1,
+      "qid": "Q6585967"
+    },
+    {
       "slug": "don-wai-floating-market",
       "name": "Don Wai Floating Market",
       "province": "Nakhon Pathom",
@@ -10530,6 +10481,13 @@
       "qid": "Q1968833"
     },
     {
+      "slug": "khlong-lat-mayom-floating-market",
+      "name": "Khlong Lat Mayom Floating Market",
+      "province": "Bangkok",
+      "photos": 2,
+      "qid": "Q64737922"
+    },
+    {
       "slug": "khlong-maha-nak",
       "name": "Khlong Maha Nak",
       "province": "Bangkok",
@@ -10852,6 +10810,13 @@
       "qid": "Q4923372"
     },
     {
+      "slug": "leng-buai-ia-shrine",
+      "name": "Leng Buai Ia Shrine",
+      "province": "Bangkok",
+      "photos": 3,
+      "qid": "Q2357415"
+    },
+    {
       "slug": "lop-buri-railway-station",
       "name": "Lop Buri railway station",
       "province": "Lopburi",
@@ -11104,6 +11069,13 @@
       "qid": "Q50281414"
     },
     {
+      "slug": "national-gallery-bangkok",
+      "name": "National Gallery, Bangkok",
+      "province": "Bangkok",
+      "photos": 3,
+      "qid": "Q1968373"
+    },
+    {
       "slug": "neilson-hays-library",
       "name": "Neilson Hays Library",
       "province": "Bangkok",
@@ -11242,6 +11214,13 @@
       "province": "Chonburi",
       "photos": 6,
       "qid": "Q49321024"
+    },
+    {
+      "slug": "pearl-bangkok",
+      "name": "Pearl Bangkok",
+      "province": "Bangkok",
+      "photos": 4,
+      "qid": "Q137945465"
     },
     {
       "slug": "pha-taem-national-park",
@@ -11662,6 +11641,13 @@
       "province": "Bangkok",
       "photos": 5,
       "qid": "Q1538802"
+    },
+    {
+      "slug": "rama-vii-bridge",
+      "name": "Rama VII Bridge",
+      "province": "Bangkok",
+      "photos": 2,
+      "qid": "Q4797664"
     },
     {
       "slug": "rama-viii-bridge",
@@ -13235,7 +13221,7 @@
       "slug": "wat-rong-khun",
       "name": "Wat Rong Khun",
       "province": "Chiang Rai",
-      "photos": 12,
+      "photos": 13,
       "qid": "Q496543"
     },
     {
@@ -13330,6 +13316,13 @@
       "qid": "Q43691857"
     },
     {
+      "slug": "wat-sriboonreung",
+      "name": "Wat Sriboonreung",
+      "province": "Bangkok",
+      "photos": 4,
+      "qid": "Q16004371"
+    },
+    {
       "slug": "wat-suan-dok",
       "name": "Wat Suan Dok",
       "province": "Chiang Mai",
@@ -13405,6 +13398,13 @@
       "province": "Ayutthaya",
       "photos": 5,
       "qid": "Q16004183"
+    },
+    {
+      "slug": "wat-that-thong",
+      "name": "Wat That Thong",
+      "province": "Bangkok",
+      "photos": 4,
+      "qid": "Q20583674"
     },
     {
       "slug": "wat-thepthidaram",

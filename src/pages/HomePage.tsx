@@ -9,6 +9,7 @@ import { MapCanvas } from "@/components/map/MapCanvas";
 import { Button } from "@/components/ui";
 import { QUICK_CATEGORIES, REGION_LABELS, categories, moods } from "@/data/taxonomy";
 import { collectionItems } from "@/services/discoveryCollections";
+import { countCatalogPlaces } from "@/services/catalogMetrics";
 import { useLocationCatalog } from "@/services/catalogContext";
 import type { LocationRecord } from "@/data/types";
 import { useSeo } from "@/lib/useSeo";
@@ -25,6 +26,7 @@ export default function HomePage() {
 
   const published = publishedLocations();
   const stats = locationStats();
+  const catalogPlaceCount = countCatalogPlaces(published);
   const nakhonDirectoryCount = collectionItems("nakhon-pathom", published).count;
 
   const hero = useMemo(
@@ -167,9 +169,10 @@ export default function HomePage() {
           </figure>
         </div>
 
-        <dl className="mt-4 grid grid-cols-2 gap-2.5 lg:grid-cols-5 lg:gap-4">
+        <dl className="mt-4 grid grid-cols-2 gap-2.5 lg:grid-cols-3 xl:grid-cols-6 lg:gap-4">
           {[
-            { label: "โลเคชันที่ตรวจสอบแล้ว", value: stats.published, icon: Compass, tone: "bg-lilac/85" },
+            { label: "สถานที่รวมทุกหมวด", value: catalogPlaceCount, icon: MapPin, tone: "bg-sage/85" },
+            { label: "ผ่านเกณฑ์ตรวจสอบ", value: stats.published, icon: Compass, tone: "bg-lilac/85" },
             { label: "ภาพถ่ายจริง", value: stats.verifiedPhotos, icon: Camera, tone: "bg-peach/85" },
             { label: "จังหวัด", value: stats.provincesCovered, icon: MapPin, tone: "bg-sage/85" },
             { label: "ช่างภาพที่ให้เครดิต", value: stats.photographers, icon: ShieldCheck, tone: "bg-lilac/85" },
@@ -191,6 +194,9 @@ export default function HomePage() {
             </div>
           ))}
         </dl>
+        <p className="mt-2 text-center text-[11px] leading-relaxed text-concrete">
+          ยอดรวมคิดจากโลเคชันหลัก กิจกรรม ร้านอาหาร มือสอง ห้องซ้อม และเวทีดนตรี โดยตัดชื่อสถานที่ซ้ำที่ตรวจพบออก
+        </p>
       </section>
 
       {/* ── QUICK CATEGORIES ─────────────────────────────────────────────── */}
