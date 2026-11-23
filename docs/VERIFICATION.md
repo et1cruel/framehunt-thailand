@@ -618,3 +618,15 @@ routes, including the MapLibre canvas. The build still warns that the MapLibre
 chunk is 1.05 MB and the dataset chunk is 10.82 MB (raw). This pass does not
 claim the image gaps above are resolved or that all supplemental directory
 prose has English translations.
+
+The code updates were pushed as `b266c93` and `542f8fd` on `main`. Cloudflare
+Pages reports production deployment
+[`3256c5bf.framehunt-thailand.pages.dev`](https://3256c5bf.framehunt-thailand.pages.dev),
+deployment ID `3256c5bf-2268-450e-8cef-f95100da0975`, source `542f8fd`,
+environment `Production`. The stable home page, stable Wat Arun detail route,
+deployment URL, and the current hashed app script returned HTTP 200; the script
+uses immutable caching. A live English-mode accessibility-tree check confirmed
+the cover and gallery image names read `Wat Arun` and `Wat Arun photo 1`, gallery
+tabs and navigation labels are English, and nearby-card image labels use place
+names rather than Thai source filenames. This confirms the inspected detail
+route only, not all route content or every dynamic English field.
