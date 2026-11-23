@@ -555,3 +555,11 @@ still need review.
 existing large-chunk advisory for MapLibre and the admin-only dataset. The
 English preview was checked on the homepage and rehearsal-studio listing; this
 was not a complete manual pass through every route or mobile breakpoint.
+
+Release after the audit: commit `39bf175` was pushed to `origin/main` and
+deployed to the Cloudflare Pages production environment on the `main` branch.
+The deployment URL is
+[`a94de68b.framehunt-thailand.pages.dev`](https://a94de68b.framehunt-thailand.pages.dev).
+Both that deployment URL and the stable `framehunt-thailand.pages.dev` returned
+HTTP 200 and referenced the same new hashed application bundle. The Pages
+deployment list reports source `39bf175`, environment `Production`.
