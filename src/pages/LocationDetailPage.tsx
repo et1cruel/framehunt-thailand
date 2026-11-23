@@ -44,7 +44,7 @@ import {
   Textarea,
 } from "@/components/ui";
 import { categoryBySlug, moodBySlug } from "@/data/taxonomy";
-import { formatCoords, formatKm, formatThaiDate, haversineKm, uid } from "@/lib/utils";
+import { formatCoords, formatLocalizedDate, formatLocalizedKm, haversineKm, uid } from "@/lib/utils";
 import { useSeo } from "@/lib/useSeo";
 import { cn } from "@/lib/utils";
 import { isSupabaseConfigured } from "@/lib/supabase";
@@ -396,7 +396,7 @@ export default function LocationDetailPage() {
             </div>
             <p className="mt-3 max-w-2xl font-sans text-xs leading-relaxed text-concrete">
               <Localized text={"ข้อมูลต่อไปนี้แยกจาก “สถานที่เปิดให้ท่องเที่ยว” อย่างชัดเจน — ช่องที่ยังไม่มีหลักฐานจะแสดงว่า"} />{" "}
-              <span className="text-concrete">{UNKNOWN}</span> <Localized text={"และไม่ถูกใช้เป็นข้อสรุปว่าถ่ายเชิงพาณิชย์ได้"} /></p>
+              <span className="text-concrete">{t(UNKNOWN)}</span> <Localized text={"และไม่ถูกใช้เป็นข้อสรุปว่าถ่ายเชิงพาณิชย์ได้"} /></p>
 
             <div className="mt-5 grid gap-x-8 md:grid-cols-2">
               <div>
@@ -443,7 +443,7 @@ export default function LocationDetailPage() {
                 <ShieldAlert className="h-5 w-5 text-burnt" />
                 <PermissionPill status={permission.permission_status} />
                 <span className="font-mono text-xs tracking-normal text-concrete">
-                  CHECKED {formatThaiDate(permission.verified_at)}
+                  CHECKED {formatLocalizedDate(permission.verified_at, language)}
                 </span>
               </div>
               <p className="mt-3 font-sans text-sm leading-relaxed text-concrete">{t(permission.note)}</p>
@@ -504,7 +504,7 @@ export default function LocationDetailPage() {
                 }}
               >
                 <MapPin className="h-3.5 w-3.5" />
-                {myDistance != null ? `ห่างจากคุณ ${formatKm(myDistance)}` : "คำนวณระยะทาง"}
+                {myDistance != null ? `${t("ห่างจากคุณ")} ${formatLocalizedKm(myDistance, language)}` : t("คำนวณระยะทาง")}
               </Button>
             </div>
             <p className="mt-3 font-mono text-xs tracking-normal text-concrete">
@@ -575,7 +575,7 @@ export default function LocationDetailPage() {
                   <p className="label-mono text-concrete">SOUND & CREW</p>
                 </div>
                 <p className="mt-2 font-sans text-sm text-concrete">
-                  <Localized text={"ข้อจำกัดเสียงและขนาดทีม:"} /> {UNKNOWN} <Localized text={"— ควรแจ้งทีมงานล่วงหน้าและขออนุญาตเป็นลายลักษณ์อักษร"} /></p>
+                  <Localized text={"ข้อจำกัดเสียงและขนาดทีม:"} /> {t(UNKNOWN)} <Localized text={"— ควรแจ้งทีมงานล่วงหน้าและขออนุญาตเป็นลายลักษณ์อักษร"} /></p>
               </div>
             </div>
           </section>
@@ -602,7 +602,7 @@ export default function LocationDetailPage() {
                     {s.source_type} · {s.field_verified}
                   </a>
                   <span className="font-mono text-xs tracking-normal text-concrete">
-                    CHECKED {formatThaiDate(s.checked_at)}
+                    CHECKED {formatLocalizedDate(s.checked_at, language)}
                   </span>
                 </li>
               ))}
@@ -663,7 +663,7 @@ export default function LocationDetailPage() {
                   { k: "พิกัด", v: formatCoords(location.latitude, location.longitude) },
                   { k: "ประเภท", v: location.location_type },
                   { k: "ภาพที่ยืนยัน", v: language === "en" ? `${location.photo_count} photos` : `${location.photo_count} ภาพ` },
-                  { k: "ตรวจสอบล่าสุด", v: formatThaiDate(location.verified_at) },
+                  { k: "ตรวจสอบล่าสุด", v: formatLocalizedDate(location.verified_at, language) },
                 ].map((row) => (
                   <div
                     key={row.k}

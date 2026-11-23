@@ -37,6 +37,25 @@ export function formatThaiDate(iso: string | null | undefined) {
   }).format(d);
 }
 
+export function formatLocalizedDate(iso: string | null | undefined, language: "th" | "en") {
+  if (!iso) return "—";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "—";
+  return new Intl.DateTimeFormat(language === "en" ? "en-US" : "th-TH", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(date);
+}
+
+export function formatLocalizedKm(km: number, language: "th" | "en") {
+  if (language === "th") return formatKm(km);
+  if (!Number.isFinite(km)) return "—";
+  if (km < 1) return `${Math.round(km * 1000)} m`;
+  if (km < 10) return `${km.toFixed(1)} km`;
+  return `${Math.round(km)} km`;
+}
+
 export function debounce<T extends (...args: never[]) => void>(fn: T, ms = 250) {
   let timer: ReturnType<typeof setTimeout>;
   return (...args: Parameters<T>) => {

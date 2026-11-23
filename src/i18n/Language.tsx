@@ -2,6 +2,10 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 import english from "./en.json";
 
 type Language = "th" | "en";
+const normalizeKey = (text: string) => text.replace(/\s+/gu, " ").trim();
+const englishByNormalizedKey = new Map(
+  Object.entries(english as Record<string, string>).map(([key, value]) => [normalizeKey(key), value]),
+);
 const LanguageContext = createContext({ language: "th" as Language, setLanguage: (_language: Language) => {}, t: (text: string) => text });
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
@@ -11,7 +15,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.lang = language;
     try { localStorage.setItem("framehunt:language", language); } catch { /* Storage may be unavailable. */ }
   }, [language]);
-  const t = (text: string) => language === "en" ? (english as Record<string, string>)[text.trim()] ?? text : text;
+  const t = (text: string) => language === "en" ? englishByNormalizedKey.get(normalizeKey(text)) ?? text : text;
   return <LanguageContext.Provider value={{ language, setLanguage, t }}>{children}</LanguageContext.Provider>;
 }
 export function useLanguage() { return useContext(LanguageContext); }

@@ -563,3 +563,14 @@ The deployment URL is
 Both that deployment URL and the stable `framehunt-thailand.pages.dev` returned
 HTTP 200 and referenced the same new hashed application bundle. The Pages
 deployment list reports source `39bf175`, environment `Production`.
+
+## English detail-page follow-up
+
+Production inspection found data-driven Thai strings that the static JSX audit
+could not detect. English lookup now normalizes whitespace in both dictionary
+keys and rendered strings, the filming-permission pill is translated, and the
+location detail page uses English date and distance formats. The header's
+favourites control also has an English accessible name. Strict i18n audit,
+production build, preview smoke across nine routes, and `git diff --check` passed
+after the follow-up. Some original proper names and supplemental directory data
+remain in their source language; this does not change the open photo gaps above.

@@ -220,6 +220,7 @@ const PERMISSION_LABELS: Record<string, { th: string; cls: string }> = {
 };
 
 export function PermissionPill({ status, className }: { status: string; className?: string }) {
+  const { t } = useLanguage();
   const meta = PERMISSION_LABELS[status] ?? PERMISSION_LABELS.unknown;
   return (
     <span
@@ -230,7 +231,7 @@ export function PermissionPill({ status, className }: { status: string; classNam
       )}
     >
       <span className="inline-block h-1.5 w-1.5 rounded-full bg-current" />
-      {meta.th}
+      {t(meta.th)}
     </span>
   );
 }

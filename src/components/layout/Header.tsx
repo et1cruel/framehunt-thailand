@@ -114,7 +114,7 @@ export function Header() {
           <Link to="/explore" className={cn(iconClass, "hidden sm:grid")} aria-label={t("ไปหน้าค้นหา")}>
             <Search className="h-4 w-4" />
           </Link>
-          <Link to="/boards" className={iconClass} aria-label={"รายการโปรด " + favorites.length + " รายการ"}>
+          <Link to="/boards" className={iconClass} aria-label={`${t("รายการโปรด")}: ${favorites.length}`}>
             <Heart className="h-4 w-4" />
             {favorites.length > 0 && (
               <span className="absolute -right-1 -top-1 grid h-5 min-w-5 place-items-center rounded-full border border-white bg-acid px-1 text-xs font-bold text-ink">
