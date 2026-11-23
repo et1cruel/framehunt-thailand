@@ -390,3 +390,20 @@ preview, the Wat Arun detail page loaded all 12 verified photos and displayed
 The deployed Pages production URL returned HTTP 200 for the app, catalogue and
 Wat Arun archive. Both hashed data assets returned Brotli encoding and
 `Cache-Control: public, max-age=31536000, immutable`.
+
+## UX/UI and motion pass (2026-11-23)
+
+Added [`MASTER_PROMPT_UX_UI_MOTION.md`](MASTER_PROMPT_UX_UI_MOTION.md) and linked
+it from the product master prompt. Applied its first pass to the main navigation
+and location photo previews: desktop keeps the five main discovery routes visible
+and moves secondary routes into a keyboard-operable “More” menu; photo previews
+rotate only while hovered or keyboard-focused, visible, and in view. A small
+counter identifies the current photo, and the counter text follows the selected
+language. Popovers use a brief entrance animation; reduced-motion preferences
+disable those animations and image scaling.
+
+`npm run build` passed. Manual Chromium inspection at **1024×768** showed no
+header overlap and all routes in the secondary menu; inspection at **390×844**
+showed the home page within the viewport and the mobile menu exposed all routes.
+The Impeccable detector returned no findings for the changed UI files. Reduced
+motion and the animated keyboard photo preview were not manually exercised.

@@ -139,7 +139,7 @@ export function SearchBar({
         <div
           id="search-suggestions"
           role="listbox"
-          className="absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden rounded-2xl border border-white bg-ink shadow-glass"
+          className="search-suggestions absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden rounded-2xl border border-white bg-ink shadow-glass"
         >
           {items.map((item, i) => {
             const Icon = ICONS[item.type];

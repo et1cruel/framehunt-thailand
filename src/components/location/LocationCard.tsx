@@ -1,6 +1,6 @@
 import { useLanguage } from "@/i18n/Language";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Heart, MapPin, Camera, ImageOff } from "lucide-react";
 import type { SyntheticEvent } from "react";
 import type { LocationPhoto, LocationRecord } from "@/data/types";
@@ -115,35 +115,60 @@ export function PhotoImage({
   );
 }
 
-function HoverPhotos({ location, cover, sizes }: { location: LocationRecord; cover: LocationRecord["photos"][number] | undefined; sizes: string }) {
+function HoverPhotos({ location, cover, sizes, focusActive = false }: { location: LocationRecord; cover: LocationRecord["photos"][number] | undefined; sizes: string; focusActive?: boolean }) {
+  const { language } = useLanguage();
   const [hovered, setHovered] = useState(false);
+  const [inView, setInView] = useState(true);
+  const [pageVisible, setPageVisible] = useState(true);
   const [index, setIndex] = useState(0);
   const [galleryPhotos, setGalleryPhotos] = useState(location.photos);
+  const previewRef = useRef<HTMLDivElement>(null);
+  const active = hovered || focusActive;
   const available = cover ? [cover, ...galleryPhotos.filter((photo) => photo.id !== cover.id && photo.is_verified)] : [];
+
+  useEffect(() => {
+    const node = previewRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+    const observer = new IntersectionObserver(([entry]) => setInView(entry.isIntersecting), { rootMargin: "40px", threshold: 0.15 });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const updateVisibility = () => setPageVisible(document.visibilityState === "visible");
+    updateVisibility();
+    document.addEventListener("visibilitychange", updateVisibility);
+    return () => document.removeEventListener("visibilitychange", updateVisibility);
+  }, []);
+
   useEffect(() => {
     setGalleryPhotos(location.photos);
     setIndex(0);
   }, [location.id, location.photos, cover?.id]);
   useEffect(() => {
-    if (!hovered || galleryPhotos.length > 1 || !location.gallery_asset_url) return;
+    if (!active || galleryPhotos.length > 1 || !location.gallery_asset_url) return;
     void loadPhotoGallery(location.gallery_asset_url, location.photo_count)
       .then(setGalleryPhotos)
       .catch(() => undefined);
-  }, [hovered, galleryPhotos.length, location.gallery_asset_url, location.photo_count]);
+  }, [active, galleryPhotos.length, location.gallery_asset_url, location.photo_count]);
   useEffect(() => {
-    if (!hovered || available.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (!active || !inView || !pageVisible || available.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const timer = window.setInterval(() => setIndex((current) => (current + 1) % available.length), 3500);
     return () => window.clearInterval(timer);
-  }, [hovered, available.length]);
+  }, [active, inView, pageVisible, available.length]);
+  useEffect(() => {
+    if (!active) setIndex(0);
+  }, [active]);
   const stop = () => { setHovered(false); setIndex(0); };
-  return <div className="relative h-full w-full" onMouseEnter={() => setHovered(true)} onMouseLeave={stop}>
+  return <div ref={previewRef} className="relative h-full w-full" onMouseEnter={() => setHovered(true)} onMouseLeave={stop}>
     <PhotoImage photo={cover} sizes={sizes} fallbackPhotos={galleryPhotos} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === 0 ? "opacity-100" : "opacity-0")} />
-    {hovered && available.slice(1).map((photo, offset) => {
+    {active && available.slice(1).map((photo, offset) => {
       const position = offset + 1;
       if (position !== index && position !== (index + 1) % available.length && position !== (index - 1 + available.length) % available.length) return null;
       return <PhotoImage key={photo.id} photo={photo} sizes={sizes} fallbackPhotos={available.filter((candidate) => candidate.id !== photo.id)} galleryAssetUrl={location.gallery_asset_url} expectedPhotoCount={location.photo_count} className={cn("absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 motion-reduce:transition-none", index === position ? "opacity-100" : "opacity-0")} />;
     })}
-    {hovered && index > 0 && available[index] && <span className="absolute bottom-2 left-2 max-w-[85%] rounded bg-black/75 px-2 py-1 text-[10px] text-white">{available[index].attribution_text}</span>}
+    {active && available.length > 1 && <span aria-hidden="true" className="photo-preview-count absolute left-2 top-2 rounded-full border border-white/70 bg-ink/90 px-2.5 py-1 font-mono text-[10px] tracking-normal text-paper shadow-sm">{String(index + 1).padStart(2, "0")} / {available.length} {language === "en" ? "photos" : "ภาพ"}</span>}
+    {active && available[index] && <span className="absolute bottom-2 left-2 max-w-[85%] rounded bg-black/75 px-2 py-1 text-[10px] text-white">{available[index].attribution_text}</span>}
   </div>;
 }
 
@@ -151,6 +176,7 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
   const { language } = useLanguage();
   const { isFavorite, toggle } = useFavorites();
   const saved = isFavorite(location.id);
+  const [cardFocused, setCardFocused] = useState(false);
   const cover = location.photos.find((p) => p.is_cover) ?? location.photos[0];
   const topMoods = [...location.moods].sort((a, b) => b.relevance_score - a.relevance_score).slice(0, 2);
   const primaryCat = location.categories[0];
@@ -189,8 +215,10 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
         <Link
           to={`/locations/${location.slug}`}
           className="relative block aspect-[4/3] overflow-hidden rounded-xl bg-ink-2"
+          onFocus={() => setCardFocused(true)}
+          onBlur={() => setCardFocused(false)}
         >
-          <HoverPhotos location={location} cover={cover} sizes="(max-width: 640px) 100vw, 280px" />
+          <HoverPhotos location={location} cover={cover} sizes="(max-width: 640px) 100vw, 280px" focusActive={cardFocused} />
         </Link>
         <div className="flex flex-col justify-between gap-4 px-2 py-2 pr-12 sm:pr-10">
           <div>
@@ -231,11 +259,11 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           aria-label={saved ? "นำออกจากรายการโปรด" : "บันทึกเป็นรายการโปรด"}
           aria-pressed={saved}
           className={cn(
-            "clay-control absolute right-5 top-5 flex h-11 w-11 items-center justify-center border bg-ink/95 transition-colors",
+            "clay-control absolute right-5 top-5 flex h-11 w-11 items-center justify-center border bg-ink/95 transition-[color,background-color,transform] active:scale-95",
             saved ? "border-acid bg-acid text-ink" : "border-line text-concrete hover:border-acid hover:text-acid",
           )}
         >
-          <Heart className={cn("h-4 w-4", saved && "fill-current")} />
+          <Heart className={cn("h-4 w-4 transition-transform duration-150", saved && "scale-110 fill-current")} />
         </button>
       </article>
     );
@@ -248,8 +276,10 @@ export function LocationCard({ location, variant = "grid", distanceKm, className
           to={"/locations/" + location.slug}
           aria-label={language === "en" ? location.name_en || location.name_th : location.name_th}
           className="absolute inset-0 focus-visible:outline-offset-[-3px]"
+          onFocus={() => setCardFocused(true)}
+          onBlur={() => setCardFocused(false)}
         >
-          <HoverPhotos location={location} cover={cover} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+          <HoverPhotos location={location} cover={cover} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" focusActive={cardFocused} />
         </Link>
         <button
           type="button"

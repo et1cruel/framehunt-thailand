@@ -1,5 +1,10 @@
 # FRAMEHUNT THAILAND — Master Prompt for Product Development
 
+For dedicated UX/UI and animation work, use
+[`MASTER_PROMPT_UX_UI_MOTION.md`](MASTER_PROMPT_UX_UI_MOTION.md) alongside this
+product prompt. It captures the approved glass/clay direction, discovery flows,
+responsive navigation rules and reduced-motion behavior.
+
 Use this prompt when improving the existing Framehunt Thailand product. Work in
 the current repository; do not rebuild it as a new concept or replace the product
 with a mockup.
