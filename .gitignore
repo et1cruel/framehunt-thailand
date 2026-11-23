@@ -3,6 +3,7 @@ dist
 dist-ssr
 src/data/generated
 public/data/locations.published.*.json
+public/data/galleries/
 *.local
 .env
 .env.*
