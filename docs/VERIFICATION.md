@@ -384,5 +384,9 @@ links.
 bytes gzip / 370,082 bytes Brotli**, down from 9,282,418 raw / 1,032,902 gzip
 bytes. All **582** location archives total 5,823,846 bytes raw; the largest is
 44,449 bytes. The generated catalogue still reports **582 locations, 3,211
-verified photos, 685 photographers, and 70 provinces**. Browser-level visual
-verification and live deployment are recorded separately when completed.
+verified photos, 685 photographers, and 70 provinces**. In a local Chromium
+preview, the Wat Arun detail page loaded all 12 verified photos and displayed
+12/12 photo credits while keeping the signature cover and source attribution.
+The deployed Pages production URL returned HTTP 200 for the app, catalogue and
+Wat Arun archive. Both hashed data assets returned Brotli encoding and
+`Cache-Control: public, max-age=31536000, immutable`.
